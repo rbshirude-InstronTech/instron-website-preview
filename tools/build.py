@@ -176,6 +176,8 @@ def recolor_html(h):
     h = re.sub(r'\b(fill|stroke|stop-color|color)="([^"]+)"', lambda m: f'{m.group(1)}="{recolor_value(m.group(2), "fill")}"', h)
     return h
 
+import hashlib
+VER = hashlib.sha1(open(theme_path,'rb').read()+open(__file__,'rb').read()).hexdigest()[:8]
 report = []
 for key, p in pages.items():
     h = p['html']
@@ -195,6 +197,7 @@ for key, p in pages.items():
     cur = href_for(key)
     h = re.sub(r'(<a\b[^>]*href="' + re.escape(cur) + r'")', r'\1 aria-current="page"', h)
     h = h.replace('</head>', '<link rel="stylesheet" href="assets/css/live-theme.css"/><link rel="icon" href="assets/img/afd2b6d3f3.png"/></head>', 1)
+    h = re.sub(r'((?:href|src)="assets/(?:css|js)/[^"?]+)"', r'\1?v=' + VER + '"', h)
     leftovers = re.findall(r'__INSTRON_[A-Z_]+', h)
     report.append((key, len(h), leftovers[:3]))
     open(f'{out}/{SLUG[key]}.html', 'w', encoding='utf-8').write(h)
