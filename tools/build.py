@@ -28,6 +28,25 @@ def href_for(page, section=''):
 # ---------------- colour remapping (review navy system -> live blue/green/grey system) ----------------
 EXACT = {'c4451c': '0979ae', '5cba3c': '61ce70', '3f8f22': '38aa3d', '2d6ab4': '0979ae', '6cc64d': '4ac150', '102d19': 'ffffff'}
 def remap_rgb(r, g, b, prop):
+    out = _remap_rgb(r, g, b, prop)
+    return _text_contrast(out) if prop == 'color' else out
+
+def _text_contrast(rgb):
+    """QA fix (v2.8): text colours that fell short of WCAG AA after the theme remap.
+    Mid blues -> darker live blue, mid greens -> dark green, mid greys -> #5f5f5f, light blue-greys -> white."""
+    r, g, b = rgb; h, l, s = colorsys.rgb_to_hls(r/255, g/255, b/255); H = h*360
+    if s < 0.06:
+        if 0.40 <= l <= 0.56: return (0x5f, 0x5f, 0x5f)
+        if 0.82 <= l < 0.99: return (0xff, 0xff, 0xff)
+        return rgb
+    if 185 <= H <= 215:
+        if 0.28 <= l <= 0.60: return (0x06, 0x61, 0x8c)
+        if l >= 0.70: return (0xff, 0xff, 0xff)
+    if 100 <= H <= 145 and 0.30 <= l <= 0.58:
+        return (0x2b, 0x7d, 0x30)
+    return rgb
+
+def _remap_rgb(r, g, b, prop):
     key = '%02x%02x%02x' % (r, g, b)
     if key == '1a3668':
         return (0x21, 0x21, 0x21) if prop == 'color' else (0x09, 0x79, 0xae)

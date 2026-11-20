@@ -1,4 +1,4 @@
-/* Live-site theme layer (instrontechnologies.com look) applied over the v2.6 review content.
+/* Live-site theme layer (instrontechnologies.com look) applied over the review-site content.
    Roboto, navy/green top bar, white header, green CTAs, #0979AE bands, curved grey sections, photo footer. */
 @font-face{font-family:Roboto;font-style:normal;font-weight:300;font-display:swap;src:url(../fonts/roboto-latin-300-normal.woff2) format("woff2")}
 @font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/roboto-latin-400-normal.woff2) format("woff2")}
@@ -158,3 +158,45 @@ html body main .page-jump a:hover{color:var(--lv-green-d)!important}
 
 /* Preview ribbon */
 .lv-preview-note{background:#fff7d6;color:#5b4a00;font-size:13px;text-align:center;padding:6px 12px;border-bottom:1px solid #f0e2a0}
+
+/* ---------- QA fixes (v2.8) ---------- */
+/* 1 Readable text on green: dark text on every green button, badge and the green half of the top bar */
+html body .lv-header .it-cta,html body .lv-header .it-cta:hover{color:#0f2a12!important;font-weight:500}
+html body main :is(.button.primary,.btn-primary,.ab-btn.primary,.closing-primary),html body main :is(.button.primary,.btn-primary,.ab-btn.primary,.closing-primary) *{color:#0f2a12!important}
+html body main>.mk-hero .visual-badge{color:#0f2a12!important}
+.lv-tb-right{color:#0B1150;font-weight:700}
+html body .lv-header .it-trigger:hover,html body .lv-header .it-trigger[aria-expanded=true],html body .lv-header .lv-home:hover,html body .lv-header .is-current-group,html body .lv-header .lv-home[aria-current=page],html body .lv-header .it-panel a:hover,html body .lv-header .it-panel a[aria-current=page]{color:#2b7d30}
+/* 2 Green dot only on section headings, not on the small label above page titles */
+html body main>.review-hero-section:not(.mk-hero) :is(.eyeline,.hero-label,.eyebrow)::first-letter,html body main>.ab-hero .ab-eyebrow::first-letter{background:none!important;padding:0!important;margin:0!important}
+/* 3 Footer logo on a white panel so "Technologies" reads on the photo footer */
+.lv-f-brand img{width:170px;background:#fff;padding:10px 14px;border-radius:8px;box-sizing:content-box}
+/* 4 Back to top: a proper pill */
+html body main .back-to-top{border-radius:50px!important;padding:9px 20px!important;font-size:14px!important;line-height:1.2!important;color:#0f2a12!important;text-decoration:none!important}
+/* 5 Small labels on dark panels */
+html body main :is(.in-short p.k,.cs-results p.k,.in-stages>div:nth-child(3) small){color:#fff!important}
+/* 6 Home banner label: dark green, still on brand */
+html body main>.mk-hero .eyebrow{color:#2b7d30!important}
+/* 7 Stronger overlay on inner-page photo banners (busy screenshots) */
+html body main>.review-hero-section:not(.mk-hero) .review-hero-photo::after{background:linear-gradient(rgba(8,16,26,.84),rgba(8,16,26,.76))!important}
+html body main>.review-hero-section:not(.mk-hero) .screen-inset{display:none!important}
+html body main>.ab-hero::before{background:linear-gradient(rgba(8,16,26,.80),rgba(8,16,26,.70))}
+/* Logo: larger, as on the review site */
+html body .lv-header .it-brand img{height:68px}
+html body .lv-header .it-head-row{min-height:84px}
+/* 8 Phone header: short "Contact" button, bigger logo */
+@media(max-width:600px){
+ html body .lv-header .it-brand img{height:52px}
+ html body .lv-header .it-cta{font-size:0!important;padding:11px 16px!important;white-space:nowrap}
+ html body .lv-header .it-cta::after{content:"Contact";font-size:15px;font-weight:500}
+}
+/* 9 Phone: shorter page-top banners on long pages */
+@media(max-width:700px){
+ html body main>.review-hero-section:not(.mk-hero) :is(.v22-note,.hero-detail,.hero-foot){display:none!important}
+ html body main>.review-hero-section:not(.mk-hero) .review-hero-grid{padding-bottom:56px!important}
+ html body main>.review-hero-section:not(.mk-hero),html body main>.ab-hero{padding-top:64px!important}
+}
+/* 5b Small blue labels on grey: darker live blue (WCAG AA) */
+html body main :is(.in-proof strong,.related-kicker,.eyebrow.dark,.section-kicker,.app-pill-no,.presence-index,.work-label,.mk-eyebrow,.project-slot-kicker,.cs-step b,.in-toc p.k,.quiet-link,.module-text-link,.pf-link,.it-page-card>span){color:#06618C!important}
+html body main>.review-hero-section:not(.mk-hero) :is(.button.primary,.btn-primary,.primary-cta){color:#0f2a12!important}
+html body main .v22-tag{color:#fff!important}
+html body main .mk-step.s1,html body main .mk-step.s1 *{color:#0b2a3c!important}
