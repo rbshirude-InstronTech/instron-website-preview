@@ -42,7 +42,7 @@ html body .lv-header .it-cta:hover{background:var(--lv-green-d)}
 html body .lv-header .lv-search{display:flex;align-items:center;color:#212121;padding:8px}
 html body .lv-header .lv-search svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.4}
 @media(min-width:1121px){
- html body .lv-header .it-group:hover>.it-panel[hidden],html body .lv-header .it-group:focus-within>.it-panel[hidden]{display:block}
+ html body .lv-header .it-group:hover>.it-panel[hidden],html body .lv-header .it-group:focus-within>.it-panel[hidden]{display:block!important}
 }
 @media(max-width:1120px){
  html body .lv-header .it-nav{margin:0}
