@@ -73,6 +73,8 @@ html body main>.mk-hero{background:#F6F6F6!important;color:var(--lv-ink)!importa
 html body main>.mk-hero::before,html body main>.mk-hero::after{display:none!important}
 html body main>.mk-hero .review-hero-grid{width:100%!important;max-width:none!important;margin:0!important;padding:0!important;display:grid!important;grid-template-columns:1fr 1fr!important;gap:0!important;align-items:stretch!important;min-height:620px}
 html body main>.mk-hero .hero-copy{align-self:center;padding:70px 56px 70px max(24px,calc((100vw - 1340px)/2 + 40px));background:transparent;background-image:radial-gradient(circle at 18% 28%,transparent 0 92px,rgba(0,0,0,.035) 93px 104px,transparent 105px),radial-gradient(circle at 74% 74%,transparent 0 120px,rgba(0,0,0,.03) 121px 134px,transparent 135px),repeating-linear-gradient(90deg,transparent 0 46px,rgba(0,0,0,.018) 46px 47px)}
+html body main>.mk-hero .hero-copy{max-width:none!important;width:auto!important}
+html body main>.mk-hero .hero-copy>*{max-width:640px}
 html body main>.mk-hero .eyebrow{color:var(--lv-green)!important;text-transform:uppercase;font-size:20px!important;font-weight:500!important;letter-spacing:.01em!important;background:none!important;padding:0!important;border:0!important}
 html body main>.mk-hero .eyebrow::before{display:none!important}
 html body main>.mk-hero h1{color:var(--lv-ink)!important;font-weight:700!important;font-size:clamp(30px,3.2vw,44px)!important;line-height:1.15!important}
