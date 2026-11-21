@@ -136,8 +136,7 @@ SOLID = {
  'phone': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>',
  'pin': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>',
 }
-TOPBAR = ('<div class="lv-preview-note">Theme preview: new website content from the review site, shown in the current live-site look. Not indexed.</div>'
-  '<div class="lv-topbar"><div class="lv-wrap lv-tb-row"><div class="lv-tb-left">'
+TOPBAR = ('<div class="lv-topbar"><div class="lv-wrap lv-tb-row"><div class="lv-tb-left">'
   f'<a href="tel:+16478743958">{ICON["phone"]}+1 (647) 874-3958</a>'
   f'<a href="mailto:sales@instrontechnologies.ca">{ICON["mail"]}sales@instrontechnologies.ca</a>'
   f'<span>{ICON["pin"]}Toronto · Pune</span></div>'
@@ -169,7 +168,7 @@ FOOTER = (
  '<p class="lv-f-name">Instron Technologies</p><p class="lv-f-tag">Engineer | Embrace | Elevate</p>'
  f'{regional}</div>'
  f'<div class="lv-f-cols">{"".join(cols)}</div>'
- f'<div class="lv-f-badge"><img alt="Ontario Made — Fabriqué en Ontario" src="{badge_src}" width="96" height="96" loading="lazy"/><p>Ontario Made applies to systems built in Ontario.</p></div>'
+ f'<div class="lv-f-badge"><img alt="Ontario Made | Fabriqué en Ontario" src="{badge_src}" width="96" height="96" loading="lazy"/><p>Ontario Made applies to systems built in Ontario.</p></div>'
  '</div><div class="lv-wrap lv-f-bottom">'
  '<span class="lv-pill">© 2026 Instron Technologies · Engineering since 2013</span>'
  '<a class="lv-pill" data-review-route="sitemap" href="#">Website Index</a>'
