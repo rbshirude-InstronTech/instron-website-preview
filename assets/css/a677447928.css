@@ -1,0 +1,52 @@
+
+
+
+
+
+body,button,input,select,textarea,h1,h2,h3,h4,.it-header,.it-footer{font-family:Roboto,Roboto,Arial,sans-serif!important}
+/* v2.2 components */
+.it-locations.v22{display:grid;grid-template-columns:1.2fr 1fr .7fr;gap:28px;align-items:start}
+.it-locations.v22 p{margin:4px 0 12px}
+.it-locations.v22 .v22-badge img{width:84px;height:auto;background:#ffffff;border-radius:6px;padding:4px}
+.it-locations.v22 .v22-badge p{font-size:12px;opacity:.85}
+@media(max-width:820px){.it-locations.v22{grid-template-columns:1fr}}
+.v22-tag{display:inline-block;margin:0 0 8px;padding:3px 10px;border-radius:999px;background:#22732c;color:#ffffff;font-size:12px;font-weight:700;letter-spacing:0;text-transform:none}
+.v22-tag.alt{background:#e2efe4;color:#1b5f24}
+.v22-note{margin:14px 0 0;padding:10px 14px;border-left:4px solid var(--green);background:rgba(255,255,255,.08);max-width:62ch;font-size:15px;line-height:1.55}
+.v22-note a{color:inherit;text-decoration:underline}
+.v22-proof{margin:14px 0 0;padding:10px 14px;border-left:4px solid var(--green);font-weight:600;max-width:62ch;line-height:1.5}
+.v22-band{padding:56px 0;background:var(--off,#f8f8f8)}
+.v22-band.white{background:#ffffff}
+.v22-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.v22-band h2{color:#212121;margin:0 0 10px}
+.v22-band .v22-lead{max-width:72ch;color:#4d4d4d;margin:0 0 22px;line-height:1.6}
+.v22-facts{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 22px}
+.v22-facts div{background:#ffffff;border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:8px;padding:14px 18px;min-width:180px}
+.v22-facts strong{display:block;font-size:24px;color:#212121}
+.v22-facts span{font-size:13.5px;color:#5e5e5e}
+.v22-clients{display:flex;flex-wrap:wrap;gap:8px 10px;list-style:none;margin:0;padding:0}
+.v22-clients li{background:#ffffff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13.5px;color:#212121}
+.v22-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.v22-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:900px){.v22-grid,.v22-grid.two{grid-template-columns:1fr}}
+.v22-card{background:#ffffff;border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:8px;padding:18px 20px}
+.v22-card:nth-child(3n+2){border-top-color:var(--green)}
+.v22-card:nth-child(3n+3){border-top-color:var(--navy)}
+.v22-card h3{margin:4px 0 8px;color:#212121;font-size:18px}
+.v22-card p{margin:0 0 8px;line-height:1.55;color:#474747}
+.v22-card .v22-k{font-size:12.5px;font-weight:700;color:#5e5e5e}
+.v22-card .v22-result{font-weight:600;color:#212121}
+.v22-quote{font-style:italic}
+.work-card .work-index{color:#ffffff!important}
+
+/* v2.9: How We Work safety grid */
+body[data-page=how] .safety-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media(max-width:1100px){body[data-page=how] .safety-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){body[data-page=how] .safety-grid{grid-template-columns:1fr}}
+
+/* v2.11: PlantON wordmark */
+.pon{white-space:nowrap;font-weight:600;text-transform:none;letter-spacing:-.005em}
+:is(h1,h2,h3,h4,strong,b) .pon{font-weight:inherit}
+.pon-p{color:#06618c}.pon-o{color:#2b7d30}
+.pon-dark .pon-p{color:#ffffff}.pon-dark .pon-o{color:#6dd47a}
+.pon-tm{font-size:.5em;line-height:0;vertical-align:super;font-weight:500;margin-left:1px;color:inherit}
