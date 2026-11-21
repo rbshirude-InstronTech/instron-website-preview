@@ -174,6 +174,7 @@ FOOTER = (
  '<span class="lv-pill">© 2026 Instron Technologies · Engineering since 2013</span>'
  '<a class="lv-pill" data-review-route="sitemap" href="#">Website Index</a>'
  '<span class="lv-pill">Independent company, not affiliated with Instron® (ITW)</span>'
+ '<span class="lv-pill">PlantON is a trademark of Instron Technologies Inc.</span>'
  '</div></footer>')
 
 # ---------------- page assembly ----------------
