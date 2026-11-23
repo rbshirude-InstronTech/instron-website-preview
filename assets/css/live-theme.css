@@ -200,3 +200,8 @@ html body main :is(.in-proof strong,.related-kicker,.eyebrow.dark,.section-kicke
 html body main>.review-hero-section:not(.mk-hero) :is(.button.primary,.btn-primary,.primary-cta){color:#0f2a12!important}
 html body main .v22-tag{color:#fff!important}
 html body main .mk-step.s1,html body main .mk-step.s1 *{color:#0b2a3c!important}
+
+/* Menu fixes (v2.19): keep PlantON wordmark next to its label, chevron at the end */
+html body .lv-header .it-panel a{justify-content:flex-start;gap:0}
+html body .lv-header .it-panel a::after{margin-left:auto;padding-left:12px}
+html body .lv-header .it-panel a .pon{margin-right:.3em}
