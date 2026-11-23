@@ -205,3 +205,21 @@ html body main .mk-step.s1,html body main .mk-step.s1 *{color:#0b2a3c!important}
 html body .lv-header .it-panel a{justify-content:flex-start;gap:0}
 html body .lv-header .it-panel a::after{margin-left:auto;padding-left:12px}
 html body .lv-header .it-panel a .pon{margin-right:.3em}
+
+/* v2.20 compact page banners on inner pages (Home unchanged): banner + proof band fit the first laptop screen */
+html body .lv-topbar~main>.review-hero-section:not(.mk-hero),html body .lv-topbar~main>.ab-hero{padding-top:44px!important}
+html body .lv-topbar~main>.review-hero-section:not(.mk-hero) .review-hero-grid.review-hero-grid,html body .lv-topbar~main>.ab-hero .ab-hero-grid.ab-hero-grid{padding-bottom:44px!important;min-height:0!important}
+html body .lv-topbar~main>.review-hero-section:not(.mk-hero) h1,html body .lv-topbar~main>.ab-hero h1{font-size:clamp(30px,3vw,42px)!important;margin:6px auto 12px!important}
+html body .lv-topbar~main>.review-hero-section:not(.mk-hero) :is(.eyeline,.hero-label,.eyebrow),html body .lv-topbar~main>.ab-hero .ab-eyebrow{font-size:18px!important}
+html body .lv-topbar~main>.review-hero-section:not(.mk-hero) :is(.intro,.hero-lede),html body .lv-topbar~main>.ab-hero .ab-lede{font-size:17px!important;line-height:1.55!important}
+html body .lv-topbar~main>.review-hero-section:not(.mk-hero) details{margin:10px auto!important}
+html body .lv-topbar~main>.review-hero-section:not(.mk-hero) :is(.cta-row,.hero-actions),html body .lv-topbar~main>.ab-hero .ab-ctas{margin-top:18px!important;align-items:center!important;gap:14px 24px!important}
+html body .lv-topbar~main>.review-hero-section:not(.mk-hero) .hero-foot{padding:10px 24px!important}
+html body .lv-topbar~main>.ab-hero .mk-proof li{padding-top:10px!important;padding-bottom:10px!important}
+html body .lv-topbar~main>.review-hero-section.sx-split-hero.sx-split-hero .review-hero-grid.review-hero-grid{padding-bottom:40px!important}
+html body .lv-topbar~main>.review-hero-section.sx-split-hero.sx-split-hero .review-hero-photo.review-hero-photo img{max-height:340px!important;height:auto!important;object-fit:cover!important}
+html body main a.hero-textlink.hero-textlink{background:none!important;border:0!important;padding:0!important;min-height:0!important;box-shadow:none!important;border-radius:0!important;color:#fff!important;font-weight:500!important;text-decoration:underline!important;text-underline-offset:5px}
+html body main a.hero-textlink.hero-textlink:hover{color:var(--lv-green)!important}
+html body main .hero-proof-band{background:#f4f4f4!important;border-bottom:1px solid #e6e6e6!important}
+html body main .hero-proof-band .sx-chips li{background:#fff!important;border:1px solid #dcdcdc!important;color:#212121!important;font-size:14px!important}
+html body main .hero-proof-band .sx-chips li strong{color:#212121!important}
