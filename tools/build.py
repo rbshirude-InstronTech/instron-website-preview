@@ -177,6 +177,27 @@ FOOTER = (
  '<span class="lv-f-note">PlantON is a trademark of Instron Technologies Inc.</span>'
  '</div></footer>')
 
+# v2.25 bottom of page (Rahul, 24 Nov): one navy footer with the contact row inside, Back to top in the legal line,
+# footer duplicates removed; Home closing banner becomes a card with tightened copy and an email route.
+def V225(h, key):
+    import re as _re
+    m = _re.search(r'<section class="lv-contact-band"[^>]*>(.*?)</section>(<footer class="lv-footer">)', h, _re.S)
+    if m:
+        h = h[:m.start()] + m.group(2) + m.group(1) + h[m.end():]
+    h = h.replace('<p class="lv-f-name">Instron Technologies</p>', '')
+    h = _re.sub(r'<p><a data-review-route="global" href="global-presence\.html"[^>]*>Global presence</a></p>', '', h)
+    h = _re.sub(r'(<li><a data-review-route="contact" href="contact\.html"[^>]*>)Discuss Your Project(</a></li></ul></section></div><div class="lv-f-badge">)', r'\1Contact\2', h)
+    h = _re.sub(r'<a class="lv-f-note" data-review-route="sitemap" href="website-index\.html"[^>]*>Website Index</a>', '', h)
+    if 'class="lv-top"' not in h:
+        h = h.replace('</div></footer>', '<a class="lv-top" href="#top">Back to top ↑</a></div></footer>', 1)
+    if key == 'home':
+        h = h.replace('<p class="closing-overline">DISCUSS YOUR PROJECT</p>', '<p class="closing-overline">LET’S GROW TOGETHER</p>', 1)
+        h = h.replace('Whether you are developing a new technology, planning a pilot or demonstration plant, or evaluating an industrial process skid, our engineering team can help you define the next steps.',
+                      'Whether you are developing a new technology, planning a pilot or demonstration plant, specifying an industrial skid or modernizing an operating plant, our engineering team will help you define the next step.', 1)
+        h = _re.sub(r'<a class="closing-secondary btn btn-outline" data-review-route="how" href="how-we-work\.html"[^>]*>Explore How We Work</a>',
+                    '<span class="cta-mail">or email <a href="mailto:sales@instrontechnologies.com">sales@instrontechnologies.com</a></span>', h, count=1)
+    return h
+
 # ---------------- page assembly ----------------
 ROUTE_A = re.compile(r'<a\b([^>]*?)\bdata-review-route="([^"]*)"([^>]*)>')
 def fix_links(h):
@@ -229,5 +250,5 @@ for key, p in pages.items():
     h = re.sub(r'((?:href|src)="assets/(?:css|js)/[^"?]+)"', r'\1?v=' + VER + '"', h)
     leftovers = re.findall(r'__INSTRON_[A-Z_]+', h)
     report.append((key, len(h), leftovers[:3]))
-    open(f'{out}/{SLUG[key]}.html', 'w', encoding='utf-8').write(EMAIL_FIX(h))
+    open(f'{out}/{SLUG[key]}.html', 'w', encoding='utf-8').write(V225(EMAIL_FIX(h), key))
 for r in report: print(r)
