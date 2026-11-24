@@ -37,3 +37,9 @@
  document.querySelectorAll('.it-trigger').forEach(b=>{const p=document.getElementById(b.getAttribute('aria-controls'));const all=p&&p.querySelector('.it-viewall');if(!all)return;
   b.addEventListener('click',e=>{if(!mq.matches)return;e.preventDefault();e.stopImmediatePropagation();all.click()},true);});
 })();
+
+/* v2.21: filter links. A link to a filter option id (e.g. portfolio #pf-auto) selects that option. */
+(()=>{'use strict';const pick=id=>{const el=id&&document.getElementById(id);if(!el||el.tagName!=='INPUT'||(el.type!=='radio'&&el.type!=='checkbox'))return;el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));const box=el.closest('section')||el.parentElement;if(box)setTimeout(()=>box.scrollIntoView({block:'start'}),60)};
+ const fromHash=()=>{if(!location.hash)return;try{pick(decodeURIComponent(location.hash.slice(1)))}catch{}};window.addEventListener('hashchange',fromHash);fromHash();
+ window.addEventListener('message',e=>{const m=e.data;if(m&&typeof m==='object'&&m.kind==='instron-review-scroll'&&m.section)pick(m.section)});
+})();
