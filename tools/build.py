@@ -170,10 +170,10 @@ FOOTER = (
  f'<div class="lv-f-cols">{"".join(cols)}</div>'
  f'<div class="lv-f-badge"><img alt="Ontario Made | Fabriqué en Ontario" src="{badge_src}" width="96" height="96" loading="lazy"/><p>Ontario Made applies to systems built in Ontario.</p></div>'
  '</div><div class="lv-wrap lv-f-bottom">'
- '<span class="lv-pill">© 2026 Instron Technologies · Engineering since 2013</span>'
- '<a class="lv-pill" data-review-route="sitemap" href="#">Website Index</a>'
- '<span class="lv-pill">Independent company, not affiliated with Instron® (ITW)</span>'
- '<span class="lv-pill">PlantON is a trademark of Instron Technologies Inc.</span>'
+ '<span class="lv-f-note">© 2026 Instron Technologies · Engineering since 2013</span>'
+ '<a class="lv-f-note" data-review-route="sitemap" href="#">Website Index</a>'
+ '<span class="lv-f-note">Independent company, not affiliated with Instron® (ITW)</span>'
+ '<span class="lv-f-note">PlantON is a trademark of Instron Technologies Inc.</span>'
  '</div></footer>')
 
 # ---------------- page assembly ----------------
@@ -202,7 +202,14 @@ VER = hashlib.sha1(open(theme_path,'rb').read()+open(__file__,'rb').read()).hexd
 report = []
 for key, p in pages.items():
     h = p['html']
-    h = re.sub(r'<header class="it-header">.*?</header>', lambda m: HEADER, h, count=1, flags=re.S)
+    # v2.23 (M4): highlight the menu group this page sits under, as marked in the review build's own header
+    grp = re.search(r'<button aria-controls="(it-menu-\d+)"[^>]*class="it-trigger is-current-group"', h)
+    page_header = HEADER
+    if grp:
+        tag = f'<button aria-controls="{grp.group(1)}" aria-expanded="false" class="it-trigger" type="button">'
+        assert page_header.count(tag) == 1, (key, tag)
+        page_header = page_header.replace(tag, tag.replace('class="it-trigger"', 'class="it-trigger is-current-group"'))
+    h = re.sub(r'<header class="it-header">.*?</header>', lambda m: page_header, h, count=1, flags=re.S)
     h = re.sub(r'<footer class="it-footer">.*?</footer>', lambda m: FOOTER, h, count=1, flags=re.S)
     # shared text blocks -> linked files
     def styletag(m):
