@@ -27,4 +27,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://www.instrontechnologies.com/sitemap.xml
+Sitemap: https://instrontechnologies.com/sitemap.xml

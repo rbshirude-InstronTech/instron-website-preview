@@ -12,7 +12,7 @@ Go-live: set GO_LIVE = True (removes the noindex tag) and check SITE matches the
 import os, re, sys, json, html
 
 GO_LIVE = False                      # keep noindex on the GitHub preview; flip at launch
-SITE = 'https://www.instrontechnologies.com/'
+SITE = 'https://instrontechnologies.com/'   # matches the live site's canonical host (no www)
 NAME = 'Instron Technologies'
 CLARIFIER = 'Independent company, not affiliated with Instron® (ITW).'
 EMAIL = 'sales@instrontechnologies.com'
