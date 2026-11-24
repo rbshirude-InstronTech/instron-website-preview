@@ -252,3 +252,7 @@ for key, p in pages.items():
     report.append((key, len(h), leftovers[:3]))
     open(f'{out}/{SLUG[key]}.html', 'w', encoding='utf-8').write(V225(EMAIL_FIX(h), key))
 for r in report: print(r)
+# v2.26 search and share layer (titles, descriptions, canonical, share cards, schema.org, robots/sitemap/llms.txt)
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location('seo', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'seo.py'))
+_seo = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_seo); _seo.run(out)

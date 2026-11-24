@@ -1,0 +1,30 @@
+# Instron Technologies: all search engines and AI assistants may read the public site.
+User-agent: *
+Allow: /
+
+# Named so a blanket rule added later cannot block them by accident
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://www.instrontechnologies.com/sitemap.xml

@@ -1,0 +1,38 @@
+# Instron Technologies
+
+> Instron Technologies engineers and builds integrated process systems for technology developers and industrial
+> manufacturers, from pilot and demonstration plants to industrial skids, with the automation and plant data to run them.
+> Engineering since 2013. Independent company, not affiliated with Instron® (ITW).
+
+## Solutions
+- [Process Skid Plants](https://www.instrontechnologies.com/process-skid-plants.html): pilot and demonstration plants and modular industrial process skids. Our core solution.
+- [Industrial Automation & Controls](https://www.instrontechnologies.com/industrial-automation.html): E&I design, PLC, HMI and SCADA engineering, control panels and S88 batch control. Delivered with our skids or on its own.
+- [PlantON™ by Instron Technologies](https://www.instrontechnologies.com/planton-digital-factory.html): plant data platform for traceability, OEE, compliance reports and production views, without replacing existing controls.
+- [How We Work](https://www.instrontechnologies.com/how-we-work.html): Basic Engineering & Feasibility, Detailed Engineering, and Integrated Design & Build, each contracted separately.
+
+## Industries
+- [Energy Transition & Critical Minerals](https://www.instrontechnologies.com/energy-transition-critical-minerals.html)
+- [Research & Technology Development](https://www.instrontechnologies.com/research-technology-development.html)
+- [Chemicals, Refining & Consumer Products](https://www.instrontechnologies.com/chemicals-refining-consumer-products.html)
+- [Food, Beverage & Dairy](https://www.instrontechnologies.com/food-beverage-dairy.html)
+- [Pharma & Life Sciences](https://www.instrontechnologies.com/pharma-life-sciences.html)
+- [Industrial Manufacturing](https://www.instrontechnologies.com/industrial-manufacturing.html)
+
+## Applications
+- [Technology Scale-Up & Commercialization](https://www.instrontechnologies.com/technology-scale-up.html)
+- [Separation & Solvent Recovery](https://www.instrontechnologies.com/separation-solvent-recovery.html)
+- [Brownfield Automation Modernization](https://www.instrontechnologies.com/brownfield-automation-modernization.html)
+- [Batch & Process Automation](https://www.instrontechnologies.com/batch-process-automation.html)
+- [Production Visibility & OEE](https://www.instrontechnologies.com/production-visibility-oee.html)
+- [Utility & Energy Monitoring](https://www.instrontechnologies.com/utility-energy-monitoring.html)
+
+## Proof
+- [Project Portfolio](https://www.instrontechnologies.com/project-portfolio.html) and [Case Studies](https://www.instrontechnologies.com/case-studies.html). Client names are withheld; references on request.
+- [Insights](https://www.instrontechnologies.com/insights.html): engineering articles on scale-up, modernization and plant data.
+
+## Company and contact
+- Company offices: Toronto, Ontario, Canada (Instron Technologies Inc., 111 Peter Street, Suite 902, Toronto, ON M5V 2H1) and
+  Pune, Maharashtra, India (Instron Technologies LLP, Plot No. 88, Block F-II, Pimpri Industrial Area, MIDC, Bhosari, Pune 411018).
+- Regional presence: Calgary, Saskatoon, Mumbai, Riyadh, Voorhout and Monterrey. See [Global Presence](https://www.instrontechnologies.com/global-presence.html).
+- Email: sales@instrontechnologies.com. [Discuss your project](https://www.instrontechnologies.com/contact.html).
+- [Our Company](https://www.instrontechnologies.com/our-company.html), [Leadership](https://www.instrontechnologies.com/leadership.html), [Careers](https://www.instrontechnologies.com/careers.html).
