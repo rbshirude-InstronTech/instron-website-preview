@@ -254,3 +254,11 @@ a.lv-f-note{font-weight:500!important;color:#fff}
 .lv-f-badge{display:flex;flex-direction:column;align-items:center}
 .lv-f-badge p{max-width:190px;text-align:center}
 @media(max-width:1000px){.lv-f-grid{grid-template-columns:1fr}.lv-f-badge{align-items:flex-start}.lv-f-badge p{text-align:left}}
+/* v2.24 Home hero photo: no shade (Rahul, 24 Nov) */
+html body main>.mk-hero figure.review-hero-photo::after,html body main>.mk-hero figure.review-hero-photo::before{content:none!important;background:none!important}
+/* v2.24 contact band: Email · Company offices · Follow us (no phone numbers; .com only) */
+.lv-cb-grid .lv-social{list-style:none;margin:4px 0 0;padding:0;display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.lv-cb-grid .lv-social a{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;border:1.5px solid rgba(255,255,255,.85);transition:background .15s}
+.lv-cb-grid .lv-social a:hover,.lv-cb-grid .lv-social a:focus-visible{background:#fff;text-decoration:none}
+.lv-cb-grid .lv-social svg{width:18px;height:18px;fill:#fff}
+.lv-cb-grid .lv-social a:hover svg,.lv-cb-grid .lv-social a:focus-visible svg{fill:var(--lv-blue)}

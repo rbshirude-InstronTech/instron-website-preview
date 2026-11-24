@@ -6,6 +6,8 @@ data_path, names_path, theme_path, out = sys.argv[1:5]
 d = json.load(open(data_path, encoding='utf-8'))
 asset_names = json.load(open(names_path))
 pages = d['pages']; texts = d['texts']
+# v2.24: .com is the only sales address (Rahul, 24 Nov)
+EMAIL_FIX = lambda h: h.replace('sales@instrontechnologies.ca', 'sales@instrontechnologies.com')
 
 SLUG = {
  'home': 'index', 'solutions': 'solutions', 'process': 'process-skid-plants', 'pilot': 'pilot-demonstration-plants',
@@ -118,7 +120,7 @@ for k, v in texts.items():
     short = k[len('__INSTRON_EMBED_TEXT_'):][:10]
     if v.lstrip().startswith('/* Offline review interactions'):
         fn = f'assets/js/site-{short}.js'
-        open(f'{out}/{fn}', 'w', encoding='utf-8').write(v)
+        open(f'{out}/{fn}', 'w', encoding='utf-8').write(EMAIL_FIX(v))
     else:
         fn = f'assets/css/{short}.css'
         open(f'{out}/{fn}', 'w', encoding='utf-8').write(process_css(v, '../img/'))
@@ -137,8 +139,7 @@ SOLID = {
  'pin': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>',
 }
 TOPBAR = ('<div class="lv-topbar"><div class="lv-wrap lv-tb-row"><div class="lv-tb-left">'
-  f'<a href="tel:+16478743958">{ICON["phone"]}+1 (647) 874-3958</a>'
-  f'<a href="mailto:sales@instrontechnologies.ca">{ICON["mail"]}sales@instrontechnologies.ca</a>'
+  f'<a href="mailto:sales@instrontechnologies.com">{ICON["mail"]}sales@instrontechnologies.com</a>'
   f'<span>{ICON["pin"]}Toronto · Pune</span></div>'
   '<div class="lv-tb-right">Engineer | Embrace | Elevate</div></div></div>')
 
@@ -159,9 +160,9 @@ regional = re.search(r'<strong>Regional presence</strong>.*?(?=</div><div class=
 badge_src = re.search(r'<div class="v22-badge"><img[^>]*src="([^"]+)"', review_footer).group(1)
 FOOTER = (
  '<section class="lv-contact-band" aria-label="Contact Instron Technologies"><div class="lv-wrap lv-cb-grid">'
- f'<div>{SOLID["mail"]}<h3>Email</h3><p><a href="mailto:sales@instrontechnologies.ca">sales@instrontechnologies.ca</a><br/><a href="mailto:sales@instrontechnologies.com">sales@instrontechnologies.com</a></p></div>'
- f'<div>{SOLID["phone"]}<h3>Contact</h3><p>Toronto: <a href="tel:+16478743958">+1 (647) 874-3958</a><br/>Pune: <a href="tel:+917028015958">+91 70280 15958</a></p></div>'
+ f'<div>{SOLID["mail"]}<h3>Email</h3><p><a href="mailto:sales@instrontechnologies.com">sales@instrontechnologies.com</a></p></div>'
  f'<div>{SOLID["pin"]}<h3>Company offices</h3><p>Toronto, Ontario, Canada<br/>Pune, Maharashtra, India</p></div>'
+ '<div class="lv-follow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16a3 3 0 0 0-2.2 1l-7-3.9a3 3 0 0 0 0-2.2l7-3.9A3 3 0 1 0 15 5.5l-7 3.9a3 3 0 1 0 0 5.2l7 3.9A3 3 0 1 0 18 16z"/></svg><h3>Follow us</h3><ul class="lv-social" aria-label="Instron Technologies on social media"><li><a href="https://www.linkedin.com/company/instrontechnologies/" target="_blank" rel="noopener noreferrer" aria-label="Instron Technologies on LinkedIn (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a></li><li><a href="https://www.youtube.com/@instrontechnologiesllp6630" target="_blank" rel="noopener noreferrer" aria-label="Instron Technologies on YouTube (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.8 15.1V8.9l5.8 3.1z"/></svg></a></li><li><a href="https://www.instagram.com/instrontechnologies0510/" target="_blank" rel="noopener noreferrer" aria-label="Instron Technologies on Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-4.1a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6z"/></svg></a></li><li><a href="https://www.facebook.com/InstronTech" target="_blank" rel="noopener noreferrer" aria-label="Instron Technologies on Facebook (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.2c-.3 0-1.3-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.3v2.2H7.5V12h2.8v10H14V12h2.8l.4-3.5z"/></svg></a></li><li><a href="https://x.com/InstronTech" target="_blank" rel="noopener noreferrer" aria-label="Instron Technologies on X (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></svg></a></li></ul></div>'
  '</div></section>'
  '<footer class="lv-footer"><div class="lv-wrap lv-f-grid">'
  f'<div class="lv-f-brand"><img alt="Instron Technologies" src="{logo}" width="720" height="379" loading="lazy"/>'
@@ -228,5 +229,5 @@ for key, p in pages.items():
     h = re.sub(r'((?:href|src)="assets/(?:css|js)/[^"?]+)"', r'\1?v=' + VER + '"', h)
     leftovers = re.findall(r'__INSTRON_[A-Z_]+', h)
     report.append((key, len(h), leftovers[:3]))
-    open(f'{out}/{SLUG[key]}.html', 'w', encoding='utf-8').write(h)
+    open(f'{out}/{SLUG[key]}.html', 'w', encoding='utf-8').write(EMAIL_FIX(h))
 for r in report: print(r)
