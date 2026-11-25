@@ -254,6 +254,8 @@ for key, p in pages.items():
     # mark current page in nav
     cur = href_for(key)
     h = re.sub(r'(<a\b[^>]*href="' + re.escape(cur) + r'")', r'\1 aria-current="page"', h)
+    # v2.29: How We Work is a direct menu link (no sub-menu); highlight it like a current menu group
+    h = re.sub(r'class="it-trigger it-direct"([^>]*aria-current="page")', r'class="it-trigger it-direct is-current-group"\1', h)
     h = h.replace('</head>', '<link rel="stylesheet" href="assets/css/live-theme.css"/><link rel="icon" href="assets/img/afd2b6d3f3.png"/></head>', 1)
     h = re.sub(r'((?:href|src)="assets/(?:css|js)/[^"?]+)"', r'\1?v=' + VER + '"', h)
     leftovers = re.findall(r'__INSTRON_[A-Z_]+', h)

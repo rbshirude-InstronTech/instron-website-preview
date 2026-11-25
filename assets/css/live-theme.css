@@ -302,3 +302,6 @@ html body .lv-footer .lv-cb-grid .lv-social svg{width:16px;height:16px}
  html body .lv-footer .lv-f-bottom .lv-top{margin-left:0}
  html body .lv-footer .lv-f-cols h2{font-size:17px!important;line-height:1.3!important;margin-bottom:10px!important}
 }
+
+/* v2.29: How We Work is a direct menu link; same colour as the other menu items */
+.lv-header .it-nav a.it-direct:not([aria-current]):not(:hover){color:#212121}
