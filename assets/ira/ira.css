@@ -1,0 +1,50 @@
+/* IRA widget, styled to the live-site theme (Roboto, #0979AE blue, #61CE70 green). Everything is scoped to .ira-root. */
+.ira-root{--ira-blue:var(--lv-blue,#0979AE);--ira-blue-d:var(--lv-blue-d,#06618C);--ira-green:var(--lv-green,#61CE70);--ira-ink:var(--lv-ink,#212121);--ira-text:var(--lv-text,#54595F);--ira-line:#D9DEE3;--ira-bg:#F4F6F8;font-family:Roboto,Arial,sans-serif;position:relative;z-index:2147483000}
+.ira-root *,.ira-root *::before,.ira-root *::after{box-sizing:border-box}
+.ira-launcher{position:fixed;right:24px;bottom:24px;display:flex;align-items:center;gap:9px;border:0;border-radius:999px;background:var(--ira-blue);color:#fff;font:700 15px/1 Roboto,Arial,sans-serif;padding:14px 20px;box-shadow:0 12px 30px rgba(0,0,0,.22);cursor:pointer}
+.ira-launcher:hover{background:var(--ira-blue-d)}
+.ira-launcher:focus-visible,.ira-root button:focus-visible,.ira-root a:focus-visible,.ira-input:focus-visible{outline:3px solid #FFB000;outline-offset:2px}
+.ira-root.is-open .ira-launcher{display:none}
+.ira-dot{width:10px;height:10px;border-radius:50%;background:var(--ira-green);box-shadow:0 0 0 4px rgba(97,206,112,.25)}
+.ira-panel{position:fixed;right:24px;bottom:24px;width:min(400px,calc(100vw - 24px));height:min(640px,calc(100vh - 48px));display:flex;flex-direction:column;background:#fff;border:1px solid var(--ira-line);border-radius:14px;box-shadow:0 24px 64px rgba(0,0,0,.25);overflow:hidden;color:var(--ira-ink)}
+.ira-panel[hidden]{display:none}
+.ira-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:16px 18px;background:var(--ira-blue);color:#fff}
+.ira-title{margin:0;font:700 20px/1.2 Roboto,Arial,sans-serif;color:#fff}
+.ira-sub{margin:3px 0 0;font-size:13px;opacity:.9;color:#fff}
+.ira-close{flex:none;width:34px;height:34px;border:0;border-radius:50%;background:rgba(255,255,255,.18);color:#fff;font-size:22px;line-height:1;cursor:pointer}
+.ira-close:hover{background:rgba(255,255,255,.3)}
+.ira-log{flex:1;overflow-y:auto;padding:16px;background:var(--ira-bg)}
+.ira-msg{max-width:90%;margin:0 0 10px;padding:10px 13px;border-radius:12px;font-size:14px;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere}
+.ira-bot{background:#fff;border:1px solid var(--ira-line);border-top-left-radius:4px;color:var(--ira-ink)}
+.ira-you{margin-left:auto;background:var(--ira-blue);color:#fff;border-top-right-radius:4px}
+.ira-chips{display:flex;flex-wrap:wrap;gap:7px;margin:2px 0 12px}
+.ira-chip{border:1px solid #B7CFDD;background:#fff;color:var(--ira-blue-d);padding:8px 12px;border-radius:999px;font:500 13px/1.3 Roboto,Arial,sans-serif;cursor:pointer;text-align:left}
+.ira-chip:hover:not(:disabled){background:#E8F3F9}
+.ira-chip:disabled{opacity:.55;cursor:default}
+.ira-chip.is-picked{opacity:1;background:var(--ira-blue);border-color:var(--ira-blue);color:#fff}
+.ira-results{display:grid;gap:9px;margin:2px 0 12px}
+.ira-card{background:#fff;border:1px solid var(--ira-line);border-left:4px solid var(--ira-blue);border-radius:10px;padding:11px 13px}
+.ira-case{border-left-color:var(--ira-green)}
+.ira-kicker{margin:0 0 3px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#2B7D30}
+.ira-card-title{margin:0 0 4px;font:700 15px/1.35 Roboto,Arial,sans-serif}
+.ira-card-title a{color:var(--ira-blue-d);text-decoration:underline;text-underline-offset:2px}
+.ira-reason{margin:0 0 4px;font-size:13px;color:var(--ira-ink)}
+.ira-summary{margin:0;font-size:12.5px;line-height:1.45;color:#5F5F5F}
+.ira-actions{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 12px}
+.ira-btn{display:inline-flex;align-items:center;border:1px solid var(--ira-blue);background:#fff;color:var(--ira-blue-d);border-radius:999px;padding:9px 14px;font:700 13px/1.2 Roboto,Arial,sans-serif;text-decoration:none;cursor:pointer}
+.ira-btn:hover{background:#E8F3F9}
+.ira-primary{background:var(--ira-green);border-color:var(--ira-green);color:#0B2E10}
+.ira-primary:hover{background:var(--lv-green-d,#4AC150)}
+.ira-form{display:flex;gap:8px;padding:10px;border-top:1px solid var(--ira-line);background:#fff}
+.ira-input{flex:1;resize:none;min-height:44px;max-height:120px;border:1px solid #BFC8D0;border-radius:10px;padding:10px 12px;font:14px/1.4 Roboto,Arial,sans-serif;color:var(--ira-ink)}
+.ira-send{border:0;border-radius:10px;background:var(--ira-blue);color:#fff;font:700 14px Roboto,Arial,sans-serif;padding:0 16px;cursor:pointer}
+.ira-send:hover{background:var(--ira-blue-d)}
+.ira-note{margin:0;padding:0 12px 10px;background:#fff;font-size:11px;line-height:1.4;color:#5F5F5F}
+.ira-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ira-prefill{margin:0 0 14px;padding:12px 14px;border-left:4px solid var(--lv-green,#61CE70);background:#EEF8F0;color:#212121;font-size:15px;line-height:1.5}
+@media (max-width:560px){
+ .ira-launcher{right:12px;bottom:12px}
+ .ira-panel{right:0;bottom:0;width:100vw;height:100dvh;border-radius:0;border:0}
+}
+@media (prefers-reduced-motion:reduce){.ira-root *{transition:none!important;animation:none!important}}
+@media print{.ira-root{display:none}}

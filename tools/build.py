@@ -221,6 +221,14 @@ def recolor_html(h):
 
 import hashlib
 VER = hashlib.sha1(open(theme_path,'rb').read()+open(__file__,'rb').read()).hexdigest()[:8]
+# IRA page finder (25 Nov): one deferred script on every page. It does nothing unless the address has ?ira=1,
+# except carrying an IRA brief into the Contact form. Files live in assets/ira/ (kept in the repo, not generated).
+_ira_files = [os.path.join(out, 'assets', 'ira', f) for f in ('ira.js', 'ira.css')]
+IRA_VER = hashlib.sha1(b''.join(open(f, 'rb').read() for f in _ira_files if os.path.exists(f))).hexdigest()[:8]
+def IRA(h):
+    if not all(os.path.exists(f) for f in _ira_files) or 'assets/ira/ira.js' in h:
+        return h
+    return h.replace('</body>', f'<script src="assets/ira/ira.js?v={IRA_VER}" defer></script></body>', 1)
 report = []
 for key, p in pages.items():
     h = p['html']
@@ -250,9 +258,12 @@ for key, p in pages.items():
     h = re.sub(r'((?:href|src)="assets/(?:css|js)/[^"?]+)"', r'\1?v=' + VER + '"', h)
     leftovers = re.findall(r'__INSTRON_[A-Z_]+', h)
     report.append((key, len(h), leftovers[:3]))
-    open(f'{out}/{SLUG[key]}.html', 'w', encoding='utf-8').write(V225(EMAIL_FIX(h), key))
+    open(f'{out}/{SLUG[key]}.html', 'w', encoding='utf-8').write(IRA(V225(EMAIL_FIX(h), key)))
 for r in report: print(r)
 # v2.26 search and share layer (titles, descriptions, canonical, share cards, schema.org, robots/sitemap/llms.txt)
 import importlib.util as _ilu
 _spec = _ilu.spec_from_file_location('seo', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'seo.py'))
 _seo = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_seo); _seo.run(out)
+# IRA approved page list, refreshed from the pages just built
+import subprocess as _sp
+_sp.run([sys.executable, '-I', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ira_content.py'), out], check=True)
