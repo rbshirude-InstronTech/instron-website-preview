@@ -22,8 +22,8 @@ SOCIAL = ['https://www.linkedin.com/company/instrontechnologies/', 'https://www.
 
 # key: (slug, search title, description, breadcrumb parent key or None, short label for breadcrumb/share card, kind)
 P = {
- 'home': ('index', 'Instron Technologies | Process Skid Plants & Automation',
-   'Pilot and demonstration plants, modular process skids, industrial automation and PlantON plant data, engineered and built by Instron Technologies since 2013.',
+ 'home': ('index', 'Pilot Plants & Process Skid Plants | Instron Technologies',
+   'Pilot plants, demonstration plants, process skids, industrial automation and PlantON plant data, engineered and built by Instron Technologies since 2013.',
    None, 'Home', 'home'),
  'solutions': ('solutions', 'Process Skids, Automation & Plant Data | Instron Technologies',
    'Three solutions from one engineering team: process skid plants, industrial automation and controls, and PlantON by Instron Technologies for plant data.',
@@ -31,9 +31,9 @@ P = {
  'process': ('process-skid-plants', 'Modular Process Skid Plants | Instron Technologies',
    'Pilot and demonstration plants and modular industrial process skids, engineered around your process with instruments, automation and site interfaces.',
    'solutions', 'Process Skid Plants', 'service'),
- 'pilot': ('pilot-demonstration-plants', 'Pilot & Demonstration Plants | Instron Technologies',
-   'Integrated pilot and demonstration plants for research organizations and technology developers, built for controlled trials and scale-up decisions.',
-   'process', 'Pilot & Demonstration Plants', 'service'),
+ 'pilot': ('pilot-demonstration-plants', 'Pilot Plants & Demonstration Plants | Instron Technologies',
+   'Pilot plants and demonstration plants for research centres, refinery R&D and technology developers, built for controlled trials and scale-up decisions.',
+   'process', 'Pilot Plants & Demonstration Plants', 'service'),
  'industrial': ('industrial-process-skids', 'Industrial Process Skids | Instron Technologies',
    'Modular process skids for defined production duties: process engineering, equipment, instrumentation and automation for reliable operation on your site.',
    'process', 'Industrial Process Skids', 'service'),
