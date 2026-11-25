@@ -1,0 +1,93 @@
+Old address,New address,Type,Why
+/case-studies/,https://instrontechnologies.com/case-studies.html,Page,"Same content, new page"
+/solutions/,https://instrontechnologies.com/solutions.html,Page,"Same content, new page"
+/process-skid-plant/,https://instrontechnologies.com/process-skid-plants.html,Page,Primary solution
+/industrial-automation-solutions/,https://instrontechnologies.com/industrial-automation.html,Page,Solution page
+/about-us/,https://instrontechnologies.com/our-company.html,Page,About Us is now Our Company
+/career/,https://instrontechnologies.com/careers.html,Page,Careers page
+/contact/,https://instrontechnologies.com/contact.html,Page,Contact page
+/privacy-policy/,https://instrontechnologies.com/privacy-terms-accessibility.html,Page,Privacy now shares a page with terms and accessibility
+/distillation-plant/,https://instrontechnologies.com/separation-solvent-recovery.html,Page,Distillation sits under Separation & Solvent Recovery
+/evaporation-plant/,https://instrontechnologies.com/separation-solvent-recovery.html,Page,Evaporation sits under Separation & Solvent Recovery
+/solvent-extraction-systems/,https://instrontechnologies.com/separation-solvent-recovery.html,Page,Extraction sits under Separation & Solvent Recovery
+/hazop-study/,https://instrontechnologies.com/how-we-work.html#phase-1,Page + post,"HAZOP support is in Basic Engineering & Feasibility; ""100% compliance"" claim retired"
+/basic-engineering/,https://instrontechnologies.com/how-we-work.html#phase-1,Page + post,Phase 01 of How We Work
+/detailed-engineering/,https://instrontechnologies.com/how-we-work.html#phase-2,Page + post,Phase 02 of How We Work
+/combustion-systems/,https://instrontechnologies.com/industrial-automation.html,Page (retired),Combustion systems are not one of the three solutions
+/test-bench-automation/,https://instrontechnologies.com/industrial-automation.html,Page (retired),Test benches were dropped as a solution
+/greenfield-projects/,https://instrontechnologies.com/industrial-automation.html,Page,Greenfield automation is covered on Industrial Automation
+/brownfield-projects-smart-retrofitting/,https://instrontechnologies.com/brownfield-automation-modernization.html,Page,Brownfield Automation Modernization
+/process-automation-solutions/,https://instrontechnologies.com/batch-process-automation.html,Page,Batch & Process Automation
+/21-cfr-part-11-compliant-automation/,https://instrontechnologies.com/pharma-life-sciences.html,Page,21 CFR Part 11 is stated on the Pharma & Life Sciences page
+/energy-optimization-solutions/,https://instrontechnologies.com/utility-energy-monitoring.html,Page,Utility & Energy Monitoring
+/oee-monitoring-solutions/,https://instrontechnologies.com/production-visibility-oee.html,Page,Production Visibility & OEE
+/utility-monitoring/,https://instrontechnologies.com/utility-energy-monitoring.html,Page,Utility & Energy Monitoring
+/traceability/,https://instrontechnologies.com/planton-digital-factory.html,Page,Traceability is part of PlantON
+/predictive-maintenance/,https://instrontechnologies.com/planton-digital-factory.html,Page (retired),Not claimed on the new site; nearest page is PlantON
+/form-digitization/,https://instrontechnologies.com/planton-digital-factory.html,Page (retired),Not claimed on the new site; nearest page is PlantON
+/oee-trial/,https://instrontechnologies.com/production-visibility-oee.html,Trial page (check),"CHECK: PlantON trial landing page updated Sep 2026; if still used in campaigns, keep a trial offer on the new site"
+/traceability-trial/,https://instrontechnologies.com/planton-digital-factory.html,Trial page (check),"CHECK: PlantON trial landing page, as above"
+/utility-trial/,https://instrontechnologies.com/utility-energy-monitoring.html,Trial page (check),"CHECK: PlantON trial landing page, as above"
+/empowering-production-and-sustainability-with-digital-transformation/,https://instrontechnologies.com/case-studies.html#case-diecast,Post,Die-casting PlantON case (validated figures; old 30%/20%/25% claims retired)
+/ca/empowering-production-and-sustainability-with-digital-transformation/,https://instrontechnologies.com/case-studies.html#case-diecast,Post (old /ca/),Die-casting PlantON case (validated figures; old 30%/20%/25% claims retired)
+/skid-plant-for-rd/,https://instrontechnologies.com/case-studies.html#case-propulsion,Post,Propulsion-fuel pilot case
+/ca/skid-plant-for-rd/,https://instrontechnologies.com/case-studies.html#case-propulsion,Post (old /ca/),Propulsion-fuel pilot case
+/advanced-production-unit-for-therapeutic-radiopharmaceutical-ingredients/,https://instrontechnologies.com/project-portfolio.html,Post,Government research systems card (sanitized)
+/ca/advanced-production-unit-for-therapeutic-radiopharmaceutical-ingredients/,https://instrontechnologies.com/project-portfolio.html,Post (old /ca/),Government research systems card (sanitized)
+/hazop-study-optimizing-plant-safety/,https://instrontechnologies.com/how-we-work.html#phase-1,Post,HAZOP support in Basic Engineering & Feasibility
+/ca/hazop-study-optimizing-plant-safety/,https://instrontechnologies.com/how-we-work.html#phase-1,Post (old /ca/),HAZOP support in Basic Engineering & Feasibility
+/enhancing-operational-agility-and-efficiency-through-industry-4-0-transformation/,https://instrontechnologies.com/planton-digital-factory.html,Post,Glass plant write-up; figures not validated
+/ca/enhancing-operational-agility-and-efficiency-through-industry-4-0-transformation/,https://instrontechnologies.com/planton-digital-factory.html,Post (old /ca/),Glass plant write-up; figures not validated
+/multipurpose-distillation-unit-for-polymer-research-trials/,https://instrontechnologies.com/project-portfolio.html,Post,Multipurpose distillation unit card (Thailand)
+/ca/multipurpose-distillation-unit-for-polymer-research-trials/,https://instrontechnologies.com/project-portfolio.html,Post (old /ca/),Multipurpose distillation unit card (Thailand)
+/solvent-recovery-system/,https://instrontechnologies.com/separation-solvent-recovery.html,Post,Flash-still write-up; +13%/+4% not validated
+/ca/solvent-recovery-system/,https://instrontechnologies.com/separation-solvent-recovery.html,Post (old /ca/),Flash-still write-up; +13%/+4% not validated
+/automation-solution-energy-consumption-reporting/,https://instrontechnologies.com/case-studies.html#case-chocolate,Post,Chocolate lines case
+/ca/automation-solution-energy-consumption-reporting/,https://instrontechnologies.com/case-studies.html#case-chocolate,Post (old /ca/),Chocolate lines case
+/dairy-facility-modernization-in-california/,https://instrontechnologies.com/case-studies.html#case-dairy,Post,Dairy modernization case (94% / 12% / 11%)
+/ca/dairy-facility-modernization-in-california/,https://instrontechnologies.com/case-studies.html#case-dairy,Post (old /ca/),Dairy modernization case (94% / 12% / 11%)
+/project-management/,https://instrontechnologies.com/how-we-work.html#phase-3,Post,"Integrated Design & Build; ""30% faster"" retired"
+/ca/project-management/,https://instrontechnologies.com/how-we-work.html#phase-3,Post (old /ca/),"Integrated Design & Build; ""30% faster"" retired"
+/extraction-plant-for-pharma-api-production/,https://instrontechnologies.com/case-studies.html#case-extraction,Post,"Same project: botanical-extract API plants, India and Australia"
+/ca/extraction-plant-for-pharma-api-production/,https://instrontechnologies.com/case-studies.html#case-extraction,Post (old /ca/),"Same project: botanical-extract API plants, India and Australia"
+/traceability-in-manufacturing-industry/,https://instrontechnologies.com/planton-digital-factory.html,Post,Traceability is part of PlantON
+/ca/traceability-in-manufacturing-industry/,https://instrontechnologies.com/planton-digital-factory.html,Post (old /ca/),Traceability is part of PlantON
+/energy-saving-in-hydraulic-press/,https://instrontechnologies.com/utility-energy-monitoring.html,Post,Hydraulic press write-up; 30% not validated
+/ca/energy-saving-in-hydraulic-press/,https://instrontechnologies.com/utility-energy-monitoring.html,Post (old /ca/),Hydraulic press write-up; 30% not validated
+/automated-crane-synchronization/,https://instrontechnologies.com/industrial-automation.html,Post,Retired: discrete machine automation
+/ca/automated-crane-synchronization/,https://instrontechnologies.com/industrial-automation.html,Post (old /ca/),Retired: discrete machine automation
+/biaxial-fatigue-testing-for-truck-wheel-durability/,https://instrontechnologies.com/industrial-automation.html,Post,Retired: test benches dropped
+/ca/biaxial-fatigue-testing-for-truck-wheel-durability/,https://instrontechnologies.com/industrial-automation.html,Post (old /ca/),Retired: test benches dropped
+/cooling-test-station-for-end-of-line-testing-of-refrigerators-ac-and-de-freezers/,https://instrontechnologies.com/industrial-automation.html,Post,Retired: test benches dropped
+/ca/cooling-test-station-for-end-of-line-testing-of-refrigerators-ac-and-de-freezers/,https://instrontechnologies.com/industrial-automation.html,Post (old /ca/),Retired: test benches dropped
+/increasing-production-capacity-for-a-personal-care-manufacturer/,https://instrontechnologies.com/case-studies.html#case-cleaning,Post,Capacity expansion case (+20%)
+/ca/increasing-production-capacity-for-a-personal-care-manufacturer/,https://instrontechnologies.com/case-studies.html#case-cleaning,Post (old /ca/),Capacity expansion case (+20%)
+/iot-for-steel-wheel-plants/,https://instrontechnologies.com/production-visibility-oee.html,Post,Steel-wheel OEE write-up
+/ca/iot-for-steel-wheel-plants/,https://instrontechnologies.com/production-visibility-oee.html,Post (old /ca/),Steel-wheel OEE write-up
+/revolutionizing-manufacturing-with-industry-4-0-a-guide-to-choosing-the-right-iot-system/,https://instrontechnologies.com/insights-plant-data-rollout.html,Post,Rewritten as the plant-data Insights article
+/ca/revolutionizing-manufacturing-with-industry-4-0-a-guide-to-choosing-the-right-iot-system/,https://instrontechnologies.com/insights-plant-data-rollout.html,Post (old /ca/),Rewritten as the plant-data Insights article
+/indias-transformative-journey-in-defence-manufacturing/,https://instrontechnologies.com/insights.html,Post,Retired: external article excerpt
+/ca/indias-transformative-journey-in-defence-manufacturing/,https://instrontechnologies.com/insights.html,Post (old /ca/),Retired: external article excerpt
+/mastering-chemical-process-design/,https://instrontechnologies.com/insights-lab-to-pilot-to-industrial.html#balance,Post,Merged into the scale-up article
+/ca/mastering-chemical-process-design/,https://instrontechnologies.com/insights-lab-to-pilot-to-industrial.html#balance,Post (old /ca/),Merged into the scale-up article
+/empowering-die-casting-product/,https://instrontechnologies.com/case-studies.html#case-diecast,Post,Die-casting PlantON case
+/ca/empowering-die-casting-product/,https://instrontechnologies.com/case-studies.html#case-diecast,Post (old /ca/),Die-casting PlantON case
+/revolutionizing-color/,https://instrontechnologies.com/industrial-automation.html,Post,Retired: vision-system work
+/ca/revolutionizing-color/,https://instrontechnologies.com/industrial-automation.html,Post (old /ca/),Retired: vision-system work
+/digital-maturity-assessment/,https://instrontechnologies.com/planton-digital-factory.html,Post,10-25% savings claim retired
+/ca/digital-maturity-assessment/,https://instrontechnologies.com/planton-digital-factory.html,Post (old /ca/),10-25% savings claim retired
+/cycle-time-improvement/,https://instrontechnologies.com/production-visibility-oee.html,Post,Wheel-maker write-up; 13%/6% not validated
+/ca/cycle-time-improvement/,https://instrontechnologies.com/production-visibility-oee.html,Post (old /ca/),Wheel-maker write-up; 13%/6% not validated
+/induction-motor-type-test-bench-for-precision-and-compliance/,https://instrontechnologies.com/industrial-automation.html,Post,Retired: test benches dropped
+/ca/induction-motor-type-test-bench-for-precision-and-compliance/,https://instrontechnologies.com/industrial-automation.html,Post (old /ca/),Retired: test benches dropped
+/ca/hazop-study/,https://instrontechnologies.com/how-we-work.html#phase-1,Post (old /ca/),Also a page; see above
+/advanced-combustion-systems/,https://instrontechnologies.com/industrial-automation.html,Post,Retired: not one of the three solutions
+/ca/advanced-combustion-systems/,https://instrontechnologies.com/industrial-automation.html,Post (old /ca/),Retired: not one of the three solutions
+/ca/detailed-engineering/,https://instrontechnologies.com/how-we-work.html#phase-2,Post (old /ca/),Also a page; see above
+/ca/basic-engineering/,https://instrontechnologies.com/how-we-work.html#phase-1,Post (old /ca/),Also a page; see above
+Pattern: ^blogs(/page/[0-9]+)?/?$,https://instrontechnologies.com/insights.html,Archive,Blog list pages
+Pattern: ^ca/blogs?(/page/[0-9]+)?/?$,https://instrontechnologies.com/insights.html,Archive (old /ca/),Old blog list pages
+Pattern: ^category/.*$,https://instrontechnologies.com/insights.html,Archive,Yoast category archives
+Pattern: ^author/.*$,https://instrontechnologies.com/our-company.html,Archive,Yoast author archives
+Pattern: ^ca/?$,https://instrontechnologies.com/,Old /ca/ home,The site used to sit under /ca/
+Pattern: ^(sitemap_index|page-sitemap|post-sitemap|category-sitemap|author-sitemap|elementor-hf-sitemap)\.xml$,https://instrontechnologies.com/sitemap.xml,Sitemap,Old Yoast sitemaps point to the new sitemap
