@@ -25,3 +25,4 @@ Sumit's design suggestions as approved by Rahul page by page (review: https://cl
 - Theme-only parts: closing band (text left, photo right, green diagonal) on every page, footer location chips (`build.py`), IRA start-card tint and the IRA page prompt as a light card (`assets/ira/ira.css`).
 - `tools/ira_content.py` reads capability cards that now carry an icon; ira-content.json output unchanged.
 - About Us pages follow when Sumit's captures arrive.
+- v2.35.1: `tools/v2351_industries.py <review repo>` applies the same layouts to the six Industries pages (run after v2.35 is in the review repo).
