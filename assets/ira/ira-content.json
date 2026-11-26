@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "phases": {
   "phase-1": {
    "title": "Basic Engineering & Feasibility",
@@ -83,6 +83,43 @@
     "Commission: Stabilize through the first reporting cycles.",
     "Expand: More lines or use cases once the first layer is trusted."
    ]
+  },
+  "auto-modernize": {
+   "title": "Modernize without stopping the plant",
+   "url": "industrial-automation.html#modernize",
+   "what": "Keep the equipment that still works. Replace the fragile control layer in stages you can test and roll back.",
+   "best_when": "",
+   "list_label": "How it runs",
+   "deliverables": [
+    "Assess: Installed PLCs, HMIs, panels, networks, field devices and documentation, with backups and baseline records captured first.",
+    "Define the migration strategy: Keep, migrate, replace or isolate, with a technical reason for each.",
+    "Plan the implementation: Phased cutovers, temporary interfaces, testing requirements and rollback paths around production.",
+    "Simulate, test and validate: Simulation, functional testing and FAT on the high-risk changes before anyone goes to site.",
+    "Commission and hand over: Implement the approved change, verify operation and update drawings, backups and system documentation."
+   ]
+  },
+  "auto-services": {
+   "title": "Our industrial automation capabilities",
+   "url": "industrial-automation.html#services",
+   "what": "Take one work package, or combine them into a single integrated scope.",
+   "best_when": "",
+   "list_label": "Work packages",
+   "deliverables": [
+    "Brownfield modernization & migration: Upgrade PLCs, HMIs, SCADA, panels and networks in planned, testable stages around your production window.",
+    "New control systems: Control philosophy, PLC/PAC logic, HMI/SCADA, alarms, trends and historian for new lines, skids and plants.",
+    "Batch & recipe control: S88 (ISA-88) structure with reusable phases, configurable recipes, guided manual additions, batch reports and audit trails.",
+    "Electrical & instrumentation design: Instrument selection, I/O and load definition, electrical design and control panels with UL 508A, CSA or CE approval.",
+    "Multi-vendor integration: OEM machines, skids, drives, remote I/O and legacy controllers under one control and operator view; DCS links over OPC UA.",
+    "FAT, SAT, commissioning & support: Simulated FAT, loop checks, controlled start-up, backups, as-builts, training and change management after handover."
+   ],
+   "keys": [
+    "modernize",
+    "new",
+    "batch",
+    "ei",
+    "integration",
+    "fat"
+   ]
   }
  },
  "prepare_default": {
@@ -145,7 +182,10 @@
    "tags": {
     "industrial_skid": 3,
     "skid": 2,
-    "build": 1
+    "build": 1,
+    "repeat": 2,
+    "reaction": 2,
+    "extraction": 1
    },
    "keywords": [
     "production duty"
@@ -166,7 +206,8 @@
     "panels": 3,
     "modernize": 1,
     "batch": 1,
-    "compliance": 1
+    "compliance": 1,
+    "support": 2
    },
    "keywords": [
     "e&i design"
@@ -269,9 +310,12 @@
    "tags": {
     "scaleup": 3,
     "pilot": 2,
-    "research": 1
+    "research": 1,
+    "repeat": 3
    },
-   "keywords": [],
+   "keywords": [
+    "repeat deployment"
+   ],
    "image": [
     "assets/img/72c3314843.webp",
     "Instrumented process skid in a blue steel frame"
@@ -291,7 +335,8 @@
    "summary": "Separation and solvent recovery systems engineered as a full loop: feed variation, utilities, solvent management, fouling and safe operation.",
    "tags": {
     "separation": 3,
-    "chemical": 1
+    "chemical": 1,
+    "extraction": 2
    },
    "keywords": [],
    "image": [
@@ -429,9 +474,12 @@
    "summary": "Pilot and demonstration plants, custom process systems, test rigs and reactor engineering for universities, research institutes and technology developers.",
    "tags": {
     "research": 3,
-    "pilot": 2
+    "pilot": 2,
+    "reaction": 2
    },
-   "keywords": [],
+   "keywords": [
+    "reactor retrofit"
+   ],
    "image": [
     "assets/img/925c380bbe.webp",
     "Multipurpose distillation unit for polymer research"
@@ -451,7 +499,9 @@
    "summary": "Solvent recovery and distillation skids, reactor control and batch automation for specialty chemicals, refining and consumer products.",
    "tags": {
     "chemical": 3,
-    "separation": 1
+    "separation": 1,
+    "reaction": 2,
+    "extraction": 1
    },
    "keywords": [],
    "image": [
@@ -627,6 +677,22 @@
    ]
   },
   {
+   "id": "industries-who",
+   "type": "company",
+   "title": "Research teams, partners and public programs",
+   "url": "industries.html#who",
+   "summary": "Beyond operating plants, we work directly with these customers.",
+   "tags": {
+    "partner": 3,
+    "research": 1
+   },
+   "keywords": [],
+   "image": [
+    "assets/img/0507c1aa0e.webp",
+    "Industrial process platform in an assembly facility"
+   ]
+  },
+  {
    "id": "contact",
    "type": "contact",
    "title": "Contact Us: Discuss Your Project",
@@ -752,7 +818,9 @@
    "tags": {
     "pharma": 2,
     "separation": 2,
-    "batch": 1
+    "batch": 1,
+    "extraction": 3,
+    "reaction": 2
    },
    "keywords": [
     "botanical",
@@ -951,8 +1019,7 @@
     "utility": 1
    },
    "keywords": [
-    "pasteurizer",
-    "dairy"
+    "pasteurizer"
    ],
    "image": [
     "assets/img/7ab1f43ea4.webp",
