@@ -1,4 +1,4 @@
-/* IRA regression test (v2.33). Usage: node tools/ira_test.js [repo root]
+/* IRA regression test (v2.34). Usage: node tools/ira_test.js [repo root]
    1. Every entry, phase, anchor and image in assets/ira/ira-content.json exists in the built pages.
    2. Every fixed-choice path through the guided map (all tracks, every selection order, every final answer)
       builds a brief without errors, and the same choices in another order give the same result.
@@ -41,23 +41,35 @@ function perms(items, max) { // ordered selections of 0..max distinct items
 var proc = E.PROCESS.map(function (x) { return x.id; });
 var procSel = perms(proc.filter(function (x) { return x !== 'other'; }), 3).concat([['other']]); // "Something else" stands alone
 var finals = { process: [''].concat(E.ENGINEERING.map(function (x) { return x.id; })),
-  automation: [''].concat(E.AUTO_TODAY.map(function (x) { return x.id; })), data: [''].concat(E.DATA_TODAY.map(function (x) { return x.id; })) };
+  automation: [''].concat(E.AUTO_TODAY.map(function (x) { return x.id; })),
+  data: perms(['manual', 'partial', 'system'], 3).concat([['unsure']]) };   // several data sources, in any order; "Not sure" alone
 var inds = [''].concat(E.INDUSTRIES.map(function (x) { return x.id; }));
 var rows = [];
-E.PATH.forEach(function (p) { procSel.forEach(function (ps) { finals.process.forEach(function (f) { rows.push({ track: 'process', path: p.id, process: ps, need: [], industry: '', engineering: f, today: '', notes: '' }); }); }); });
+E.PATH.forEach(function (p) { procSel.forEach(function (ps) { finals.process.forEach(function (f) { rows.push({ track: 'process', path: p.id, process: ps, need: [], industry: '', engineering: f, today: [], also: [], notes: '' }); }); }); });
+// "Also involves": every combination and order of the other two areas (final answer blank, to keep the run short)
+var ALSO = { process: ['automation', 'data'], automation: ['process', 'data'], data: ['process', 'automation'] };
 perms(E.NEEDS.automation.map(function (x) { return x.id; }), 2).filter(function (x) { return x.length; }).forEach(function (n) {
-  inds.forEach(function (i) { finals.automation.forEach(function (f) { rows.push({ track: 'automation', path: '', process: [], need: n, industry: i, engineering: f, today: '', notes: '' }); }); });
+  inds.forEach(function (i) { finals.automation.forEach(function (f) { rows.push({ track: 'automation', path: '', process: [], need: n, industry: i, engineering: f, today: [], also: [], notes: '' }); }); });
 });
 perms(E.NEEDS.data.map(function (x) { return x.id; }), 3).filter(function (x) { return x.length; }).forEach(function (n) {
-  inds.forEach(function (i) { finals.data.forEach(function (f) { rows.push({ track: 'data', path: '', process: [], need: n, industry: i, engineering: '', today: f, notes: '' }); }); });
+  inds.forEach(function (i) { finals.data.forEach(function (f) { rows.push({ track: 'data', path: '', process: [], need: n, industry: i, engineering: '', today: f, also: [], notes: '' }); }); });
+});
+rows.slice().forEach(function (r) {
+  if (r.engineering || r.today.length) return;
+  perms(ALSO[r.track], 2).filter(function (a) { return a.length; }).forEach(function (a) { var x = JSON.parse(JSON.stringify(r)); x.also = a; rows.push(x); });
 });
 var stats = { process: {}, automation: {}, data: {} }, sigs = {}, groups = {}, gap = {};
 rows.forEach(function (s, n) {
-  var id = s.track + '#' + n + ' ' + [s.path].concat(s.process, s.need, [s.industry, s.engineering || s.today]).filter(Boolean).join(',');
+  var id = s.track + '#' + n + ' ' + [s.path].concat(s.process, s.need, [s.industry, s.engineering], s.today, s.also.map(function (a) { return '+' + a; })).filter(Boolean).join(',');
   var b;
   try { b = E.briefFromMap(s); } catch (err) { return fail(id, 'error ' + err.message); }
   var st = stats[s.track]; st.rows = (st.rows || 0) + 1;
-  if (!b.pages.length || b.pages.length > 3) fail(id, 'pages ' + b.pages.length);
+  if (!b.pages.length || b.pages.length > 3 + s.also.length) fail(id, 'pages ' + b.pages.length);
+  s.also.forEach(function (a) { if (!b.pages.some(function (x) { return x.e.id === E.TRACKS[a].page; })) fail(id, 'also page missing ' + a); });
+  if (s.track === 'data') {
+    var st0 = b.phase.highlight || [], want = s.today.indexOf('manual') >= 0 || !s.today.length || s.today[0] === 'unsure' ? [0, 1] : s.today.indexOf('partial') >= 0 ? [1] : [2];
+    if (st0.join() !== want.join()) fail(id, 'start ' + st0 + ' expected ' + want);
+  }
   if (b.cases.length > 2) fail(id, 'cases ' + b.cases.length);
   if (!b.phase) fail(id, 'no phase');
   if (s.track === 'process' && !/^phase-/.test(b.phaseId)) fail(id, 'process phase ' + b.phaseId);
@@ -75,7 +87,7 @@ rows.forEach(function (s, n) {
   });
   var sig = [b.headline, b.told.map(function (t) { return t.join(':'); }).join(';'), b.stage, b.phaseId, b.pages.map(function (x) { return x.e.id; }).sort().join('+'), b.cases.map(function (x) { return x.e.id + (x.adjacent ? '~' : ''); }).sort().join('+')].join('|');
   sigs[s.track + '|' + sig] = 1;
-  var key = [s.track, s.path, s.process.slice().sort().join('+'), s.need.slice().sort().join('+'), s.industry, s.engineering, s.today].join('|');
+  var key = [s.track, s.path, s.process.slice().sort().join('+'), s.need.slice().sort().join('+'), s.industry, s.engineering, s.today.slice().sort().join('+'), s.also.slice().sort().join('+')].join('|');
   if (groups[key] && groups[key] !== sig) fail(id, 'order changes the result');
   groups[key] = sig;
 });
@@ -83,15 +95,15 @@ Object.keys(gap).forEach(function (k) { fail('coverage', gap[k] + ' map rows lea
 
 // stale answers from another track never break the brief (IRA-15)
 try {
-  E.briefFromMap({ track: 'process', path: 'pilot', process: ['sep'], need: ['legacy', 'oee'], industry: 'food', engineering: 'spec', today: 'system', notes: '' });
-  E.briefFromMap({ track: 'data', path: 'pilot', process: ['sep'], need: ['legacy', 'oee'], industry: '', engineering: '', today: '', notes: '' });
+  E.briefFromMap({ track: 'process', path: 'pilot', process: ['sep'], need: ['legacy', 'oee'], industry: 'food', engineering: 'spec', today: ['system'], also: ['data', 'zzz'], notes: '' });
+  E.briefFromMap({ track: 'data', path: 'pilot', process: ['sep'], need: ['legacy', 'oee'], industry: '', engineering: '', today: [], notes: '' });
   E.briefFromMap({ track: 'automation', path: '', process: ['carbon'], need: ['zzz'], industry: 'x', engineering: 'basic', today: '', notes: '' });
 } catch (err) { fail('stale', err.message); }
 
 // safety words in the map notes (IRA-19)
-var bn = E.briefFromMap({ track: 'process', path: 'pilot', process: ['sep'], need: [], industry: '', engineering: '', today: '', notes: 'Can you certify the pressure vessel design?' });
+var bn = E.briefFromMap({ track: 'process', path: 'pilot', process: ['sep'], need: [], industry: '', engineering: '', today: [], notes: 'Can you certify the pressure vessel design?' });
 if (bn.phase || bn.cases.length || !bn.notices.length) fail('notes-safety', 'phase/cases kept or no notice');
-var bu = E.briefFromMap({ track: 'process', path: 'pilot', process: [], need: [], industry: '', engineering: '', today: '', notes: 'there is smoke coming from the panel' });
+var bu = E.briefFromMap({ track: 'process', path: 'pilot', process: [], need: [], industry: '', engineering: '', today: [], notes: 'there is smoke coming from the panel' });
 if (!bu.urgent) fail('notes-urgent', 'not flagged');
 
 /* ---------- 3. typed conversations ---------- */

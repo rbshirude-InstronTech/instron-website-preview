@@ -4,9 +4,11 @@
    Runs entirely in the visitor's browser and uses only the approved list in ira-content.json.
    The brief can be saved as PDF, copied, or carried into the Contact form.
    No cookies, no browser storage, no outside services; nothing is sent anywhere by this script.
-   Hidden until switched on with ?ira=1 in the page address (?ira=0 switches it off).
+   On by default (DEFAULT_ON below); ?ira=0 in the page address switches it off for that visit.
    v2.33: safety and information routes first, negation and corrections, one result model for chat
-   and brief, track-specific first steps, evidence threshold for related projects. */
+   and brief, track-specific first steps, evidence threshold for related projects.
+   v2.34: several data-capture answers allowed (start from the least mature), optional "Also involves" area,
+   on by default. */
 (function () {
   'use strict';
 
@@ -197,6 +199,7 @@
       return ((direct[b] || 0) * 10 + (x.e.tags[b] || 0)) - ((direct[a] || 0) * 10 + (x.e.tags[a] || 0));
     });
     var labels = keys.slice(0, 2).map(function (k) { return INTENTS[k][0]; });
+    if (x.also) return 'Also involved: ' + TRACKS[x.also].title.toLowerCase() + '.';
     if (x.e.type === 'case') {
       if (x.adjacent) return labels.length ? 'Not the same application; related work on ' + labels.join('; ') + '.' : 'Related work, not the same application.';
       return labels.length ? 'A completed project involving ' + labels.join('; ') + '.' : 'A completed project matching what you described.';
@@ -272,7 +275,7 @@
     { id: 'manual', label: 'Manual logs or spreadsheets', start: [0, 1] },
     { id: 'partial', label: 'Some PLC or meter data, not connected', start: [1] },
     { id: 'system', label: 'A historian or MES is already in place', start: [2] },
-    { id: 'unsure', label: 'Not sure', start: [0, 1] }
+    { id: 'unsure', label: 'Not sure', start: [0, 1], only: true }
   ];
   var SEC_TITLE = { 'phase-1': 'Suggested first step', 'phase-2': 'Suggested first step', 'phase-3': 'Suggested first step',
     'auto-modernize': 'Suggested approach', 'auto-services': 'Work packages to discuss', 'planton-deploy': 'Suggested approach' };
@@ -337,6 +340,10 @@
     strong.slice(0, 2).forEach(function (x) { take(x); });
     if (!cases.length && weak.length && weak[0].s >= 3) take(weak[0], true);
     if (!pages.length) { var d0 = entry(TRACKS[spec.track].page); if (d0) pages.push({ e: d0, s: 1, matched: [] }); }
+    (spec.also || []).forEach(function (t) {                              // "Also involves": that area's main page
+      var e1 = entry(TRACKS[t].page);
+      if (e1 && !pages.some(function (x) { return x.e.id === e1.id; })) pages.push({ e: e1, s: 1, matched: [], also: t });
+    });
     // inputs to prepare: the two best pages that have a list, merged without repeats
     var pool = pages.map(function (x) { return x.e; }).concat(r.pages.map(function (x) { return x.e; }), [entry(TRACKS[spec.track].page)]);
     var srcs = [], items = [], seen = {};
@@ -417,12 +424,15 @@
       order = []; needs.forEach(function (x) { if (x.svc && order.indexOf(x.svc) < 0) order.push(x.svc); });
     } else {
       phaseId = 'planton-deploy';
-      var td = find(DATA_TODAY, sel.today);
-      if (td) told.push(['Data today', td.label]);
-      start = td ? td.start : [0, 1];
-      startNote = td && td.id !== 'unsure' ? NOTE.start : NOTE.startUnknown;
+      var tds = inList(DATA_TODAY, [].concat(sel.today || []));     // several sources can be true at once
+      if (tds.length) told.push(['Data today', tds.map(function (x) { return x.label; }).join('; ')]);
+      var known = tds.filter(function (x) { return !x.only; });
+      start = known.length ? known[0].start : [0, 1];                 // the least mature source sets the start
+      startNote = known.length ? NOTE.start : NOTE.startUnknown;
     }
     if (has('panels')) notices.push(NOTE.panels);
+    var also = Object.keys(TRACKS).filter(function (t) { return t !== sel.track && (sel.also || []).indexOf(t) >= 0; });
+    if (also.length) told.push(['Also involves', also.map(function (t) { return TRACKS[t].title; }).join('; ')]);
     if (sel.notes) told.push(['Notes', sel.notes]);
     var headline;
     if (sel.track === 'process') {
@@ -431,7 +441,7 @@
     } else headline = needs.length ? needs.map(function (x) { return x.label; }).join(' · ') : tr.title;
     return build({ track: sel.track, tags: tags, direct: refineDirect(direct), stage: stage, text: sel.notes || '', phaseId: phaseId,
       phaseNote: phaseNote, order: order, start: start, startNote: startNote, told: told, headline: headline,
-      notices: notices, safety: safety, urgent: urgent });
+      notices: notices, safety: safety, urgent: urgent, also: also });
   }
 
   /* =====================================================================================
@@ -599,7 +609,8 @@
     var second = Object.keys(s).filter(function (k) {
       return k !== area && s[k] >= Math.max(1, s[area] / 2) && Object.keys(dir).some(function (d) { return AREA_OF[d] === k; });
     })[0];
-    if (second) told.push(['Also involves', TRACKS[second === 'A' ? 'automation' : second === 'D' ? 'data' : 'process'].title]);
+    var also = second ? [second === 'A' ? 'automation' : second === 'D' ? 'data' : 'process'] : [];
+    if (also.length) told.push(['Also involves', TRACKS[also[0]].title]);
     if (c.stage) told.push(['Stage', c.stage]);
     else if (c.mixed) { told.push(['Stage', 'Existing system and new controls']); notices.push(NOTE.mixed); }
     told.push([c.trimmed ? 'Described as (latest messages)' : 'Described as', c.msgs.join(' / ')]);
@@ -619,7 +630,7 @@
     var head = c.msgs[0] || TRACKS[track].title;
     if (head.length > 90) head = head.slice(0, 87).replace(/\s+\S*$/, '') + '…';
     return build({ track: track, tags: tags, direct: refineDirect(I), stage: c.stage, text: c.msgs.join(' '), phaseId: phaseId,
-      phaseNote: phaseNote, order: order, start: start, startNote: startNote, told: told, headline: head, notices: notices, safety: c.safety });
+      phaseNote: phaseNote, order: order, start: start, startNote: startNote, told: told, headline: head, notices: notices, safety: c.safety, also: also });
   }
 
   /* =====================================================================================
@@ -672,7 +683,9 @@
   var params = new URLSearchParams(location.search);
   var self = document.currentScript;
   var base = self ? new URL('.', self.src) : new URL('assets/ira/', location.href);
-  var ON = params.get('ira') === '1';
+  var DEFAULT_ON = true;                                     // v2.34: shown on every page unless ?ira=0
+  var ON = DEFAULT_ON ? params.get('ira') !== '0' : params.get('ira') === '1';
+  var CARRY = DEFAULT_ON ? (params.get('ira') === '0' ? '0' : '') : (ON ? '1' : '');   // keep a non-default choice across links
   var BRIEF_KEY = '#ira-brief=';
   var PAGE = (location.pathname.split('/').pop() || 'index.html').replace(/\?.*$/, '') || 'index.html';
   var BRIEF_START = /(Project brief prepared with IRA|Enquiry from IRA)/;
@@ -730,18 +743,18 @@
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run0); else run0();
   }
 
-  if (!ON) return;
-
   function carry(a) {
     var raw = a.getAttribute('href');
     if (!raw || /^(mailto:|tel:|#|javascript:)/i.test(raw)) return;
     var u;
     try { u = new URL(raw, location.href); } catch (err) { return; }
-    if (u.origin !== location.origin || !/\.html$/.test(u.pathname) || u.searchParams.has('ira')) return;
-    u.searchParams.set('ira', '1');
+    if (!CARRY || u.origin !== location.origin || !/\.html$/.test(u.pathname) || u.searchParams.has('ira')) return;
+    u.searchParams.set('ira', CARRY);
     a.setAttribute('href', u.pathname.split('/').pop() + u.search + u.hash);
   }
-  function flagUrl(u) { return String(u).replace(/^([^#?]+)/, '$1?ira=1'); }
+  function flagUrl(u) { return CARRY ? String(u).replace(/^([^#?]+)/, '$1?ira=' + CARRY) : String(u); }
+  if (!ON) { if (CARRY) { var off = function () { Array.prototype.forEach.call(document.querySelectorAll('a[href]'), carry); };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', off); else off(); } return; }
 
   var PAGE_TRACK = {
     'process-skid-plants.html': 'process', 'pilot-demonstration-plants.html': 'process', 'industrial-process-skids.html': 'process',
@@ -761,7 +774,7 @@
   var loading = null;
   var sel, chat, mode, step;
   function resetAll() {
-    sel = { track: '', path: '', process: [], need: [], industry: '', engineering: '', today: '', notes: '' };
+    sel = { track: '', path: '', process: [], need: [], industry: '', engineering: '', today: [], also: [], notes: '' };
     chat = newChat();
     mode = 'map'; step = 1;
   }
@@ -770,7 +783,8 @@
   function setTrack(t) {
     if (t === sel.track) return;
     var keepIndustry = /^(automation|data)$/.test(sel.track) && /^(automation|data)$/.test(t);
-    sel.track = t; sel.path = ''; sel.process = []; sel.need = []; sel.engineering = ''; sel.today = '';
+    sel.track = t; sel.path = ''; sel.process = []; sel.need = []; sel.engineering = ''; sel.today = [];
+    sel.also = (sel.also || []).filter(function (x) { return x !== t; });
     if (!keepIndustry) sel.industry = '';
   }
 
@@ -1009,6 +1023,9 @@
       view.appendChild(el('h4', 'ira-q', 'Industry (optional)'));
       choices(INDUSTRIES, { label: 'Industry', optional: true, cls: 'ira-chips', get: function () { return sel.industry; }, set: function (v) { sel.industry = v; } });
     }
+    var others = Object.keys(TRACKS).filter(function (k) { return k !== sel.track; }).map(function (k) { return { id: k, label: TRACKS[k].title }; });
+    view.appendChild(el('h4', 'ira-q', 'Also involves (optional)'));
+    choices(others, { label: 'Also involves', multi: true, cls: 'ira-chips', get: function () { return sel.also; }, set: function (v) { sel.also = v; } });
     next = navRow(renderStart, 'Next', renderLast, ready());
     focusTitle(h);
   }
@@ -1017,13 +1034,13 @@
     mode = 'map'; step = 3; clearView(); setProgress(3);
     var h;
     if (sel.track === 'data') {
-      h = stepHead('Step 3 of 3', 'How are these figures captured today?', 'This shows where a PlantON deployment would likely start.');
-      choices(DATA_TODAY, { label: 'Data today', optional: true, cls: 'ira-list', get: function () { return sel.today; }, set: function (v) { sel.today = v; } });
+      h = stepHead('Step 3 of 3', 'How are these figures captured today?', 'Choose all that apply; plants often have a mix. This shows where a PlantON deployment would likely start.');
+      choices(DATA_TODAY, { label: 'Data today', multi: true, cls: 'ira-needs', get: function () { return sel.today; }, set: function (v) { sel.today = v; } });
     } else if (sel.track === 'automation') {
-      h = stepHead('Step 3 of 3', 'What documentation exists today?', 'This helps an engineer judge where to start.');
+      h = stepHead('Step 3 of 3', 'What documentation exists today?', 'Choose the most complete you have. This helps an engineer judge where to start.');
       choices(AUTO_TODAY, { label: 'Documentation today', optional: true, cls: 'ira-list', get: function () { return sel.engineering; }, set: function (v) { sel.engineering = v; } });
     } else {
-      h = stepHead('Step 3 of 3', 'What engineering exists today?', 'This sets the suggested first step. Each phase is contracted separately, with no obligation to continue.');
+      h = stepHead('Step 3 of 3', 'What engineering exists today?', 'Choose the most advanced you have. This sets the suggested first step. Each phase is contracted separately, with no obligation to continue.');
       choices(ENGINEERING, { label: 'Engineering today', optional: true, cls: 'ira-list', get: function () { return sel.engineering; }, set: function (v) { sel.engineering = v; } });
     }
     var other = sel.process.indexOf('other') >= 0;
@@ -1128,7 +1145,7 @@
     foot.textContent = '';
     if (backFn) foot.appendChild(btn('ira-btn', 'Back', backFn));
     foot.appendChild(el('span', 'ira-spacer'));
-    var a = el('a', 'ira-btn', 'Contact page'); a.href = 'contact.html?ira=1'; foot.appendChild(a);
+    var a = el('a', 'ira-btn', 'Contact page'); a.href = flagUrl('contact.html'); foot.appendChild(a);
     focusTitle(h);
   }
 
@@ -1156,7 +1173,7 @@
   function handoffButton(payload, label, primary) {
     var cls = 'ira-btn' + (primary ? ' ira-primary' : '');
     if (onContactPage()) return btn(cls, 'Add to the Contact form', function () { fillContact(payload); setOpen(false, true); });
-    var a = el('a', cls, label); a.href = 'contact.html?ira=1' + BRIEF_KEY + encodeURIComponent(JSON.stringify(payload));
+    var a = el('a', cls, label); a.href = flagUrl('contact.html') + BRIEF_KEY + encodeURIComponent(JSON.stringify(payload));
     return a;
   }
 
@@ -1251,7 +1268,7 @@
       var payload = o.talk === 'brief' ? handoffPayload(briefFromChat(chat), 'brief') : handoffPayload(null, o.talk, chat);
       items.push(handoffButton(payload, label, false));
     }
-    if (o.contact) { var a = el('a', 'ira-btn', 'Contact page'); a.href = 'contact.html?ira=1'; items.push(a); }
+    if (o.contact) { var a = el('a', 'ira-btn', 'Contact page'); a.href = flagUrl('contact.html'); items.push(a); }
     if (o.map) items.push(btn('ira-btn', 'Use the guided map', function () { renderStart(); }));
     // the first action is the main one
     if (o.first && items.length > 1 && o.brief) items.push(items.shift());
@@ -1285,7 +1302,7 @@
     }).catch(function () {
       wait.remove();
       say('Sorry, I could not load the page list just now. You can still reach our engineers through the Contact page.');
-      var row = el('div', 'ira-actions'); var a = el('a', 'ira-btn ira-primary', 'Contact page'); a.href = 'contact.html?ira=1'; row.appendChild(a);
+      var row = el('div', 'ira-actions'); var a = el('a', 'ira-btn ira-primary', 'Contact page'); a.href = flagUrl('contact.html'); row.appendChild(a);
       row.appendChild(btn('ira-btn', 'Try again', function () { row.remove(); handle(text); }));
       log.appendChild(row); scrollLog();
     }).then(function () { busy = false; if (sendBtn) sendBtn.disabled = false; });
@@ -1298,7 +1315,7 @@
     loadData().then(fn).catch(function () {
       clearView(); setProgress(0);
       view.appendChild(el('p', 'ira-lede', 'Sorry, IRA could not load just now. You can still reach our engineers through the Contact page.'));
-      var a = el('a', 'ira-btn ira-primary', 'Go to the Contact page'); a.href = 'contact.html?ira=1'; view.appendChild(a);
+      var a = el('a', 'ira-btn ira-primary', 'Go to the Contact page'); a.href = flagUrl('contact.html'); view.appendChild(a);
     });
   }
 
