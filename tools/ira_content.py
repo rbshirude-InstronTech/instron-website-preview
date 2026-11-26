@@ -159,7 +159,8 @@ phases['auto-modernize'] = {
     'what': text(re.search(r'</h2>\s*<p>(.*?)</p>', mod, re.S).group(1)), 'best_when': '', 'list_label': 'How it runs',
     'deliverables': [text(a) + ': ' + text(b) for a, b in re.findall(r'<li><strong>(.*?)</strong><span>(.*?)</span></li>', mod, re.S)]}
 srv = re.search(r'<section[^>]*id="services"[^>]*>(.*?)</section>', ia, re.S).group(1)
-cards = re.findall(r'<article class="sx-card"><h3>(.*?)</h3><p>(.*?)</p>', srv, re.S)
+# v2.35: cards may carry an extra class and an icon before the heading
+cards = re.findall(r'<article class="sx-card[^"]*">(?:<span class="v235-ib">.*?</span>)?<h3>(.*?)</h3><p>(.*?)</p>', srv, re.S)
 phases['auto-services'] = {
     'title': text(re.search(r'<h2>(.*?)</h2>', srv, re.S).group(1)), 'url': 'industrial-automation.html#services',
     'what': text(re.search(r'</h2>\s*<p>(.*?)</p>', srv, re.S).group(1)), 'best_when': '', 'list_label': 'Work packages',

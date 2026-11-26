@@ -18,3 +18,10 @@ IRA, Instron's Resource Assistant, is switched off for normal visitors. Add `?ir
 - Every line in the brief is site copy except the map's own questions and option labels in `assets/ira/ira.js`.
 - Runs entirely in the browser: no cookies, browser storage, outside services or AI model; nothing is sent until the visitor sends the email themselves.
 - `tools/ira_content.py` rebuilds `assets/ira/ira-content.json` from the built pages (titles, summaries, photos, phases, PlantON deployment steps, prepare lists). The need tags in the script are the part to review. `tools/build.py` runs it and adds the one script tag to every page, so syncs keep IRA.
+
+## v2.35 design layouts (26 Nov 2026)
+Sumit's design suggestions as approved by Rahul page by page (review: https://claude.ai/artifact/Ft5h8Azz3pbrxEu3pKUuRD).
+- `tools/v235_review.py <review repo>` applies the section layouts to the review build's pages (from its committed index.html), then `tools/sync.py` rebuilds this site. Icons in `tools/v235_icons.json` (Lucide, ISC licence).
+- Theme-only parts: closing band (text left, photo right, green diagonal) on every page, footer location chips (`build.py`), IRA start-card tint and the IRA page prompt as a light card (`assets/ira/ira.css`).
+- `tools/ira_content.py` reads capability cards that now carry an icon; ira-content.json output unchanged.
+- About Us pages follow when Sumit's captures arrive.

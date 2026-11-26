@@ -218,3 +218,17 @@ a.ira-btn,a.ira-btn:hover,.ira-rcard,.ira-rcard:hover,.ira-rcard *{text-decorati
  @page{margin:16mm}
 }
 @media print{body:not(.ira-printing) .ira-root,body:not(.ira-printing) .ira-start,body:not(.ira-printing) .ira-band{display:none!important}}
+/* v2.35 (Sumit 26 Nov, approved): soft navy tint along the bottom edge of the three start-card photos */
+.ira-start-card{position:relative}
+.ira-start-card::after{content:"";position:absolute;left:0;right:0;top:110px;height:70px;background:linear-gradient(rgba(14,42,71,0),rgba(14,42,71,.45));pointer-events:none}
+/* v2.35 (approved, Process Skid Plants review): "Not sure this fits your process?" as a light card with icon and text link.
+   Fixes the grey-on-navy text, which the site theme's paragraph colour was overriding. */
+html body .ira-band .ira-band-wrap{background:#EEF5FA!important;border:1px solid #CFE0EC;color:var(--ira-ink);padding:18px 24px;border-radius:12px;gap:16px;flex-wrap:nowrap}
+html body .ira-band .ira-band-wrap>div{display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:16px;align-items:center;flex:1}
+html body .ira-band .ira-band-wrap>div::before{content:"";grid-row:1/3;width:48px;height:48px;border-radius:10px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230979AE' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.1 6 9.9 4 3.9 6.6v13.4l6-2.6 4.2 2 6-2.6V3.4z'/%3E%3Cpath d='M9.9 4v13.4M14.1 6v13.4'/%3E%3C/svg%3E") center/24px no-repeat}
+html body .ira-band .ira-band-title{color:#0E2A47!important;font-size:18px;margin:0 0 2px}
+html body .ira-band .ira-band-line{color:#4F5660!important}
+html body .ira-band .ira-btn.ira-primary{background:none!important;border:0!important;box-shadow:none!important;color:#06618C!important;font-weight:700;padding:10px 4px!important;white-space:nowrap}
+html body .ira-band .ira-btn.ira-primary::after{content:" ›";font-size:1.2em}
+html body .ira-band .ira-btn.ira-primary:hover{text-decoration:underline}
+@media(max-width:640px){html body .ira-band .ira-band-wrap{flex-wrap:wrap}}

@@ -177,6 +177,14 @@ FOOTER = (
  '<span class="lv-f-note">PlantON is a trademark of Instron Technologies Inc.</span>'
  '</div></footer>')
 
+# v2.35 footer (Sumit 26 Nov, approved): regional locations as chips, upcoming presence as a dashed chip
+def _chips(m, cls=''):
+    items = [x.strip() for x in re.split(r'\s*·\s*', m.group(2)) if x.strip()]
+    return m.group(1) + f'<ul class="lv-chips{cls}">' + ''.join(f'<li>{x}</li>' for x in items) + '</ul>'
+FOOTER = re.sub(r'(<strong>Regional presence</strong>)<p>(.*?)</p>', _chips, FOOTER, count=1, flags=re.S)
+FOOTER = re.sub(r'(<strong>Upcoming presence</strong>)<p>(.*?)</p>', lambda m: _chips(m, ' lv-up'), FOOTER, count=1, flags=re.S)
+assert FOOTER.count('class="lv-chips') == 2, 'v2.35 footer chips not applied'
+
 # v2.25 bottom of page (Rahul, 24 Nov): one navy footer with the contact row inside, Back to top in the legal line,
 # footer duplicates removed; Home closing banner becomes a card with tightened copy and an email route.
 def V225(h, key):

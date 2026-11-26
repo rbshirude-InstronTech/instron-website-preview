@@ -305,3 +305,32 @@ html body .lv-footer .lv-cb-grid .lv-social svg{width:16px;height:16px}
 
 /* v2.29: How We Work is a direct menu link; same colour as the other menu items */
 .lv-header .it-nav a.it-direct:not([aria-current]):not(:hover){color:#212121}
+/* v2.35 (Sumit's design suggestions, approved by Rahul 26 Nov) */
+/* Closing band, Option A on every page: text left, photo right behind a green diagonal; no oversized curve */
+html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home){position:relative;overflow:hidden;border-radius:12px!important;width:min(1240px,calc(100% - 2*max(4vw,20px)));margin:56px auto 72px!important;padding:0!important;box-sizing:border-box;min-height:300px;isolation:isolate}
+html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)>div{position:relative;z-index:2;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center;gap:16px;width:58%!important;max-width:none!important;margin:0!important;padding:56px 48px!important;box-sizing:border-box;min-height:300px}
+html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)>div>div{display:block;max-width:none!important}
+html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home) h2{font-size:clamp(28px,3vw,40px)!important;line-height:1.15!important;margin:0 0 4px!important}
+html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home) .related-links{margin:4px 0 0!important;padding:0!important}
+html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)::before,html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)::after{content:""!important;display:block!important;position:absolute!important;top:0!important;bottom:0!important;right:0!important;left:auto!important;height:auto!important;border-radius:0!important;clip-path:polygon(90px 0,100% 0,100% 100%,0 100%);pointer-events:none;transform:none!important;opacity:1!important}
+html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)::before{width:calc(42% + 8px)!important;background:var(--lv-green)!important;z-index:0}
+html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)::after{width:42%!important;background:url(../img/0507c1aa0e.webp) 60% center/cover no-repeat!important;z-index:1}
+/* Home closing card: same diagonal and green edge, larger heading */
+html body main>section#discuss-your-project-home .closing-row::after{clip-path:polygon(90px 0,100% 0,100% 100%,0 100%);z-index:1}
+html body main>section#discuss-your-project-home .closing-row::before{content:"";position:absolute;top:0;right:0;bottom:0;width:calc(44% + 8px);background:var(--lv-green);clip-path:polygon(90px 0,100% 0,100% 100%,0 100%);z-index:0}
+html body main>section#discuss-your-project-home .closing-row>div{position:relative;z-index:2}
+html body main>section#discuss-your-project-home h2{font-size:clamp(32px,3.4vw,44px)!important;line-height:1.12!important}
+@media(max-width:760px){
+ html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)>div{width:100%!important;padding:36px 24px 28px!important;min-height:0}
+ html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home){padding-bottom:190px!important}
+ html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)::after{top:auto!important;left:0!important;width:100%!important;height:180px!important;clip-path:none}
+ html body main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)::before{top:auto!important;left:0!important;width:100%!important;height:186px!important;clip-path:none}
+ html body main>section#discuss-your-project-home .closing-row::before{top:auto;left:0;width:auto;height:216px;clip-path:none}
+ html body main>section#discuss-your-project-home .closing-row::after{clip-path:none}
+}
+/* Footer: regional locations as chips, upcoming presence as a dashed chip */
+.lv-footer .lv-chips{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0 16px;padding:0;list-style:none}
+.lv-footer .lv-chips li{font-size:13px;line-height:1.2;color:#e8eef4;border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:5px 12px}
+.lv-footer .lv-chips.lv-up li{border-style:dashed}
+.lv-footer>.lv-cb-grid{border:1px solid rgba(255,255,255,.32);border-radius:14px;padding:20px 26px!important;margin-top:36px!important;background:rgba(255,255,255,.04)}
+@media(max-width:760px){.lv-footer>.lv-cb-grid{padding:18px!important}}
