@@ -10,8 +10,11 @@ This repo shows the new website content from the review build (v2.6, `instron-we
 
 Master content stays in `rbshirude-instrontech/instron-website-review`. This repo is a preview only.
 
-## IRA page finder (25 Nov 2026, test only)
-IRA, Instron's Resource Assistant, is switched off for normal visitors. Add `?ira=1` to any page address to try it (for example `index.html?ira=1`); `?ira=0` or a plain address turns it off. While it is on, links between pages keep it on.
-- Runs entirely in the browser: guided questions, then up to three pages from `assets/ira/ira-content.json`, then an optional brief carried into the Contact form. No cookies, browser storage, outside services or AI model; nothing is sent until the visitor sends the email themselves.
-- `tools/ira_content.py` rebuilds the page list from the built pages (titles and summaries are site copy; the need tags in the script are the part to review). `tools/build.py` runs it and adds the one script tag to every page, so syncs keep IRA.
-- Files: `assets/ira/ira.js`, `assets/ira/ira.css`, `assets/ira/ira-content.json`.
+## IRA project map (v2.31, 26 Nov 2026, test only)
+IRA, Instron's Resource Assistant, is switched off for normal visitors. Add `?ira=1` to any page address to try it (for example `index.html?ira=1`); a plain address turns it off. While it is on, links between pages keep it on.
+- Guided map in three steps (area; technology stage or main need, with process or industry; engineering or data today) that ends in a **project brief**: what the visitor told us, a suggested first step (How We Work phase, or the PlantON deployment sequence), up to three pages to read, up to two related projects, and the page's own "Useful inputs to prepare". The brief can be saved as PDF, copied, or carried into the Contact form.
+- "Describe it in your own words" keeps the typed route; it ends in the same brief.
+- With `?ira=1`, Home shows a "Start with your problem" band under the hero, and solution, application and industry pages show a short "Map my project" band before the footer.
+- Every line in the brief is site copy except the map's own questions and option labels in `assets/ira/ira.js`.
+- Runs entirely in the browser: no cookies, browser storage, outside services or AI model; nothing is sent until the visitor sends the email themselves.
+- `tools/ira_content.py` rebuilds `assets/ira/ira-content.json` from the built pages (titles, summaries, photos, phases, PlantON deployment steps, prepare lists). The need tags in the script are the part to review. `tools/build.py` runs it and adds the one script tag to every page, so syncs keep IRA.
