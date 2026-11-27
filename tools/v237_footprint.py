@@ -1,4 +1,4 @@
-"""v2.37: installed footprint on Global Presence & Partners (Rahul, 26 Nov 2026).
+"""v2.37: installed footprint (v2.37.2: 200+ customers; India order West, North, South, Central, East) on Global Presence & Partners (Rahul, 26 Nov 2026).
 
 Adds the section "Where our systems run" right after "Where we are":
 - world map in the same projection and style as the presence map (land outline reused from that map),
@@ -44,7 +44,7 @@ DOTS = [(361, 154), (389, 144),            # Ontario, Quebec
         (1074, 454),                       # Sydney
         (750, 229), (727, 241),            # Riyadh, Jeddah
         (775, 230), (752, 211),            # UAE, Kuwait
-        (846, 214), (854, 236), (840, 251), (855, 274), (886, 237),  # India N, C, W, S, E
+        (840, 251), (846, 214), (855, 274), (854, 236), (886, 237),  # India W, N, S, C, E
         (864, 297), (930, 271),            # Colombo, Thailand
         (612, 129), (594, 121)]            # Belgium, UK
 
@@ -66,7 +66,7 @@ svg = ['<svg class="ab-worldmap fp-worldmap" viewBox="0 0 1200 560" role="img" a
        '<title id="fp-t">Countries where Instron Technologies systems are installed</title>',
        '<desc id="fp-d">Installations in Canada (Ontario, Quebec), the United States (California, Illinois), '
        'Mexico (Monterrey), Australia (Sydney), Saudi Arabia (Riyadh, Jeddah), the United Arab Emirates, Kuwait, '
-       'India (north, south, east, west and central), Sri Lanka (Colombo), Thailand, Belgium and the United Kingdom.</desc>',
+       'India (west, north, south, central and east), Sri Lanka (Colombo), Thailand, Belgium and the United Kingdom.</desc>',
        f'<path d="{LAND}" fill="#E3EAF3"/>',
        f'<path d="{COUNTRIES}" fill="#CFE6C6" stroke="#fff" stroke-width=".8"/>']
 for x, y in DOTS:
@@ -81,7 +81,7 @@ AREAS = [('Americas', [('Canada', 'Ontario · Quebec'), ('United States', 'Calif
                        ('Mexico', 'Monterrey, Nuevo León')]),
          ('Australia', [('Australia', 'Sydney, New South Wales')]),
          ('Middle East', [('Saudi Arabia', 'Riyadh · Jeddah'), ('United Arab Emirates', ''), ('Kuwait', '')]),
-         ('Asia', [('India', 'North, South, East, West and Central India'), ('Sri Lanka', 'Colombo'), ('Thailand', '')]),
+         ('Asia', [('India', 'West, North, South, Central and East India'), ('Sri Lanka', 'Colombo'), ('Thailand', '')]),
          ('Europe', [('Belgium', ''), ('United Kingdom', '')])]
 areas = ''.join(
     '<div><small>%s</small><ul>%s</ul></div>' % (
@@ -100,7 +100,7 @@ PON = '<span class="pon"><span class="pon-p">Plant</span><span class="pon-o">ON<
 section = (
     '<section class="ab-sec ice" id="installed-footprint"><div class="mk-wrap">'
     '<div class="mk-head"><div><p class="mk-eyebrow">Where our systems run</p>'
-    '<h2>Installed for customers in 12 countries.</h2></div>'
+    '<h2>Installed for 200+ customers in 12 countries.</h2></div>'
     f'<p>Process skid plants, automation systems and {PON} deployments engineered by Instron Technologies '
     'are installed at customer sites across the Americas, Australia, the Middle East, Asia and Europe.</p></div>\n'
     '<div class="ab-map fp-map">' + ''.join(svg) +
