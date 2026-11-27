@@ -1,0 +1,4944 @@
+{
+ "pack": "p2",
+ "pages": [
+  "industries",
+  "energy-transition-critical-minerals",
+  "research-technology-development",
+  "chemicals-refining-consumer-products",
+  "food-beverage-dairy",
+  "pharma-life-sciences",
+  "industrial-manufacturing",
+  "our-company",
+  "leadership",
+  "careers",
+  "trust-responsibility",
+  "case-studies",
+  "project-portfolio"
+ ],
+ "ids": {
+  "P2-0001": {
+   "key": "Engineering process systems for research, technology development and industry",
+   "page": "industries"
+  },
+  "P2-0002": {
+   "key": "From pilot and demonstration plants to modular industrial skids, our Process Skid Plants serve five industries and research, OEM and public-sector programs. Industrial Automation and {PlantON} by Instron Technologies work alongside them or on their own.",
+   "page": "industries"
+  },
+  "P2-0003": {
+   "key": "Industries we engineer for",
+   "page": "industries"
+  },
+  "P2-0004": {
+   "key": "<strong>300+</strong> industrial solutions",
+   "page": "industries"
+  },
+  "P2-0005": {
+   "key": "Engineering since <strong>2013</strong>",
+   "page": "industries"
+  },
+  "P2-0006": {
+   "key": "Pilot, demonstration and process skid systems for battery recycling, critical-mineral recovery, carbon capture and hydrogen.",
+   "page": "industries"
+  },
+  "P2-0007": {
+   "key": "Process skids for solvent recovery, separation and reaction, with batch automation: +20% capacity at a Canadian compounding plant.",
+   "page": "industries"
+  },
+  "P2-0008": {
+   "key": "Process and CIP skids, batch automation and plant data: 94% faster compliance reporting at a dairy.",
+   "page": "industries"
+  },
+  "P2-0009": {
+   "key": "Process and extraction skids with 21 CFR Part 11 and GAMP 5 automation: +24% batches on an API skid.",
+   "page": "industries"
+  },
+  "P2-0010": {
+   "key": "Automation modernization, machine integration, OEE and utility visibility: +16% productivity at a die-casting plant.",
+   "page": "industries"
+  },
+  "P2-0011": {
+   "key": "Research teams, partners and public programs",
+   "page": "industries"
+  },
+  "P2-0012": {
+   "key": "Beyond operating plants, we work directly with these customers.",
+   "page": "industries"
+  },
+  "P2-0013": {
+   "key": "Research institutes, universities and technology developers: pilot systems, test rigs and reactor retrofits.",
+   "page": "industries"
+  },
+  "P2-0014": {
+   "key": "OEMs, skid builders &amp; EPCs",
+   "page": "industries"
+  },
+  "P2-0015": {
+   "key": "A dependable engineering and controls partner under your project, with scope boundaries agreed up front.",
+   "page": "industries"
+  },
+  "P2-0016": {
+   "key": "Government &amp; public-sector research",
+   "page": "industries"
+  },
+  "P2-0017": {
+   "key": "Specialized systems where catalog equipment does not fit, from desalination to environmental-simulation chambers.",
+   "page": "industries"
+  },
+  "P2-0018": {
+   "key": "See the portfolio",
+   "page": "industries"
+  },
+  "P2-0019": {
+   "key": "Not sure where your project fits? Start with the engineering question.",
+   "page": "industries"
+  },
+  "P2-0020": {
+   "key": "Whether your project involves technology development, a new process skid, industrial automation or plant data, our engineering team can help you define the next step.",
+   "page": "industries"
+  },
+  "P2-0021": {
+   "key": "Alkaloid and API herbal extraction skid",
+   "page": "industries"
+  },
+  "P2-0022": {
+   "key": "Process systems for energy transition and critical minerals, research, chemicals and refining, food, beverage and dairy, pharma and manufacturing.",
+   "page": "industries"
+  },
+  "P2-0023": {
+   "key": "Industries We Engineer For | Instron Technologies",
+   "page": "industries"
+  },
+  "P2-0024": {
+   "key": "Industries, Instron Technologies",
+   "page": "industries"
+  },
+  "P2-0025": {
+   "key": "<span1></span1>Industries / Energy Transition &amp; Critical Minerals",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0026": {
+   "key": "From process development to pilot, demonstration and industrial systems.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0027": {
+   "key": "Pilot and demonstration plants and modular process skids for battery recycling, critical-mineral recovery, carbon capture, hydrogen and electrochemical systems, with the instruments, controls and data to run them.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0028": {
+   "key": "See our work",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0029": {
+   "key": "Rare-earth research reactor, Canada",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0030": {
+   "key": "Battery-recycling pilot, Saudi Arabia",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0031": {
+   "key": "CO₂, H₂ and electrolysis pilots up to <strong>500 I/O</strong>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0032": {
+   "key": "Where scale-up programs stall",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0033": {
+   "key": "Each of these costs a test campaign or a year.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0034": {
+   "key": "Results that cannot be compared",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0035": {
+   "key": "Without precise control and data capture, runs cannot be compared or used to plan the next scale.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0036": {
+   "key": "Manual control of pressure, temperature and flow",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0037": {
+   "key": "Experiments are slow, hard to repeat and mass balances unreliable.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0038": {
+   "key": "A lab set-up simply enlarged",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0039": {
+   "key": "The next system answers no new engineering question and leaves the scale-up risks open.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0040": {
+   "key": "Safety and site interfaces found late",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0041": {
+   "key": "Gas handling, utilities and interlocks resolved on site instead of in design.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0042": {
+   "key": "How we help",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0043": {
+   "key": "How we help energy-transition teams",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0044": {
+   "key": "Process Skid Plants lead, with Industrial Automation and plant data built in. Automation and {PlantON} are also delivered on their own for existing facilities.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0045": {
+   "key": "Pilot, demonstration and industrial skids for leaching, separation, crystallization, gas purification and electrolysis.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0046": {
+   "key": "PLC and SCADA control, interlocks, data logging and batch reports for every run.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0047": {
+   "key": "Process monitoring, operating trends, run history and reports for test campaigns and operating systems.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0048": {
+   "key": "Scale-up stages",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0049": {
+   "key": "Each stage answers a different question",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0050": {
+   "key": "Pilot, demonstration and first industrial plant are different technical steps. We engineer each one for the decision it has to support.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0051": {
+   "key": "<strong>Lab proof</strong><span>The chemistry or process works at bench scale.</span>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0052": {
+   "key": "<strong>Pilot</strong><span>Operating envelope, recycle behaviour and data quality proven on an instrumented system.</span>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0053": {
+   "key": "<strong>Demonstration</strong><span>Continuous operation, maintainability and utilities proven at larger scale.</span>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0054": {
+   "key": "<strong>Industrial</strong><span>A plant designed from the pilot and demonstration data.</span>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0055": {
+   "key": "Work in this field",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0056": {
+   "key": "FEED",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0057": {
+   "key": "engineering definition for a research reactor",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0058": {
+   "key": "Canada · National research organization",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0059": {
+   "key": "Rare-earth research reactor",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0060": {
+   "key": "Reactor automation and engineering definition for an instrumented rare-earth research system.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0061": {
+   "key": "See in the portfolio",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0062": {
+   "key": "120 I/O",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0063": {
+   "key": "turnkey automated pilot",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0064": {
+   "key": "Saudi Arabia · Research institute",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0065": {
+   "key": "Ultrasonic battery-recycling pilot",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0066": {
+   "key": "Black-mass leaching, centrifugation, crystallization and recovery, with Siemens S7-1500 control and IoT batch reporting.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0067": {
+   "key": "500 I/O",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0068": {
+   "key": "CO₂ / H₂ purification at 5 LPH, 50 barg",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0069": {
+   "key": "Carbon capture and hydrogen pilots",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0070": {
+   "key": "Gas purification, amine CO₂ capture and membrane H₂ separation, with real-time mass balance and batch reports.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0071": {
+   "key": "400+ I/O",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0072": {
+   "key": "electrolysis pilot automation",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0073": {
+   "key": "India · National energy research institute",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0074": {
+   "key": "Alkaline electrolyser pilot (H₂ / O₂)",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0075": {
+   "key": "Control of current, voltage, differential pressure and flow across the stacks, with safety interlocks and data logging.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0076": {
+   "key": "<a1>See all energy-transition and critical-minerals projects</a1>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0077": {
+   "key": "Can you build a pilot from our lab results?",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0078": {
+   "key": "Yes. We translate the lab objective into an operating envelope, instrumentation and a test plan, then design and build the system.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0079": {
+   "key": "Do you supply the controls and data system too?",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0080": {
+   "key": "Yes. Control, interlocks, data logging and batch reports are part of the system, so every run is recorded.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0081": {
+   "key": "Can a pilot be designed to scale up later?",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0082": {
+   "key": "Yes. We design modular systems so what is learned at pilot scale carries into the next system.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0083": {
+   "key": "Can you support HAZOP?",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0084": {
+   "key": "Yes. We implement safeguards from your process-risk studies and can support HAZOP.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0085": {
+   "key": "Start with the evidence needed next",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0086": {
+   "key": "A first technical discussion is most useful when you can share what you already have and the decision the project must enable.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0087": {
+   "key": "What has already been demonstrated, and at what scale",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0088": {
+   "key": "Feed, throughput and operating ranges to investigate",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0089": {
+   "key": "Open heat, mass-transfer, recycle and utility questions",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0090": {
+   "key": "The data and documents your next-stage stakeholders need",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0091": {
+   "key": "Where to go next",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0092": {
+   "key": "The solution or application closest to your next decision.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0093": {
+   "key": "<span1>Solutions /</span1><strong>Pilot &amp; Demonstration Plants</strong>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0094": {
+   "key": "<span1>Applications /</span1><strong>Technology Scale-Up &amp; Commercialization</strong>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0095": {
+   "key": "<span1>Who we work with /</span1><strong>Research &amp; Technology Development</strong>",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0096": {
+   "key": "Bring the result you have and the decision you need to make next.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0097": {
+   "key": "Pilot and demonstration plants and modular skids for battery recycling, critical-mineral recovery, carbon capture, hydrogen and electrochemical systems.",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0098": {
+   "key": "Energy Transition &amp; Critical Minerals | Instron Technologies",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0099": {
+   "key": "Energy Transition &amp; Critical Minerals, Instron Technologies",
+   "page": "energy-transition-critical-minerals"
+  },
+  "P2-0100": {
+   "key": "<span1></span1>Who we work with / Research &amp; Technology Development",
+   "page": "research-technology-development"
+  },
+  "P2-0101": {
+   "key": "Turning research objectives into engineered experimental systems.",
+   "page": "research-technology-development"
+  },
+  "P2-0102": {
+   "key": "Pilot and demonstration plants, custom process systems, test rigs and reactor engineering for universities, research institutes, industrial R&amp;D centers and technology developers.",
+   "page": "research-technology-development"
+  },
+  "P2-0103": {
+   "key": "Where research projects lose time",
+   "page": "research-technology-development"
+  },
+  "P2-0104": {
+   "key": "Each of these costs a test campaign or the credibility of the results.",
+   "page": "research-technology-development"
+  },
+  "P2-0105": {
+   "key": "Equipment that answers the wrong question",
+   "page": "research-technology-development"
+  },
+  "P2-0106": {
+   "key": "A system accepted against a checklist instead of the test objective.",
+   "page": "research-technology-development"
+  },
+  "P2-0107": {
+   "key": "Facilities and EHS involved late",
+   "page": "research-technology-development"
+  },
+  "P2-0108": {
+   "key": "Utilities, ventilation and safety boundaries resolved after the design is fixed.",
+   "page": "research-technology-development"
+  },
+  "P2-0109": {
+   "key": "Data that will not stand up",
+   "page": "research-technology-development"
+  },
+  "P2-0110": {
+   "key": "Manual logging that grant reviewers and partners cannot rely on.",
+   "page": "research-technology-development"
+  },
+  "P2-0111": {
+   "key": "Rigs that cannot be modified",
+   "page": "research-technology-development"
+  },
+  "P2-0112": {
+   "key": "Every new campaign needs a rebuild instead of a change.",
+   "page": "research-technology-development"
+  },
+  "P2-0113": {
+   "key": "How we help research teams",
+   "page": "research-technology-development"
+  },
+  "P2-0114": {
+   "key": "Pilot and demonstration systems, reactors, distillation, separation and gas-handling systems, engineered around your experimental objective.",
+   "page": "research-technology-development"
+  },
+  "P2-0115": {
+   "key": "Automating existing reactors and rigs (pH, dosing, temperature and data capture) without replacing them.",
+   "page": "research-technology-development"
+  },
+  "P2-0116": {
+   "key": "Process monitoring, operating trends, run history and reports where the research program needs them.",
+   "page": "research-technology-development"
+  },
+  "P2-0117": {
+   "key": "One project, several stakeholders",
+   "page": "research-technology-development"
+  },
+  "P2-0118": {
+   "key": "We design for everyone who has to sign off",
+   "page": "research-technology-development"
+  },
+  "P2-0119": {
+   "key": "A research system is judged by more than the team that asked for it. We engineer it so that every group reviewing it finds what it needs.",
+   "page": "research-technology-development"
+  },
+  "P2-0120": {
+   "key": "Scientific &amp; research teams",
+   "page": "research-technology-development"
+  },
+  "P2-0121": {
+   "key": "Experimental objectives, process variables, measurement needs and data quality.",
+   "page": "research-technology-development"
+  },
+  "P2-0122": {
+   "key": "Engineering teams",
+   "page": "research-technology-development"
+  },
+  "P2-0123": {
+   "key": "Practical operation, instrumentation, calibration, maintenance and later modifications.",
+   "page": "research-technology-development"
+  },
+  "P2-0124": {
+   "key": "Facilities &amp; EHS teams",
+   "page": "research-technology-development"
+  },
+  "P2-0125": {
+   "key": "Utilities, electrical supply, ventilation, installation space and safety requirements.",
+   "page": "research-technology-development"
+  },
+  "P2-0126": {
+   "key": "Program &amp; commercialization teams",
+   "page": "research-technology-development"
+  },
+  "P2-0127": {
+   "key": "Deliverables, evaluation criteria, development milestones and the evidence the next decision needs.",
+   "page": "research-technology-development"
+  },
+  "P2-0128": {
+   "key": "8+ projects",
+   "page": "research-technology-development"
+  },
+  "P2-0129": {
+   "key": "recurring pilot-system work since 2024",
+   "page": "research-technology-development"
+  },
+  "P2-0130": {
+   "key": "Saudi Arabia · Research university",
+   "page": "research-technology-development"
+  },
+  "P2-0131": {
+   "key": "Repeat research-program engineering",
+   "page": "research-technology-development"
+  },
+  "P2-0132": {
+   "key": "8+ research projects in Saudi Arabia since 2024, from battery recycling and carbon capture to a water-rig engineering package.",
+   "page": "research-technology-development"
+  },
+  "P2-0133": {
+   "key": "reactors automated, not replaced",
+   "page": "research-technology-development"
+  },
+  "P2-0134": {
+   "key": "Research laboratory",
+   "page": "research-technology-development"
+  },
+  "P2-0135": {
+   "key": "Metal-extraction reactor retrofit",
+   "page": "research-technology-development"
+  },
+  "P2-0136": {
+   "key": "Existing reactors retained and automated with pH control, dosing, temperature, agitation and PLC/SCADA.",
+   "page": "research-technology-development"
+  },
+  "P2-0137": {
+   "key": "SOEC",
+   "page": "research-technology-development"
+  },
+  "P2-0138": {
+   "key": "high-temperature electrolysis testing",
+   "page": "research-technology-development"
+  },
+  "P2-0139": {
+   "key": "Research system · Energy transition",
+   "page": "research-technology-development"
+  },
+  "P2-0140": {
+   "key": "High-temperature electrolyzer pilot system",
+   "page": "research-technology-development"
+  },
+  "P2-0141": {
+   "key": "Water, steam and superheating, an SOEC/PCEC test section and H₂ / O₂ conditioning, with interlocks and data acquisition.",
+   "page": "research-technology-development"
+  },
+  "P2-0142": {
+   "key": "<a1>See all research and technology-development projects</a1>",
+   "page": "research-technology-development"
+  },
+  "P2-0143": {
+   "key": "Do you work with universities and research institutes?",
+   "page": "research-technology-development"
+  },
+  "P2-0144": {
+   "key": "Yes. Research programs are a large part of our pilot-system work, including 8+ research projects in Saudi Arabia since 2024.",
+   "page": "research-technology-development"
+  },
+  "P2-0145": {
+   "key": "Can you automate the reactors we already have?",
+   "page": "research-technology-development"
+  },
+  "P2-0146": {
+   "key": "Yes. We retain existing reactors and add pH control, dosing, temperature, agitation and PLC/SCADA.",
+   "page": "research-technology-development"
+  },
+  "P2-0147": {
+   "key": "How is a research system accepted?",
+   "page": "research-technology-development"
+  },
+  "P2-0148": {
+   "key": "Against the test objective, with FAT and SAT checks and a data handover agreed at the start.",
+   "page": "research-technology-development"
+  },
+  "P2-0149": {
+   "key": "Can the system be changed for later campaigns?",
+   "page": "research-technology-development"
+  },
+  "P2-0150": {
+   "key": "Yes. We design for modification and future scale where the program needs it.",
+   "page": "research-technology-development"
+  },
+  "P2-0151": {
+   "key": "Tell us about your research requirement",
+   "page": "research-technology-development"
+  },
+  "P2-0152": {
+   "key": "Share your experimental objective, the process information you have, the intended operating conditions and your current development stage. Our engineering team will discuss the technical requirements and a possible approach for the next stage.",
+   "page": "research-technology-development"
+  },
+  "P2-0153": {
+   "key": "Discuss your research project",
+   "page": "research-technology-development"
+  },
+  "P2-0154": {
+   "key": "The experimental objective and key variables",
+   "page": "research-technology-development"
+  },
+  "P2-0155": {
+   "key": "Process diagrams, calculations and earlier test results",
+   "page": "research-technology-development"
+  },
+  "P2-0156": {
+   "key": "Facility conditions, utilities and safety requirements",
+   "page": "research-technology-development"
+  },
+  "P2-0157": {
+   "key": "Target acceptance criteria, data and test-campaign plan",
+   "page": "research-technology-development"
+  },
+  "P2-0158": {
+   "key": "Bring the research question and the decision the results must support.",
+   "page": "research-technology-development"
+  },
+  "P2-0159": {
+   "key": "See how our pilot and demonstration plant engineering, instrumentation and automation can support your research program.",
+   "page": "research-technology-development"
+  },
+  "P2-0160": {
+   "key": "Pilot and demonstration plants, custom process systems, test rigs and reactor engineering for universities, research institutes and technology developers.",
+   "page": "research-technology-development"
+  },
+  "P2-0161": {
+   "key": "Research &amp; Technology Development | Instron Technologies",
+   "page": "research-technology-development"
+  },
+  "P2-0162": {
+   "key": "Research &amp; Technology Development, Instron Technologies",
+   "page": "research-technology-development"
+  },
+  "P2-0163": {
+   "key": "<span1></span1>Industries / Chemicals, Refining &amp; Consumer Products",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0164": {
+   "key": "The chemistry may be proven. The operating system around it still has to work.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0165": {
+   "key": "Modular process skids for solvent recovery, distillation, reaction and extraction, with reactor and batch automation and {PlantON} plant data, for specialty chemicals, refining and consumer products.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0166": {
+   "key": "Common challenges",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0167": {
+   "key": "Where chemical and consumer-products plants typically lose output",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0168": {
+   "key": "Each of these costs solvent, capacity or product quality.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0169": {
+   "key": "Solvent going to waste",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0170": {
+   "key": "Recovery that misses purity or throughput sends solvent back to waste and the plant keeps buying fresh.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0171": {
+   "key": "Batches that do not repeat",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0172": {
+   "key": "Manual dosing, heating and operator timing change the product from shift to shift.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0173": {
+   "key": "Capacity capped by manual work",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0174": {
+   "key": "Fixed-speed equipment and hand-run batching limit output and changeovers.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0175": {
+   "key": "Upgrades around a running plant",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0176": {
+   "key": "Old vessels, panels and networks that must keep producing during the change.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0177": {
+   "key": "How we help chemical and consumer-products plants",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0178": {
+   "key": "Process Skid Plants lead, with Industrial Automation and plant data built in. Automation and {PlantON} are also delivered on their own for existing plants.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0179": {
+   "key": "Modular skids for solvent recovery, distillation, reaction, separation and specialty processing, engineered with their controls.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0180": {
+   "key": "Reactor control, batch sequencing and ISA-88 recipe management, PLC, HMI and SCADA, and upgrades of existing control systems on Rockwell, Siemens, Schneider or Honeywell.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0181": {
+   "key": "Process monitoring, batch records, utility analysis, operating trends and reports in one view.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0182": {
+   "key": "Recovery loops",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0183": {
+   "key": "Recovery designed as part of the whole process loop",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0184": {
+   "key": "We design recovery around your actual stream, so purity and recycle quality hold in operation, not only on the data sheet.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0185": {
+   "key": "Recovery skid with heat exchange and instruments",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0186": {
+   "key": "<strong>Process evaluation</strong>Feed composition, product requirements, operating conditions and material balance.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0187": {
+   "key": "<strong>Equipment and skid engineering</strong>Vessels, columns, heat exchange, pumps, piping, instruments and service access.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0188": {
+   "key": "<strong>Automation and process control</strong>Control functions, operating sequences and measurements for the separation process.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0189": {
+   "key": "<strong>Testing and commissioning</strong>Inspection, acceptance and commissioning criteria agreed for the project.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0190": {
+   "key": "Skid + column",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0191": {
+   "key": "recovery system delivered in two parts",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0192": {
+   "key": "Mexico · Electronic components",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0193": {
+   "key": "Methanol-water solvent recovery",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0194": {
+   "key": "Process skid plus distillation tower with platforms and service access. A second project followed from the same customer.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0195": {
+   "key": "Canada · Cleaning products",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0196": {
+   "key": "Rockwell control and FactoryTalk SCADA, 1,000+ I/O, 26 VFDs, ISA-88 recipes and a paperless audit trail.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0197": {
+   "key": "ISA-88",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0198": {
+   "key": "one batch system, formulation to filling",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0199": {
+   "key": "Formulation, raw-material addition, mixing, transfers, filling and CIP under one batch control system.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0200": {
+   "key": "1,200+ I/O",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0201": {
+   "key": "reactor control for refining",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0202": {
+   "key": "India · Process licensor",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0203": {
+   "key": "Hydrocracker reactor control",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0204": {
+   "key": "Redundant Honeywell Experion control for temperature, pressure, hydrogen flow and catalyst beds.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0205": {
+   "key": "<a1>See all chemicals, refining and consumer-products projects</a1>",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0206": {
+   "key": "Can you design a recovery system for our stream?",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0207": {
+   "key": "Yes. We start from your feed and product specifications and design the skid, column and controls together.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0208": {
+   "key": "Can you upgrade controls without a long shutdown?",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0209": {
+   "key": "Yes. We plan phased cutovers with rollback paths and test high-risk changes at FAT.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0210": {
+   "key": "Which control platforms do you work with?",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0211": {
+   "key": "Rockwell, Siemens, Schneider and Honeywell. Platform choice follows your installed base.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0212": {
+   "key": "Do you test skids before shipping?",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0213": {
+   "key": "Where the system allows it. FAT and SAT scope is agreed per project; some systems are fully tested in the shop, others are verified on site.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0214": {
+   "key": "Information that helps assess fit",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0215": {
+   "key": "Current process description or PFD/P&amp;ID",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0216": {
+   "key": "Feed and product specifications and operating conditions",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0217": {
+   "key": "Existing instruments, panels and PLC/HMI/SCADA environment",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0218": {
+   "key": "The recovery, quality or production problem to solve",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0219": {
+   "key": "<span1>Applications /</span1><strong>Separation &amp; Solvent Recovery</strong>",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0220": {
+   "key": "Bring the recovery, batch or capacity problem you have today.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0221": {
+   "key": "Tell us about your process, the operating challenge and the result you need. Existing PFDs, P&amp;IDs, feed specifications and system information help us review it with you.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0222": {
+   "key": "Solvent recovery and distillation skids, reactor control and batch automation for specialty chemicals, refining and consumer products.",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0223": {
+   "key": "Chemicals, Refining &amp; Consumer Products | Instron Technologies",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0224": {
+   "key": "Chemicals, Refining &amp; Consumer Products, Instron Technologies",
+   "page": "chemicals-refining-consumer-products"
+  },
+  "P2-0225": {
+   "key": "<span1></span1>Industries / Food, Beverage &amp; Dairy",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0226": {
+   "key": "Find the losses hiding between batches, cleaning, utilities and small stops.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0227": {
+   "key": "Process and CIP skids, batch control, pasteurizer records and utility data that agree with each other, through <a1>industrial automation</a1>, {PlantON} plant data, or both.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0228": {
+   "key": "Pasteurizer trends and reports in daily use",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0229": {
+   "key": "Where food and dairy plants typically lose time and margin",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0230": {
+   "key": "Each of these costs labour, chemical, utilities or product every week.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0231": {
+   "key": "Compliance reports compiled by hand",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0232": {
+   "key": "Pasteurizer charts and CIP records gathered from separate systems: up to two hours a day at one dairy.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0233": {
+   "key": "CIP that nobody can prove",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0234": {
+   "key": "Cleaning phases, return conditions and interlocks without a reliable record of each cycle.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0235": {
+   "key": "Batches that drift",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0236": {
+   "key": "Manual dosing and operator timing make recipes hard to repeat between shifts.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0237": {
+   "key": "Utilities with no link to production",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0238": {
+   "key": "Water, steam, power and chemical use that cannot be tied to a line, batch or cleaning cycle.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0239": {
+   "key": "How we help food and dairy plants",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0240": {
+   "key": "Process and CIP skids and modular processing equipment, engineered with their controls and tested to agreed FAT scope.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0241": {
+   "key": "ISA-88 batch control and recipe management, CIP sequencing and interlocks, PLC, HMI and SCADA, for new lines or running plants.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0242": {
+   "key": "CIP validation, paperless chart recording, traceability from raw-material reception to dispatch, and utility reports.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0243": {
+   "key": "Cleaning and batch",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0244": {
+   "key": "CIP and batch control that leave a record",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0245": {
+   "key": "Cleaning and production run on the same control system, so every cycle is sequenced, interlocked and recorded.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0246": {
+   "key": "Batch vessels and their control interfaces",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0247": {
+   "key": "<strong>CIP sequencing</strong>Pre-rinse, caustic, acid and final-rinse phases with routing, return conditions and production interlocks.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0248": {
+   "key": "<strong>CIP validation and records</strong>Each cycle checked against its limits and recorded automatically with {PlantON}, replacing paper charts.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0249": {
+   "key": "<strong>ISA-88 batch control</strong>Recipes, phases, dosing and transfers that run the same way every shift, with batch records.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0250": {
+   "key": "<strong>Traceability</strong>Ingredient lots, vessels, batches and finished product linked from reception to dispatch.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0251": {
+   "key": "<strong>Utility monitoring</strong>Water, steam, power and chemical use tied to lines, batches and cleaning cycles.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0252": {
+   "key": "Dairy modernization",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0253": {
+   "key": "12+ control systems and 2,000+ I/O on one Rockwell platform, with {PlantON} for CIP validation, paperless records and traceability.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0254": {
+   "key": "Chocolate manufacturing integration",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0255": {
+   "key": "European conching, refining and tempering equipment on one redundant SCADA, with {PlantON} for OEE and utilities across sites.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0256": {
+   "key": "adjuvant and CIP skids · ISA-88",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0257": {
+   "key": "CIP skids under ISA-88 sequencing with PlantPAx modules and OPC UA links to the site DCS; URS, FDS, FAT and SAT.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0258": {
+   "key": "Dosing, mixing, transfers, filling and CIP under one batch control system, from panels to commissioning.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0259": {
+   "key": "<a1>See all food, beverage and dairy projects</a1>",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0260": {
+   "key": "Can you automate CIP on our existing system?",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0261": {
+   "key": "Yes. We work with your installed PLC and SCADA platform and add sequencing, interlocks and records where they are missing.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0262": {
+   "key": "Can you replace paper pasteurizer charts?",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0263": {
+   "key": "Yes. {PlantON} records pasteurizer and CIP data automatically and produces the daily reports your quality team signs off.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0264": {
+   "key": "Do we need to replace our controls to get plant data?",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0265": {
+   "key": "No. {PlantON} reads selected data from the PLCs, SCADA and meters you already have. We fix the source data first where it is unreliable.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0266": {
+   "key": "Can you start with one line?",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0267": {
+   "key": "Yes. Start with one line, batch or CIP circuit, prove the result, then extend.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0268": {
+   "key": "Start with one line, batch or CIP cycle",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0269": {
+   "key": "Process and cleaning sequence description",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0270": {
+   "key": "Existing PLC/HMI/SCADA and line data",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0271": {
+   "key": "A sample of production, quality and CIP records",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0272": {
+   "key": "The operating decision that is hard today",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0273": {
+   "key": "Bring the batch, cleaning or reporting problem you have today.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0274": {
+   "key": "Tell us about your process, existing equipment and the operating or reporting problem you want to solve. We can review the process, automation or {PlantON} side with you.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0275": {
+   "key": "PlantON pasteurizer trends and reports dashboard",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0276": {
+   "key": "Industrial mixing vessels with process connections",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0277": {
+   "key": "Batch control, CIP automation, pasteurizer records and utility data for food, beverage and dairy plants, from process skids to daily reports.",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0278": {
+   "key": "Food, Beverage &amp; Dairy Engineering | Instron Technologies",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0279": {
+   "key": "Food, Beverage &amp; Dairy, Instron Technologies",
+   "page": "food-beverage-dairy"
+  },
+  "P2-0280": {
+   "key": "<span1></span1>Industries / Pharma &amp; Life Sciences",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0281": {
+   "key": "Pharma batch systems that run the process and stand up to the audit.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0282": {
+   "key": "Automated process skids and control systems with S88 batch control and 21 CFR Part 11 audit trails, validated with your quality team.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0283": {
+   "key": "API extraction skid before shipment",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0284": {
+   "key": "Where regulated production typically slows down",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0285": {
+   "key": "Each of these costs batches, cycle time or audit effort.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0286": {
+   "key": "Manual steps in hazardous areas",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0287": {
+   "key": "Operators close to hazardous materials, and throughput limited by manual handling.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0288": {
+   "key": "Records spread across systems",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0289": {
+   "key": "Recipes, setpoint changes, alarms and operator actions that cannot be reconstructed for review.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0290": {
+   "key": "Validation late in the project",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0291": {
+   "key": "Documentation written after the build, so qualification finds gaps on site.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0292": {
+   "key": "Long cycles and solvent loss",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0293": {
+   "key": "Batch cycles and solvent use that set the cost of every kilogram.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0294": {
+   "key": "How we help pharma and life-sciences teams",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0295": {
+   "key": "Automated API, extraction, reaction and CIP skids with hazardous-area instrumentation and integrated controls.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0296": {
+   "key": "S88 batch control, 21 CFR Part 11 compliant systems, PLC, HMI and SCADA, and UL 508A, CSA or CE control panels.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0297": {
+   "key": "Remote batch review, trends and reports for skids and reactors.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0298": {
+   "key": "Validation",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0299": {
+   "key": "Validation built into the project, not added at the end",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0300": {
+   "key": "We produce the validation documentation following a GAMP 5 approach and execute IQ and OQ with your QA team.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0301": {
+   "key": "<strong>URS and FDS</strong><span>Intended use, records and permissions agreed before design.</span>",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0302": {
+   "key": "<strong>Design and build</strong><span>S88 phases, interlocks, audit trails and user access engineered to the FDS.</span>",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0303": {
+   "key": "<strong>FAT</strong><span>Sequences, alarms and records tested before shipment, to the agreed scope.</span>",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0304": {
+   "key": "<strong>SAT</strong><span>Site interfaces and utilities verified in place.</span>",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0305": {
+   "key": "<strong>IQ and OQ</strong><span>Executed with your QA team; your quality authority approves release.</span>",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0306": {
+   "key": "batch production; −17% cycle time; 96% solvent recovery; ROI in 4 months",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0307": {
+   "key": "India · API manufacturer",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0308": {
+   "key": "Automated API process skid",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0309": {
+   "key": "Unmanned skid in a classified hazardous area: CompactLogix with 300 I/O, phase-separation control and 21 CFR Part 11 audit trails.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0310": {
+   "key": "ControlLogix with PlantPAx modules and OPC UA links to the existing DCS; URS, FDS, FAT and SAT.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0311": {
+   "key": "CSTR",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0312": {
+   "key": "process, automation and data as one system",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0313": {
+   "key": "India · Australia · Pharmaceuticals",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0314": {
+   "key": "Automated CSTR with {PlantON}",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0315": {
+   "key": "Automated continuous stirred-tank reactor units with plant-data visibility, in a long-standing pharma relationship.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0316": {
+   "key": "Hazardous area",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0317": {
+   "key": "multi-level stainless extraction skid",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0318": {
+   "key": "Alkaloid &amp; API herbal extraction skid",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0319": {
+   "key": "Vessels, receivers, hazardous-area instrumentation and an integrated control panel.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0320": {
+   "key": "<a1>See all pharma and life-sciences projects</a1>",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0321": {
+   "key": "Do you deliver 21 CFR Part 11 compliant systems?",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0322": {
+   "key": "Yes. We deliver 21 CFR Part 11 compliant control systems with audit trails, electronic records and user access control.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0323": {
+   "key": "Do you execute IQ and OQ?",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0324": {
+   "key": "Yes. We execute IQ and OQ with your QA team. Your quality authority approves the system for use.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0325": {
+   "key": "Which approach do you follow for validation documentation?",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0326": {
+   "key": "GAMP 5. We produce the URS support, FDS, test protocols and reports for your validation package.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0327": {
+   "key": "Can you work in hazardous areas?",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0328": {
+   "key": "Yes. Our API skid projects include hazardous-area field instruments and unmanned operation.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0329": {
+   "key": "Do you provide the control panels?",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0330": {
+   "key": "Yes. We provide control panels with UL 508A, CSA or CE approval, whichever your market needs.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0331": {
+   "key": "Start with the process and the records it needs",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0332": {
+   "key": "URS and intended equipment or process use",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0333": {
+   "key": "Current control architecture and required records",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0334": {
+   "key": "Your change-control and qualification approach",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0335": {
+   "key": "Testing, documentation and approval owners",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0336": {
+   "key": "Bring the batch, cycle-time or validation problem you have today.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0337": {
+   "key": "Share the process, the intended system function, your existing equipment and the quality and documentation requirements. A URS and your validation approach are a good place to start.",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0338": {
+   "key": "Alkaloid and API extraction skid with hazardous-area instrumentation",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0339": {
+   "key": "Pharma &amp; Life Sciences Process Skids | Instron Technologies",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0340": {
+   "key": "Pharma &amp; Life Sciences, Instron Technologies",
+   "page": "pharma-life-sciences"
+  },
+  "P2-0341": {
+   "key": "<span1></span1>Industries / Industrial Manufacturing",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0342": {
+   "key": "Clear machine states first. Then dashboards your team trusts.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0343": {
+   "key": "Machine and line integration, controls modernization, production and utility monitoring, and {PlantON} plant data, connected to the equipment you already have.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0344": {
+   "key": "Where manufacturing data typically stops being useful",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0345": {
+   "key": "Each of these costs output, quality or the trust of the people using the numbers.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0346": {
+   "key": "Mixed-vintage equipment",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0347": {
+   "key": "PLC machines, standalone OEM equipment, relays and manual areas that report in different ways, or not at all.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0348": {
+   "key": "Downtime that explains little",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0349": {
+   "key": "Running bits, cycle counts and paper logs that never add up to a reason.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0350": {
+   "key": "Traceability that stops at the machine",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0351": {
+   "key": "Part, work order and process conditions that cannot be linked to an inspection result.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0352": {
+   "key": "Controls that block improvement",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0353": {
+   "key": "Obsolete PLC/HMI hardware, undocumented logic and network limits.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0354": {
+   "key": "How we help manufacturing plants",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0355": {
+   "key": "Industrial Automation and {PlantON} work together or on their own, connected to the machines you already have.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0356": {
+   "key": "Machine and line integration, PLC, HMI and SCADA modernization, and multi-vendor communication.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0357": {
+   "key": "OEE, downtime, traceability and utility views from the machines and ERP data you already have.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0358": {
+   "key": "<a1>Production Visibility &amp; OEE</a1>",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0359": {
+   "key": "Delivery path",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0360": {
+   "key": "A practical engineering path",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0361": {
+   "key": "Define the operating truth at machine and line level first, then the controls and data to support it.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0362": {
+   "key": "<strong>Define the objective</strong><span>The production, downtime, quality or utility information the improvement needs.</span>",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0363": {
+   "key": "<strong>Assess existing systems</strong><span>Machines, PLCs, meters, production records and interfaces.</span>",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0364": {
+   "key": "<strong>Establish reliable data</strong><span>Machine states, measurements and data quality checked before reports are built.</span>",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0365": {
+   "key": "<strong>Prove, then expand</strong><span>One machine group or line first, then the same model across the plant.</span>",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0366": {
+   "key": "productivity · 12% less utility use · 37% fewer rejects",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0367": {
+   "key": "Die casting",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0368": {
+   "key": "Legacy integration, OEE &amp; utilities",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0369": {
+   "key": "Legacy machines and ERP data connected into one plant performance view, without replacing equipment.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0370": {
+   "key": "fewer paint-related rejects · 26% less chemical",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0371": {
+   "key": "Alloy wheels",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0372": {
+   "key": "Smart paint shop",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0373": {
+   "key": "Critical parameters identified with operations, extra sensors added and {PlantON} linking process conditions to chemical use and quality.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0374": {
+   "key": "Manufacturing",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0375": {
+   "key": "OEE across 26 machines",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0376": {
+   "key": "A common performance model for machines never designed to report the same way, rolled up by machine, line and shift.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0377": {
+   "key": "machines on one IIoT data layer",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0378": {
+   "key": "IIoT data layer with daily MIS",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0379": {
+   "key": "13 machines consolidated onto one {PlantON} data layer, with a daily MIS report and a shop-floor display.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0380": {
+   "key": "<a1>See all manufacturing projects</a1>",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0381": {
+   "key": "Do we need to replace machines to get OEE?",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0382": {
+   "key": "No. We connect legacy machines and ERP data into one performance view, adding sensors only where a signal is missing.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0383": {
+   "key": "Can you work with mixed PLC platforms?",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0384": {
+   "key": "Yes. Platform choice follows your installed base; we integrate multi-vendor machines and networks.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0385": {
+   "key": "How do you make downtime data reliable?",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0386": {
+   "key": "We agree state definitions, planned and unplanned boundaries and operator reason capture before building dashboards.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0387": {
+   "key": "Can we start small?",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0388": {
+   "key": "Yes. Start with one line or machine group, prove the result, then standardize across the plant.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0389": {
+   "key": "Start with one line or machine group",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0390": {
+   "key": "Machine and line list with control platforms",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0391": {
+   "key": "Current downtime, quality and production records",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0392": {
+   "key": "Identifiers used for parts, lots and work orders",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0393": {
+   "key": "Bring the machine, line or data problem you have today.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0394": {
+   "key": "Tell us which machines or lines you want to connect and the decision the data must support. Industrial Automation and {PlantON} can start with one line.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0395": {
+   "key": "Machine and line integration, brownfield controls and plant data for discrete manufacturing plants, connected to the equipment you already have.",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0396": {
+   "key": "Manufacturing Automation &amp; OEE | Instron Technologies",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0397": {
+   "key": "Industrial Manufacturing, Instron Technologies",
+   "page": "industrial-manufacturing"
+  },
+  "P2-0398": {
+   "key": "About Us · Our Company",
+   "page": "our-company"
+  },
+  "P2-0399": {
+   "key": "One engineering partner <span>for process systems, automation and plant data.</span>",
+   "page": "our-company"
+  },
+  "P2-0400": {
+   "key": "Instron Technologies is an applied engineering and execution partner for process systems, industrial automation, plant data and technology scale-up.",
+   "page": "our-company"
+  },
+  "P2-0401": {
+   "key": "Meet the team",
+   "page": "our-company"
+  },
+  "P2-0402": {
+   "key": "<strong>Since 2013</strong><span>Engineering process and automation systems</span>",
+   "page": "our-company"
+  },
+  "P2-0403": {
+   "key": "<strong>Toronto · Pune</strong><span>Company offices, with regional presence in six locations</span>",
+   "page": "our-company"
+  },
+  "P2-0404": {
+   "key": "<strong>Process · Automation · Data</strong><span>Three disciplines, one engineering team</span>",
+   "page": "our-company"
+  },
+  "P2-0405": {
+   "key": "Our story",
+   "page": "our-company"
+  },
+  "P2-0406": {
+   "key": "From an automation team to a process engineering company.",
+   "page": "our-company"
+  },
+  "P2-0407": {
+   "key": "Instron Technologies began in 2013 with control panels and automation for industrial equipment makers. Over the following years the team added process engineering, mechanical systems, instrumentation and plant data, and delivered its first process system in 2017.",
+   "page": "our-company"
+  },
+  "P2-0408": {
+   "key": "Today Process Skid Plants are our core solution, with Industrial Automation and {PlantON} by Instron Technologies delivered with our skids or on their own, from company offices in Toronto and Pune.",
+   "page": "our-company"
+  },
+  "P2-0409": {
+   "key": "Milestones",
+   "page": "our-company"
+  },
+  "P2-0410": {
+   "key": "Engineering since 2013, from automation to process plants.",
+   "page": "our-company"
+  },
+  "P2-0411": {
+   "key": "2013 to 2015",
+   "page": "our-company"
+  },
+  "P2-0412": {
+   "key": "Automation roots",
+   "page": "our-company"
+  },
+  "P2-0413": {
+   "key": "Engineering begins: control panels and automation for an industrial steam-equipment OEM.",
+   "page": "our-company"
+  },
+  "P2-0414": {
+   "key": "<b>2014</b><span>In-house appliance testing, the roots of PlantON<sup1>™</sup1>; electrolysis plant E&amp;I</span>",
+   "page": "our-company"
+  },
+  "P2-0415": {
+   "key": "<b>2015</b><span>21 CFR Part 11 flow-reactor automation; energy-saving systems; power-plant turbines</span>",
+   "page": "our-company"
+  },
+  "P2-0416": {
+   "key": "2016 to 2018",
+   "page": "our-company"
+  },
+  "P2-0417": {
+   "key": "From automation to process plants",
+   "page": "our-company"
+  },
+  "P2-0418": {
+   "key": "First process system: a module for producing therapeutic radioisotopes for a national research centre.",
+   "page": "our-company"
+  },
+  "P2-0419": {
+   "key": "<b>2016</b><span>Edible-oil refinery SCADA and commissioning in Australia</span>",
+   "page": "our-company"
+  },
+  "P2-0420": {
+   "key": "<b>2018</b><span>First North American partnership; IIoT across plants; chocolate process lines</span>",
+   "page": "our-company"
+  },
+  "P2-0421": {
+   "key": "2019 to 2021",
+   "page": "our-company"
+  },
+  "P2-0422": {
+   "key": "Process systems go global",
+   "page": "our-company"
+  },
+  "P2-0423": {
+   "key": "Process skid exported to Thailand; first carbon-capture engineering package.",
+   "page": "our-company"
+  },
+  "P2-0424": {
+   "key": "<b>2019</b><span>API extraction plants for hazardous areas; entry into dairy</span>",
+   "page": "our-company"
+  },
+  "P2-0425": {
+   "key": "<b>2020</b><span>Named among CIOReview India's 10 Most Promising Industrial IoT Solution Providers</span>",
+   "page": "our-company"
+  },
+  "P2-0426": {
+   "key": "2022 to 2024",
+   "page": "our-company"
+  },
+  "P2-0427": {
+   "key": "Research and global reach",
+   "page": "our-company"
+  },
+  "P2-0428": {
+   "key": "Research-university projects in Saudi Arabia; battery recycling; hydrogen and graphene plant controls.",
+   "page": "our-company"
+  },
+  "P2-0429": {
+   "key": "<b>2022</b><span>Project under a Government of India defence innovation programme; solvent-recovery controls in Mexico</span>",
+   "page": "our-company"
+  },
+  "P2-0430": {
+   "key": "<b>2023</b><span>Instron Technologies Inc. in Toronto; space research and first UAE projects</span>",
+   "page": "our-company"
+  },
+  "P2-0431": {
+   "key": "2025 to 2026",
+   "page": "our-company"
+  },
+  "P2-0432": {
+   "key": "Scale and capacity",
+   "page": "our-company"
+  },
+  "P2-0433": {
+   "key": "New Pune facility opens; rare-earth reactor automation in Canada; 8+ research projects in Saudi Arabia.",
+   "page": "our-company"
+  },
+  "P2-0434": {
+   "key": "<b>2025</b><span>Controls for a hydrogen and graphene unit in the USA</span>",
+   "page": "our-company"
+  },
+  "P2-0435": {
+   "key": "<b>2026</b><span>Space life-support system; Netherlands and Mexico presence; Australia coming soon</span>",
+   "page": "our-company"
+  },
+  "P2-0436": {
+   "key": "<span1>Show all 14 years</span1><span2>Show the five periods only</span2>",
+   "page": "our-company"
+  },
+  "P2-0437": {
+   "key": "<b>2013</b><strong>Engineering begins</strong><span>Control panels and automation for an industrial steam-equipment OEM, still a partner today.</span>",
+   "page": "our-company"
+  },
+  "P2-0438": {
+   "key": "<b>2014</b><strong>In-house appliance-testing solution</strong><span>Sensors, automation and digital engineering in one system, the roots of PlantON<sup1>™</sup1>; automation and E&amp;I for an electrolysis plant.</span>",
+   "page": "our-company"
+  },
+  "P2-0439": {
+   "key": "<b>2015</b><strong>Regulated pharma, energy and power</strong><span>21 CFR Part 11 flow-reactor automation; energy-saving cooling-tower systems; turbine automation for a captive power plant.</span>",
+   "page": "our-company"
+  },
+  "P2-0440": {
+   "key": "<b>2016</b><strong>First refinery commissioning</strong><span>Edible-oil refinery SCADA and site commissioning in Australia.</span>",
+   "page": "our-company"
+  },
+  "P2-0441": {
+   "key": "<b>2017</b><strong>First process system</strong><span>Therapeutic radioisotope production module for a national research centre; end-to-end control systems.</span>",
+   "page": "our-company"
+  },
+  "P2-0442": {
+   "key": "<b>2018</b><strong>First North American partnership</strong><span>Dairy, food and pharma automation in Canada; IIoT across several plants; chocolate process automation.</span>",
+   "page": "our-company"
+  },
+  "P2-0443": {
+   "key": "<b>2019</b><strong>API extraction plants</strong><span>API extraction plants for hazardous areas; first pharma automation in Canada; entry into dairy.</span>",
+   "page": "our-company"
+  },
+  "P2-0444": {
+   "key": "<b>2020</b><strong>Industrial IoT recognition</strong><span>Named among CIOReview India's 10 Most Promising Industrial IoT Solution Providers; HTST paperless recorder; IoT for paint shops.</span>",
+   "page": "our-company"
+  },
+  "P2-0445": {
+   "key": "<b>2021</b><strong>Process systems go global</strong><span>Process skid exported to Thailand; first carbon-capture engineering package; defence-research desalination system.</span>",
+   "page": "our-company"
+  },
+  "P2-0446": {
+   "key": "<b>2022</b><strong>Defence innovation and reach</strong><span>Project awarded under a Government of India defence innovation programme; solvent-recovery controls in Mexico; dairy IoT suite built on PlantON<sup1>™</sup1>.</span>",
+   "page": "our-company"
+  },
+  "P2-0447": {
+   "key": "<b>2023</b><strong>Instron Technologies Inc. in Toronto</strong><span>Space-research program work and first UAE projects begin.</span>",
+   "page": "our-company"
+  },
+  "P2-0448": {
+   "key": "<b>2024</b><strong>Research, hydrogen and critical minerals</strong><span>Research-university projects in Saudi Arabia; battery recycling; hydrogen and graphene plant controls; Mexico project work; first Ontario home-care project.</span>",
+   "page": "our-company"
+  },
+  "P2-0449": {
+   "key": "<b>2025</b><strong>New Pune facility and scale</strong><span>New Pune facility opens; rare-earth reactor automation in Canada; 8+ research projects in Saudi Arabia; controls for a hydrogen and graphene unit in the USA.</span>",
+   "page": "our-company"
+  },
+  "P2-0450": {
+   "key": "<b>2026</b><strong>Next programs and new regions</strong><span>Space life-support system; water-treatment rig in Saudi Arabia; Netherlands and Mexico presence; Australia coming soon.</span>",
+   "page": "our-company"
+  },
+  "P2-0451": {
+   "key": "<a1>See where we work today: Global Presence &amp; Partners</a1>",
+   "page": "our-company"
+  },
+  "P2-0452": {
+   "key": "What we do",
+   "page": "our-company"
+  },
+  "P2-0453": {
+   "key": "Three solutions, one engineering team.",
+   "page": "our-company"
+  },
+  "P2-0454": {
+   "key": "Process Skid Plants lead; Industrial Automation and {PlantON} are also delivered on their own.",
+   "page": "our-company"
+  },
+  "P2-0455": {
+   "key": "Pilot and demonstration plants and modular industrial process skids, engineered with their instrumentation and controls.",
+   "page": "our-company"
+  },
+  "P2-0456": {
+   "key": "Also delivered on its own",
+   "page": "our-company"
+  },
+  "P2-0457": {
+   "key": "PLC, HMI and SCADA, instrumentation, electrical and control panels, modernization and commissioning.",
+   "page": "our-company"
+  },
+  "P2-0458": {
+   "key": "Plant data, OEE, traceability, utility visibility and reporting, for our systems and existing plants.",
+   "page": "our-company"
+  },
+  "P2-0459": {
+   "key": "Technology developers and cleantech",
+   "page": "our-company"
+  },
+  "P2-0460": {
+   "key": "Energy transition, critical minerals and new process technologies moving to pilot and industrial scale.",
+   "page": "our-company"
+  },
+  "P2-0461": {
+   "key": "Research institutions",
+   "page": "our-company"
+  },
+  "P2-0462": {
+   "key": "Universities, national research organizations and space and strategic-technology programs that need experimental systems and pilot plants.",
+   "page": "our-company"
+  },
+  "P2-0463": {
+   "key": "Process industries and manufacturers",
+   "page": "our-company"
+  },
+  "P2-0464": {
+   "key": "Chemicals, refining and consumer products; food, beverage and dairy; pharma and life sciences; industrial manufacturing.",
+   "page": "our-company"
+  },
+  "P2-0465": {
+   "key": "Equipment builders and project partners",
+   "page": "our-company"
+  },
+  "P2-0466": {
+   "key": "OEMs, EPC contractors and equipment builders that need automation, instrumentation or system integration.",
+   "page": "our-company"
+  },
+  "P2-0467": {
+   "key": "Our engineering philosophy",
+   "page": "our-company"
+  },
+  "P2-0468": {
+   "key": "Credibility comes from how the work is defined.",
+   "page": "our-company"
+  },
+  "P2-0469": {
+   "key": "Process basis before fabrication.",
+   "page": "our-company"
+  },
+  "P2-0470": {
+   "key": "Define the objective, operating envelope, engineering assumptions and review responsibility before major purchases or implementation commitments.",
+   "page": "our-company"
+  },
+  "P2-0471": {
+   "key": "One responsibility map.",
+   "page": "our-company"
+  },
+  "P2-0472": {
+   "key": "Separate Instron Technologies, customer, suppliers and local specialist responsibilities so cross-discipline gaps are visible and managed.",
+   "page": "our-company"
+  },
+  "P2-0473": {
+   "key": "Evidence matched to stage.",
+   "page": "our-company"
+  },
+  "P2-0474": {
+   "key": "A research pilot, an industrial modernization and a production system each need acceptance criteria appropriate to their stage and intended use.",
+   "page": "our-company"
+  },
+  "P2-0475": {
+   "key": "Shared problems, clear responsibilities and relationships that last beyond a single project.",
+   "page": "our-company"
+  },
+  "P2-0476": {
+   "key": "Our ecosystem",
+   "page": "our-company"
+  },
+  "P2-0477": {
+   "key": "Supported by Ontario’s innovation ecosystem",
+   "page": "our-company"
+  },
+  "P2-0478": {
+   "key": "Instron Technologies is supported by the Ontario Centre of Innovation, works within Ontario’s innovation ecosystem and is part of the Ontario Made program.",
+   "page": "our-company"
+  },
+  "P2-0479": {
+   "key": "Ontario Centre of Innovation",
+   "page": "our-company"
+  },
+  "P2-0480": {
+   "key": "Innovation Factory",
+   "page": "our-company"
+  },
+  "P2-0481": {
+   "key": "TBDC",
+   "page": "our-company"
+  },
+  "P2-0482": {
+   "key": "TechPlace",
+   "page": "our-company"
+  },
+  "P2-0483": {
+   "key": "BHive",
+   "page": "our-company"
+  },
+  "P2-0484": {
+   "key": "People and places",
+   "page": "our-company"
+  },
+  "P2-0485": {
+   "key": "Who you will work with, and where.",
+   "page": "our-company"
+  },
+  "P2-0486": {
+   "key": "Founder-led, with 60+ combined years of engineering",
+   "page": "our-company"
+  },
+  "P2-0487": {
+   "key": "Three engineers across automation, energy and process engineering, with a core team of project, process, automation and IT managers.",
+   "page": "our-company"
+  },
+  "P2-0488": {
+   "key": "Two company offices, six regional locations",
+   "page": "our-company"
+  },
+  "P2-0489": {
+   "key": "Toronto",
+   "page": "our-company"
+  },
+  "P2-0490": {
+   "key": "Pune",
+   "page": "our-company"
+  },
+  "P2-0491": {
+   "key": "Australia · coming soon",
+   "page": "our-company"
+  },
+  "P2-0492": {
+   "key": "See where we work",
+   "page": "our-company"
+  },
+  "P2-0493": {
+   "key": "Have a technical challenge? Start with the engineering question.",
+   "page": "our-company"
+  },
+  "P2-0494": {
+   "key": "Process platform in an Instron Technologies assembly facility",
+   "page": "our-company"
+  },
+  "P2-0495": {
+   "key": "Milestones in five periods",
+   "page": "our-company"
+  },
+  "P2-0496": {
+   "key": "Milestones by year",
+   "page": "our-company"
+  },
+  "P2-0497": {
+   "key": "Ontario Made",
+   "page": "our-company"
+  },
+  "P2-0498": {
+   "key": "Rahul Shirude",
+   "page": "our-company"
+  },
+  "P2-0499": {
+   "key": "Milind Saindane",
+   "page": "our-company"
+  },
+  "P2-0500": {
+   "key": "Rahul Bhokare",
+   "page": "our-company"
+  },
+  "P2-0501": {
+   "key": "About Instron Technologies | Engineering Since 2013",
+   "page": "our-company"
+  },
+  "P2-0502": {
+   "key": "Our Company, Instron Technologies",
+   "page": "our-company"
+  },
+  "P2-0503": {
+   "key": "About Us · Leadership &amp; Engineering Team",
+   "page": "leadership"
+  },
+  "P2-0504": {
+   "key": "Engineering leaders, <span>accountable project teams.</span>",
+   "page": "leadership"
+  },
+  "P2-0505": {
+   "key": "Project delivery depends on technical judgment, clear ownership and the handoffs between disciplines. Meet the people behind Instron Technologies’ integrated approach.",
+   "page": "leadership"
+  },
+  "P2-0506": {
+   "key": "Join the team",
+   "page": "leadership"
+  },
+  "P2-0507": {
+   "key": "<strong>60+ years</strong><span>Combined engineering experience of our three founders</span>",
+   "page": "leadership"
+  },
+  "P2-0508": {
+   "key": "<strong>Process · Energy · Automation</strong><span>The founders’ disciplines, under one roof</span>",
+   "page": "leadership"
+  },
+  "P2-0509": {
+   "key": "<strong>Five managers</strong><span>Owning projects, process, automation and IT</span>",
+   "page": "leadership"
+  },
+  "P2-0510": {
+   "key": "Founders",
+   "page": "leadership"
+  },
+  "P2-0511": {
+   "key": "Three engineers across automation, energy and process engineering. Our motto is simple: Let’s grow together.",
+   "page": "leadership"
+  },
+  "P2-0512": {
+   "key": "16+ years · industrial automation and IoT",
+   "page": "leadership"
+  },
+  "P2-0513": {
+   "key": "LinkedIn",
+   "page": "leadership"
+  },
+  "P2-0514": {
+   "key": "23+ years · energy and process",
+   "page": "leadership"
+  },
+  "P2-0515": {
+   "key": "25+ years · process and projects",
+   "page": "leadership"
+  },
+  "P2-0516": {
+   "key": "Core team",
+   "page": "leadership"
+  },
+  "P2-0517": {
+   "key": "The managers who own each engineering handoff",
+   "page": "leadership"
+  },
+  "P2-0518": {
+   "key": "SB",
+   "page": "leadership"
+  },
+  "P2-0519": {
+   "key": "Projects Manager",
+   "page": "leadership"
+  },
+  "P2-0520": {
+   "key": "Shailesh Bangale",
+   "page": "leadership"
+  },
+  "P2-0521": {
+   "key": "15+ years.",
+   "page": "leadership"
+  },
+  "P2-0522": {
+   "key": "KJ",
+   "page": "leadership"
+  },
+  "P2-0523": {
+   "key": "Kishor Jagtap",
+   "page": "leadership"
+  },
+  "P2-0524": {
+   "key": "25+ years.",
+   "page": "leadership"
+  },
+  "P2-0525": {
+   "key": "RS",
+   "page": "leadership"
+  },
+  "P2-0526": {
+   "key": "Process Manager",
+   "page": "leadership"
+  },
+  "P2-0527": {
+   "key": "Rohit Shinde",
+   "page": "leadership"
+  },
+  "P2-0528": {
+   "key": "10+ years.",
+   "page": "leadership"
+  },
+  "P2-0529": {
+   "key": "PD",
+   "page": "leadership"
+  },
+  "P2-0530": {
+   "key": "Automation Manager",
+   "page": "leadership"
+  },
+  "P2-0531": {
+   "key": "Pawan Dhumane",
+   "page": "leadership"
+  },
+  "P2-0532": {
+   "key": "9+ years.",
+   "page": "leadership"
+  },
+  "P2-0533": {
+   "key": "AS",
+   "page": "leadership"
+  },
+  "P2-0534": {
+   "key": "IT Manager",
+   "page": "leadership"
+  },
+  "P2-0535": {
+   "key": "Anjali Sinkar",
+   "page": "leadership"
+  },
+  "P2-0536": {
+   "key": "12+ years.",
+   "page": "leadership"
+  },
+  "P2-0537": {
+   "key": "Growth team",
+   "page": "leadership"
+  },
+  "P2-0538": {
+   "key": "The people who build our customer relationships.",
+   "page": "leadership"
+  },
+  "P2-0539": {
+   "key": "Business development, sales and customer support, working alongside the engineers who deliver each project.",
+   "page": "leadership"
+  },
+  "P2-0540": {
+   "key": "SG",
+   "page": "leadership"
+  },
+  "P2-0541": {
+   "key": "Business Development",
+   "page": "leadership"
+  },
+  "P2-0542": {
+   "key": "Saloni Dublay Gupta",
+   "page": "leadership"
+  },
+  "P2-0543": {
+   "key": "Manager, Business Development. Process skids, pilot plants and scale-up.",
+   "page": "leadership"
+  },
+  "P2-0544": {
+   "key": "SJ",
+   "page": "leadership"
+  },
+  "P2-0545": {
+   "key": "Marketing",
+   "page": "leadership"
+  },
+  "P2-0546": {
+   "key": "Sneha Jagtap",
+   "page": "leadership"
+  },
+  "P2-0547": {
+   "key": "Marketing Lead. Pilot plants, process skids and automation.",
+   "page": "leadership"
+  },
+  "P2-0548": {
+   "key": "NE",
+   "page": "leadership"
+  },
+  "P2-0549": {
+   "key": "Business Consulting",
+   "page": "leadership"
+  },
+  "P2-0550": {
+   "key": "Nasrin Ejner",
+   "page": "leadership"
+  },
+  "P2-0551": {
+   "key": "Engineer and Business Consultant.",
+   "page": "leadership"
+  },
+  "P2-0552": {
+   "key": "MA",
+   "page": "leadership"
+  },
+  "P2-0553": {
+   "key": "Marketing, Canada",
+   "page": "leadership"
+  },
+  "P2-0554": {
+   "key": "Mustapha Abdul",
+   "page": "leadership"
+  },
+  "P2-0555": {
+   "key": "Marketing Lead, Canada. MBA, PMP.",
+   "page": "leadership"
+  },
+  "P2-0556": {
+   "key": "Engineering team",
+   "page": "leadership"
+  },
+  "P2-0557": {
+   "key": "Engineers who design, build and commission the systems.",
+   "page": "leadership"
+  },
+  "P2-0558": {
+   "key": "Process, project, automation and IT engineers across our Pune and Toronto teams.",
+   "page": "leadership"
+  },
+  "P2-0559": {
+   "key": "AD",
+   "page": "leadership"
+  },
+  "P2-0560": {
+   "key": "Process",
+   "page": "leadership"
+  },
+  "P2-0561": {
+   "key": "Ajay Deshmukh",
+   "page": "leadership"
+  },
+  "P2-0562": {
+   "key": "Senior Process Design Engineer. M.Tech, Chemical Technology.",
+   "page": "leadership"
+  },
+  "P2-0563": {
+   "key": "TG",
+   "page": "leadership"
+  },
+  "P2-0564": {
+   "key": "Tushar Gangawane",
+   "page": "leadership"
+  },
+  "P2-0565": {
+   "key": "Senior Project Engineer.",
+   "page": "leadership"
+  },
+  "P2-0566": {
+   "key": "PK",
+   "page": "leadership"
+  },
+  "P2-0567": {
+   "key": "Instrumentation &amp; controls",
+   "page": "leadership"
+  },
+  "P2-0568": {
+   "key": "Parshuram Kolpuse",
+   "page": "leadership"
+  },
+  "P2-0569": {
+   "key": "Instrumentation and Control Engineer.",
+   "page": "leadership"
+  },
+  "P2-0570": {
+   "key": "MG",
+   "page": "leadership"
+  },
+  "P2-0571": {
+   "key": "Mayur Ghule",
+   "page": "leadership"
+  },
+  "P2-0572": {
+   "key": "Automation Engineer. PLC, SCADA and industrial control systems.",
+   "page": "leadership"
+  },
+  "P2-0573": {
+   "key": "JL",
+   "page": "leadership"
+  },
+  "P2-0574": {
+   "key": "Jaydeep Ladvikar",
+   "page": "leadership"
+  },
+  "P2-0575": {
+   "key": "Project Engineer.",
+   "page": "leadership"
+  },
+  "P2-0576": {
+   "key": "AK",
+   "page": "leadership"
+  },
+  "P2-0577": {
+   "key": "Areeb Kamal, MASc, EIT",
+   "page": "leadership"
+  },
+  "P2-0578": {
+   "key": "Automation and Controls Engineer, Canada. Siemens and Rockwell PLCs, HMI/SCADA, commissioning.",
+   "page": "leadership"
+  },
+  "P2-0579": {
+   "key": "SP",
+   "page": "leadership"
+  },
+  "P2-0580": {
+   "key": "IT &amp; IIoT",
+   "page": "leadership"
+  },
+  "P2-0581": {
+   "key": "Sumit Patil",
+   "page": "leadership"
+  },
+  "P2-0582": {
+   "key": "Senior IT Engineer. Software and IIoT development.",
+   "page": "leadership"
+  },
+  "P2-0583": {
+   "key": "Mentors, advisors &amp; partners",
+   "page": "leadership"
+  },
+  "P2-0584": {
+   "key": "Experience we draw on beyond our own team.",
+   "page": "leadership"
+  },
+  "P2-0585": {
+   "key": "Independent mentors and advisors who guide our engineering and growth, and partners who work with us in their markets.",
+   "page": "leadership"
+  },
+  "P2-0586": {
+   "key": "Mentors",
+   "page": "leadership"
+  },
+  "P2-0587": {
+   "key": "Mentor",
+   "page": "leadership"
+  },
+  "P2-0588": {
+   "key": "S. V. Bhokare",
+   "page": "leadership"
+  },
+  "P2-0589": {
+   "key": "Indian Navy veteran with 37+ years of leadership and project management.",
+   "page": "leadership"
+  },
+  "P2-0590": {
+   "key": "RR",
+   "page": "leadership"
+  },
+  "P2-0591": {
+   "key": "R. A. Raichur",
+   "page": "leadership"
+  },
+  "P2-0592": {
+   "key": "31+ years of consultancy in instrumentation system design.",
+   "page": "leadership"
+  },
+  "P2-0593": {
+   "key": "RK",
+   "page": "leadership"
+  },
+  "P2-0594": {
+   "key": "Rajeev Khade",
+   "page": "leadership"
+  },
+  "P2-0595": {
+   "key": "38 years in digitalization, IoT, Industry 4.0 and cloud transformation.",
+   "page": "leadership"
+  },
+  "P2-0596": {
+   "key": "PJ",
+   "page": "leadership"
+  },
+  "P2-0597": {
+   "key": "Prashant Joshi",
+   "page": "leadership"
+  },
+  "P2-0598": {
+   "key": "30 years in automotive and engineering IT.",
+   "page": "leadership"
+  },
+  "P2-0599": {
+   "key": "Advisors",
+   "page": "leadership"
+  },
+  "P2-0600": {
+   "key": "RB",
+   "page": "leadership"
+  },
+  "P2-0601": {
+   "key": "Advisor",
+   "page": "leadership"
+  },
+  "P2-0602": {
+   "key": "Rajiv Bavishi",
+   "page": "leadership"
+  },
+  "P2-0603": {
+   "key": "Engineering and project advisor, Calgary. Technical reviews, project planning and process development.",
+   "page": "leadership"
+  },
+  "P2-0604": {
+   "key": "VP",
+   "page": "leadership"
+  },
+  "P2-0605": {
+   "key": "Vinay Pandit",
+   "page": "leadership"
+  },
+  "P2-0606": {
+   "key": "Digital workflows and ERPNext, Oakville.",
+   "page": "leadership"
+  },
+  "P2-0607": {
+   "key": "GS",
+   "page": "leadership"
+  },
+  "P2-0608": {
+   "key": "G.V. Shankar",
+   "page": "leadership"
+  },
+  "P2-0609": {
+   "key": "President and CEO, Global Connect Inc., Saskatoon. Business development in Saskatchewan.",
+   "page": "leadership"
+  },
+  "P2-0610": {
+   "key": "Partners",
+   "page": "leadership"
+  },
+  "P2-0611": {
+   "key": "DV",
+   "page": "leadership"
+  },
+  "P2-0612": {
+   "key": "David Valle",
+   "page": "leadership"
+  },
+  "P2-0613": {
+   "key": "Director, Business Development MX (BusinessDMX), Monterrey.",
+   "page": "leadership"
+  },
+  "P2-0614": {
+   "key": "Andert van der Kraan",
+   "page": "leadership"
+  },
+  "P2-0615": {
+   "key": "Owner and Founder, Chemponics B.V., Voorhout.",
+   "page": "leadership"
+  },
+  "P2-0616": {
+   "key": "All partners on Global Presence",
+   "page": "leadership"
+  },
+  "P2-0617": {
+   "key": "Team structure",
+   "page": "leadership"
+  },
+  "P2-0618": {
+   "key": "Expertise is arranged around the work.",
+   "page": "leadership"
+  },
+  "P2-0619": {
+   "key": "Executive leadership",
+   "page": "leadership"
+  },
+  "P2-0620": {
+   "key": "Strategy, client relationships, delivery accountability and the choice of appropriate engineering resources.",
+   "page": "leadership"
+  },
+  "P2-0621": {
+   "key": "DISCIPLINE",
+   "page": "leadership"
+  },
+  "P2-0622": {
+   "key": "Process and mechanical engineering",
+   "page": "leadership"
+  },
+  "P2-0623": {
+   "key": "Process basis, equipment selection, mechanical interfaces, drawings, vendor documents and fabrication coordination.",
+   "page": "leadership"
+  },
+  "P2-0624": {
+   "key": "Electrical, controls and instrumentation",
+   "page": "leadership"
+  },
+  "P2-0625": {
+   "key": "P&amp;IDs to I/O, PLC/HMI/SCADA architecture, electrical interfaces, control panels, integration and test plans.",
+   "page": "leadership"
+  },
+  "P2-0626": {
+   "key": "Project management and quality interface",
+   "page": "leadership"
+  },
+  "P2-0627": {
+   "key": "Work packages, change control, acceptance evidence, documentation and alignment with client/site stakeholders.",
+   "page": "leadership"
+  },
+  "P2-0628": {
+   "key": "Digital and information technology",
+   "page": "leadership"
+  },
+  "P2-0629": {
+   "key": "Industrial data connectivity, {PlantON}, IT infrastructure and system security.",
+   "page": "leadership"
+  },
+  "P2-0630": {
+   "key": "Your project and site teams",
+   "page": "leadership"
+  },
+  "P2-0631": {
+   "key": "One agreed technical basis, with a named owner for every handoff.",
+   "page": "leadership"
+  },
+  "P2-0632": {
+   "key": "A clear owner for each engineering decision.",
+   "page": "leadership"
+  },
+  "P2-0633": {
+   "key": "Technical teams are strongest when responsibilities and escalation paths are explicit. Project leads coordinate process, mechanical, automation and site interfaces rather than relying on individual disciplines to discover gaps.",
+   "page": "leadership"
+  },
+  "P2-0634": {
+   "key": "Work on systems that have to run.",
+   "page": "leadership"
+  },
+  "P2-0635": {
+   "key": "Our engineers work on process systems, industrial automation, instrumentation and plant data that run in real plants, with every discipline in one team.",
+   "page": "leadership"
+  },
+  "P2-0636": {
+   "key": "Explore careers",
+   "page": "leadership"
+  },
+  "P2-0637": {
+   "key": "Talk to the engineers who will own your project.",
+   "page": "leadership"
+  },
+  "P2-0638": {
+   "key": "Instron Technologies founders Rahul Bhokare, Rahul Shirude and Milind Saindane",
+   "page": "leadership"
+  },
+  "P2-0639": {
+   "key": "Rahul Shirude on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0640": {
+   "key": "Milind Saindane on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0641": {
+   "key": "Rahul Bhokare on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0642": {
+   "key": "Shailesh Bangale on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0643": {
+   "key": "Rohit Shinde on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0644": {
+   "key": "Pawan Dhumane on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0645": {
+   "key": "Anjali Sinkar on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0646": {
+   "key": "Saloni Dublay Gupta on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0647": {
+   "key": "Sneha Jagtap on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0648": {
+   "key": "Nasrin Ejner on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0649": {
+   "key": "Mustapha Abdul on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0650": {
+   "key": "Ajay Deshmukh on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0651": {
+   "key": "Tushar Gangawane on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0652": {
+   "key": "Parshuram Kolpuse on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0653": {
+   "key": "Mayur Ghule on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0654": {
+   "key": "Jaydeep Ladvikar on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0655": {
+   "key": "Areeb Kamal, MASc, EIT on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0656": {
+   "key": "Sumit Patil on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0657": {
+   "key": "Rajiv Bavishi on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0658": {
+   "key": "Vinay Pandit on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0659": {
+   "key": "G.V. Shankar on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0660": {
+   "key": "David Valle on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0661": {
+   "key": "Andert van der Kraan on LinkedIn (opens in a new tab)",
+   "page": "leadership"
+  },
+  "P2-0662": {
+   "key": "Meet the engineering leaders behind Instron Technologies, and the accountable project teams that deliver process, energy and automation systems.",
+   "page": "leadership"
+  },
+  "P2-0663": {
+   "key": "Leadership &amp; Engineering Team | Instron Technologies",
+   "page": "leadership"
+  },
+  "P2-0664": {
+   "key": "Leadership &amp; Engineering Team, Instron Technologies",
+   "page": "leadership"
+  },
+  "P2-0665": {
+   "key": "About Us · Careers",
+   "page": "careers"
+  },
+  "P2-0666": {
+   "key": "Work on systems <span>that have to run.</span>",
+   "page": "careers"
+  },
+  "P2-0667": {
+   "key": "Work on real engineering projects in Process Skid Plants, Industrial Automation and {PlantON}, across design, instrumentation, automation, IT, integration, testing and project execution.",
+   "page": "careers"
+  },
+  "P2-0668": {
+   "key": "Ask about opportunities",
+   "page": "careers"
+  },
+  "P2-0669": {
+   "key": "Explore the disciplines",
+   "page": "careers"
+  },
+  "P2-0670": {
+   "key": "<strong>Toronto · Pune</strong><span>Where our engineering teams work</span>",
+   "page": "careers"
+  },
+  "P2-0671": {
+   "key": "<strong>Four disciplines</strong><span>Process, automation, data and projects</span>",
+   "page": "careers"
+  },
+  "P2-0672": {
+   "key": "<strong>Students welcome</strong><span>Internships, final-year projects and plant visits</span>",
+   "page": "careers"
+  },
+  "P2-0673": {
+   "key": "Life at Instron Technologies",
+   "page": "careers"
+  },
+  "P2-0674": {
+   "key": "One team that learns, celebrates and grows together.",
+   "page": "careers"
+  },
+  "P2-0675": {
+   "key": "New team members get structured training, and experienced engineers take advanced courses. Outside project work, we make time for get-togethers, team-building, sports and treks.",
+   "page": "careers"
+  },
+  "P2-0676": {
+   "key": "<strong>Let’s grow together</strong><span>Our motto, worn on our team jackets.</span>",
+   "page": "careers"
+  },
+  "P2-0677": {
+   "key": "<strong>Celebrate together</strong><span>Festivals and get-togethers at the office.</span>",
+   "page": "careers"
+  },
+  "P2-0678": {
+   "key": "<strong>Step outside</strong><span>Team-building, sports and treks.</span>",
+   "page": "careers"
+  },
+  "P2-0679": {
+   "key": "<strong>One team</strong><span>Engineers, project staff and leadership working side by side.</span>",
+   "page": "careers"
+  },
+  "P2-0680": {
+   "key": "Our working culture",
+   "page": "careers"
+  },
+  "P2-0681": {
+   "key": "Curiosity and ownership, grounded in engineering evidence.",
+   "page": "careers"
+  },
+  "P2-0682": {
+   "key": "Learning is most useful when it connects to a real technical decision.",
+   "page": "careers"
+  },
+  "P2-0683": {
+   "key": "Ask the right question.",
+   "page": "careers"
+  },
+  "P2-0684": {
+   "key": "Understand the process and intended use before choosing equipment or software.",
+   "page": "careers"
+  },
+  "P2-0685": {
+   "key": "Own the handoff.",
+   "page": "careers"
+  },
+  "P2-0686": {
+   "key": "Document what is complete, what remains unresolved and who makes the next decision.",
+   "page": "careers"
+  },
+  "P2-0687": {
+   "key": "Learn from testing.",
+   "page": "careers"
+  },
+  "P2-0688": {
+   "key": "Drawings, acceptance records and site findings should improve the next project.",
+   "page": "careers"
+  },
+  "P2-0689": {
+   "key": "Disciplines",
+   "page": "careers"
+  },
+  "P2-0690": {
+   "key": "The work is multidisciplinary, but ownership stays clear.",
+   "page": "careers"
+  },
+  "P2-0691": {
+   "key": "Process &amp; Scale-Up Engineering",
+   "page": "careers"
+  },
+  "P2-0692": {
+   "key": "P&amp;IDs, equipment and instrument definition, process integration, operating envelopes and test documentation.",
+   "page": "careers"
+  },
+  "P2-0693": {
+   "key": "PLC/HMI/SCADA design, I/O, panels, commissioning and problem-solving around working industrial systems.",
+   "page": "careers"
+  },
+  "P2-0694": {
+   "key": "{PlantON} &amp; Industrial Data",
+   "page": "careers"
+  },
+  "P2-0695": {
+   "key": "Production context, measurement, reporting, traceability and data integration with source-system discipline.",
+   "page": "careers"
+  },
+  "P2-0696": {
+   "key": "Project Engineering",
+   "page": "careers"
+  },
+  "P2-0697": {
+   "key": "Scope, procurement interfaces, test preparation, quality documentation, stakeholder alignment and handover.",
+   "page": "careers"
+  },
+  "P2-0698": {
+   "key": "Students &amp; early careers",
+   "page": "careers"
+  },
+  "P2-0699": {
+   "key": "Start on real engineering work.",
+   "page": "careers"
+  },
+  "P2-0700": {
+   "key": "Internships, final-year projects and industry-academia engagement, offered based on current projects and team availability. Part of our industry-academia program.",
+   "page": "careers"
+  },
+  "P2-0701": {
+   "key": "Internships",
+   "page": "careers"
+  },
+  "P2-0702": {
+   "key": "Work alongside project teams on process, automation or data assignments.",
+   "page": "careers"
+  },
+  "P2-0703": {
+   "key": "Final-year projects",
+   "page": "careers"
+  },
+  "P2-0704": {
+   "key": "Projects grounded in real equipment, instrumentation and operating data.",
+   "page": "careers"
+  },
+  "P2-0705": {
+   "key": "Plant visits &amp; guest lectures",
+   "page": "careers"
+  },
+  "P2-0706": {
+   "key": "See skids, panels and commissioning in practice, and hear from our engineers.",
+   "page": "careers"
+  },
+  "P2-0707": {
+   "key": "How to apply",
+   "page": "careers"
+  },
+  "P2-0708": {
+   "key": "Tell us what you want to engineer.",
+   "page": "careers"
+  },
+  "P2-0709": {
+   "key": "We welcome applications at any time. Open positions are listed here when available.",
+   "page": "careers"
+  },
+  "P2-0710": {
+   "key": "When applying, please include",
+   "page": "careers"
+  },
+  "P2-0711": {
+   "key": "Your preferred engineering discipline or role",
+   "page": "careers"
+  },
+  "P2-0712": {
+   "key": "Relevant qualifications and experience",
+   "page": "careers"
+  },
+  "P2-0713": {
+   "key": "Technical skills or projects (public or sanitized examples only)",
+   "page": "careers"
+  },
+  "P2-0714": {
+   "key": "Preferred work location",
+   "page": "careers"
+  },
+  "P2-0715": {
+   "key": "Your resume or professional profile",
+   "page": "careers"
+  },
+  "P2-0716": {
+   "key": "Please leave out ID numbers, date of birth, photos and other sensitive details. We use what you send only to consider your application, and delete it after 12 months if you are not hired. <a1>Privacy</a1>.",
+   "page": "careers"
+  },
+  "P2-0717": {
+   "key": "Build the systems industry runs on.",
+   "page": "careers"
+  },
+  "P2-0718": {
+   "key": "Explore engineering opportunities and become part of a multidisciplinary team working on industrial technologies.",
+   "page": "careers"
+  },
+  "P2-0719": {
+   "key": "Submit your application",
+   "page": "careers"
+  },
+  "P2-0720": {
+   "key": "Instron Technologies team members on a company outing",
+   "page": "careers"
+  },
+  "P2-0721": {
+   "key": "Instron Technologies team in matching jackets printed with Let’s grow together",
+   "page": "careers"
+  },
+  "P2-0722": {
+   "key": "Team members at the Pune office holding gifts under a Let’s grow together wall sign",
+   "page": "careers"
+  },
+  "P2-0723": {
+   "key": "Team members in helmets and harnesses on an outdoor ropes course",
+   "page": "careers"
+  },
+  "P2-0724": {
+   "key": "Instron Technologies team at the Pune office in festive dress",
+   "page": "careers"
+  },
+  "P2-0725": {
+   "key": "Instron Technologies engineers in a team training session at the Pune office",
+   "page": "careers"
+  },
+  "P2-0726": {
+   "key": "Engineering roles, internships and final-year projects at Instron Technologies, where process, instruments, automation and delivery meet on real plants.",
+   "page": "careers"
+  },
+  "P2-0727": {
+   "key": "Engineering Careers | Instron Technologies",
+   "page": "careers"
+  },
+  "P2-0728": {
+   "key": "Careers, Instron Technologies",
+   "page": "careers"
+  },
+  "P2-0729": {
+   "key": "About Us · Trust &amp; Responsibility",
+   "page": "trust-responsibility"
+  },
+  "P2-0730": {
+   "key": "Trust begins with <span>clear engineering boundaries.</span>",
+   "page": "trust-responsibility"
+  },
+  "P2-0731": {
+   "key": "Process safety, validation, cybersecurity, confidentiality and engineering authority are not slogans. Each project needs defined scope, responsible owners, documented controls and evidence suitable for its use.",
+   "page": "trust-responsibility"
+  },
+  "P2-0732": {
+   "key": "Request due-diligence information",
+   "page": "trust-responsibility"
+  },
+  "P2-0733": {
+   "key": "Our community programs",
+   "page": "trust-responsibility"
+  },
+  "P2-0734": {
+   "key": "<strong>Defined owners</strong><span>Safety, quality, data and sign-off agreed per project</span>",
+   "page": "trust-responsibility"
+  },
+  "P2-0735": {
+   "key": "<strong>Evidence first</strong><span>Acceptance criteria settled before hardware is bought</span>",
+   "page": "trust-responsibility"
+  },
+  "P2-0736": {
+   "key": "<strong>Community</strong><span>Trees, education, training and health programs</span>",
+   "page": "trust-responsibility"
+  },
+  "P2-0737": {
+   "key": "Our commitments",
+   "page": "trust-responsibility"
+  },
+  "P2-0738": {
+   "key": "Put responsibilities into the project scope.",
+   "page": "trust-responsibility"
+  },
+  "P2-0739": {
+   "key": "Engineering authority &amp; design responsibility",
+   "page": "trust-responsibility"
+  },
+  "P2-0740": {
+   "key": "Determine jurisdiction, professional review, applicable codes and sign-off needs at the start of each engagement.",
+   "page": "trust-responsibility"
+  },
+  "P2-0741": {
+   "key": "Process safety and site EHS",
+   "page": "trust-responsibility"
+  },
+  "P2-0742": {
+   "key": "Assign design and site safety responsibilities, operating safeguards, hazard-review inputs and escalation points.",
+   "page": "trust-responsibility"
+  },
+  "P2-0743": {
+   "key": "Quality, testing &amp; validation",
+   "page": "trust-responsibility"
+  },
+  "P2-0744": {
+   "key": "Agree URS and project basis, FAT/SAT scope, document revisions and evidence required for acceptance or client qualification.",
+   "page": "trust-responsibility"
+  },
+  "P2-0745": {
+   "key": "Cybersecurity &amp; industrial data",
+   "page": "trust-responsibility"
+  },
+  "P2-0746": {
+   "key": "Define access, networking, segmentation, credentials, remote support and security approvals with the customer IT/OT owners.",
+   "page": "trust-responsibility"
+  },
+  "P2-0747": {
+   "key": "Privacy &amp; confidentiality",
+   "page": "trust-responsibility"
+  },
+  "P2-0748": {
+   "key": "Agree who may receive drawings, data, photos and technical records, and use contractual confidentiality controls when necessary.",
+   "page": "trust-responsibility"
+  },
+  "P2-0749": {
+   "key": "Vendor due diligence",
+   "page": "trust-responsibility"
+  },
+  "P2-0750": {
+   "key": "Respond to requests for entity, insurance, competencies and project assurance records through an appropriate verification process.",
+   "page": "trust-responsibility"
+  },
+  "P2-0751": {
+   "key": "Certifications, licensure and regulatory approvals are confirmed for each project; project-specific evidence is provided for review.",
+   "page": "trust-responsibility"
+  },
+  "P2-0752": {
+   "key": "Due diligence",
+   "page": "trust-responsibility"
+  },
+  "P2-0753": {
+   "key": "What a customer should be able to verify.",
+   "page": "trust-responsibility"
+  },
+  "P2-0754": {
+   "key": "Applicable jurisdiction",
+   "page": "trust-responsibility"
+  },
+  "P2-0755": {
+   "key": "Engineering sign-off, pressure equipment, electrical and installation requirements depend on the project and location.",
+   "page": "trust-responsibility"
+  },
+  "P2-0756": {
+   "key": "Defined acceptance",
+   "page": "trust-responsibility"
+  },
+  "P2-0757": {
+   "key": "FAT, site testing, commissioning and validation boundaries are linked to an agreed scope and applicable standards.",
+   "page": "trust-responsibility"
+  },
+  "P2-0758": {
+   "key": "Evidence package",
+   "page": "trust-responsibility"
+  },
+  "P2-0759": {
+   "key": "Written requirements, specifications, drawings, tests and responsibility records are reviewed against project obligations.",
+   "page": "trust-responsibility"
+  },
+  "P2-0760": {
+   "key": "Company credentials, project documentation, certifications and regulatory information are available on request, subject to applicability, verification and confidentiality.",
+   "page": "trust-responsibility"
+  },
+  "P2-0761": {
+   "key": "Responsible engineering",
+   "page": "trust-responsibility"
+  },
+  "P2-0762": {
+   "key": "Design choices that can be explained and measured.",
+   "page": "trust-responsibility"
+  },
+  "P2-0763": {
+   "key": "Sustainability starts with a process that can be understood, measured and improved.",
+   "page": "trust-responsibility"
+  },
+  "P2-0764": {
+   "key": "Resource recovery and separation",
+   "page": "trust-responsibility"
+  },
+  "P2-0765": {
+   "key": "Assess process opportunities for solvent recovery, utilities and material reuse, measured against project-specific requirements.",
+   "page": "trust-responsibility"
+  },
+  "P2-0766": {
+   "key": "Utility and energy visibility",
+   "page": "trust-responsibility"
+  },
+  "P2-0767": {
+   "key": "Establish reliable metering, equipment state context and operating baselines before recommending efficiency changes.",
+   "page": "trust-responsibility"
+  },
+  "P2-0768": {
+   "key": "Designed for maintainability",
+   "page": "trust-responsibility"
+  },
+  "P2-0769": {
+   "key": "Consider service access, documentation, parts and commissioning so new equipment can be operated and supported.",
+   "page": "trust-responsibility"
+  },
+  "P2-0770": {
+   "key": "Responsible project collaboration",
+   "page": "trust-responsibility"
+  },
+  "P2-0771": {
+   "key": "Clarify EHS ownership, contractor interfaces, local regulations and decisions that require independent specialists.",
+   "page": "trust-responsibility"
+  },
+  "P2-0772": {
+   "key": "Community &amp; CSR",
+   "page": "trust-responsibility"
+  },
+  "P2-0773": {
+   "key": "Engineering a better future, beyond our projects.",
+   "page": "trust-responsibility"
+  },
+  "P2-0774": {
+   "key": "Our corporate social responsibility programs focus on the environment, education and the communities around our offices.",
+   "page": "trust-responsibility"
+  },
+  "P2-0775": {
+   "key": "Environment",
+   "page": "trust-responsibility"
+  },
+  "P2-0776": {
+   "key": "Tree plantation &amp; green sites",
+   "page": "trust-responsibility"
+  },
+  "P2-0777": {
+   "key": "Plantation drives around our facilities and with local communities, tracked year by year.",
+   "page": "trust-responsibility"
+  },
+  "P2-0778": {
+   "key": "Education",
+   "page": "trust-responsibility"
+  },
+  "P2-0779": {
+   "key": "Education for all",
+   "page": "trust-responsibility"
+  },
+  "P2-0780": {
+   "key": "Support for children’s schooling: learning materials, fees and scholarships for children who need it most.",
+   "page": "trust-responsibility"
+  },
+  "P2-0781": {
+   "key": "Industry-academia training",
+   "page": "trust-responsibility"
+  },
+  "P2-0782": {
+   "key": "Internships, final-year projects, plant visits and guest lectures that connect engineering students with real systems.",
+   "page": "trust-responsibility"
+  },
+  "P2-0783": {
+   "key": "Inclusion",
+   "page": "trust-responsibility"
+  },
+  "P2-0784": {
+   "key": "Women in engineering",
+   "page": "trust-responsibility"
+  },
+  "P2-0785": {
+   "key": "Internships and mentoring that help women engineering students start careers in process and automation engineering.",
+   "page": "trust-responsibility"
+  },
+  "P2-0786": {
+   "key": "Our own sites",
+   "page": "trust-responsibility"
+  },
+  "P2-0787": {
+   "key": "Responsible operations",
+   "page": "trust-responsibility"
+  },
+  "P2-0788": {
+   "key": "Waste segregation, energy and water saving, and safe, organised workshops at our own facilities.",
+   "page": "trust-responsibility"
+  },
+  "P2-0789": {
+   "key": "Community",
+   "page": "trust-responsibility"
+  },
+  "P2-0790": {
+   "key": "Community health",
+   "page": "trust-responsibility"
+  },
+  "P2-0791": {
+   "key": "Blood donation and health camps, with our employees volunteering their time.",
+   "page": "trust-responsibility"
+  },
+  "P2-0792": {
+   "key": "Need company or project assurance information?",
+   "page": "trust-responsibility"
+  },
+  "P2-0793": {
+   "key": "For supplier qualification, company credentials or project documentation, contact our team.",
+   "page": "trust-responsibility"
+  },
+  "P2-0794": {
+   "key": "Request information",
+   "page": "trust-responsibility"
+  },
+  "P2-0795": {
+   "key": "How Instron Technologies handles process safety, validation, cybersecurity, confidentiality and engineering sign-off, agreed for each project.",
+   "page": "trust-responsibility"
+  },
+  "P2-0796": {
+   "key": "Trust &amp; Responsibility | Instron Technologies",
+   "page": "trust-responsibility"
+  },
+  "P2-0797": {
+   "key": "Trust &amp; Responsibility, Instron Technologies",
+   "page": "trust-responsibility"
+  },
+  "P2-0798": {
+   "key": "Projects · Case Studies",
+   "page": "case-studies"
+  },
+  "P2-0799": {
+   "key": "What we did, <span>and what changed.</span>",
+   "page": "case-studies"
+  },
+  "P2-0800": {
+   "key": "Fifteen projects in full: the situation, the stakes, the scope we delivered and the measured result. Client names withheld; references on request.",
+   "page": "case-studies"
+  },
+  "P2-0801": {
+   "key": "Browse all projects",
+   "page": "case-studies"
+  },
+  "P2-0802": {
+   "key": "<strong>+24%</strong><span>Batch production on an API skid</span>",
+   "page": "case-studies"
+  },
+  "P2-0803": {
+   "key": "<strong>94%</strong><span>Faster compliance reporting at a dairy</span>",
+   "page": "case-studies"
+  },
+  "P2-0804": {
+   "key": "<strong>+20%</strong><span>Capacity for a cleaning-product maker</span>",
+   "page": "case-studies"
+  },
+  "P2-0805": {
+   "key": "Featured case studies",
+   "page": "case-studies"
+  },
+  "P2-0806": {
+   "key": "Fifteen projects, start to finish.",
+   "page": "case-studies"
+  },
+  "P2-0807": {
+   "key": "Process skid projects first, then automation and {PlantON}. Americas first within each group.",
+   "page": "case-studies"
+  },
+  "P2-0808": {
+   "key": "Show",
+   "page": "case-studies"
+  },
+  "P2-0809": {
+   "key": "All (15)",
+   "page": "case-studies"
+  },
+  "P2-0810": {
+   "key": "Process Skid Plants (8)",
+   "page": "case-studies"
+  },
+  "P2-0811": {
+   "key": "Industrial Automation (4)",
+   "page": "case-studies"
+  },
+  "P2-0812": {
+   "key": "PlantON<sup1>™</sup1> (3)",
+   "page": "case-studies"
+  },
+  "P2-0813": {
+   "key": "<a1><small>Process Skid Plants</small><span>Solvent recovery, Mexico</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0814": {
+   "key": "<a1><small>Process Skid Plants</small><span>Steam quality analyzers, USA</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0815": {
+   "key": "<a1><small>Process Skid Plants</small><span>API extraction and CSTR, India and Australia</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0816": {
+   "key": "<a1><small>Process Skid Plants</small><span>Battery recycling pilot, Saudi Arabia</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0817": {
+   "key": "<a1><small>Process Skid Plants</small><span>Cryogenic carbon capture, Saudi Arabia</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0818": {
+   "key": "<a1><small>Process Skid Plants</small><span>Carbon capture and H₂ pilots, India</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0819": {
+   "key": "<a1><small>Process Skid Plants</small><span>Automated API skid, India</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0820": {
+   "key": "<a1><small>Process Skid Plants</small><span>Propulsion-fuel pilot, India</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0821": {
+   "key": "<a1><small>Industrial Automation</small><span>Adjuvant and CIP skids, Toronto</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0822": {
+   "key": "<a1><small>Industrial Automation</small><span>Compounding capacity +20%, Canada</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0823": {
+   "key": "<a1><small>Industrial Automation</small><span>Greenfield batch plant, Ontario</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0824": {
+   "key": "<a1><small>Industrial Automation</small><span>Chocolate lines, Canada and India</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0825": {
+   "key": "<a1><small>PlantON<sup2>™</sup2></small><span>Dairy with {PlantON}, California</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0826": {
+   "key": "<a1><small>PlantON<sup2>™</sup2></small><span>Die-cast plant, India</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0827": {
+   "key": "<a1><small>PlantON<sup2>™</sup2></small><span>Smart paint shop, India</span></a1>",
+   "page": "case-studies"
+  },
+  "P2-0828": {
+   "key": "Process Skid Plants · Completed · Mexico · Electronic-component manufacturer",
+   "page": "case-studies"
+  },
+  "P2-0829": {
+   "key": "Methanol-water solvent recovery, from process skid to distillation tower",
+   "page": "case-studies"
+  },
+  "P2-0830": {
+   "key": "Situation",
+   "page": "case-studies"
+  },
+  "P2-0831": {
+   "key": "A manufacturer needed to recover methanol from a methanol-water stream in its production process, rather than dispose of it and buy fresh solvent.",
+   "page": "case-studies"
+  },
+  "P2-0832": {
+   "key": "Impact",
+   "page": "case-studies"
+  },
+  "P2-0833": {
+   "key": "Recovery that fails to meet purity or throughput sends solvent back to waste and leaves the plant buying fresh solvent.",
+   "page": "case-studies"
+  },
+  "P2-0834": {
+   "key": "What we did",
+   "page": "case-studies"
+  },
+  "P2-0835": {
+   "key": "Process design around the customer’s solvent stream; a skid with vessels, heat exchange, pumps and instruments; a tall distillation column with platforms, ladders and service access; controls integrated across skid and column.",
+   "page": "case-studies"
+  },
+  "P2-0836": {
+   "key": "Result",
+   "page": "case-studies"
+  },
+  "P2-0837": {
+   "key": "A customized recovery system delivered in two parts, and a second project from the same customer.",
+   "page": "case-studies"
+  },
+  "P2-0838": {
+   "key": "Distillation",
+   "page": "case-studies"
+  },
+  "P2-0839": {
+   "key": "Solvent recovery",
+   "page": "case-studies"
+  },
+  "P2-0840": {
+   "key": "Controls",
+   "page": "case-studies"
+  },
+  "P2-0841": {
+   "key": "Industry: <a1>Chemicals, Refining &amp; Consumer Products</a1>",
+   "page": "case-studies"
+  },
+  "P2-0842": {
+   "key": "Process Skid Plants · Completed · USA · Kuwait · Oil extraction",
+   "page": "case-studies"
+  },
+  "P2-0843": {
+   "key": "Steam quality analyzer skids for steam-injection oil recovery",
+   "page": "case-studies"
+  },
+  "P2-0844": {
+   "key": "Energy companies injecting steam into oil reservoirs needed steam quality, pressure, temperature and density measured in real time at each injection point.",
+   "page": "case-studies"
+  },
+  "P2-0845": {
+   "key": "Manual sampling is slow, needs a technician at the line and gives no trend over time, so steam is injected without a live picture of its quality.",
+   "page": "case-studies"
+  },
+  "P2-0846": {
+   "key": "A packaged analyzer skid, jointly developed with global energy and process companies: measurement of steam quality, pressure, temperature and density; redundant ControlLogix control with redundant communication to the existing Honeywell DCS; integrated control panel; remote HMI and SCADA for configuration and tuning across sites.",
+   "page": "case-studies"
+  },
+  "P2-0847": {
+   "key": "Real-time steam quality at multiple sites, a 15% energy saving through tighter steam control, and logged data for compliance and audits.",
+   "page": "case-studies"
+  },
+  "P2-0848": {
+   "key": "512 <em>kg/h</em>",
+   "page": "case-studies"
+  },
+  "P2-0849": {
+   "key": "250 <em>°C</em>",
+   "page": "case-studies"
+  },
+  "P2-0850": {
+   "key": "65 <em>barg</em>",
+   "page": "case-studies"
+  },
+  "P2-0851": {
+   "key": "15% <em>energy saved</em>",
+   "page": "case-studies"
+  },
+  "P2-0852": {
+   "key": "Steam quality",
+   "page": "case-studies"
+  },
+  "P2-0853": {
+   "key": "Redundant control",
+   "page": "case-studies"
+  },
+  "P2-0854": {
+   "key": "Honeywell DCS",
+   "page": "case-studies"
+  },
+  "P2-0855": {
+   "key": "Jointly developed",
+   "page": "case-studies"
+  },
+  "P2-0856": {
+   "key": "Process Skid Plants · {PlantON} · Completed · India · Australia · Pharmaceuticals",
+   "page": "case-studies"
+  },
+  "P2-0857": {
+   "key": "API extraction plants and automated CSTR units in India and Australia",
+   "page": "case-studies"
+  },
+  "P2-0858": {
+   "key": "A long-standing producer of botanical extracts and phytochemical APIs, working to GMP and 21 CFR Part 11, needed multiproduct process units for its plants in India and Australia.",
+   "page": "case-studies"
+  },
+  "P2-0859": {
+   "key": "Potent, hazardous reactions and frequent product changes call for contamination-free equipment, and a batch lost to a missed parameter is costly in regulated API production.",
+   "page": "case-studies"
+  },
+  "P2-0860": {
+   "key": "Multi-level stainless extraction skids and automated continuous stirred-tank reactor (CSTR) units: reactions from 0 to 70 °C and from full vacuum to 1.2 barg; nitrogen, cooling water, chilled and hot water utilities; automated sampling and measurement; hazardous-area instrumentation and an integrated control panel; {PlantON} for remote KPI monitoring.",
+   "page": "case-studies"
+  },
+  "P2-0861": {
+   "key": "About 12% more batch output and 7% more solvent recovery, phase separation at 99.9% purity, and a repeat relationship across two countries.",
+   "page": "case-studies"
+  },
+  "P2-0862": {
+   "key": "+12% <em>batch output</em>",
+   "page": "case-studies"
+  },
+  "P2-0863": {
+   "key": "+7% <em>solvent recovery</em>",
+   "page": "case-studies"
+  },
+  "P2-0864": {
+   "key": "99.9% <em>phase-separation purity</em>",
+   "page": "case-studies"
+  },
+  "P2-0865": {
+   "key": "Extraction",
+   "page": "case-studies"
+  },
+  "P2-0866": {
+   "key": "Multiproduct",
+   "page": "case-studies"
+  },
+  "P2-0867": {
+   "key": "Industry: <a1>Pharma &amp; Life Sciences</a1>",
+   "page": "case-studies"
+  },
+  "P2-0868": {
+   "key": "Process Skid Plants · Completed · Saudi Arabia · Research institute",
+   "page": "case-studies"
+  },
+  "P2-0869": {
+   "key": "Ultrasonic battery-recycling pilot for critical-mineral recovery",
+   "page": "case-studies"
+  },
+  "P2-0870": {
+   "key": "A research institute needed to move an ultrasonically intensified battery-recycling process from the lab to an operable, instrumented pilot.",
+   "page": "case-studies"
+  },
+  "P2-0871": {
+   "key": "Without precise control and data capture, recovery results cannot be compared between runs or used to plan the next scale.",
+   "page": "case-studies"
+  },
+  "P2-0872": {
+   "key": "Process skid design and supply covering black-mass leaching, centrifugation, crystallization and recovery; Siemens S7-1500 control with 120 I/O; control panel and field instrumentation; IoT platform for batch analysis, reporting and remote diagnostics.",
+   "page": "case-studies"
+  },
+  "P2-0873": {
+   "key": "A turnkey, automated pilot with real-time control of ultrasonic energy, temperature and flow, batch records for every run, and a modular design ready to replicate.",
+   "page": "case-studies"
+  },
+  "P2-0874": {
+   "key": "Battery recycling",
+   "page": "case-studies"
+  },
+  "P2-0875": {
+   "key": "Critical minerals",
+   "page": "case-studies"
+  },
+  "P2-0876": {
+   "key": "IoT",
+   "page": "case-studies"
+  },
+  "P2-0877": {
+   "key": "Industry: <a1>Energy Transition &amp; Critical Minerals</a1>",
+   "page": "case-studies"
+  },
+  "P2-0878": {
+   "key": "Process Skid Plants · Completed · Saudi Arabia · Research university",
+   "page": "case-studies"
+  },
+  "P2-0879": {
+   "key": "Cryogenic carbon capture and solvent recovery pilot",
+   "page": "case-studies"
+  },
+  "P2-0880": {
+   "key": "A research university needed a pilot to capture CO₂ from flue gas at cryogenic temperature and recover the solvent, with the control precision research work demands.",
+   "page": "case-studies"
+  },
+  "P2-0881": {
+   "key": "At cryogenic conditions, small deviations in temperature, pressure or flow upset capture and put equipment at risk, and runs that are not recorded cannot be compared.",
+   "page": "case-studies"
+  },
+  "P2-0882": {
+   "key": "Turnkey skid engineering: two-stage cryogenic capture with CO₂ de-sublimation, solid-liquid separation, liquefaction and solvent recovery; Siemens S7-1500 control with 225 I/O; control panel and field instrumentation; safety interlocks and alarms; IoT batch analysis, historical trends and remote diagnostics.",
+   "page": "case-studies"
+  },
+  "P2-0883": {
+   "key": "A fully automated pilot with audit trails and batch records for every run, one of 8+ research projects we have delivered in Saudi Arabia since 2024.",
+   "page": "case-studies"
+  },
+  "P2-0884": {
+   "key": "225 <em>I/O</em>",
+   "page": "case-studies"
+  },
+  "P2-0885": {
+   "key": "2 <em>capture stages</em>",
+   "page": "case-studies"
+  },
+  "P2-0886": {
+   "key": "8+ <em>Saudi research projects</em>",
+   "page": "case-studies"
+  },
+  "P2-0887": {
+   "key": "Carbon capture",
+   "page": "case-studies"
+  },
+  "P2-0888": {
+   "key": "Cryogenic",
+   "page": "case-studies"
+  },
+  "P2-0889": {
+   "key": "Siemens S7-1500",
+   "page": "case-studies"
+  },
+  "P2-0890": {
+   "key": "Process Skid Plants · Completed · India · Refinery R&amp;D",
+   "page": "case-studies"
+  },
+  "P2-0891": {
+   "key": "Carbon capture and hydrogen pilot systems for refinery research",
+   "page": "case-studies"
+  },
+  "P2-0892": {
+   "key": "Refinery research teams needed pilot systems to test gas purification, amine-based CO₂ capture and membrane hydrogen separation under controlled conditions.",
+   "page": "case-studies"
+  },
+  "P2-0893": {
+   "key": "Manual operation of pressure, temperature and flow makes experiments slow and hard to repeat, and mass balances unreliable.",
+   "page": "case-studies"
+  },
+  "P2-0894": {
+   "key": "Three instrumented pilot systems: CO₂ / H₂ purification (5 LPH, up to 100 °C, 50 barg); CO₂ absorption and desorption with amine (3 LPH); and a membrane synthesis and H₂ separation unit with Siemens S7-1500 control, 500 I/O and WinCC SCADA.",
+   "page": "case-studies"
+  },
+  "P2-0895": {
+   "key": "Automated pilots with real-time mass balance, trends, alarms and batch reports, giving the research teams repeatable runs and usable data.",
+   "page": "case-studies"
+  },
+  "P2-0896": {
+   "key": "5 <em>LPH purification</em>",
+   "page": "case-studies"
+  },
+  "P2-0897": {
+   "key": "50 <em>barg</em>",
+   "page": "case-studies"
+  },
+  "P2-0898": {
+   "key": "500 <em>I/O</em>",
+   "page": "case-studies"
+  },
+  "P2-0899": {
+   "key": "Hydrogen",
+   "page": "case-studies"
+  },
+  "P2-0900": {
+   "key": "Membranes",
+   "page": "case-studies"
+  },
+  "P2-0901": {
+   "key": "Pilot plants",
+   "page": "case-studies"
+  },
+  "P2-0902": {
+   "key": "Process Skid Plants · Industrial Automation · Completed · India · API manufacturer",
+   "page": "case-studies"
+  },
+  "P2-0903": {
+   "key": "Automated API process skid in a hazardous area",
+   "page": "case-studies"
+  },
+  "P2-0904": {
+   "key": "batch production",
+   "page": "case-studies"
+  },
+  "P2-0905": {
+   "key": "batch cycle time",
+   "page": "case-studies"
+  },
+  "P2-0906": {
+   "key": "solvent recovery",
+   "page": "case-studies"
+  },
+  "P2-0907": {
+   "key": "months to ROI",
+   "page": "case-studies"
+  },
+  "P2-0908": {
+   "key": "An API manufacturer wanted higher batch output and shorter cycles from a process step run in a classified hazardous area, with less manual handling.",
+   "page": "case-studies"
+  },
+  "P2-0909": {
+   "key": "Manual operation limited throughput, lengthened cycles and kept operators close to hazardous materials.",
+   "page": "case-studies"
+  },
+  "P2-0910": {
+   "key": "A fully automated, unmanned skid: CompactLogix control with 300 I/O, hazardous-area field instruments, advanced phase-separation control, 21 CFR Part 11 audit trails and IoT remote data review.",
+   "page": "case-studies"
+  },
+  "P2-0911": {
+   "key": "Higher throughput and shorter cycles with safe, unmanned operation.",
+   "page": "case-studies"
+  },
+  "P2-0912": {
+   "key": "API",
+   "page": "case-studies"
+  },
+  "P2-0913": {
+   "key": "300 I/O",
+   "page": "case-studies"
+  },
+  "P2-0914": {
+   "key": "Process Skid Plants · Completed · India · Space research program",
+   "page": "case-studies"
+  },
+  "P2-0915": {
+   "key": "Propulsion-fuel pilot plant for a space research program",
+   "page": "case-studies"
+  },
+  "P2-0916": {
+   "key": "product purity",
+   "page": "case-studies"
+  },
+  "P2-0917": {
+   "key": "LPH pilot capacity",
+   "page": "case-studies"
+  },
+  "P2-0918": {
+   "key": "measurement accuracy",
+   "page": "case-studies"
+  },
+  "P2-0919": {
+   "key": "A space research program needed to prove a newly developed chemical process at pilot scale and generate the engineering data to take it to production.",
+   "page": "case-studies"
+  },
+  "P2-0920": {
+   "key": "The process combined operation down to −60 °C with reaction up to 900 °C; without tight control, the purity specification and safe operation could not be held.",
+   "page": "case-studies"
+  },
+  "P2-0921": {
+   "key": "Feasibility study; process and reactor design, with reactor materials rated to 1000 °C; fabrication and commissioning to international engineering norms; a HAZOP study; automation with CompactLogix control, FactoryTalk View SCADA, 150+ I/O and cascade control loops for supercritical conditions.",
+   "page": "case-studies"
+  },
+  "P2-0922": {
+   "key": "A commissioned pilot plant at 1 LPH meeting the ≥99% purity specification, measurement accuracy within ±0.07% and the engineering data needed for scale-up.",
+   "page": "case-studies"
+  },
+  "P2-0923": {
+   "key": "Pilot plant",
+   "page": "case-studies"
+  },
+  "P2-0924": {
+   "key": "HAZOP",
+   "page": "case-studies"
+  },
+  "P2-0925": {
+   "key": "−60 to 900 °C",
+   "page": "case-studies"
+  },
+  "P2-0926": {
+   "key": "150+ I/O",
+   "page": "case-studies"
+  },
+  "P2-0927": {
+   "key": "Customer type: <a1>Research &amp; Technology Development</a1>",
+   "page": "case-studies"
+  },
+  "P2-0928": {
+   "key": "Industrial Automation · Completed · Toronto, Canada · Global healthcare company",
+   "page": "case-studies"
+  },
+  "P2-0929": {
+   "key": "Adjuvant and CIP skid automation for a global healthcare company",
+   "page": "case-studies"
+  },
+  "P2-0930": {
+   "key": "A global healthcare company needed skid-based adjuvant processing and clean-in-place (CIP) at its Toronto site automated to pharma-grade standards and tied into the existing plant DCS.",
+   "page": "case-studies"
+  },
+  "P2-0931": {
+   "key": "Manual sequences and incomplete records put batch integrity and validation at risk in a regulated life-sciences process.",
+   "page": "case-studies"
+  },
+  "P2-0932": {
+   "key": "Rockwell ControlLogix with Studio 5000 and the PlantPAx library, 900+ I/O in NEMA 4X panels, ISA-88 batch sequencing, a 21 CFR Part 11 audit trail and OPC UA integration with the existing DCS; full lifecycle documentation (URS, FDS, hardware and software design specifications) with FAT and SAT.",
+   "page": "case-studies"
+  },
+  "P2-0933": {
+   "key": "A 21 CFR Part 11 compliant system with repeatable batches, fewer manual interventions, full design and test traceability for validation, and a modular architecture ready for new recipes.",
+   "page": "case-studies"
+  },
+  "P2-0934": {
+   "key": "900+ <em>I/O</em>",
+   "page": "case-studies"
+  },
+  "P2-0935": {
+   "key": "21 CFR <em>Part 11</em>",
+   "page": "case-studies"
+  },
+  "P2-0936": {
+   "key": "ISA-88 <em>sequencing</em>",
+   "page": "case-studies"
+  },
+  "P2-0937": {
+   "key": "PlantPAx",
+   "page": "case-studies"
+  },
+  "P2-0938": {
+   "key": "CIP",
+   "page": "case-studies"
+  },
+  "P2-0939": {
+   "key": "FAT / SAT",
+   "page": "case-studies"
+  },
+  "P2-0940": {
+   "key": "Industrial Automation · Completed · Canada · Cleaning and personal-care brand",
+   "page": "case-studies"
+  },
+  "P2-0941": {
+   "key": "Capacity expansion for a cleaning-product manufacturer",
+   "page": "case-studies"
+  },
+  "P2-0942": {
+   "key": "energy and material saved",
+   "page": "case-studies"
+  },
+  "P2-0943": {
+   "key": "A North American cleaning and personal-care brand needed more output from its compounding area.",
+   "page": "case-studies"
+  },
+  "P2-0944": {
+   "key": "Manual batching and fixed-speed equipment limited capacity, consistency and traceability.",
+   "page": "case-studies"
+  },
+  "P2-0945": {
+   "key": "Automated compounding with Rockwell control and FactoryTalk SCADA, 1,000+ I/O, 26 VFDs and 4 agitators, remote and local I/O panels, ISA-88 recipe management, a paperless audit trail and IoT monitoring.",
+   "page": "case-studies"
+  },
+  "P2-0946": {
+   "key": "More capacity with less manual intervention, plus batch traceability and faster changeovers.",
+   "page": "case-studies"
+  },
+  "P2-0947": {
+   "key": "Rockwell",
+   "page": "case-studies"
+  },
+  "P2-0948": {
+   "key": "VFDs",
+   "page": "case-studies"
+  },
+  "P2-0949": {
+   "key": "Audit trail",
+   "page": "case-studies"
+  },
+  "P2-0950": {
+   "key": "Industrial Automation · Completed · Ontario, Canada · Home and personal care",
+   "page": "case-studies"
+  },
+  "P2-0951": {
+   "key": "Greenfield process and batch automation for a liquid personal-care plant",
+   "page": "case-studies"
+  },
+  "P2-0952": {
+   "key": "Scope",
+   "page": "case-studies"
+  },
+  "P2-0953": {
+   "key": "batch system, formulation to filling",
+   "page": "case-studies"
+  },
+  "P2-0954": {
+   "key": "recipes and phases",
+   "page": "case-studies"
+  },
+  "P2-0955": {
+   "key": "A new plant needed one operating system for formulation, raw-material addition, mixing, transfers, filling and CIP.",
+   "page": "case-studies"
+  },
+  "P2-0956": {
+   "key": "Separate control islands would have made batches harder to repeat and records harder to keep.",
+   "page": "case-studies"
+  },
+  "P2-0957": {
+   "key": "Process and controls definition, E&amp;I integration, ISA-88-oriented batch control with recipes, HMI and SCADA, FAT, SAT, commissioning, training and handover.",
+   "page": "case-studies"
+  },
+  "P2-0958": {
+   "key": "More repeatable batches, consistent dosing, earlier detection of deviations and structured batch records.",
+   "page": "case-studies"
+  },
+  "P2-0959": {
+   "key": "Commissioning",
+   "page": "case-studies"
+  },
+  "P2-0960": {
+   "key": "Industrial Automation · {PlantON} · Completed · Canada · India · Chocolate manufacturer",
+   "page": "case-studies"
+  },
+  "P2-0961": {
+   "key": "Chocolate lines from several European OEMs on one control platform",
+   "page": "case-studies"
+  },
+  "P2-0962": {
+   "key": "I/O on one redundant SCADA",
+   "page": "case-studies"
+  },
+  "P2-0963": {
+   "key": "countries, Canada and India",
+   "page": "case-studies"
+  },
+  "P2-0964": {
+   "key": "control platforms brought together",
+   "page": "case-studies"
+  },
+  "P2-0965": {
+   "key": "A chocolate manufacturer with plants in Canada and India ran imported conching, refining and tempering equipment from several European OEMs, each with its own controls.",
+   "page": "case-studies"
+  },
+  "P2-0966": {
+   "key": "Separate Rockwell, Siemens and Schneider control islands made batches hard to keep consistent, slowed troubleshooting and left energy and OEE figures that could not be compared across lines.",
+   "page": "case-studies"
+  },
+  "P2-0967": {
+   "key": "Control integration of all lines, 3,000+ I/O, onto a centralized, redundant FactoryTalk View SE client-server SCADA with historian and asset management; PLC, HMI and SCADA programming for a four-concher system; communication across multiple PLCs and remote I/O; energy-meter integration; safety interlocks and alarms; onsite commissioning; {PlantON} for OEE, downtime and utility benchmarking across sites.",
+   "page": "case-studies"
+  },
+  "P2-0968": {
+   "key": "One view of process, utilities and production KPIs across both countries, more consistent batches with better traceability, faster troubleshooting from historian data, and a platform ready for further lines.",
+   "page": "case-studies"
+  },
+  "P2-0969": {
+   "key": "Multi-OEM",
+   "page": "case-studies"
+  },
+  "P2-0970": {
+   "key": "Redundant SCADA",
+   "page": "case-studies"
+  },
+  "P2-0971": {
+   "key": "OEE",
+   "page": "case-studies"
+  },
+  "P2-0972": {
+   "key": "Energy metering",
+   "page": "case-studies"
+  },
+  "P2-0973": {
+   "key": "Industry: <a1>Food, Beverage &amp; Dairy</a1>",
+   "page": "case-studies"
+  },
+  "P2-0974": {
+   "key": "{PlantON} · Industrial Automation · Completed · California, USA · Dairy producer",
+   "page": "case-studies"
+  },
+  "P2-0975": {
+   "key": "Dairy modernization with {PlantON}",
+   "page": "case-studies"
+  },
+  "P2-0976": {
+   "key": "A dairy producing cheese, ice cream, milk and yogurt ran 12+ separate control systems, and pasteurizer trends and utility figures were compiled by hand.",
+   "page": "case-studies"
+  },
+  "P2-0977": {
+   "key": "Up to two hours a day on compliance reports, and little link between utility use and production.",
+   "page": "case-studies"
+  },
+  "P2-0978": {
+   "key": "A centralized Rockwell CompactLogix and FactoryTalk View SE system across all areas (2,000+ I/O), with {PlantON} for CIP validation, paperless chart recording, utility monitoring and traceability from raw-milk reception to dispatch.",
+   "page": "case-studies"
+  },
+  "P2-0979": {
+   "key": "Compliance reporting cut from up to 2 hours to about 7 minutes, with automatic daily production and utility reports.",
+   "page": "case-studies"
+  },
+  "P2-0980": {
+   "key": "94% <em>faster compliance reporting</em>",
+   "page": "case-studies"
+  },
+  "P2-0981": {
+   "key": "12% <em>less chemical</em>",
+   "page": "case-studies"
+  },
+  "P2-0982": {
+   "key": "11% <em>less utility use</em>",
+   "page": "case-studies"
+  },
+  "P2-0983": {
+   "key": "2,000+ I/O",
+   "page": "case-studies"
+  },
+  "P2-0984": {
+   "key": "{PlantON} · Completed · India · Aluminium die casting",
+   "page": "case-studies"
+  },
+  "P2-0985": {
+   "key": "Legacy die-cast machines on one {PlantON} performance view",
+   "page": "case-studies"
+  },
+  "P2-0986": {
+   "key": "lower utility use",
+   "page": "case-studies"
+  },
+  "P2-0987": {
+   "key": "fewer quality rejections",
+   "page": "case-studies"
+  },
+  "P2-0988": {
+   "key": "An aluminium die-casting manufacturer ran machines of different ages and makes, and its production and ERP data did not line up.",
+   "page": "case-studies"
+  },
+  "P2-0989": {
+   "key": "Without a common view of OEE, utilities and quality, losses stayed hidden between machines and shifts, and there was no basis to rank improvement work.",
+   "page": "case-studies"
+  },
+  "P2-0990": {
+   "key": "Legacy machines, existing PLCs and sensors connected to {PlantON} without replacing equipment; production data linked with the ERP; plant-level OEE, utility monitoring and consumption benchmarking; quality and rejection visibility by machine and shift.",
+   "page": "case-studies"
+  },
+  "P2-0991": {
+   "key": "16% more productivity, 12% lower utility use and 37% fewer quality rejections, from equipment the plant already had.",
+   "page": "case-studies"
+  },
+  "P2-0992": {
+   "key": "Legacy integration",
+   "page": "case-studies"
+  },
+  "P2-0993": {
+   "key": "Utilities",
+   "page": "case-studies"
+  },
+  "P2-0994": {
+   "key": "ERP link",
+   "page": "case-studies"
+  },
+  "P2-0995": {
+   "key": "Industry: <a1>Industrial Manufacturing</a1>",
+   "page": "case-studies"
+  },
+  "P2-0996": {
+   "key": "{PlantON} · Completed · India · Alloy wheels",
+   "page": "case-studies"
+  },
+  "P2-0997": {
+   "key": "Smart paint shop for an alloy-wheel manufacturer",
+   "page": "case-studies"
+  },
+  "P2-0998": {
+   "key": "fewer paint-related rejections",
+   "page": "case-studies"
+  },
+  "P2-0999": {
+   "key": "less chemical consumption",
+   "page": "case-studies"
+  },
+  "P2-1000": {
+   "key": "An alloy-wheel manufacturer was losing parts and chemicals in its paint shop and could not trace quality problems back to process conditions.",
+   "page": "case-studies"
+  },
+  "P2-1001": {
+   "key": "Paint-related rejections and chemical overuse cost money on every shift, with no data to show where to act.",
+   "page": "case-studies"
+  },
+  "P2-1002": {
+   "key": "Critical parameters identified with operations; sensors added where data was missing; process conditions connected to {PlantON} with batch traceability, KPI views, and chemical-use and rejection analysis.",
+   "page": "case-studies"
+  },
+  "P2-1003": {
+   "key": "62% fewer paint-related rejections and 26% less chemical consumption.",
+   "page": "case-studies"
+  },
+  "P2-1004": {
+   "key": "Paint shop",
+   "page": "case-studies"
+  },
+  "P2-1005": {
+   "key": "Chemical use",
+   "page": "case-studies"
+  },
+  "P2-1006": {
+   "key": "Talk to a client who has worked with us",
+   "page": "case-studies"
+  },
+  "P2-1007": {
+   "key": "Reference calls can be arranged for qualified projects, with the client’s agreement. Tell us the type of project and we will suggest the closest match.",
+   "page": "case-studies"
+  },
+  "P2-1008": {
+   "key": "Request a reference",
+   "page": "case-studies"
+  },
+  "P2-1009": {
+   "key": "Have a challenge like these? Start with the engineering question.",
+   "page": "case-studies"
+  },
+  "P2-1010": {
+   "key": "CO₂ extraction system built by Instron Technologies",
+   "page": "case-studies"
+  },
+  "P2-1011": {
+   "key": "Filter case studies by solution",
+   "page": "case-studies"
+  },
+  "P2-1012": {
+   "key": "Solvent-recovery process skid",
+   "page": "case-studies"
+  },
+  "P2-1013": {
+   "key": "Steam quality analyzer skids, multi-unit installation",
+   "page": "case-studies"
+  },
+  "P2-1014": {
+   "key": "HMI process overview of the cryogenic carbon capture pilot",
+   "page": "case-studies"
+  },
+  "P2-1015": {
+   "key": "Fifteen projects in full: the situation, the scope we delivered and the measured result, across process skids, automation and plant data.",
+   "page": "case-studies"
+  },
+  "P2-1016": {
+   "key": "Case Studies | Instron Technologies",
+   "page": "case-studies"
+  },
+  "P2-1017": {
+   "key": "Case Studies, Instron Technologies",
+   "page": "case-studies"
+  },
+  "P2-1018": {
+   "key": "Projects · Project Portfolio",
+   "page": "project-portfolio"
+  },
+  "P2-1019": {
+   "key": "Engineered, built and commissioned. <span>Across process, automation and plant data.</span>",
+   "page": "project-portfolio"
+  },
+  "P2-1020": {
+   "key": "Selected projects from pilot skids and research systems to plant-wide automation and {PlantON} deployments. Client names are withheld; references are available on request.",
+   "page": "project-portfolio"
+  },
+  "P2-1021": {
+   "key": "Browse projects",
+   "page": "project-portfolio"
+  },
+  "P2-1022": {
+   "key": "Read case studies",
+   "page": "project-portfolio"
+  },
+  "P2-1023": {
+   "key": "<strong>300+</strong><span>Industrial solutions delivered</span>",
+   "page": "project-portfolio"
+  },
+  "P2-1024": {
+   "key": "<strong>2013</strong><span>Engineering since</span>",
+   "page": "project-portfolio"
+  },
+  "P2-1025": {
+   "key": "<strong>34</strong><span>Projects in this portfolio</span>",
+   "page": "project-portfolio"
+  },
+  "P2-1026": {
+   "key": "Project portfolio",
+   "page": "project-portfolio"
+  },
+  "P2-1027": {
+   "key": "Find work like yours.",
+   "page": "project-portfolio"
+  },
+  "P2-1028": {
+   "key": "Filter by solution. Projects that carry a full case study link to it.",
+   "page": "project-portfolio"
+  },
+  "P2-1029": {
+   "key": "All (34)",
+   "page": "project-portfolio"
+  },
+  "P2-1030": {
+   "key": "Process Skid Plants (23)",
+   "page": "project-portfolio"
+  },
+  "P2-1031": {
+   "key": "Industrial Automation (12)",
+   "page": "project-portfolio"
+  },
+  "P2-1032": {
+   "key": "PlantON<sup1>™</sup1> (8)",
+   "page": "project-portfolio"
+  },
+  "P2-1033": {
+   "key": "Industry",
+   "page": "project-portfolio"
+  },
+  "P2-1034": {
+   "key": "Energy Transition (11)",
+   "page": "project-portfolio"
+  },
+  "P2-1035": {
+   "key": "Research (6)",
+   "page": "project-portfolio"
+  },
+  "P2-1036": {
+   "key": "Chemicals (6)",
+   "page": "project-portfolio"
+  },
+  "P2-1037": {
+   "key": "Food &amp; Dairy (2)",
+   "page": "project-portfolio"
+  },
+  "P2-1038": {
+   "key": "Pharma (4)",
+   "page": "project-portfolio"
+  },
+  "P2-1039": {
+   "key": "Manufacturing (5)",
+   "page": "project-portfolio"
+  },
+  "P2-1040": {
+   "key": "Completed · Mexico · Electronic components",
+   "page": "project-portfolio"
+  },
+  "P2-1041": {
+   "key": "A recovery system built in two parts: a process skid and a distillation tower with platforms and service access. A second project followed from the same customer.",
+   "page": "project-portfolio"
+  },
+  "P2-1042": {
+   "key": "<a1>Chemicals, Refining &amp; Consumer Products</a1>",
+   "page": "project-portfolio"
+  },
+  "P2-1043": {
+   "key": "Completed · USA · Kuwait · Oil extraction",
+   "page": "project-portfolio"
+  },
+  "P2-1044": {
+   "key": "Packaged analyzer skids measuring steam quality, pressure, temperature and density, with redundant ControlLogix control, Honeywell DCS links and remote tuning. Jointly developed with global energy and process companies.",
+   "page": "project-portfolio"
+  },
+  "P2-1045": {
+   "key": "512 kg/h",
+   "page": "project-portfolio"
+  },
+  "P2-1046": {
+   "key": "250 °C",
+   "page": "project-portfolio"
+  },
+  "P2-1047": {
+   "key": "65 barg",
+   "page": "project-portfolio"
+  },
+  "P2-1048": {
+   "key": "15% energy saved",
+   "page": "project-portfolio"
+  },
+  "P2-1049": {
+   "key": "Completed · Toronto, Canada · Global healthcare",
+   "page": "project-portfolio"
+  },
+  "P2-1050": {
+   "key": "A 21 CFR Part 11 compliant system with ISA-88 sequencing, PlantPAx modules and OPC UA links to the existing DCS. URS, FDS, FAT and SAT. 900+ I/O.",
+   "page": "project-portfolio"
+  },
+  "P2-1051": {
+   "key": "<a1>Pharma &amp; Life Sciences</a1>",
+   "page": "project-portfolio"
+  },
+  "P2-1052": {
+   "key": "Completed · California, USA · Dairy",
+   "page": "project-portfolio"
+  },
+  "P2-1053": {
+   "key": "Industrial Automation + PlantON<sup1>™</sup1>",
+   "page": "project-portfolio"
+  },
+  "P2-1054": {
+   "key": "12+ control systems on one platform, with traceability from raw-milk reception to dispatch and automated utility and CIP reporting.",
+   "page": "project-portfolio"
+  },
+  "P2-1055": {
+   "key": "<a1>Food, Beverage &amp; Dairy</a1>",
+   "page": "project-portfolio"
+  },
+  "P2-1056": {
+   "key": "94% faster reporting",
+   "page": "project-portfolio"
+  },
+  "P2-1057": {
+   "key": "12% less chemical",
+   "page": "project-portfolio"
+  },
+  "P2-1058": {
+   "key": "Completed · Canada · Cleaning products",
+   "page": "project-portfolio"
+  },
+  "P2-1059": {
+   "key": "Production capacity",
+   "page": "project-portfolio"
+  },
+  "P2-1060": {
+   "key": "Automated compounding with 26 VFDs and 4 agitators, ISA-88 recipes, a paperless audit trail and IoT monitoring. Rockwell, 1,000+ I/O.",
+   "page": "project-portfolio"
+  },
+  "P2-1061": {
+   "key": "+20% capacity",
+   "page": "project-portfolio"
+  },
+  "P2-1062": {
+   "key": "15% energy &amp; material",
+   "page": "project-portfolio"
+  },
+  "P2-1063": {
+   "key": "1,000+ I/O",
+   "page": "project-portfolio"
+  },
+  "P2-1064": {
+   "key": "Completed · India · Pharmaceuticals",
+   "page": "project-portfolio"
+  },
+  "P2-1065": {
+   "key": "A multi-level stainless extraction skid with vessels, receivers, hazardous-area instrumentation and an integrated control panel.",
+   "page": "project-portfolio"
+  },
+  "P2-1066": {
+   "key": "Completed · Saudi Arabia · Research institute",
+   "page": "project-portfolio"
+  },
+  "P2-1067": {
+   "key": "Process Skid Plants + Industrial Automation",
+   "page": "project-portfolio"
+  },
+  "P2-1068": {
+   "key": "Turnkey pilot skid for black-mass leaching, separation and crystallization, with Siemens S7-1500 control, 120 I/O and IoT batch reporting.",
+   "page": "project-portfolio"
+  },
+  "P2-1069": {
+   "key": "<a1>Energy Transition &amp; Critical Minerals</a1>",
+   "page": "project-portfolio"
+  },
+  "P2-1070": {
+   "key": "Completed · Saudi Arabia · Research university",
+   "page": "project-portfolio"
+  },
+  "P2-1071": {
+   "key": "Cryogenic carbon capture &amp; solvent recovery",
+   "page": "project-portfolio"
+  },
+  "P2-1072": {
+   "key": "Two-stage cryogenic capture with CO₂ de-sublimation, solid-liquid separation, liquefaction and solvent recovery. Siemens S7-1500, 225 I/O, safety interlocks.",
+   "page": "project-portfolio"
+  },
+  "P2-1073": {
+   "key": "225 I/O",
+   "page": "project-portfolio"
+  },
+  "P2-1074": {
+   "key": "Completed · India · Refinery R&amp;D",
+   "page": "project-portfolio"
+  },
+  "P2-1075": {
+   "key": "CO₂ / H₂ purification pilot",
+   "page": "project-portfolio"
+  },
+  "P2-1076": {
+   "key": "Gas-mixture purification under controlled temperature and pressure, instrumented for experimental operation and data collection.",
+   "page": "project-portfolio"
+  },
+  "P2-1077": {
+   "key": "5 LPH",
+   "page": "project-portfolio"
+  },
+  "P2-1078": {
+   "key": "100 °C",
+   "page": "project-portfolio"
+  },
+  "P2-1079": {
+   "key": "50 barg",
+   "page": "project-portfolio"
+  },
+  "P2-1080": {
+   "key": "Completed · India · API manufacturer",
+   "page": "project-portfolio"
+  },
+  "P2-1081": {
+   "key": "Batch production, with 96% solvent recovery",
+   "page": "project-portfolio"
+  },
+  "P2-1082": {
+   "key": "A fully automated, unmanned skid in a classified hazardous area, 21 CFR Part 11 compliant, with advanced phase-separation control.",
+   "page": "project-portfolio"
+  },
+  "P2-1083": {
+   "key": "+24% batches",
+   "page": "project-portfolio"
+  },
+  "P2-1084": {
+   "key": "−17% cycle time",
+   "page": "project-portfolio"
+  },
+  "P2-1085": {
+   "key": "ROI in 4 months",
+   "page": "project-portfolio"
+  },
+  "P2-1086": {
+   "key": "Completed · India · Die casting",
+   "page": "project-portfolio"
+  },
+  "P2-1087": {
+   "key": "Productivity, with 37% fewer rejects",
+   "page": "project-portfolio"
+  },
+  "P2-1088": {
+   "key": "<a1>Industrial Manufacturing</a1>",
+   "page": "project-portfolio"
+  },
+  "P2-1089": {
+   "key": "+16% productivity",
+   "page": "project-portfolio"
+  },
+  "P2-1090": {
+   "key": "12% utilities",
+   "page": "project-portfolio"
+  },
+  "P2-1091": {
+   "key": "37% fewer rejects",
+   "page": "project-portfolio"
+  },
+  "P2-1092": {
+   "key": "Completed · India · Alloy wheels",
+   "page": "project-portfolio"
+  },
+  "P2-1093": {
+   "key": "Fewer paint-related rejects",
+   "page": "project-portfolio"
+  },
+  "P2-1094": {
+   "key": "26% less chemical",
+   "page": "project-portfolio"
+  },
+  "P2-1095": {
+   "key": "62% fewer rejects",
+   "page": "project-portfolio"
+  },
+  "P2-1096": {
+   "key": "2026 · Saudi Arabia · Research university",
+   "page": "project-portfolio"
+  },
+  "P2-1097": {
+   "key": "H₂O₂ production and water-treatment rig",
+   "page": "project-portfolio"
+  },
+  "P2-1098": {
+   "key": "1 TPD",
+   "page": "project-portfolio"
+  },
+  "P2-1099": {
+   "key": "H₂O₂ production for advanced-oxidation water treatment",
+   "page": "project-portfolio"
+  },
+  "P2-1100": {
+   "key": "A 1 TPD rig that produces hydrogen peroxide for advanced-oxidation water treatment: basic engineering, supply, installation and commissioning, delivered through a regional partner.",
+   "page": "project-portfolio"
+  },
+  "P2-1101": {
+   "key": "Water treatment",
+   "page": "project-portfolio"
+  },
+  "P2-1102": {
+   "key": "Advanced oxidation",
+   "page": "project-portfolio"
+  },
+  "P2-1103": {
+   "key": "In detailed engineering · India · Space research program",
+   "page": "project-portfolio"
+  },
+  "P2-1104": {
+   "key": "CO₂ removal assembly prototype",
+   "page": "project-portfolio"
+  },
+  "P2-1105": {
+   "key": "CO₂",
+   "page": "project-portfolio"
+  },
+  "P2-1106": {
+   "key": "Removal assembly prototype for a space research program",
+   "page": "project-portfolio"
+  },
+  "P2-1107": {
+   "key": "Design and supply of a CO₂ removal assembly prototype with a zeolite adsorption column, desiccant bed and chiller circuit. Basic engineering and bill of materials approved; fabrication drawings under review.",
+   "page": "project-portfolio"
+  },
+  "P2-1108": {
+   "key": "<a1>Research &amp; Technology Development</a1>",
+   "page": "project-portfolio"
+  },
+  "P2-1109": {
+   "key": "CO₂ removal",
+   "page": "project-portfolio"
+  },
+  "P2-1110": {
+   "key": "Adsorption",
+   "page": "project-portfolio"
+  },
+  "P2-1111": {
+   "key": "Prototype",
+   "page": "project-portfolio"
+  },
+  "P2-1112": {
+   "key": "In progress · Saudi Arabia · Research university",
+   "page": "project-portfolio"
+  },
+  "P2-1113": {
+   "key": "Methane pyrolysis basic engineering",
+   "page": "project-portfolio"
+  },
+  "P2-1114": {
+   "key": "Pyrolysis",
+   "page": "project-portfolio"
+  },
+  "P2-1115": {
+   "key": "Basic engineering around a methane pyrolysis reactor",
+   "page": "project-portfolio"
+  },
+  "P2-1116": {
+   "key": "Balance-of-plant basic engineering around a methane pyrolysis reactor for hydrogen and solid carbon: PFD and battery limits, feed and utilities, product handling, and the venting, purge and interlock philosophy.",
+   "page": "project-portfolio"
+  },
+  "P2-1117": {
+   "key": "Solid carbon",
+   "page": "project-portfolio"
+  },
+  "P2-1118": {
+   "key": "Basic engineering",
+   "page": "project-portfolio"
+  },
+  "P2-1119": {
+   "key": "Active FEED · Canada · National research organization",
+   "page": "project-portfolio"
+  },
+  "P2-1120": {
+   "key": "Engineering definition for a research reactor",
+   "page": "project-portfolio"
+  },
+  "P2-1121": {
+   "key": "Rare earth",
+   "page": "project-portfolio"
+  },
+  "P2-1122": {
+   "key": "Reactor",
+   "page": "project-portfolio"
+  },
+  "P2-1123": {
+   "key": "2024 to 2026 · Saudi Arabia · Research university",
+   "page": "project-portfolio"
+  },
+  "P2-1124": {
+   "key": "Recurring pilot-system work since 2024",
+   "page": "project-portfolio"
+  },
+  "P2-1125": {
+   "key": "Repeat work",
+   "page": "project-portfolio"
+  },
+  "P2-1126": {
+   "key": "Energy transition",
+   "page": "project-portfolio"
+  },
+  "P2-1127": {
+   "key": "Completed · Thailand · Polymer research",
+   "page": "project-portfolio"
+  },
+  "P2-1128": {
+   "key": "Multipurpose distillation unit",
+   "page": "project-portfolio"
+  },
+  "P2-1129": {
+   "key": "A pilot distillation unit with column, reboiler, condenser and chillers, built for flexible polymer research campaigns.",
+   "page": "project-portfolio"
+  },
+  "P2-1130": {
+   "key": "Research",
+   "page": "project-portfolio"
+  },
+  "P2-1131": {
+   "key": "CO₂ absorption &amp; desorption (amine)",
+   "page": "project-portfolio"
+  },
+  "P2-1132": {
+   "key": "3 LPH",
+   "page": "project-portfolio"
+  },
+  "P2-1133": {
+   "key": "Amine absorption and regeneration, automated",
+   "page": "project-portfolio"
+  },
+  "P2-1134": {
+   "key": "Absorption and regeneration stages with automated sequencing, so the research team can focus on performance, not manual coordination.",
+   "page": "project-portfolio"
+  },
+  "P2-1135": {
+   "key": "Up to 100 °C",
+   "page": "project-portfolio"
+  },
+  "P2-1136": {
+   "key": "Membrane H₂ separation unit",
+   "page": "project-portfolio"
+  },
+  "P2-1137": {
+   "key": "Membrane synthesis and H₂ separation",
+   "page": "project-portfolio"
+  },
+  "P2-1138": {
+   "key": "Membrane synthesis and gas-separation pilot with fixed-bed reactors, real-time mass balance and automated reports. Siemens S7-1500, 500 I/O, WinCC.",
+   "page": "project-portfolio"
+  },
+  "P2-1139": {
+   "key": "2026 · India · Refinery R&amp;D",
+   "page": "project-portfolio"
+  },
+  "P2-1140": {
+   "key": "Milli-channel reactor setup",
+   "page": "project-portfolio"
+  },
+  "P2-1141": {
+   "key": "Milli-channel",
+   "page": "project-portfolio"
+  },
+  "P2-1142": {
+   "key": "Reactor setup for refinery research",
+   "page": "project-portfolio"
+  },
+  "P2-1143": {
+   "key": "A milli-channel reactor setup for a refinery research centre, engineered and supplied under a public tender.",
+   "page": "project-portfolio"
+  },
+  "P2-1144": {
+   "key": "Process intensification",
+   "page": "project-portfolio"
+  },
+  "P2-1145": {
+   "key": "Refinery R&amp;D",
+   "page": "project-portfolio"
+  },
+  "P2-1146": {
+   "key": "Completed · India · Space research program",
+   "page": "project-portfolio"
+  },
+  "P2-1147": {
+   "key": "Propulsion-fuel pilot plant",
+   "page": "project-portfolio"
+  },
+  "P2-1148": {
+   "key": "Product purity at pilot scale",
+   "page": "project-portfolio"
+  },
+  "P2-1149": {
+   "key": "A specialized chemical pilot plant with supercritical process control and cascade loops, meeting a ≥99% purity specification.",
+   "page": "project-portfolio"
+  },
+  "P2-1150": {
+   "key": "1 LPH",
+   "page": "project-portfolio"
+  },
+  "P2-1151": {
+   "key": "≥99% purity",
+   "page": "project-portfolio"
+  },
+  "P2-1152": {
+   "key": "±0.07% accuracy",
+   "page": "project-portfolio"
+  },
+  "P2-1153": {
+   "key": "Completed · India · National energy research institute",
+   "page": "project-portfolio"
+  },
+  "P2-1154": {
+   "key": "Electrolysis pilot automation",
+   "page": "project-portfolio"
+  },
+  "P2-1155": {
+   "key": "Control of current, voltage, differential pressure and flow across the electrolysis stacks, with safety interlocks and data logging. Schneider PLC, AVEVA SCADA, 400+ I/O.",
+   "page": "project-portfolio"
+  },
+  "P2-1156": {
+   "key": "Electrolysis",
+   "page": "project-portfolio"
+  },
+  "P2-1157": {
+   "key": "2025 to 2026 · Saudi Arabia · Research university",
+   "page": "project-portfolio"
+  },
+  "P2-1158": {
+   "key": "High-temperature electrolysis pilot",
+   "page": "project-portfolio"
+  },
+  "P2-1159": {
+   "key": "Water, steam and superheating, an SOEC/PCEC test section and H₂ / O₂ conditioning, with mass-flow control, interlocks, fire suppression and PLC-based data acquisition.",
+   "page": "project-portfolio"
+  },
+  "P2-1160": {
+   "key": "Pilot system",
+   "page": "project-portfolio"
+  },
+  "P2-1161": {
+   "key": "Methane to hydrogen &amp; graphene",
+   "page": "project-portfolio"
+  },
+  "P2-1162": {
+   "key": "H₂ + C",
+   "page": "project-portfolio"
+  },
+  "P2-1163": {
+   "key": "Methane conversion research system",
+   "page": "project-portfolio"
+  },
+  "P2-1164": {
+   "key": "Process-system engineering for high-temperature methane conversion: containment, gas handling, solid-carbon collection, utilities and interlocks.",
+   "page": "project-portfolio"
+  },
+  "P2-1165": {
+   "key": "Graphene",
+   "page": "project-portfolio"
+  },
+  "P2-1166": {
+   "key": "Completed · Research laboratory",
+   "page": "project-portfolio"
+  },
+  "P2-1167": {
+   "key": "Reactors automated, not replaced",
+   "page": "project-portfolio"
+  },
+  "P2-1168": {
+   "key": "Existing 0.5 to 20 L reactors retained and automated with pH control, dosing, temperature, agitation and PLC/SCADA, ready for future scale.",
+   "page": "project-portfolio"
+  },
+  "P2-1169": {
+   "key": "Retrofit",
+   "page": "project-portfolio"
+  },
+  "P2-1170": {
+   "key": "Reactors",
+   "page": "project-portfolio"
+  },
+  "P2-1171": {
+   "key": "pH &amp; dosing",
+   "page": "project-portfolio"
+  },
+  "P2-1172": {
+   "key": "Completed · India · Public-sector research",
+   "page": "project-portfolio"
+  },
+  "P2-1173": {
+   "key": "Government research systems",
+   "page": "project-portfolio"
+  },
+  "P2-1174": {
+   "key": "Public sector",
+   "page": "project-portfolio"
+  },
+  "P2-1175": {
+   "key": "Specialized systems where catalog equipment does not fit",
+   "page": "project-portfolio"
+  },
+  "P2-1176": {
+   "key": "Sanitized examples: compact desalination, environmental-simulation chambers, water and condensate recovery, and specialized chemical pilots.",
+   "page": "project-portfolio"
+  },
+  "P2-1177": {
+   "key": "Water",
+   "page": "project-portfolio"
+  },
+  "P2-1178": {
+   "key": "Test systems",
+   "page": "project-portfolio"
+  },
+  "P2-1179": {
+   "key": "Completed · Ontario, Canada · Home &amp; personal care",
+   "page": "project-portfolio"
+  },
+  "P2-1180": {
+   "key": "Greenfield batch automation",
+   "page": "project-portfolio"
+  },
+  "P2-1181": {
+   "key": "One batch system, formulation to filling",
+   "page": "project-portfolio"
+  },
+  "P2-1182": {
+   "key": "Formulation, raw-material addition, mixing, transfers, filling and CIP under one ISA-88-oriented batch control system, from engineering to commissioning.",
+   "page": "project-portfolio"
+  },
+  "P2-1183": {
+   "key": "Completed · Canada · India · Chocolate",
+   "page": "project-portfolio"
+  },
+  "P2-1184": {
+   "key": "Multi-vendor lines on one platform",
+   "page": "project-portfolio"
+  },
+  "P2-1185": {
+   "key": "Imported European conching, refining and tempering equipment on one redundant SCADA, with {PlantON} for OEE and utilities across sites. 3,000+ I/O.",
+   "page": "project-portfolio"
+  },
+  "P2-1186": {
+   "key": "Completed · India · Process licensor",
+   "page": "project-portfolio"
+  },
+  "P2-1187": {
+   "key": "Reactor control for refining",
+   "page": "project-portfolio"
+  },
+  "P2-1188": {
+   "key": "Redundant Honeywell Experion control for temperature, pressure, hydrogen flow and catalyst beds. 1,200+ I/O.",
+   "page": "project-portfolio"
+  },
+  "P2-1189": {
+   "key": "Refining",
+   "page": "project-portfolio"
+  },
+  "P2-1190": {
+   "key": "Redundant",
+   "page": "project-portfolio"
+  },
+  "P2-1191": {
+   "key": "Completed · Wheel manufacturing",
+   "page": "project-portfolio"
+  },
+  "P2-1192": {
+   "key": "Butt-weld cell productivity",
+   "page": "project-portfolio"
+  },
+  "P2-1193": {
+   "key": "Productivity at a critical cell",
+   "page": "project-portfolio"
+  },
+  "P2-1194": {
+   "key": "Operating visibility and improvement focus at a critical production cell.",
+   "page": "project-portfolio"
+  },
+  "P2-1195": {
+   "key": "+18% productivity",
+   "page": "project-portfolio"
+  },
+  "P2-1196": {
+   "key": "Completed · Manufacturing",
+   "page": "project-portfolio"
+  },
+  "P2-1197": {
+   "key": "Machines on one OEE model",
+   "page": "project-portfolio"
+  },
+  "P2-1198": {
+   "key": "26 machines",
+   "page": "project-portfolio"
+  },
+  "P2-1199": {
+   "key": "3 roll-up levels",
+   "page": "project-portfolio"
+  },
+  "P2-1200": {
+   "key": "Machines on one IIoT data layer",
+   "page": "project-portfolio"
+  },
+  "P2-1201": {
+   "key": "13 machines",
+   "page": "project-portfolio"
+  },
+  "P2-1202": {
+   "key": "Daily MIS",
+   "page": "project-portfolio"
+  },
+  "P2-1203": {
+   "key": "Shop-floor display",
+   "page": "project-portfolio"
+  },
+  "P2-1204": {
+   "key": "Completed · India · Australia · Pharmaceuticals",
+   "page": "project-portfolio"
+  },
+  "P2-1205": {
+   "key": "Process Skid Plants + PlantON<sup1>™</sup1>",
+   "page": "project-portfolio"
+  },
+  "P2-1206": {
+   "key": "Process, automation and data as one system",
+   "page": "project-portfolio"
+  },
+  "P2-1207": {
+   "key": "Automated continuous stirred-tank reactor units with {PlantON} visibility, in a long-standing pharma relationship.",
+   "page": "project-portfolio"
+  },
+  "P2-1208": {
+   "key": "Repeat client",
+   "page": "project-portfolio"
+  },
+  "P2-1209": {
+   "key": "<span1>Show all 34 projects</span1><span2>Show fewer projects</span2>",
+   "page": "project-portfolio"
+  },
+  "P2-1210": {
+   "key": "Client names are withheld; references are available on request. Photographs show the actual delivered systems where available.",
+   "page": "project-portfolio"
+  },
+  "P2-1211": {
+   "key": "By stage",
+   "page": "project-portfolio"
+  },
+  "P2-1212": {
+   "key": "From lab proof to production.",
+   "page": "project-portfolio"
+  },
+  "P2-1213": {
+   "key": "The same team engineers each step, so what is learned at pilot scale carries into the next system.",
+   "page": "project-portfolio"
+  },
+  "P2-1214": {
+   "key": "Research systems",
+   "page": "project-portfolio"
+  },
+  "P2-1215": {
+   "key": "Research &amp; test rigs",
+   "page": "project-portfolio"
+  },
+  "P2-1216": {
+   "key": "Electrolyzer test systems, reactor retrofits and specialized rigs for research teams.",
+   "page": "project-portfolio"
+  },
+  "P2-1217": {
+   "key": "See research work",
+   "page": "project-portfolio"
+  },
+  "P2-1218": {
+   "key": "Pilot &amp; demonstration",
+   "page": "project-portfolio"
+  },
+  "P2-1219": {
+   "key": "Carbon capture, battery recycling, hydrogen, purification and propulsion-fuel pilots.",
+   "page": "project-portfolio"
+  },
+  "P2-1220": {
+   "key": "See the solution",
+   "page": "project-portfolio"
+  },
+  "P2-1221": {
+   "key": "Production skids",
+   "page": "project-portfolio"
+  },
+  "P2-1222": {
+   "key": "Solvent recovery, extraction, analyzer skids and API process skids in production.",
+   "page": "project-portfolio"
+  },
+  "P2-1223": {
+   "key": "Automation &amp; {PlantON}",
+   "page": "project-portfolio"
+  },
+  "P2-1224": {
+   "key": "Brownfield and greenfield automation, and {PlantON} visibility on running plants.",
+   "page": "project-portfolio"
+  },
+  "P2-1225": {
+   "key": "Have a project like these? Start with the engineering question.",
+   "page": "project-portfolio"
+  },
+  "P2-1226": {
+   "key": "Filter projects by solution",
+   "page": "project-portfolio"
+  },
+  "P2-1227": {
+   "key": "Filter projects by industry",
+   "page": "project-portfolio"
+  },
+  "P2-1228": {
+   "key": "HMI process overview of a two-tank CIP and transfer system",
+   "page": "project-portfolio"
+  },
+  "P2-1229": {
+   "key": "Selected projects, from pilot skids and research systems to plant-wide automation and PlantON™ deployments. Client names withheld; references on request.",
+   "page": "project-portfolio"
+  },
+  "P2-1230": {
+   "key": "Project Portfolio | Instron Technologies",
+   "page": "project-portfolio"
+  },
+  "P2-1231": {
+   "key": "Project Portfolio, Instron Technologies",
+   "page": "project-portfolio"
+  }
+ }
+}

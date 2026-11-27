@@ -54,6 +54,8 @@ LANG = {
             ('brownfield / greenfield', 'site existant / nouveau site'), ('Insights', 'Perspectives'), ('Case Studies', 'Études de cas'),
             ('Industries', 'Secteurs'), ('Applications', 'Applications'), ('Read the case study', 'Lire l’étude de cas'),
             ('Let’s grow together', 'Grandissons ensemble'), ('Independent company, not affiliated with Instron® (ITW)', 'Société indépendante, non affiliée à Instron® (ITW)'),
+            ('control system / control philosophy', 'système de contrôle / philosophie de contrôle (panneau de commande stays)'),
+            ('R&D', 'R-D'), ('data or software pilot (a trial project)', 'projet pilote'),
             ('Engineer | Embrace | Elevate (tagline)', 'keep in English'),
         ],
     },
@@ -85,10 +87,42 @@ LANG = {
             ('shift', 'turno'), ('downtime', 'paro / tiempo de paro'), ('spare parts', 'refacciones'), ('Insights', 'Perspectivas'),
             ('Case Studies', 'Casos de estudio'), ('Industries', 'Industrias'), ('Applications', 'Aplicaciones'), ('Read the case study', 'Leer el caso de estudio'),
             ('Let’s grow together', 'Crezcamos juntos'), ('Independent company, not affiliated with Instron® (ITW)', 'Empresa independiente, no afiliada a Instron® (ITW)'),
+            ('control system / control philosophy', 'sistema de control / filosofía de control'),
+            ('layout (of equipment or a skid)', 'arreglo (never "distribución")'), ('terminal / marshalling cabinet', 'gabinete de clemas'),
+            ('batch hold / abort / restart', 'pausa / aborto / rearranque (ISA-88; not "cancelación")'), ('R&D', 'I+D'),
+            ('Explore (link label)', 'Explorar'), ('data or software pilot (a trial project)', 'etapa piloto / proyecto piloto'),
             ('Engineer | Embrace | Elevate (tagline)', 'keep in English'),
         ],
     },
 }
+
+# Page and menu names already live on the site, copied from the catalogue at pack time so the pack
+# always matches the menus. Filled in main().
+NAMES = {}
+NAME_EXTRA = ['Applications', 'Separation & Solvent Recovery', 'Brownfield Automation Modernization',
+              'Production Visibility & OEE', 'Utility & Energy Monitoring', 'Read the case study', 'Discuss Your Project']
+
+
+def live_names(root, cats):
+    import html, re as _re
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(open(os.path.join(root, 'index.html'), encoding='utf-8'), 'html.parser')
+    names = []
+    for a in soup.select('nav#it-navigation a, nav#it-navigation button.it-trigger'):
+        t = ' '.join(a.get_text(' ', strip=True).split())
+        if t and 'internal' not in t and 'Plant ON' not in t and t not in names:
+            names.append(t)
+    names += [n for n in NAME_EXTRA if n not in names]
+    out = {}
+    for loc, S in cats.items():
+        rows = []
+        for n in names:
+            k = html.escape(n, quote=False)
+            hit = next((x for x in S if x == k or _re.fullmatch(_re.escape(k) + r'<span\d+></span\d+>', x)), None)
+            if hit and S.get(hit):
+                rows.append((n, _re.sub(r'</?span\d+>', '', S[hit])))
+        out[loc] = rows
+    return out
 
 
 def show(k):
@@ -99,6 +133,7 @@ def show(k):
 def header(pack, loc, nn, total, pages, n_lines):
     L = LANG[loc]; T = L['T']
     gl = '\n'.join(f'| {a} | {b} |' for a, b in L['glossary'])
+    nm = '\n'.join(f'| {show(a)} | {b} |' for a, b in NAMES.get(loc, []))
     return f"""# Instron Technologies website: translation pack {pack}, {L['title']}, file {nn} of {total}
 
 **Pages in this file:** {', '.join(pages)}  ·  **Lines:** {n_lines}
@@ -120,6 +155,11 @@ You are a senior technical translator and a process and automation engineer. Tra
 |---|---|
 {gl}
 
+### Page and menu names already on the site (use exactly these words, also inside sentences)
+| English | {T} |
+|---|---|
+{nm}
+
 ---
 
 ## Text to translate
@@ -132,6 +172,7 @@ def main():
     pack, groups = args[0], [g.split(',') for g in args[1:]]
     out_dir = os.path.join(root, 'i18n', 'packs', pack); os.makedirs(out_dir, exist_ok=True)
     cats = {loc: E.load(root, loc)['segments'] for loc in LANG}
+    NAMES.update(live_names(root, cats))
     # every English line on the pack pages, numbered once for all languages
     ids, files = {}, []
     n = 0
