@@ -1,4 +1,12 @@
-# French (Canada) pages: fr-CA
+# Translated pages: French (Canada) fr-CA, Spanish (Mexico) es-MX
+
+v2.47 (27 Nov 2026): one engine, `tools/i18n.py`, builds every language that has a catalogue (`i18n/<locale>.json`).
+Commands: `build [root]`, and `extract | report | csv <locale> [root]`. `tools/i18n_fr.py` remains as a shortcut for fr-CA.
+Spanish (Mexico): 8 core pages in `es/`, reviewer sheet `i18n/es-MX-review.csv`. Language links: every page shows the
+other languages in the top bar (full names on desktop, EN / FR / ES on phones; full names stay in aria-label).
+Rules for all languages: Project doc claude/translation-guidelines.md.
+
+## French (Canada): fr-CA
 
 v2.46 (27 Nov 2026). First French set: 8 core pages in `fr/`, built from the English pages by `tools/i18n_fr.py`.
 
