@@ -1,0 +1,2465 @@
+{
+ "pack": "p1",
+ "pages": [
+  "solutions",
+  "pilot-demonstration-plants",
+  "industrial-process-skids",
+  "applications",
+  "technology-scale-up",
+  "separation-solvent-recovery",
+  "brownfield-automation-modernization",
+  "batch-process-automation",
+  "production-visibility-oee",
+  "utility-energy-monitoring",
+  "insights",
+  "insights-lab-to-pilot-to-industrial",
+  "insights-brownfield-modernization",
+  "insights-plant-data-rollout"
+ ],
+ "ids": {
+  "P1-0001": {
+   "key": "Process skid plants are our core solution. Industrial automation and {PlantON} are delivered with them, or on their own in operating plants.",
+   "page": "solutions"
+  },
+  "P1-0002": {
+   "key": "Three solutions, one engineering team",
+   "page": "solutions"
+  },
+  "P1-0003": {
+   "key": "Core solution",
+   "page": "solutions"
+  },
+  "P1-0004": {
+   "key": "From pilot and demonstration plants to industrial implementation, engineered and built as one integrated process system.",
+   "page": "solutions"
+  },
+  "P1-0005": {
+   "key": "<a1>Pilot &amp; Demonstration Plants</a1>",
+   "page": "solutions"
+  },
+  "P1-0006": {
+   "key": "<a1>Industrial Process Skids</a1>",
+   "page": "solutions"
+  },
+  "P1-0007": {
+   "key": "With our skids or on its own",
+   "page": "solutions"
+  },
+  "P1-0008": {
+   "key": "PLC, HMI and SCADA engineering, electrical and instrumentation design, control-system integration and modernization. Built into our Process Skid Plant projects, and delivered on its own for operating plants, OEMs and industrial facilities.",
+   "page": "solutions"
+  },
+  "P1-0009": {
+   "key": "{PlantON} connects plant data for production monitoring, OEE, utility and energy monitoring, trends, KPIs, dashboards, alarms and reporting. It comes with new Process Skid Plants or runs on its own across existing operations.",
+   "page": "solutions"
+  },
+  "P1-0010": {
+   "key": "Let's Discuss Your Engineering Requirements",
+   "page": "solutions"
+  },
+  "P1-0011": {
+   "key": "Whether your project involves a pilot plant, an industrial process skid, an automation system or {PlantON}, talk to our team about the application and the right engineering scope.",
+   "page": "solutions"
+  },
+  "P1-0012": {
+   "key": "Process pipework, instruments and a control enclosure",
+   "page": "solutions"
+  },
+  "P1-0013": {
+   "key": "Three solutions from one engineering team: process skid plants, industrial automation and controls, and PlantON™ by Instron Technologies for plant data.",
+   "page": "solutions"
+  },
+  "P1-0014": {
+   "key": "Process Skids, Automation &amp; Plant Data | Instron Technologies",
+   "page": "solutions"
+  },
+  "P1-0015": {
+   "key": "Solutions, Instron Technologies",
+   "page": "solutions"
+  },
+  "P1-0016": {
+   "key": "From laboratory development to engineered process validation",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0017": {
+   "key": "Pilot Plants &amp; Demonstration Plants",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0018": {
+   "key": "Instron Technologies engineers integrated pilot and demonstration systems for research organizations, technology developers and industrial R&amp;D teams, combining process systems, instrumentation, automation and data collection for controlled trials, technology evaluation and informed scale-up decisions.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0019": {
+   "key": "Discuss Your Pilot Project",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0020": {
+   "key": "Explore Engineering Scope",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0021": {
+   "key": "From science to operable equipment",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0022": {
+   "key": "Research and pilot systems",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0023": {
+   "key": "A pilot system is engineered around what the test program needs to show.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0024": {
+   "key": "Process validation",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0025": {
+   "key": "Evaluate process behaviour under defined operating conditions.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0026": {
+   "key": "Experimental flexibility",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0027": {
+   "key": "Accommodate planned changes in operating parameters, sequences and test conditions.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0028": {
+   "key": "Instrumentation and measurement",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0029": {
+   "key": "Collect the process information needed to evaluate system performance.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0030": {
+   "key": "Operating data collection",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0031": {
+   "key": "Record experimental observations, process trends and operating results.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0032": {
+   "key": "Engineering for future scale-up",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0033": {
+   "key": "Use findings from pilot trials to inform the next engineering and demonstration stage.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0034": {
+   "key": "Proven in refinery research",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0035": {
+   "key": "Pilot systems for oil and gas refinery research centres: gas purification, amine CO₂ capture and membrane hydrogen separation up to 50 barg, and a milli-channel reactor setup.<br><a1>Read the case study</a1>",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0036": {
+   "key": "Scale-up readiness",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0037": {
+   "key": "Demonstration systems",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0038": {
+   "key": "For technologies that need to operate beyond bench scale under more representative process, utility, control or site conditions before a larger investment or transfer decision. A demonstration system tests:",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0039": {
+   "key": "Extended operating performance",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0040": {
+   "key": "Process behaviour across longer or repeated operating campaigns.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0041": {
+   "key": "System integration",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0042": {
+   "key": "Interaction between process equipment, controls, utilities and supporting systems.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0043": {
+   "key": "Operational requirements",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0044": {
+   "key": "Startup, shutdown, monitoring, maintenance and operating procedures.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0045": {
+   "key": "Industrial readiness",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0046": {
+   "key": "Technical information needed to evaluate the next stage of scale-up or implementation.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0047": {
+   "key": "One connected engineering basis",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0048": {
+   "key": "Engineering layers for experimental systems",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0049": {
+   "key": "Each layer is engineered for the test program, not for a fixed production duty.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0050": {
+   "key": "Process and equipment design",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0051": {
+   "key": "Develop the experimental process configuration, equipment duties, operating limits and system interfaces.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0052": {
+   "key": "Select and integrate the measurements needed for experimental evaluation, process control and operating data.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0053": {
+   "key": "Automation and experimental control",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0054": {
+   "key": "Configure operating sequences, control loops, setpoints, alarms and operator interfaces for the test program.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0055": {
+   "key": "Data collection and reporting",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0056": {
+   "key": "Capture selected experimental parameters, operating trends and reports for technical evaluation.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0057": {
+   "key": "Decision-useful deliverables",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0058": {
+   "key": "What the engineering package may include",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0059": {
+   "key": "The engineering package is shaped around the test program and may include:",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0060": {
+   "key": "Experimental and operating requirements",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0061": {
+   "key": "Process design basis, PFDs and P&amp;IDs",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0062": {
+   "key": "Equipment and instrument specifications",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0063": {
+   "key": "Measurement and control architecture",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0064": {
+   "key": "Equipment arrangements and utility interfaces",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0065": {
+   "key": "Test procedures and acceptance criteria",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0066": {
+   "key": "Data collection and reporting requirements",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0067": {
+   "key": "Testing, commissioning and handover documentation",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0068": {
+   "key": "Acceptance and commissioning",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0069": {
+   "key": "FAT should test the interfaces that will matter at startup",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0070": {
+   "key": "Factory acceptance testing is most useful when it is tied to the agreed operating and control basis rather than treated as a generic inspection.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0071": {
+   "key": "Site acceptance and commissioning then address the interfaces that cannot be proven fully before installation: utilities, tie-ins, site equipment, real process behaviour, tuning, operator interaction and final handover requirements.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0072": {
+   "key": "Further reading",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0073": {
+   "key": "Related process-systems routes",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0074": {
+   "key": "See How We Work",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0075": {
+   "key": "From lab to pilot to industrial",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0076": {
+   "key": "Technology Scale-Up &amp; Commercialization",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0077": {
+   "key": "<a1><b>Cryogenic carbon capture pilot, Saudi Arabia</b><span>Two-stage capture, 225 I/O</span><em>Read the case study</em></a1>",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0078": {
+   "key": "<a1><b>Carbon capture and hydrogen pilots for refinery research, India</b><span>5 LPH, 50 barg, 500 I/O</span><em>Read the case study</em></a1>",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0079": {
+   "key": "<a1><b>Propulsion-fuel pilot plant, India</b><span>≥99% purity at 1 LPH</span><em>Read the case study</em></a1>",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0080": {
+   "key": "Planning a Pilot or Demonstration Project?",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0081": {
+   "key": "Share your technology application, current development stage, experimental objectives and available process information, and our team will discuss the engineering requirements and scope for your pilot or demonstration system.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0082": {
+   "key": "Pilot systems we have built",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0083": {
+   "key": "Pilot-scale test equipment",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0084": {
+   "key": "Pilot plants and demonstration plants for research centres, refinery R&amp;D and technology developers, built for controlled trials and scale-up decisions.",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0085": {
+   "key": "Pilot Plants &amp; Demonstration Plants | Instron Technologies",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0086": {
+   "key": "Pilot Plants &amp; Demonstration Plants, Instron Technologies",
+   "page": "pilot-demonstration-plants"
+  },
+  "P1-0087": {
+   "key": "Modular production | Integration",
+   "page": "industrial-process-skids"
+  },
+  "P1-0088": {
+   "key": "Instron Technologies engineers and integrates modular process skids for defined production and processing duties, combining process engineering, equipment integration, mechanical systems, instrumentation and automation for reliable operation on your site.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0089": {
+   "key": "Discuss Your Process Requirements",
+   "page": "industrial-process-skids"
+  },
+  "P1-0090": {
+   "key": "Typical applications",
+   "page": "industrial-process-skids"
+  },
+  "P1-0091": {
+   "key": "Modular process systems for industrial applications",
+   "page": "industrial-process-skids"
+  },
+  "P1-0092": {
+   "key": "Industrial Process Skids bring related process equipment and supporting systems together in an engineered modular arrangement.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0093": {
+   "key": "Reaction and mixing",
+   "page": "industrial-process-skids"
+  },
+  "P1-0094": {
+   "key": "Integrated systems for reaction, blending and mixing duties.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0095": {
+   "key": "Dosing and formulation",
+   "page": "industrial-process-skids"
+  },
+  "P1-0096": {
+   "key": "Controlled material addition and formulation processes.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0097": {
+   "key": "Distillation and solvent recovery",
+   "page": "industrial-process-skids"
+  },
+  "P1-0098": {
+   "key": "Separation and recovery systems for chemical and industrial applications.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0099": {
+   "key": "Filtration and separation",
+   "page": "industrial-process-skids"
+  },
+  "P1-0100": {
+   "key": "Engineered equipment arrangements for fluid treatment and separation duties.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0101": {
+   "key": "Heating and cooling",
+   "page": "industrial-process-skids"
+  },
+  "P1-0102": {
+   "key": "Thermal-process systems integrating equipment, utilities and controls.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0103": {
+   "key": "Gas and fluid handling",
+   "page": "industrial-process-skids"
+  },
+  "P1-0104": {
+   "key": "Process systems for fluid transfer, pressure management and gas-handling duties.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0105": {
+   "key": "Integrated system architecture",
+   "page": "industrial-process-skids"
+  },
+  "P1-0106": {
+   "key": "Five engineering areas, one system",
+   "page": "industrial-process-skids"
+  },
+  "P1-0107": {
+   "key": "Each area is defined together with the others, so the skid works as one system on site.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0108": {
+   "key": "Process and equipment engineering",
+   "page": "industrial-process-skids"
+  },
+  "P1-0109": {
+   "key": "Define operating conditions, equipment functions, process flow and required utilities.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0110": {
+   "key": "Mechanical and modular design",
+   "page": "industrial-process-skids"
+  },
+  "P1-0111": {
+   "key": "Develop equipment arrangement, skid layout, piping, access and maintenance requirements.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0112": {
+   "key": "Integrate process measurements, control devices, PLC/HMI systems and operating sequences.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0113": {
+   "key": "Facility and system integration",
+   "page": "industrial-process-skids"
+  },
+  "P1-0114": {
+   "key": "Define utility connections, equipment interfaces, installation requirements and project responsibilities.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0115": {
+   "key": "Testing and handover",
+   "page": "industrial-process-skids"
+  },
+  "P1-0116": {
+   "key": "Set inspection, acceptance, commissioning and documentation requirements.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0117": {
+   "key": "Equipment classes",
+   "page": "industrial-process-skids"
+  },
+  "P1-0118": {
+   "key": "Depending on the process, modular skids may integrate:",
+   "page": "industrial-process-skids"
+  },
+  "P1-0119": {
+   "key": "Reactors and process vessels",
+   "page": "industrial-process-skids"
+  },
+  "P1-0120": {
+   "key": "Filtration and separation equipment",
+   "page": "industrial-process-skids"
+  },
+  "P1-0121": {
+   "key": "Heat-transfer systems",
+   "page": "industrial-process-skids"
+  },
+  "P1-0122": {
+   "key": "Pumps, piping and valves",
+   "page": "industrial-process-skids"
+  },
+  "P1-0123": {
+   "key": "Process instrumentation",
+   "page": "industrial-process-skids"
+  },
+  "P1-0124": {
+   "key": "Electrical and automation systems",
+   "page": "industrial-process-skids"
+  },
+  "P1-0125": {
+   "key": "Equipment selection depends on the application, operating requirements and agreed engineering scope.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0126": {
+   "key": "Engineering and acceptance",
+   "page": "industrial-process-skids"
+  },
+  "P1-0127": {
+   "key": "Buildable and testable deliverables",
+   "page": "industrial-process-skids"
+  },
+  "P1-0128": {
+   "key": "Our engineering supports coordinated procurement, fabrication, integration and testing through defined technical documentation, grouped in four packages: process; mechanical and skid; electrical, instrumentation and controls; and testing and handover.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0129": {
+   "key": "<a1>See the four packages</a1>",
+   "page": "industrial-process-skids"
+  },
+  "P1-0130": {
+   "key": "Controls and operating interfaces",
+   "page": "industrial-process-skids"
+  },
+  "P1-0131": {
+   "key": "Controls and data should not be late additions",
+   "page": "industrial-process-skids"
+  },
+  "P1-0132": {
+   "key": "Automation and monitoring requirements are best set alongside the process-system design. Early coordination defines instrument selection, operating sequences, alarms, interlocks, control-system interfaces and data requirements.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0133": {
+   "key": "Our <a1>Industrial Automation</a1> team handles control-system engineering, and <a2>{PlantON} by Instron Technologies</a2> adds monitoring, trending and reporting where needed.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0134": {
+   "key": "Scope-specific qualification",
+   "page": "industrial-process-skids"
+  },
+  "P1-0135": {
+   "key": "Safety and responsibility boundaries",
+   "page": "industrial-process-skids"
+  },
+  "P1-0136": {
+   "key": "Industrial process skids are engineered around the process hazards, operating conditions, equipment limits and installation requirements. Safety requirements, applicable standards, testing obligations and site responsibilities are set for each application and contract.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0137": {
+   "key": "<a1><b>Steam quality analyzer skids, USA and Kuwait</b><span>512 kg/h, 15% energy saved</span><em>Read the case study</em></a1>",
+   "page": "industrial-process-skids"
+  },
+  "P1-0138": {
+   "key": "<a1><b>API extraction and CSTR units, India and Australia</b><span>+12% batch output, 99.9% purity</span><em>Read the case study</em></a1>",
+   "page": "industrial-process-skids"
+  },
+  "P1-0139": {
+   "key": "<a1><b>Automated API process skid, India</b><span>+24% batches, 96% solvent recovery</span><em>Read the case study</em></a1>",
+   "page": "industrial-process-skids"
+  },
+  "P1-0140": {
+   "key": "Discuss Your Industrial Process Skid Requirements",
+   "page": "industrial-process-skids"
+  },
+  "P1-0141": {
+   "key": "Planning a modular processing system for an industrial facility? Share your application, required capacity, available utilities and integration requirements, and our team will help define the right engineering scope.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0142": {
+   "key": "Discuss Your Industrial Skid Project",
+   "page": "industrial-process-skids"
+  },
+  "P1-0143": {
+   "key": "Industrial skids we have built",
+   "page": "industrial-process-skids"
+  },
+  "P1-0144": {
+   "key": "Modular process skids for defined production duties: process engineering, equipment, instrumentation and automation for reliable operation on your site.",
+   "page": "industrial-process-skids"
+  },
+  "P1-0145": {
+   "key": "Industrial Process Skids | Instron Technologies",
+   "page": "industrial-process-skids"
+  },
+  "P1-0146": {
+   "key": "Industrial Process Skids, Instron Technologies",
+   "page": "industrial-process-skids"
+  },
+  "P1-0147": {
+   "key": "Applications we engineer",
+   "page": "applications"
+  },
+  "P1-0148": {
+   "key": "Read overview",
+   "page": "applications"
+  },
+  "P1-0149": {
+   "key": "A working experiment does not settle the questions behind demonstration or commercial deployment. The next system must account for equipment, utilities, instrumentation, operating ranges, maintainability, safety and the evidence needed to make the next investment decision.",
+   "page": "applications"
+  },
+  "P1-0150": {
+   "key": "Separation &amp; Solvent Recovery",
+   "page": "applications"
+  },
+  "P1-0151": {
+   "key": "Recovery and product purity matter, but so do feed variation, utilities, solvent management, fouling, operator actions and safe operation. An effective separation system is more than a column, vessel or membrane package.",
+   "page": "applications"
+  },
+  "P1-0152": {
+   "key": "Brownfield Automation Modernization",
+   "page": "applications"
+  },
+  "P1-0153": {
+   "key": "Replacing an old PLC or SCADA platform is only one part of modernization. The installed plant may contain undocumented logic, operator workarounds, mixed equipment, aging instruments and tight shutdown windows. A responsible upgrade starts with that operating reality.",
+   "page": "applications"
+  },
+  "P1-0154": {
+   "key": "Batch &amp; Process Automation",
+   "page": "applications"
+  },
+  "P1-0155": {
+   "key": "A batch may involve manual decisions, equipment-local controls, PLC sequences, recipes, material movements and data records. The automation scope should bring those steps together without hiding what the operators actually need to see and do.",
+   "page": "applications"
+  },
+  "P1-0156": {
+   "key": "Production teams can disagree on performance even when a dashboard reports a single percentage. The definitions of running time, planned stops, counts, scrap, speed and downtime reasons determine whether the result supports a useful decision.",
+   "page": "applications"
+  },
+  "P1-0157": {
+   "key": "A monthly total can show that a resource increased without identifying the line, batch, area, asset or condition that drove it. Useful utility monitoring begins with measurement boundaries, reliable sources and the production context needed to investigate change.",
+   "page": "applications"
+  },
+  "P1-0158": {
+   "key": "Wired industrial control cabinet",
+   "page": "applications"
+  },
+  "P1-0159": {
+   "key": "PlantON production visibility dashboard",
+   "page": "applications"
+  },
+  "P1-0160": {
+   "key": "PlantON utility monitoring dashboard",
+   "page": "applications"
+  },
+  "P1-0161": {
+   "key": "Applications we engineer: technology scale-up, separation and solvent recovery, brownfield modernization, batch automation, OEE and utility monitoring.",
+   "page": "applications"
+  },
+  "P1-0162": {
+   "key": "Process &amp; Automation Applications | Instron Technologies",
+   "page": "applications"
+  },
+  "P1-0163": {
+   "key": "Applications, Instron Technologies",
+   "page": "applications"
+  },
+  "P1-0164": {
+   "key": "<span1></span1>Technology development / Technology Scale-Up &amp; Commercialization",
+   "page": "technology-scale-up"
+  },
+  "P1-0165": {
+   "key": "From pilot evidence to an engineered deployment.",
+   "page": "technology-scale-up"
+  },
+  "P1-0166": {
+   "key": "A working experiment does not settle the questions behind demonstration or commercial deployment.",
+   "page": "technology-scale-up"
+  },
+  "P1-0167": {
+   "key": "Read the engineering context",
+   "page": "technology-scale-up"
+  },
+  "P1-0168": {
+   "key": "Explore the application",
+   "page": "technology-scale-up"
+  },
+  "P1-0169": {
+   "key": "Industrial engineering context",
+   "page": "technology-scale-up"
+  },
+  "P1-0170": {
+   "key": "Define the actual problem",
+   "page": "technology-scale-up"
+  },
+  "P1-0171": {
+   "key": "Scope the right engineering stage",
+   "page": "technology-scale-up"
+  },
+  "P1-0172": {
+   "key": "Verify before deployment",
+   "page": "technology-scale-up"
+  },
+  "P1-0173": {
+   "key": "Each scale-up stage has a different engineering decision.",
+   "page": "technology-scale-up"
+  },
+  "P1-0174": {
+   "key": "What the application has to address.",
+   "page": "technology-scale-up"
+  },
+  "P1-0175": {
+   "key": "From an engineering question to an operating system.",
+   "page": "technology-scale-up"
+  },
+  "P1-0176": {
+   "key": "A practical path toward the next decision.",
+   "page": "technology-scale-up"
+  },
+  "P1-0177": {
+   "key": "Start with the evidence already available.",
+   "page": "technology-scale-up"
+  },
+  "P1-0178": {
+   "key": "Decisions worth clarifying.",
+   "page": "technology-scale-up"
+  },
+  "P1-0179": {
+   "key": "01 / Technical starting point",
+   "page": "technology-scale-up"
+  },
+  "P1-0180": {
+   "key": "Early work may establish feasibility and operating windows. Later systems must define duties, controls, maintenance access and acceptance criteria for longer campaigns and new site interfaces. The useful next step depends on what remains uncertain, not on how large the equipment looks.",
+   "page": "technology-scale-up"
+  },
+  "P1-0181": {
+   "key": "Explore our engineering phases",
+   "page": "technology-scale-up"
+  },
+  "P1-0182": {
+   "key": "02 / Technical considerations",
+   "page": "technology-scale-up"
+  },
+  "P1-0183": {
+   "key": "Typical scoping questions. The answers shape the scope, deliverables and acceptance criteria for your project.",
+   "page": "technology-scale-up"
+  },
+  "P1-0184": {
+   "key": "Define the next evidence gate",
+   "page": "technology-scale-up"
+  },
+  "P1-0185": {
+   "key": "Identify what process behavior, throughput, purity, stability, data quality or equipment duty must be demonstrated before advancing.",
+   "page": "technology-scale-up"
+  },
+  "P1-0186": {
+   "key": "Engineer the system boundaries",
+   "page": "technology-scale-up"
+  },
+  "P1-0187": {
+   "key": "Translate process basis into equipment duties, materials, utility connections, instruments, controls, layout and site interfaces.",
+   "page": "technology-scale-up"
+  },
+  "P1-0188": {
+   "key": "Make operations representative",
+   "page": "technology-scale-up"
+  },
+  "P1-0189": {
+   "key": "Decide which features can stay flexible and which need to resemble future deployment: uptime, cleaning, startup, maintainability and automation.",
+   "page": "technology-scale-up"
+  },
+  "P1-0190": {
+   "key": "Capture repeatable learning",
+   "page": "technology-scale-up"
+  },
+  "P1-0191": {
+   "key": "Turn pilot and first-deployment lessons into standards, test criteria, procurement definitions and documented operating procedures.",
+   "page": "technology-scale-up"
+  },
+  "P1-0192": {
+   "key": "Every project requires a defined technical owner, acceptance basis and a scope proportionate to its operating context.",
+   "page": "technology-scale-up"
+  },
+  "P1-0193": {
+   "key": "03 / Scope logic",
+   "page": "technology-scale-up"
+  },
+  "P1-0194": {
+   "key": "The aim is to distinguish what is known, what must be engineered and what evidence is needed next.",
+   "page": "technology-scale-up"
+  },
+  "P1-0195": {
+   "key": "01 / APPLICATION LAYER",
+   "page": "technology-scale-up"
+  },
+  "P1-0196": {
+   "key": "Concept and pilot",
+   "page": "technology-scale-up"
+  },
+  "P1-0197": {
+   "key": "Operating ranges, balances, instrumentation and a plan to reduce the most material uncertainty.",
+   "page": "technology-scale-up"
+  },
+  "P1-0198": {
+   "key": "02 / APPLICATION LAYER",
+   "page": "technology-scale-up"
+  },
+  "P1-0199": {
+   "key": "Demonstration and first deployment",
+   "page": "technology-scale-up"
+  },
+  "P1-0200": {
+   "key": "Representative equipment, operability, site integration, acceptance evidence and clear technical ownership.",
+   "page": "technology-scale-up"
+  },
+  "P1-0201": {
+   "key": "03 / APPLICATION LAYER",
+   "page": "technology-scale-up"
+  },
+  "P1-0202": {
+   "key": "Repeat deployment",
+   "page": "technology-scale-up"
+  },
+  "P1-0203": {
+   "key": "Configuration control, standard interfaces, documented test plans and lessons transferred from the first installation.",
+   "page": "technology-scale-up"
+  },
+  "P1-0204": {
+   "key": "04 / Delivery sequence",
+   "page": "technology-scale-up"
+  },
+  "P1-0205": {
+   "key": "<span1>01</span1><span>State the current scale and operating evidence</span>",
+   "page": "technology-scale-up"
+  },
+  "P1-0206": {
+   "key": "<span1>02</span1><span>Name the next milestone and decisions it requires</span>",
+   "page": "technology-scale-up"
+  },
+  "P1-0207": {
+   "key": "<span1>03</span1><span>Define process, equipment, controls and data work packages</span>",
+   "page": "technology-scale-up"
+  },
+  "P1-0208": {
+   "key": "<span1>04</span1><span>Agree testing, acceptance and learning responsibilities</span>",
+   "page": "technology-scale-up"
+  },
+  "P1-0209": {
+   "key": "Contract stages remain separate. Progression from Basic Engineering &amp; Feasibility to Detailed Engineering or Integrated Design &amp; Build is not automatic.",
+   "page": "technology-scale-up"
+  },
+  "P1-0210": {
+   "key": "05 / First conversation",
+   "page": "technology-scale-up"
+  },
+  "P1-0211": {
+   "key": "A useful first discussion is about the existing basis, the technical uncertainty and the milestone it affects. A complete specification is not required to start clarifying the scope.",
+   "page": "technology-scale-up"
+  },
+  "P1-0212": {
+   "key": "Useful inputs to bring",
+   "page": "technology-scale-up"
+  },
+  "P1-0213": {
+   "key": "Current process basis and available operating/test data",
+   "page": "technology-scale-up"
+  },
+  "P1-0214": {
+   "key": "Next desired scale or campaign and its intended purpose",
+   "page": "technology-scale-up"
+  },
+  "P1-0215": {
+   "key": "Known material, energy, safety and utility constraints",
+   "page": "technology-scale-up"
+  },
+  "P1-0216": {
+   "key": "Outstanding uncertainties and desired acceptance evidence",
+   "page": "technology-scale-up"
+  },
+  "P1-0217": {
+   "key": "06 / Common questions",
+   "page": "technology-scale-up"
+  },
+  "P1-0218": {
+   "key": "Is a pilot plant automatically First-of-a-Kind (FOAK)?",
+   "page": "technology-scale-up"
+  },
+  "P1-0219": {
+   "key": "No. A pilot is generally a system for learning and validating behavior. FOAK describes the first significant deployment of a technology or configuration in its intended context; the designation depends on the actual project.",
+   "page": "technology-scale-up"
+  },
+  "P1-0220": {
+   "key": "Must the entire project be contracted at once?",
+   "page": "technology-scale-up"
+  },
+  "P1-0221": {
+   "key": "No. Basic Engineering &amp; Feasibility, Detailed Engineering and Integrated Design &amp; Build can be scoped as separate paid engagements, with a decision after each stage.",
+   "page": "technology-scale-up"
+  },
+  "P1-0222": {
+   "key": "Related expertise",
+   "page": "technology-scale-up"
+  },
+  "P1-0223": {
+   "key": "Continue in the direction that fits your project.",
+   "page": "technology-scale-up"
+  },
+  "P1-0224": {
+   "key": "<span1>Explore</span1><strong>Pilot &amp; Demonstration Plants</strong>",
+   "page": "technology-scale-up"
+  },
+  "P1-0225": {
+   "key": "<span1>Explore</span1><strong>Research &amp; Technology Development</strong>",
+   "page": "technology-scale-up"
+  },
+  "P1-0226": {
+   "key": "Discuss the scope before deciding the next engineering step.",
+   "page": "technology-scale-up"
+  },
+  "P1-0227": {
+   "key": "Tall instrumented process column in a technical pilot installation",
+   "page": "technology-scale-up"
+  },
+  "P1-0228": {
+   "key": "Engineering the step from pilot evidence to demonstration or commercial deployment: equipment, utilities, instruments, operating ranges and safety.",
+   "page": "technology-scale-up"
+  },
+  "P1-0229": {
+   "key": "Technology Scale-Up &amp; Commercialization | Instron Technologies",
+   "page": "technology-scale-up"
+  },
+  "P1-0230": {
+   "key": "Technology Scale-Up &amp; Commercialization, Instron Technologies",
+   "page": "technology-scale-up"
+  },
+  "P1-0231": {
+   "key": "<span1></span1>Process applications / Separation &amp; Solvent Recovery",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0232": {
+   "key": "Engineer the full separation and recovery loop.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0233": {
+   "key": "Recovery and purity matter, but so do feed variation, utilities, solvent management, fouling, operator actions and safe operation.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0234": {
+   "key": "Start with feed data and the acceptance target.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0235": {
+   "key": "Define composition, expected variability, target purity and recovery, batch or continuous throughput, and the constraints that shape the route. A laboratory result may support a separation hypothesis without yet defining a reliable recycle or production system.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0236": {
+   "key": "Distillation and evaporation",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0237": {
+   "key": "Review heat and material balance, volatility or boiling behavior, reflux, duty, pressure, turndown, fouling, cleaning and utility requirements.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0238": {
+   "key": "Extraction and phase handling",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0239": {
+   "key": "Assess partition behavior, selectivity, solvent ratio, contact time, settling, emulsions, interface detection and solvent recovery.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0240": {
+   "key": "Recycle-loop definition",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0241": {
+   "key": "Specify recovered-solvent quality, buildup of impurities, make-up, purge, acceptable losses and compatibility with upstream production.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0242": {
+   "key": "Instrumentation and safety",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0243": {
+   "key": "Define monitoring, interlocks, control of heaters/pumps/valves, materials compatibility and the responsible safety/regulatory review scope.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0244": {
+   "key": "Process basis",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0245": {
+   "key": "Feed, balances, separation objectives and viable operating envelope.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0246": {
+   "key": "Skid and controls integration",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0247": {
+   "key": "Equipment layout, P&amp;IDs, instrumentation, control philosophy and package boundaries.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0248": {
+   "key": "Acceptance evidence",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0249": {
+   "key": "FAT and commissioning plans tied to actual recovery, quality and operating behavior where test conditions permit.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0250": {
+   "key": "<span1>01</span1><span>Clarify feed, purity, recovery and throughput</span>",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0251": {
+   "key": "<span1>02</span1><span>Select or test the process route and operating envelope</span>",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0252": {
+   "key": "<span1>03</span1><span>Develop equipment, utility and control interfaces</span>",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0253": {
+   "key": "<span1>04</span1><span>Plan acceptance, commissioning and solvent handling</span>",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0254": {
+   "key": "Feed composition and variability",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0255": {
+   "key": "Target product or recovered stream specifications",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0256": {
+   "key": "Lab or pilot operating results",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0257": {
+   "key": "Pressure, temperature, hazard and utility constraints",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0258": {
+   "key": "Is every solvent recovery project a distillation project?",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0259": {
+   "key": "No. Depending on the feed and objective, separation may involve distillation, extraction, evaporation, membranes, filtration or a combination.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0260": {
+   "key": "Can Instron Technologies help before a final technology route is chosen?",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0261": {
+   "key": "A scoped feasibility or basic engineering engagement can clarify requirements and open decisions; the separation technology itself may require specialist or technology-owner input.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0262": {
+   "key": "<span1>Explore</span1><strong>Process Skid Plants</strong>",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0263": {
+   "key": "<span1>Explore</span1><strong>Chemicals, Refining &amp; Consumer Products</strong>",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0264": {
+   "key": "Industrial separation assembly with vessels and connected process equipment",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0265": {
+   "key": "Separation and solvent recovery systems engineered as a full loop: feed variation, utilities, solvent management, fouling and safe operation.",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0266": {
+   "key": "Separation &amp; Solvent Recovery | Instron Technologies",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0267": {
+   "key": "Separation &amp; Solvent Recovery, Instron Technologies",
+   "page": "separation-solvent-recovery"
+  },
+  "P1-0268": {
+   "key": "<span1></span1>Industrial automation / Brownfield Automation Modernization",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0269": {
+   "key": "Modernize controls around the plant that must keep running.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0270": {
+   "key": "Replacing an old PLC or SCADA platform is only one part of modernization.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0271": {
+   "key": "Understand the installed condition before selecting the replacement.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0272": {
+   "key": "A controls survey should establish what is actually connected, supported and available for a change. Drawings, software backups, network maps and field surveys may disagree. The migration basis needs to account for those differences and any production consequences.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0273": {
+   "key": "Existing architecture",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0274": {
+   "key": "Review installed controllers, HMI/SCADA, networks, I/O, drives, package equipment and software or hardware obsolescence.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0275": {
+   "key": "Migration boundaries",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0276": {
+   "key": "Decide what remains, what is replaced, whether transition is phased and what temporary operation is permitted.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0277": {
+   "key": "Operator and maintenance needs",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0278": {
+   "key": "Include alarms, manual/automatic modes, restart paths, diagnostics, naming standards, backups and supportability.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0279": {
+   "key": "Cutover and recovery",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0280": {
+   "key": "Document FAT, field checks, shutdown sequencing, rollback options, commissioning responsibility and as-built handover.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0281": {
+   "key": "Assessment",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0282": {
+   "key": "Site survey, source files, control system state and known operational bottlenecks.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0283": {
+   "key": "Engineering and FAT",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0284": {
+   "key": "Defined interfaces, revised logic/display behavior and test records before plant cutover.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0285": {
+   "key": "Commissioning and handover",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0286": {
+   "key": "Transition plan, responsible sign-offs, recovery approach and documentation for operations.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0287": {
+   "key": "<span1>01</span1><span>Survey installed controls and site constraints</span>",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0288": {
+   "key": "<span1>02</span1><span>Confirm target architecture and migration boundaries</span>",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0289": {
+   "key": "<span1>03</span1><span>Develop and test the revised system offline where possible</span>",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0290": {
+   "key": "<span1>04</span1><span>Execute the cutover and confirm operating acceptance</span>",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0291": {
+   "key": "PLC/HMI/SCADA make, model and versions",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0292": {
+   "key": "Backups, drawings, I/O and network details",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0293": {
+   "key": "Known downtime/reliability problems and operator concerns",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0294": {
+   "key": "Shutdown windows, site standards and IT/OT constraints",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0295": {
+   "key": "Can an upgrade be completed without a plant shutdown?",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0296": {
+   "key": "That cannot be assumed. Some work can be prepared or tested offline, but the need for an outage depends on the physical interfaces, architecture and acceptance plan.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0297": {
+   "key": "Should the new controller replicate existing logic exactly?",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0298": {
+   "key": "Not always. The operating requirements, safety boundaries and approved change scope should determine what is preserved, improved or retired.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0299": {
+   "key": "<span1>Explore</span1><strong>Industrial Automation</strong>",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0300": {
+   "key": "<span1>Explore</span1><strong>Batch &amp; Process Automation</strong>",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0301": {
+   "key": "Industrial terminal and commissioning cabinet with labeled field wiring",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0302": {
+   "key": "Modernize old PLC and SCADA systems in a plant that must keep running, starting from the installed logic, equipment and shutdown windows.",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0303": {
+   "key": "Brownfield PLC &amp; SCADA Modernization | Instron Technologies",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0304": {
+   "key": "Brownfield Automation Modernization, Instron Technologies",
+   "page": "brownfield-automation-modernization"
+  },
+  "P1-0305": {
+   "key": "<span1></span1>Industrial automation / Batch &amp; Process Automation",
+   "page": "batch-process-automation"
+  },
+  "P1-0306": {
+   "key": "Build control logic around the real operating sequence.",
+   "page": "batch-process-automation"
+  },
+  "P1-0307": {
+   "key": "Batch automation should bring manual steps, PLC sequences, recipes, material movements and records together without hiding what operators need.",
+   "page": "batch-process-automation"
+  },
+  "P1-0308": {
+   "key": "Start with one real cycle, not a software feature list.",
+   "page": "batch-process-automation"
+  },
+  "P1-0309": {
+   "key": "The essential inputs are the steps, permissives, interlocks, operating modes, measurements, exceptions and recovery paths. A useful sequence specification makes it possible to test normal and abnormal cases before the plant depends on the new controls.",
+   "page": "batch-process-automation"
+  },
+  "P1-0310": {
+   "key": "Control philosophy",
+   "page": "batch-process-automation"
+  },
+  "P1-0311": {
+   "key": "Define equipment states, sequence transitions, manual/automatic actions, setpoints, permissives and hold/abort/restart behavior.",
+   "page": "batch-process-automation"
+  },
+  "P1-0312": {
+   "key": "Instruments and equipment",
+   "page": "batch-process-automation"
+  },
+  "P1-0313": {
+   "key": "Connect temperature, pressure, flow, level, weight, analytical measurements, valves, drives, package systems and utilities as needed.",
+   "page": "batch-process-automation"
+  },
+  "P1-0314": {
+   "key": "Operator interface and records",
+   "page": "batch-process-automation"
+  },
+  "P1-0315": {
+   "key": "Support understandable HMI states, alarms, trends and the required level of batch or cycle recording without overcomplicating operations.",
+   "page": "batch-process-automation"
+  },
+  "P1-0316": {
+   "key": "FAT and commissioning",
+   "page": "batch-process-automation"
+  },
+  "P1-0317": {
+   "key": "Test normal and abnormal paths, unavailable equipment, interlocks, simulated inputs, operator prompts and recovery before site sign-off.",
+   "page": "batch-process-automation"
+  },
+  "P1-0318": {
+   "key": "Process definition",
+   "page": "batch-process-automation"
+  },
+  "P1-0319": {
+   "key": "Document steps, boundaries and who takes each operating action.",
+   "page": "batch-process-automation"
+  },
+  "P1-0320": {
+   "key": "Automation implementation",
+   "page": "batch-process-automation"
+  },
+  "P1-0321": {
+   "key": "Engineer PLC/HMI/SCADA logic, interfaces, panels, and defined data records.",
+   "page": "batch-process-automation"
+  },
+  "P1-0322": {
+   "key": "Operational acceptance",
+   "page": "batch-process-automation"
+  },
+  "P1-0323": {
+   "key": "Test expected sequences and failure paths against agreed acceptance criteria.",
+   "page": "batch-process-automation"
+  },
+  "P1-0324": {
+   "key": "<span1>01</span1><span>Walk through one actual operating sequence</span>",
+   "page": "batch-process-automation"
+  },
+  "P1-0325": {
+   "key": "<span1>02</span1><span>Write modes, signals, actions and exceptions</span>",
+   "page": "batch-process-automation"
+  },
+  "P1-0326": {
+   "key": "<span1>03</span1><span>Implement and challenge logic during FAT</span>",
+   "page": "batch-process-automation"
+  },
+  "P1-0327": {
+   "key": "<span1>04</span1><span>Verify field instruments, behavior and records on site</span>",
+   "page": "batch-process-automation"
+  },
+  "P1-0328": {
+   "key": "P&amp;IDs, process descriptions or SOPs",
+   "page": "batch-process-automation"
+  },
+  "P1-0329": {
+   "key": "Equipment list and available I/O schedule",
+   "page": "batch-process-automation"
+  },
+  "P1-0330": {
+   "key": "Manual tasks and current recipe/parameter handling",
+   "page": "batch-process-automation"
+  },
+  "P1-0331": {
+   "key": "Frequent faults, operator workarounds and documentation",
+   "page": "batch-process-automation"
+  },
+  "P1-0332": {
+   "key": "Does every batch process need a full recipe-management platform?",
+   "page": "batch-process-automation"
+  },
+  "P1-0333": {
+   "key": "No. Some need structured recipes or phase management; others are better suited to a PLC sequence with controlled parameters. The choice depends on complexity and reporting requirements.",
+   "page": "batch-process-automation"
+  },
+  "P1-0334": {
+   "key": "Can useful manual steps stay in the process?",
+   "page": "batch-process-automation"
+  },
+  "P1-0335": {
+   "key": "Yes. Manual sampling, verification or handling may remain appropriate when their roles, prompts, records and control boundaries are clearly defined.",
+   "page": "batch-process-automation"
+  },
+  "P1-0336": {
+   "key": "<span1>Explore</span1><strong>Pharma &amp; Life Sciences</strong>",
+   "page": "batch-process-automation"
+  },
+  "P1-0337": {
+   "key": "Industrial mixing vessels with equipment-to-control interfaces",
+   "page": "batch-process-automation"
+  },
+  "P1-0338": {
+   "key": "Batch automation that brings manual steps, PLC sequences, recipes, material movements and records together without hiding what operators need.",
+   "page": "batch-process-automation"
+  },
+  "P1-0339": {
+   "key": "Batch &amp; Process Automation | Instron Technologies",
+   "page": "batch-process-automation"
+  },
+  "P1-0340": {
+   "key": "Batch &amp; Process Automation, Instron Technologies",
+   "page": "batch-process-automation"
+  },
+  "P1-0341": {
+   "key": "<span1></span1>{PlantON} / Production Visibility &amp; OEE",
+   "page": "production-visibility-oee"
+  },
+  "P1-0342": {
+   "key": "Understand the loss before debating the OEE number.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0343": {
+   "key": "One OEE number can hide disagreement. How running time, planned stops, counts, scrap and downtime are defined decides whether it helps a decision.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0344": {
+   "key": "OEE, availability and downtime by machine",
+   "page": "production-visibility-oee"
+  },
+  "P1-0345": {
+   "key": "A trusted OEE view begins with a trusted operating model.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0346": {
+   "key": "Define the line or asset boundary, production calendar, planned time, machine states, rate basis and quality counts. Confirm data timestamps and ownership before committing to a KPI. Missing or inconsistent source signals should be treated as design work, not hidden by graphics.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0347": {
+   "key": "Model the process states",
+   "page": "production-visibility-oee"
+  },
+  "P1-0348": {
+   "key": "Agree the definitions for running, blocked, starved, changeover, cleaning, maintenance and planned downtime.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0349": {
+   "key": "Assess source quality",
+   "page": "production-visibility-oee"
+  },
+  "P1-0350": {
+   "key": "Check PLC signals, counts, histories, timestamps, quality inputs and links to product or work-order context.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0351": {
+   "key": "Make downtime actionable",
+   "page": "production-visibility-oee"
+  },
+  "P1-0352": {
+   "key": "Use a practical reason model with clear human and automatic inputs. Count planned and unplanned stops separately, treat short stops below an agreed threshold as performance loss, and calculate availability as run time divided by planned production time.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0353": {
+   "key": "Support different users",
+   "page": "production-visibility-oee"
+  },
+  "P1-0354": {
+   "key": "Provide appropriate views for operators, supervisors, engineers and management without forcing one report to serve everyone.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0355": {
+   "key": "Line or asset audit",
+   "page": "production-visibility-oee"
+  },
+  "P1-0356": {
+   "key": "What the equipment can actually report, and where the critical gaps are.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0357": {
+   "key": "KPI and event definitions",
+   "page": "production-visibility-oee"
+  },
+  "P1-0358": {
+   "key": "Clear and agreed rules for availability, performance, quality and reasons.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0359": {
+   "key": "Phased visibility",
+   "page": "production-visibility-oee"
+  },
+  "P1-0360": {
+   "key": "A limited operating view first, checked against real events before a broad deployment.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0361": {
+   "key": "<span1>01</span1><span>Choose one line and the decision to support</span>",
+   "page": "production-visibility-oee"
+  },
+  "P1-0362": {
+   "key": "<span1>02</span1><span>Audit available machine states, rates and counts</span>",
+   "page": "production-visibility-oee"
+  },
+  "P1-0363": {
+   "key": "<span1>03</span1><span>Agree data definitions and ownership</span>",
+   "page": "production-visibility-oee"
+  },
+  "P1-0364": {
+   "key": "<span1>04</span1><span>Test reporting against real production records</span>",
+   "page": "production-visibility-oee"
+  },
+  "P1-0365": {
+   "key": "Machines or lines to be included",
+   "page": "production-visibility-oee"
+  },
+  "P1-0366": {
+   "key": "Current shift and production reports",
+   "page": "production-visibility-oee"
+  },
+  "P1-0367": {
+   "key": "Available PLC/SCADA or database signals",
+   "page": "production-visibility-oee"
+  },
+  "P1-0368": {
+   "key": "Known discrepancies in counts or downtime",
+   "page": "production-visibility-oee"
+  },
+  "P1-0369": {
+   "key": "Can OEE be calculated from existing PLC data?",
+   "page": "production-visibility-oee"
+  },
+  "P1-0370": {
+   "key": "Possibly. It depends on the availability and quality of states, production counts, schedule, rate basis and quality information.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0371": {
+   "key": "Does an OEE project have to start plant-wide?",
+   "page": "production-visibility-oee"
+  },
+  "P1-0372": {
+   "key": "No. A bounded line or asset group often allows the operating model and data quality to be validated before expansion.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0373": {
+   "key": "<span1>Explore</span1><strong>{PlantON} by Instron Technologies</strong>",
+   "page": "production-visibility-oee"
+  },
+  "P1-0374": {
+   "key": "<span1>Explore</span1><strong>Utility &amp; Energy Monitoring</strong>",
+   "page": "production-visibility-oee"
+  },
+  "P1-0375": {
+   "key": "<span1>Explore</span1><strong>Food, Beverage &amp; Dairy</strong>",
+   "page": "production-visibility-oee"
+  },
+  "P1-0376": {
+   "key": "Production visibility and OEE built on agreed definitions of running time, planned stops, counts, scrap and downtime, so the number supports a decision.",
+   "page": "production-visibility-oee"
+  },
+  "P1-0377": {
+   "key": "Production Visibility &amp; OEE | Instron Technologies",
+   "page": "production-visibility-oee"
+  },
+  "P1-0378": {
+   "key": "Production Visibility &amp; OEE, Instron Technologies",
+   "page": "production-visibility-oee"
+  },
+  "P1-0379": {
+   "key": "<span1></span1>{PlantON} / Utility &amp; Energy Monitoring",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0380": {
+   "key": "Find the operating context behind utility consumption.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0381": {
+   "key": "A monthly total can show that a resource increased without identifying the line, batch, area, asset or condition that drove it.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0382": {
+   "key": "Before the dashboard, define what the meter means.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0383": {
+   "key": "A meter may cover more than one process or include ancillary loads. Steam, water, compressed air and electricity can cross physical and reporting boundaries. The first job is to map the source, units, sampling and intended attribution before comparing areas or product runs.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0384": {
+   "key": "Meter and source audit",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0385": {
+   "key": "Record meter type, location, scaling, units, timestamp quality, ownership and areas served.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0386": {
+   "key": "Production context",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0387": {
+   "key": "Connect consumption to batch, campaign, asset, shift, product, throughput or operating state where source data permits.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0388": {
+   "key": "Views for investigation",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0389": {
+   "key": "Explore demand and time trends, period summaries or resource-per-output views when the normalization basis is valid.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0390": {
+   "key": "Engineering follow-through",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0391": {
+   "key": "Use findings to identify where process review, maintenance, metering, setpoint or control changes warrant further evaluation.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0392": {
+   "key": "Measure",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0393": {
+   "key": "Define the relevant boundary and check existing data quality.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0394": {
+   "key": "Contextualize",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0395": {
+   "key": "Join selected resource readings with operating and production information.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0396": {
+   "key": "Investigate",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0397": {
+   "key": "Separate observed changes from proven root causes and prioritize engineering action.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0398": {
+   "key": "<span1>01</span1><span>Identify one resource and the business question</span>",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0399": {
+   "key": "<span1>02</span1><span>Map meters, limits and source-quality gaps</span>",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0400": {
+   "key": "<span1>03</span1><span>Connect only the necessary process context</span>",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0401": {
+   "key": "<span1>04</span1><span>Review trends and validate suspected drivers</span>",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0402": {
+   "key": "Utility type and existing metering inventory",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0403": {
+   "key": "Relevant process, area or equipment boundaries",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0404": {
+   "key": "Production/batch reporting and shift data",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0405": {
+   "key": "Current bill, dashboard or known utility concern",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0406": {
+   "key": "Must all meters be replaced before a monitoring project starts?",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0407": {
+   "key": "No. First determine what is already available and whether the measurements answer the intended question.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0408": {
+   "key": "Will a dashboard automatically deliver savings?",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0409": {
+   "key": "No. Monitoring can reveal opportunities, but engineering assessment and implemented changes are needed to demonstrate a particular outcome.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0410": {
+   "key": "<span1>Explore</span1><strong>Production Visibility &amp; OEE</strong>",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0411": {
+   "key": "Skid-mounted steam quality analyser equipment",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0412": {
+   "key": "Utility and energy monitoring that links consumption to the line, batch, area or asset behind it, with clear measurement boundaries and reliable sources.",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0413": {
+   "key": "Utility &amp; Energy Monitoring | Instron Technologies",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0414": {
+   "key": "Utility &amp; Energy Monitoring, Instron Technologies",
+   "page": "utility-energy-monitoring"
+  },
+  "P1-0415": {
+   "key": "Engineering notes <span>from real projects.</span>",
+   "page": "insights"
+  },
+  "P1-0416": {
+   "key": "Practical notes from our engineers on Process Skid Plants and scale-up, Industrial Automation and {PlantON}, for research teams, technology developers and manufacturers. Each one draws on projects we have delivered.",
+   "page": "insights"
+  },
+  "P1-0417": {
+   "key": "Latest articles",
+   "page": "insights"
+  },
+  "P1-0418": {
+   "key": "Explore our latest insights",
+   "page": "insights"
+  },
+  "P1-0419": {
+   "key": "Written by the engineers who deliver our projects, for the people who plan, run and fund process plants.",
+   "page": "insights"
+  },
+  "P1-0420": {
+   "key": "PlantON<sup1>™</sup1>",
+   "page": "insights"
+  },
+  "P1-0421": {
+   "key": "Start with one loss: plant data people actually use",
+   "page": "insights"
+  },
+  "P1-0422": {
+   "key": "Why plant-data projects stall after the pilot, and a six-step rollout that keeps them moving, with results from a dairy, a die-casting plant and a 26-machine OEE program.",
+   "page": "insights"
+  },
+  "P1-0423": {
+   "key": "Read the article<i>6 min read</i>",
+   "page": "insights"
+  },
+  "P1-0424": {
+   "key": "From lab to pilot to industrial: what changes at each step",
+   "page": "insights"
+  },
+  "P1-0425": {
+   "key": "Each stage of scale-up answers a different question. What changes in instrumentation, automation, safety and documentation from pilot to demonstration to industrial plant.",
+   "page": "insights"
+  },
+  "P1-0426": {
+   "key": "Read the article<i>7 min read</i>",
+   "page": "insights"
+  },
+  "P1-0427": {
+   "key": "Modernize a running plant without starting again",
+   "page": "insights"
+  },
+  "P1-0428": {
+   "key": "How to modernize controls in a plant that is already producing: audit first, keep what works, structure batch control, test before site and cut over in planned windows.",
+   "page": "insights"
+  },
+  "P1-0429": {
+   "key": "Working on something similar?",
+   "page": "insights"
+  },
+  "P1-0430": {
+   "key": "Read the case studies",
+   "page": "insights"
+  },
+  "P1-0431": {
+   "key": "Distillation tower",
+   "page": "insights"
+  },
+  "P1-0432": {
+   "key": "Practical engineering articles from Instron Technologies on scale-up, automation modernization and plant data, drawn from projects we have delivered.",
+   "page": "insights"
+  },
+  "P1-0433": {
+   "key": "Engineering Insights | Instron Technologies",
+   "page": "insights"
+  },
+  "P1-0434": {
+   "key": "Insights, Instron Technologies",
+   "page": "insights"
+  },
+  "P1-0435": {
+   "key": "Insights · Process Skid Plants",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0436": {
+   "key": "From lab to pilot to industrial. <span>What changes at each step.</span>",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0437": {
+   "key": "A process that works at bench scale still has to prove that it runs, can be controlled and produces data you can scale from. What a skid has to do changes at each stage, and so does what it should cost.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0438": {
+   "key": "<span>Instron Technologies engineering team</span><span>November 2026</span><span>7 min read</span>",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0439": {
+   "key": "Three stages, three questions",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0440": {
+   "key": "Around TRL 4 to 6",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0441": {
+   "key": "Pilot",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0442": {
+   "key": "Does the process work outside the lab?",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0443": {
+   "key": "Wide operating ranges, flexible configuration and dense instrumentation, so every run produces data you can compare.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0444": {
+   "key": "Around TRL 6 to 7",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0445": {
+   "key": "Demonstration",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0446": {
+   "key": "Does it run reliably at a representative scale?",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0447": {
+   "key": "Long runs, recycle streams, maintainability, utilities and operating procedures start to matter as much as the chemistry.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0448": {
+   "key": "TRL 7 and beyond",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0449": {
+   "key": "Industrial",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0450": {
+   "key": "Does it pay?",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0451": {
+   "key": "Throughput, yield, energy and solvent use, uptime and compliance decide the design, and cost per unit becomes the test.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0452": {
+   "key": "The balance comes first",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0453": {
+   "key": "Every stage starts from the same document: the mass and energy balance. It fixes flows, compositions, heat duties and utility loads. From those come line sizes, vessel volumes, heat-exchanger areas and pump and chiller duties. Change a feed ratio late and the equipment list changes with it.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0454": {
+   "key": "For a pilot, the balance also defines the operating window you want to explore. Design for that range rather than a single point, or the pilot cannot answer the questions it was built for.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0455": {
+   "key": "What changes as you scale",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0456": {
+   "key": "Main question",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0457": {
+   "key": "Does it work?",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0458": {
+   "key": "Does it run?",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0459": {
+   "key": "Operating range",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0460": {
+   "key": "Wide, to explore",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0461": {
+   "key": "Near the design point",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0462": {
+   "key": "Optimized design point",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0463": {
+   "key": "Dense, for data",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0464": {
+   "key": "For control and diagnosis",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0465": {
+   "key": "For control, quality and utilities",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0466": {
+   "key": "Automation",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0467": {
+   "key": "Data capture, batch records, interlocks",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0468": {
+   "key": "Sequencing, alarms, longer unattended runs",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0469": {
+   "key": "Full plant control and compliance records",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0470": {
+   "key": "Safety",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0471": {
+   "key": "Small inventories, lab-to-plant hazards",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0472": {
+   "key": "Hazardous-area classification and codes",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0473": {
+   "key": "Full site requirements",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0474": {
+   "key": "Documentation",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0475": {
+   "key": "Run records and data",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0476": {
+   "key": "Operating procedures, agreed FAT / SAT",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0477": {
+   "key": "Complete handover package",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0478": {
+   "key": "Data is the real output of a pilot",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0479": {
+   "key": "A pilot exists to produce evidence. Without precise control and data capture, results cannot be compared between runs or used to plan the next scale. That is why instrumentation and automation deserve the same attention as the process equipment.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0480": {
+   "key": "I/O on a battery-recycling pilot",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0481": {
+   "key": "Research institute, Saudi Arabia. Real-time control of ultrasonic energy, temperature and flow, batch records for every run, and a modular design ready to replicate.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0482": {
+   "key": "I/O on a membrane H₂ unit",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0483": {
+   "key": "Refinery R&amp;D, India. Three instrumented pilots, including CO₂ / H₂ purification at 5 LPH, up to 100 °C and 50 barg, with real-time mass balance and batch reports.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0484": {
+   "key": "batch production at industrial scale",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0485": {
+   "key": "API manufacturer, India. A fully automated, unmanned skid in a classified hazardous area, with 17% shorter cycles, 96% solvent recovery and ROI in four months.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0486": {
+   "key": "Design each stage for the next one",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0487": {
+   "key": "<b>Build in modules.</b> A methanol-water recovery system in Mexico was delivered in two parts, a process skid and a distillation tower, and led to a second project with the same customer.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0488": {
+   "key": "<b>Keep one data model.</b> Tag names, units and batch records that carry from pilot to demonstration make results directly comparable.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0489": {
+   "key": "<b>Agree test scope per project.</b> Some systems can be fully tested as skids before shipping; others can only be proven after installation. Settle FAT and SAT scope early.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0490": {
+   "key": "<b>Plan the interfaces.</b> Utilities, drains, vents, power and network, and who owns each one at site.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0491": {
+   "key": "<b>Make each stage a decision point.</b> A phased scope lets you stop, change direction or move on with evidence.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0492": {
+   "key": "In short",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0493": {
+   "key": "Each stage answers a different question: does it work, does it run, does it pay.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0494": {
+   "key": "Instrumentation and automation are what turn pilot runs into data you can scale from.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0495": {
+   "key": "Settle the mass and energy balance early. It drives every piece of equipment after it.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0496": {
+   "key": "Design each stage so the next one can reuse its lessons, and sometimes its modules.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0497": {
+   "key": "<a1>Three stages, three questions</a1>",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0498": {
+   "key": "<a1>The balance comes first</a1>",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0499": {
+   "key": "<a1>What changes as you scale</a1>",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0500": {
+   "key": "<a1>Data is the real output of a pilot</a1>",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0501": {
+   "key": "<a1>Design each stage for the next one</a1>",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0502": {
+   "key": "Keep reading",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0503": {
+   "key": "More from Insights",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0504": {
+   "key": "All articles",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0505": {
+   "key": "Planning a pilot or your next scale-up step?",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0506": {
+   "key": "Comparison of scale-up stages",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0507": {
+   "key": "Each stage of scale-up answers a different question. What changes in instruments, automation, safety and documentation from pilot to industrial plant.",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0508": {
+   "key": "Lab to Pilot to Industrial Scale-Up | Instron Technologies",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0509": {
+   "key": "From lab to pilot to industrial: what changes at each step, Instron Technologies",
+   "page": "insights-lab-to-pilot-to-industrial"
+  },
+  "P1-0510": {
+   "key": "Insights · Industrial Automation",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0511": {
+   "key": "Modernize a running plant <span>without starting again.</span>",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0512": {
+   "key": "Most automation projects happen in plants that are already producing. The hard part is not the new control system. It is changing it around production schedules, legacy equipment and the people who run the line.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0513": {
+   "key": "<span>Instron Technologies engineering team</span><span>November 2026</span><span>6 min read</span>",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0514": {
+   "key": "Why brownfield is harder than greenfield",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0515": {
+   "key": "In a new plant, the control system is designed together with everything else. In a running plant it has to fit around what is already there: PLC generations that no longer talk to each other, OEM packages with closed controls, changes made over the years that were never documented, and a production schedule that leaves short windows for change.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0516": {
+   "key": "The risk sits in the gaps: an interlock nobody wrote down, a network dependency that appears on start-up day, or an operator workaround that was quietly holding the process together.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0517": {
+   "key": "What waiting costs",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0518": {
+   "key": "Separate control islands make batches harder to repeat and records harder to keep. Manual batching and fixed-speed equipment limit capacity, consistency and traceability. Reports are compiled by hand, spares for obsolete hardware get harder to find, and more of the plant’s know-how ends up in a few people’s heads.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0519": {
+   "key": "A five-step approach",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0520": {
+   "key": "Audit the installed base",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0521": {
+   "key": "I/O lists, drawings, PLC and HMI versions, networks, panels, and how operators actually run the process. Mark what works, what is at end of life and what is undocumented.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0522": {
+   "key": "Decide what to keep",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0523": {
+   "key": "Reactors, vessels and drives in good condition can usually stay. Automate and connect them, and replace only where the risk or the gain justifies it.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0524": {
+   "key": "Define the control structure",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0525": {
+   "key": "For batch plants, an ISA-88 structure separates equipment from recipes, so products and procedures can change without rewriting code, and every batch leaves a record.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0526": {
+   "key": "Test before site",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0527": {
+   "key": "Test the new logic against the agreed specification at factory acceptance, then confirm it on site. A URS, FDS, FAT and SAT give every stakeholder the same reference.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0528": {
+   "key": "Cut over in planned windows",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0529": {
+   "key": "Stage the change area by area around shutdowns, with fall-back plans, trained operators and support on site through start-up.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0530": {
+   "key": "From our projects",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0531": {
+   "key": "0.5 to 20 L",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0532": {
+   "key": "reactors kept and automated",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0533": {
+   "key": "Research laboratory. Existing metal-extraction reactors retained and automated with pH control, dosing, temperature, agitation and PLC / SCADA, ready for future scale.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0534": {
+   "key": "See the project portfolio",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0535": {
+   "key": "production capacity",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0536": {
+   "key": "Cleaning-product manufacturer, Canada. Automated compounding with 26 VFDs and 4 agitators, ISA-88 recipes and a paperless audit trail, with 15% energy and material saved.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0537": {
+   "key": "I/O linked to an existing DCS",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0538": {
+   "key": "Global healthcare company, Toronto. Adjuvant and CIP skid automation to 21 CFR Part 11, with ISA-88 sequencing and OPC UA links to the plant’s existing DCS, documented from URS to SAT.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0539": {
+   "key": "control systems on one platform",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0540": {
+   "key": "Dairy, California. A centralized control system across all areas, with more than 2,000 I/O and {PlantON} for CIP validation and traceability.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0541": {
+   "key": "When to replace instead",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0542": {
+   "key": "Retrofitting is not always the answer. Replace when hardware is past support and spares have become a production risk, when the process has changed enough that the old control philosophy no longer fits, or when safety or compliance requirements cannot be met on the existing platform. The audit in step one is what lets you make that call on evidence rather than habit.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0543": {
+   "key": "Audit what you have before you decide what to replace.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0544": {
+   "key": "Keep equipment that still works; automate and connect it.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0545": {
+   "key": "Structure batch control so recipes and records are repeatable.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0546": {
+   "key": "Test before site, and cut over in planned windows.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0547": {
+   "key": "<a1>Why brownfield is harder than greenfield</a1>",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0548": {
+   "key": "<a1>What waiting costs</a1>",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0549": {
+   "key": "<a1>A five-step approach</a1>",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0550": {
+   "key": "<a1>From our projects</a1>",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0551": {
+   "key": "<a1>When to replace instead</a1>",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0552": {
+   "key": "Planning a modernization in a running plant?",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0553": {
+   "key": "How to modernize controls in a plant that is already producing: audit first, keep what works, test before site and cut over in planned windows.",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0554": {
+   "key": "Modernize a Running Plant | Instron Technologies",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0555": {
+   "key": "Modernize a running plant without starting again, Instron Technologies",
+   "page": "insights-brownfield-modernization"
+  },
+  "P1-0556": {
+   "key": "Insights · {PlantON}",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0557": {
+   "key": "Start with one loss. <span>Plant data people actually use.</span>",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0558": {
+   "key": "Most plant-data projects do not fail on technology. They stall between a promising pilot and the second line. This is the rollout sequence we use with process plants to keep that from happening.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0559": {
+   "key": "Why plant-data projects stall",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0560": {
+   "key": "Most plants already collect plenty of data. PLCs, SCADA, utility meters, recipe systems and quality records each hold part of the picture. What is usually missing is operating context: which batch, which line, which shift and which loss a number belongs to.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0561": {
+   "key": "In our experience, projects stall for four reasons:",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0562": {
+   "key": "The goal is “visibility” rather than a specific loss, so nobody can say whether the pilot worked.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0563": {
+   "key": "Dashboards are built for managers, and the people who run the line never use them.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0564": {
+   "key": "Machines and areas from different suppliers report in different ways, so their figures cannot be compared.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0565": {
+   "key": "The plan tries to connect everything at once, and runs out of budget or patience halfway through.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0566": {
+   "key": "What the gap costs",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0567": {
+   "key": "The cost shows up in hours and in waste. At a California dairy we worked with, pasteurizer trends and utility figures were compiled by hand across more than 12 separate control systems. Compliance reporting took up to two hours a day, and there was little link between utility use and production.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0568": {
+   "key": "That pattern is common. When data has no context, people rebuild it in spreadsheets, and the effort goes into reporting instead of improving.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0569": {
+   "key": "A six-step rollout",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0570": {
+   "key": "Name one loss worth money",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0571": {
+   "key": "Downtime on a critical cell, chemical use per batch, utility use per unit of output, or hours spent on reports. If you cannot put a number on it today, measuring it is the first win.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0572": {
+   "key": "Prove it on one line or area",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0573": {
+   "key": "Connect only what that loss needs. Record a baseline first, so the result is a before-and-after in your own figures rather than a vendor estimate.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0574": {
+   "key": "Bring operators in early",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0575": {
+   "key": "The people on the line define the downtime reasons, check the numbers and choose the screens they will use. Their trust decides whether the system outlives the pilot.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0576": {
+   "key": "Write the benefit down",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0577": {
+   "key": "Turn the pilot result into a short business case: what changed, what it is worth per year and what it took. That is what funds the next phase.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0578": {
+   "key": "Agree one model before you scale",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0579": {
+   "key": "Machines and areas never designed to report the same way need a common performance model, rolled up by machine, line and shift. Decide it once, not line by line.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0580": {
+   "key": "Roll out in phases",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0581": {
+   "key": "Add areas in order of value. Keep legacy equipment that still works and connect it, rather than replacing it just to make the data easier.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0582": {
+   "key": "What it looks like in practice",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0583": {
+   "key": "faster compliance reporting",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0584": {
+   "key": "Dairy, California. More than 12 control systems on one platform, with traceability from raw-milk reception to dispatch. Reporting went from up to two hours to about seven minutes, with 12% less chemical and 11% less utility use.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0585": {
+   "key": "productivity",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0586": {
+   "key": "Die casting. Legacy machines and ERP data connected into one plant performance view without replacing equipment, with 37% fewer rejects.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0587": {
+   "key": "machines on one OEE model",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0588": {
+   "key": "Manufacturing. A common performance model for machines never designed to report the same way, rolled up by machine, line and shift.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0589": {
+   "key": "Choosing a partner: three questions",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0590": {
+   "key": "The software matters less than how it is connected to your process. Before you choose a partner, ask:",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0591": {
+   "key": "Can they work with what you have?",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0592": {
+   "key": "Most plants run a mix of PLC generations and OEM packages. A partner should be comfortable connecting them, not only replacing them.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0593": {
+   "key": "Do they understand the process?",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0594": {
+   "key": "Batch phases, CIP, utilities and quality limits decide what a number means. Process and automation knowledge matter as much as the dashboard.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0595": {
+   "key": "Who owns the model when they leave?",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0596": {
+   "key": "Tags, downtime reasons and reports should be documented and handed over, so your team can extend them without starting again.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0597": {
+   "key": "{PlantON} is our plant-data platform for batch and continuous process plants. We deliver it together with the automation and process work around it, so the data has context from the first day.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0598": {
+   "key": "Pick one loss that costs money, and measure it before you connect anything else.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0599": {
+   "key": "Prove the gain on one line or area, in the plant’s own numbers.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0600": {
+   "key": "Agree one performance model before you scale, so every machine and area reports the same way.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0601": {
+   "key": "Expand in phases, and connect legacy equipment that still works instead of replacing it.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0602": {
+   "key": "<a1>Why plant-data projects stall</a1>",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0603": {
+   "key": "<a1>What the gap costs</a1>",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0604": {
+   "key": "<a1>A six-step rollout</a1>",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0605": {
+   "key": "<a1>What it looks like in practice</a1>",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0606": {
+   "key": "<a1>Choosing a partner: three questions</a1>",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0607": {
+   "key": "Have one loss you would like to measure?",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0608": {
+   "key": "Explore PlantON<sup1>™</sup1>",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0609": {
+   "key": "Why plant-data projects stall after the pilot, and a six-step rollout that keeps them moving, with results from a dairy and a die-casting plant.",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0610": {
+   "key": "Plant Data People Actually Use | Instron Technologies",
+   "page": "insights-plant-data-rollout"
+  },
+  "P1-0611": {
+   "key": "Start with one loss: plant data people actually use, Instron Technologies",
+   "page": "insights-plant-data-rollout"
+  }
+ }
+}

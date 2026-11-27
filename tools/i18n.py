@@ -17,6 +17,7 @@ Catalogue: i18n/<locale>.json  {"segments": {english: translation}}.
 import sys, os, re, json, html as H
 from bs4 import BeautifulSoup, NavigableString, Comment, Tag
 
+# Core pages, translated in every language. Each language can list more in i18n/pages.json as its packs are imported.
 PAGES = ['index', 'process-skid-plants', 'industrial-automation', 'planton-digital-factory', 'how-we-work',
          'global-presence', 'contact', 'privacy-terms-accessibility']
 SITE = 'https://instrontechnologies.com/'
@@ -95,6 +96,13 @@ html[lang="fr-CA"] .v241-figs strong,html[lang="es-MX"] .v241-figs strong{white-
 """
 
 
+def pages_for(root, loc):
+    """Pages translated in this language: i18n/pages.json {locale: [pages]} if present, else the core PAGES."""
+    p = os.path.join(root, 'i18n', 'pages.json')
+    extra = json.load(open(p, encoding='utf-8')).get(loc, []) if os.path.exists(p) else []
+    return PAGES + [x for x in extra if x not in PAGES]
+
+
 def active_locales(root):
     return [l for l in LOCALES if os.path.exists(cat_path(root, l))]
 
@@ -105,7 +113,7 @@ def page_url(page, d=''):
 
 
 def alternates(root, page):
-    alts = [('en', page_url(page))] + [(l, page_url(page, LOCALES[l]['dir'])) for l in active_locales(root)]
+    alts = [('en', page_url(page))] + [(l, page_url(page, LOCALES[l]['dir'])) for l in active_locales(root) if page in pages_for(root, l)]
     return alts + [('x-default', page_url(page))]
 
 
@@ -241,13 +249,21 @@ def load(root, loc):
 def extract(root, loc):
     cat = load(root, loc); seg = cat['segments']
     order, where = [], {}
-    for p in PAGES:
+    for p in pages_for(root, loc):
         for k in page_keys(os.path.join(root, p + '.html')):
             if k not in where:
                 where[k] = []; order.append(k)
             if p not in where[k]:
                 where[k].append(p)
     new = {k: seg.get(k, '') for k in order}
+    # keep translations for pages not switched on yet (imported packs), as long as the English line is still on the site
+    on_site = set()
+    for f in os.listdir(root):
+        if f.endswith('.html') and f[:-5] not in pages_for(root, loc):
+            on_site.update(page_keys(os.path.join(root, f)))
+    for k, v in seg.items():
+        if v and k not in new and k in on_site:
+            new[k] = v
     stale = {k: v for k, v in seg.items() if k not in new and v}
     cat['segments'] = new
     if stale:
@@ -259,18 +275,18 @@ def extract(root, loc):
     print(f'i18n extract {loc}: {len(new)} segments, {done} translated, {len(stale)} retired')
 
 
-def loc_href(v):
-    """Rewrite a link or asset path for a page that lives one folder down (fr/, es/)."""
+def loc_href(v, pages=PAGES):
+    """Rewrite a link or asset path for a page that lives one folder down (fr/, es/); `pages` are the ones translated there."""
     if not v or v.startswith(('#', 'mailto:', 'tel:', 'http:', 'https:', '//', 'data:', 'javascript:')):
         return v
     m = re.match(r'([^#?]*)(.*)', v); path, rest = m.group(1), m.group(2)
-    if path.endswith('.html') and path[:-5] in PAGES and '/' not in path:
+    if path.endswith('.html') and path[:-5] in pages and '/' not in path:
         return v
     return '../' + v
 
 
 def translate_page(root, loc, page, seg, missing):
-    L = LOCALES[loc]
+    L = LOCALES[loc]; P = pages_for(root, loc)
     d = soup(os.path.join(root, page + '.html'))
     T = lambda k: seg.get(k) or None
 
@@ -326,7 +342,7 @@ def translate_page(root, loc, page, seg, missing):
                     if fr and not (obj.get('@type') == 'Organization' and k == 'name'):
                         obj[k] = H.unescape(fr)
                 elif isinstance(v, str) and k in ('url', '@id', 'item'):
-                    for p in PAGES:
+                    for p in P:
                         u = page_url(p)
                         f = page_url(p, L['dir'])
                         if obj.get('@type') == 'Organization' or v.startswith(SITE + '#'):
@@ -365,9 +381,9 @@ def translate_page(root, loc, page, seg, missing):
     for t in d.find_all(True):
         for a in ('href', 'src'):
             if t.has_attr(a):
-                t[a] = loc_href(t[a])
+                t[a] = loc_href(t[a], P)
         if t.has_attr('srcset'):
-            t['srcset'] = ', '.join(' '.join([loc_href(p.split()[0])] + p.split()[1:]) for p in t['srcset'].split(','))
+            t['srcset'] = ', '.join(' '.join([loc_href(p.split()[0], P)] + p.split()[1:]) for p in t['srcset'].split(','))
         if t.has_attr('style') and 'url(' in t['style']:
             t['style'] = re.sub(r'url\((["\']?)(assets/)', r'url(\1../\2', t['style'])
     add_lang_bits(d, root, page, loc)
@@ -384,8 +400,9 @@ def lang_links(root, page, here):
         if l == here:
             continue
         L = LOCALES[l]
-        target = page if page in PAGES else 'index'
-        aria = L['aria_page'] if page in PAGES else L['aria_site']
+        has = page in pages_for(root, l)
+        target = page if has else 'index'
+        aria = L['aria_page'] if has else L['aria_site']
         out.append((f"{up}{L['dir']}/{target}.html", l, L['name'], aria))
     return out
 
@@ -416,7 +433,7 @@ def lang_bits_text(h, root, page):
     h = re.sub(r'<link href="[^"]*" hreflang="[^"]*" rel="alternate"/>', '', h)
     h = re.sub(r'<a aria-label="[^"]*" class="lv-lang"[^>]*>[^<]*</a>', '', h)
     h = h.replace('<link href="assets/css/i18n.css" id="instron-i18n" rel="stylesheet"/>', '')
-    if page in PAGES:
+    if any(page in pages_for(root, l) for l in active_locales(root)):
         alt = ''.join(f'<link href="{u}" hreflang="{hl}" rel="alternate"/>' for hl, u in alternates(root, page))
         h, n = re.subn(r'(<link rel="canonical" href="[^"]*"/>)', lambda m: m.group(1) + alt, h, count=1)
         assert n == 1, page
@@ -458,11 +475,11 @@ def build(root, only=None):
             s = s.replace(a, b)
         open(os.path.join(root, 'assets', 'js', f"site-{L['dir']}.js"), 'w', encoding='utf-8').write(s)
         missing[loc] = []
-        for p in PAGES:
+        for p in pages_for(root, loc):
             out = translate_page(root, loc, p, seg, missing[loc])
             open(os.path.join(root, L['dir'], p + '.html'), 'w', encoding='utf-8').write(out)
     n = patch_english(root)
-    print('i18n build: ' + '; '.join(f"{loc} {len(PAGES)} pages in {LOCALES[loc]['dir']}/, {len(missing[loc])} untranslated"
+    print('i18n build: ' + '; '.join(f"{loc} {len(pages_for(root, loc))} pages in {LOCALES[loc]['dir']}/, {len(missing[loc])} untranslated"
                                      for loc in missing) + f'; {n} English pages updated')
     return missing
 
