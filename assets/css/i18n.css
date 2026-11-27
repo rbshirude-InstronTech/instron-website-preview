@@ -1,0 +1,6 @@
+/* language switcher (tools/i18n_fr.py) */
+.lv-tb-right{display:flex;align-items:center;gap:14px}
+.lv-lang{color:inherit;text-decoration:none;font-weight:600;border:1px solid currentColor;border-radius:999px;padding:1px 10px;font-size:.85em;line-height:1.6;white-space:nowrap}
+.lv-lang:hover,.lv-lang:focus-visible{background:rgba(255,255,255,.16)}
+/* French copy runs longer: keep the Home key figures on one line */
+html[lang="fr-CA"] .v241-figs strong{white-space:nowrap;font-size:clamp(26px,2.5vw,36px)}

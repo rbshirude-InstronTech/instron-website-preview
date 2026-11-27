@@ -277,3 +277,5 @@ _seo = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_seo); _seo.run(ou
 # IRA approved page list, refreshed from the pages just built
 import subprocess as _sp
 _sp.run([sys.executable, '-I', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ira_content.py'), out], check=True)
+# v2.46 French (Canada) pages in fr/, language switcher and hreflang (catalogue: i18n/fr-CA.json)
+_sp.run([sys.executable, '-I', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'i18n_fr.py'), 'build', out], check=True)

@@ -30,3 +30,8 @@ Sumit's design suggestions as approved by Rahul page by page (review: https://cl
 ## v2.36 PlantON™ on every mention (27 Nov 2026)
 - `tools/v236_tm.py <review repo>` adds the ™ to every visible PlantON mention in the review build; then `tools/sync.py` rebuilds this site.
 - Preview-only parts: footer trademark line (`build.py`), search descriptions (`seo.py`), and IRA labels in `assets/ira/ira.js` (the area label must match the Contact form option "PlantON™ / industrial data").
+
+## v2.46 French (Canada) pages (27 Nov 2026)
+- 8 core pages in French in `fr/`: Home, Process Skid Plants, Industrial Automation, PlantON™, How We Work, Global Presence, Contact, Privacy. Built by `tools/i18n_fr.py` from the English pages and the catalogue `i18n/fr-CA.json`; `tools/build.py` runs it after every sync.
+- "Français" / "English" switch in the top bar of every page, hreflang tags, French site script `assets/js/site-fr.js`. IRA is not loaded on French pages.
+- Details, glossary and open decisions: `i18n/README.md`. Reviewer sheet: `i18n/fr-CA-review.csv`.
