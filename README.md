@@ -26,3 +26,7 @@ Sumit's design suggestions as approved by Rahul page by page (review: https://cl
 - `tools/ira_content.py` reads capability cards that now carry an icon; ira-content.json output unchanged.
 - About Us pages follow when Sumit's captures arrive.
 - v2.35.1: `tools/v2351_industries.py <review repo>` applies the same layouts to the six Industries pages (run after v2.35 is in the review repo).
+
+## v2.36 PlantON™ on every mention (27 Nov 2026)
+- `tools/v236_tm.py <review repo>` adds the ™ to every visible PlantON mention in the review build; then `tools/sync.py` rebuilds this site.
+- Preview-only parts: footer trademark line (`build.py`), search descriptions (`seo.py`), and IRA labels in `assets/ira/ira.js` (the area label must match the Contact form option "PlantON™ / industrial data").

@@ -37,7 +37,7 @@
     oee: ['production visibility and OEE', [/\boee\b/, /\bdowntime/, /\bproduction (target|visibility|loss|losses|report|tracking)/, /\bthroughput/, /\bplan (vs|versus) actual/, /\bavailability\b/, /\bscrap\b|\breject/, /\bproductivity/, /\bshift reports?/, /\bbottleneck/, /\bcycle time/, /\bmachine (performance|status|monitoring)/, /\blosses\b|\bloss analysis/]],
     utility: ['utility and energy monitoring', [/\benergy (use|usage|consumption|monitor\w*|costs?|bills?)/, /\belectricity/, /\bpower (consumption|use|usage|bills?)/, /\bkwh\b/, /\butilit(y|ies)/, /\bcompressed air/, /\bwater (use|usage|consumption)/, /\bsteam (use|usage|consumption)/, /\b(sub[- ]?)?meters?\b|\bmetering/, /\bconsumption/]],
     trace: ['traceability and digital records', [/\btraceab/, /\bgenealog/, /\bbatch (records?|history|reports?)/, /\bpaperless|\bpaper (records|forms|logs)/, /\bdigital (forms|records|logbook)/, /\bpasteuri[sz]/, /\bhaccp/, /\brecalls?\b/]],
-    plantdata: ['PlantON plant data', [/\bplant ?on\b/, /\bdashboards?/, /\bkpis?\b/, /\b(plant|production|machine|process) data/, /\bvisibility/, /\breal[- ]time (data|monitor\w*|view)/, /\biiot|\biot\b|\bindustry 4/, /\bhistorian/, /\bmes\b/, /\bmis\b|\bdaily reports?/, /\bdigital factory|\bdigiti[sz]/, /\btrends?\b/]],
+    plantdata: ['PlantON™ plant data', [/\bplant ?on\b/, /\bdashboards?/, /\bkpis?\b/, /\b(plant|production|machine|process) data/, /\bvisibility/, /\breal[- ]time (data|monitor\w*|view)/, /\biiot|\biot\b|\bindustry 4/, /\bhistorian/, /\bmes\b/, /\bmis\b|\bdaily reports?/, /\bdigital factory|\bdigiti[sz]/, /\btrends?\b/]],
     compliance: ['validation and compliance', [/\b21 ?cfr|\bpart 11/, /\bgamp/, /\bc?gmp\b/, /\bvalidat/, /\biq\b|\boq\b/, /\baudit trails?/, /\bcompliance reports?/]],
     feasibility: ['basic engineering and feasibility', [/\bfeasib/, /\bbasic engineering/, /\bconcept(ual)? (design|study|engineering)/, /\bfeed\b(?! (stream|rate|material|stock))/, /\bpfds?\b|\bprocess flow diagram/, /\bmass balance/, /\bcost estimate|\bbudget(ary)? (estimate|price|quote|number)/, /\bdesign basis/]],
     detailed: ['detailed engineering', [/\bdetailed (engineering|design|drawings)/, /\bp ?& ?ids?\b|\bp and ids?\b/, /\bga drawings?|\bgeneral arrangement/, /\b3d model/, /\bengineering package|\bdrawings\b/, /\bdatasheets?/]],
@@ -69,7 +69,7 @@
   // track and stage words: they shape the ranking but are not, on their own, evidence of a matching project
   var GENERIC = { skid: 1, pilot: 1, industrial_skid: 1, scaleup: 1, build: 1, feasibility: 1, detailed: 1, hazop: 1 };
   var AREA = { // matches the Contact form "Area of interest" options
-    P: 'Process skid / pilot plant', A: 'Automation & controls', D: 'PlantON / industrial data',
+    P: 'Process skid / pilot plant', A: 'Automation & controls', D: 'PlantON™ / industrial data',
     C: 'Engineering collaboration', O: 'Other technical enquiry'
   };
   var AREA_OF = {
@@ -213,7 +213,7 @@
   var TRACKS = {
     process: { title: 'Process systems and scale-up', line: 'Pilot, demonstration and industrial process skids', page: 'process-skid-plants', area: 'P', tags: { skid: 1 } },
     automation: { title: 'Controls and automation', line: 'New controls, upgrades, batch and validated systems', page: 'industrial-automation', area: 'A', tags: { automation: 1 } },
-    data: { title: 'Plant data with PlantON', line: 'OEE, energy, traceability and production visibility', page: 'planton-digital-factory', area: 'D', tags: { plantdata: 1 } }
+    data: { title: 'Plant data with PlantON™', line: 'OEE, energy, traceability and production visibility', page: 'planton-digital-factory', area: 'D', tags: { plantdata: 1 } }
   };
   var PATH = [
     { id: 'lab', label: 'Lab or concept', hint: 'It works at lab scale, or it is still an idea', stage: 'Concept / feasibility', tags: { scaleup: 1 } },
@@ -491,7 +491,7 @@
     price: {
       P: 'Pricing depends on scope, so an engineer agrees it with you. A Basic Engineering & Feasibility phase gives a Class 4 budgetary estimate before you commit to detailed design.',
       A: 'Automation pricing depends on scope: the platform, I/O count, panels, software and site work. An engineer agrees it with you after reviewing the requirement.',
-      D: 'PlantON pricing depends on scope: the data sources, interfaces, users and how far the rollout goes. An engineer agrees it with you after a first review.'
+      D: 'PlantON™ pricing depends on scope: the data sources, interfaces, users and how far the rollout goes. An engineer agrees it with you after a first review.'
     }
   };
   function labelsOf(obj, n) {
@@ -1034,7 +1034,7 @@
     mode = 'map'; step = 3; clearView(); setProgress(3);
     var h;
     if (sel.track === 'data') {
-      h = stepHead('Step 3 of 3', 'How are these figures captured today?', 'Choose all that apply; plants often have a mix. This shows where a PlantON deployment would likely start.');
+      h = stepHead('Step 3 of 3', 'How are these figures captured today?', 'Choose all that apply; plants often have a mix. This shows where a PlantON™ deployment would likely start.');
       choices(DATA_TODAY, { label: 'Data today', multi: true, cls: 'ira-needs', get: function () { return sel.today; }, set: function (v) { sel.today = v; } });
     } else if (sel.track === 'automation') {
       h = stepHead('Step 3 of 3', 'What documentation exists today?', 'Choose the most complete you have. This helps an engineer judge where to start.');

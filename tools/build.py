@@ -174,7 +174,7 @@ FOOTER = (
  '<span class="lv-f-note">© 2026 Instron Technologies · Engineering since 2013</span>'
  '<a class="lv-f-note" data-review-route="sitemap" href="#">Website Index</a>'
  '<span class="lv-f-note">Independent company, not affiliated with Instron® (ITW)</span>'
- '<span class="lv-f-note">PlantON is a trademark of Instron Technologies Inc.</span>'
+ '<span class="lv-f-note">PlantON<sup class="pon-tm">™</sup> is a trademark of Instron Technologies Inc.</span>'
  '</div></footer>')
 
 # v2.35 footer (Sumit 26 Nov, approved): regional locations as chips, upcoming presence as a dashed chip

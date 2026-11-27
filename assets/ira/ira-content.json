@@ -70,7 +70,7 @@
    ]
   },
   "planton-deploy": {
-   "title": "PlantON deployment",
+   "title": "PlantON™ deployment",
    "url": "planton-digital-factory.html#deploy",
    "what": "Commission the data before scaling the dashboard. Results are measured against a baseline agreed up front: reporting hours, utility intensity, downtime or rejection.",
    "best_when": "",
@@ -228,7 +228,7 @@
    "type": "solution",
    "title": "PlantON™ by Instron Technologies",
    "url": "planton-digital-factory.html",
-   "summary": "PlantON turns PLC, SCADA, meter and business-system data into traceability, OEE, compliance reports and production views, without replacing your controls.",
+   "summary": "PlantON™ turns PLC, SCADA, meter and business-system data into traceability, OEE, compliance reports and production views, without replacing your controls.",
    "tags": {
     "plantdata": 3,
     "oee": 2,
@@ -650,7 +650,7 @@
    "type": "proof",
    "title": "Project Portfolio",
    "url": "project-portfolio.html",
-   "summary": "Selected projects, from pilot skids and research systems to plant-wide automation and PlantON deployments. Client names withheld; references on request.",
+   "summary": "Selected projects, from pilot skids and research systems to plant-wide automation and PlantON™ deployments. Client names withheld; references on request.",
    "tags": {
     "proof": 2
    },
@@ -1009,7 +1009,7 @@
   {
    "id": "case-dairy",
    "type": "case",
-   "title": "Dairy modernization with PlantON",
+   "title": "Dairy modernization with PlantON™",
    "url": "case-studies.html#case-dairy",
    "summary": "A dairy producing cheese, ice cream, milk and yogurt ran 12+ separate control systems, and pasteurizer trends and utility figures were compiled by hand.",
    "tags": {
@@ -1029,7 +1029,7 @@
   {
    "id": "case-diecast",
    "type": "case",
-   "title": "Legacy die-cast machines on one PlantON performance view",
+   "title": "Legacy die-cast machines on one PlantON™ performance view",
    "url": "case-studies.html#case-diecast",
    "summary": "An aluminium die-casting manufacturer ran machines of different ages and makes, and its production and ERP data did not line up.",
    "tags": {
