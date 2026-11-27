@@ -1,8 +1,8 @@
-"""v2.42: 24/7 service support on the Home figures band (Sumit pointer 4, Rahul 26 Nov 2026).
+"""v2.43: 24/7 service support on the Home figures band (Sumit pointer 4, Rahul 26 Nov 2026).
 
 Adds a fifth figure after "Since 2013": 24/7 · service support, linked to Contact.
 The v2.41 band grid goes from four to five columns (two columns under 900 px, as before).
-Usage: python3 -I v242_support.py <review repo dir>   (re-runnable)
+Usage: python3 -I v243_support.py <review repo dir>   (re-runnable)
 """
 import sys, os, re, json
 
