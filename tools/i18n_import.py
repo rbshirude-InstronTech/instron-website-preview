@@ -27,10 +27,10 @@ PROTECT = ['Instron Technologies', 'PlantON', 'Rockwell', 'Allen-Bradley', 'Siem
 BANNED = {
     'fr-CA': [(r'\bAPI\b', 'pharma API is IPA in French'), (r'\bmanutention\b', 'use manipulation (gas) / transfert (fluids)'),
               (r'\bcommissionnement\b', 'use mise en service'), (r'\be-?mail\b', 'use courriel'), (r'\bpanneaux? de contrôle\b', 'use panneau de commande'),
-              (r'(^|[\s(])[Pp]ilote (de|d’|automatisé)', 'say usine pilote / unité pilote'), (r'\bTRS\b', 'use TRG (OEE)')],
+              (r'(?i)(?<!usine )(?<!usines )(?<!unité )(?<!unités )(?<!système )(?<!systèmes )(?<![\w’])[Pp]ilote (de|d’|automatisé)', 'say usine pilote / unité pilote'), (r'\bTRS\b', 'use TRG (OEE)')],
     'es-MX': [(r'\bAPI\b', 'pharma API is IFA'), (r'\bpanel(es)? de control\b', 'use tablero de control'), (r'\butilidades\b', 'use servicios auxiliares'),
               (r'\bcomisionamiento\b', 'use puesta en marcha'), (r'\be-?mail\b', 'use correo electrónico'), (r'\binterbloqueo', 'use enclavamiento'),
-              (r'(^|[\s(])[Pp]iloto (de|automatizado)', 'say planta piloto / unidad piloto'), (r'\bordenador', 'Spain Spanish: use computadora')],
+              (r'(?i)(?<!planta )(?<!plantas )(?<!unidad )(?<!unidades )(?<!sistema )(?<!sistemas )(?<!\w)[Pp]iloto (de|automatizado)', 'say planta piloto / unidad piloto'), (r'\bordenador', 'Spain Spanish: use computadora')],
 }
 TAG = {'fr-CA': 'FR', 'es-MX': 'ES'}
 

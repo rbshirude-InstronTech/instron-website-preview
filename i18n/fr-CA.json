@@ -1055,7 +1055,618 @@
   "How Instron Technologies handles personal information, the terms of this website, our approach to accessibility, and how our name relates to others.": "Comment Instron Technologies traite les renseignements personnels, les conditions de ce site, notre approche de l’accessibilité, et le lien entre notre nom et d’autres noms.",
   "Privacy, Terms &amp; Accessibility | Instron Technologies": "Confidentialité, conditions, accessibilité | Instron Technologies",
   "Privacy, Terms &amp; Accessibility, Instron Technologies": "Confidentialité, conditions et accessibilité, Instron Technologies",
-  "Privacy, Terms &amp; Accessibility": "Confidentialité, conditions et accessibilité"
+  "Privacy, Terms &amp; Accessibility": "Confidentialité, conditions et accessibilité",
+  "Insights · Process Skid Plants": "Perspectives · Usines de procédé sur skid",
+  "From lab to pilot to industrial. <span>What changes at each step.</span>": "Du laboratoire à l’usine pilote, puis à l’usine industrielle. <span>Ce qui change à chaque étape.</span>",
+  "A process that works at bench scale still has to prove that it runs, can be controlled and produces data you can scale from. What a skid has to do changes at each stage, and so does what it should cost.": "Un procédé qui fonctionne à l’échelle du laboratoire doit encore démontrer qu’il peut être exploité et contrôlé, et qu’il produit des données utiles à la mise à l’échelle. Le rôle du skid change à chaque étape, tout comme le coût attendu.",
+  "<span>Instron Technologies engineering team</span><span>November 2026</span><span>7 min read</span>": "<span>Équipe d’ingénierie d’Instron Technologies</span><span>Novembre 2026</span><span>7 min de lecture</span>",
+  "Three stages, three questions": "Trois étapes, trois questions",
+  "Around TRL 4 to 6": "Environ TRL 4 à 6",
+  "Pilot": "Usine pilote",
+  "Does the process work outside the lab?": "Le procédé fonctionne-t-il hors du laboratoire?",
+  "Wide operating ranges, flexible configuration and dense instrumentation, so every run produces data you can compare.": "Vastes plages de fonctionnement, configuration flexible et instrumentation dense, pour que chaque essai produise des données comparables.",
+  "Around TRL 6 to 7": "Environ TRL 6 à 7",
+  "Demonstration": "Démonstration",
+  "Does it run reliably at a representative scale?": "Fonctionne-t-il de façon fiable à une échelle représentative?",
+  "Long runs, recycle streams, maintainability, utilities and operating procedures start to matter as much as the chemistry.": "Les longues campagnes, les flux de recyclage, la facilité d’entretien, les utilités et les procédures d’exploitation deviennent aussi importants que la chimie.",
+  "TRL 7 and beyond": "TRL 7 et au-delà",
+  "Industrial": "Industriel",
+  "Does it pay?": "Est-ce rentable?",
+  "Throughput, yield, energy and solvent use, uptime and compliance decide the design, and cost per unit becomes the test.": "Le débit, le rendement, la consommation d’énergie et de solvants, la disponibilité et la conformité déterminent la conception, et le coût unitaire devient le critère déterminant.",
+  "The balance comes first": "Le bilan d’abord",
+  "Every stage starts from the same document: the mass and energy balance. It fixes flows, compositions, heat duties and utility loads. From those come line sizes, vessel volumes, heat-exchanger areas and pump and chiller duties. Change a feed ratio late and the equipment list changes with it.": "Chaque étape commence par le même document : le bilan de matière et d’énergie. Il établit les débits, les compositions, les charges thermiques et les besoins en utilités. Il détermine les diamètres des conduites, les volumes des cuves, les surfaces des échangeurs thermiques et les fonctions des pompes et des refroidisseurs. Modifiez tardivement un ratio d’alimentation et la liste des équipements changera aussi.",
+  "For a pilot, the balance also defines the operating window you want to explore. Design for that range rather than a single point, or the pilot cannot answer the questions it was built for.": "Pour une usine pilote, le bilan définit également la plage de fonctionnement à explorer. Concevez le système pour cette plage plutôt que pour un seul point, sinon l’usine pilote ne pourra pas répondre aux questions pour lesquelles elle a été construite.",
+  "What changes as you scale": "Ce qui change lors de la mise à l’échelle",
+  "Main question": "Question principale",
+  "Does it work?": "Est-ce que ça fonctionne?",
+  "Does it run?": "Est-ce exploitable?",
+  "Operating range": "Plage de fonctionnement",
+  "Wide, to explore": "Large, pour explorer",
+  "Near the design point": "Près du point de conception",
+  "Optimized design point": "Point de conception optimisé",
+  "Dense, for data": "Dense, pour recueillir les données",
+  "For control and diagnosis": "Pour la commande et le diagnostic",
+  "For control, quality and utilities": "Pour la commande, la qualité et les utilités",
+  "Automation": "Automatisation",
+  "Data capture, batch records, interlocks": "Collecte de données, registres de lots, verrouillages",
+  "Sequencing, alarms, longer unattended runs": "Séquençage, alarmes, campagnes prolongées sans surveillance",
+  "Full plant control and compliance records": "Commande complète de l’usine et registres de conformité",
+  "Safety": "Sécurité",
+  "Small inventories, lab-to-plant hazards": "Faibles quantités de matières, risques liés au passage du laboratoire à l’usine",
+  "Hazardous-area classification and codes": "Classification des zones dangereuses et codes applicables",
+  "Full site requirements": "Toutes les exigences du site",
+  "Documentation": "Documentation",
+  "Run records and data": "Registres d’essais et données",
+  "Operating procedures, agreed FAT / SAT": "Procédures d’exploitation, FAT / SAT convenus",
+  "Complete handover package": "Dossier complet de transfert",
+  "Data is the real output of a pilot": "Les données sont le véritable résultat d’une usine pilote",
+  "A pilot exists to produce evidence. Without precise control and data capture, results cannot be compared between runs or used to plan the next scale. That is why instrumentation and automation deserve the same attention as the process equipment.": "Une usine pilote sert à produire des données probantes. Sans commande précise ni collecte de données, les résultats ne peuvent être comparés entre les essais ni servir à planifier la prochaine échelle. C’est pourquoi l’instrumentation et l’automatisation méritent autant d’attention que les équipements de procédé.",
+  "I/O on a battery-recycling pilot": "E/S d’une unité pilote de recyclage de batteries",
+  "Research institute, Saudi Arabia. Real-time control of ultrasonic energy, temperature and flow, batch records for every run, and a modular design ready to replicate.": "Institut de recherche, Arabie saoudite. Commande en temps réel de l’énergie ultrasonore, de la température et du débit, registres de lots pour chaque essai et conception modulaire prête à être reproduite.",
+  "I/O on a membrane H₂ unit": "E/S d’une unité H₂ à membranes",
+  "Refinery R&amp;D, India. Three instrumented pilots, including CO₂ / H₂ purification at 5 LPH, up to 100 °C and 50 barg, with real-time mass balance and batch reports.": "R-D en raffinage, Inde. Trois unités pilotes instrumentées, dont la purification du CO₂ / H₂ à 5 LPH, jusqu’à 100 °C et 50 barg, avec bilan de matière en temps réel et rapports de lots.",
+  "batch production at industrial scale": "production par lots à l’échelle industrielle",
+  "API manufacturer, India. A fully automated, unmanned skid in a classified hazardous area, with 17% shorter cycles, 96% solvent recovery and ROI in four months.": "Fabricant d’IPA (ingrédient pharmaceutique actif), Inde. Un skid entièrement automatisé, sans opérateur, en zone dangereuse classifiée, avec des cycles 17&nbsp;% plus courts, une récupération de solvants de 96&nbsp;% et un retour sur investissement en quatre mois.",
+  "Design each stage for the next one": "Concevoir chaque étape en fonction de la suivante",
+  "<b>Build in modules.</b> A methanol-water recovery system in Mexico was delivered in two parts, a process skid and a distillation tower, and led to a second project with the same customer.": "<b>Construire en modules.</b> Un système de récupération de méthanol et d’eau au Mexique a été livré en deux parties, un skid de procédé et une tour de distillation, et a mené à un deuxième projet avec le même client.",
+  "<b>Keep one data model.</b> Tag names, units and batch records that carry from pilot to demonstration make results directly comparable.": "<b>Conserver un modèle de données unique.</b> Les noms des variables, les unités et les registres de lots conservés de l’usine pilote à la démonstration rendent les résultats directement comparables.",
+  "<b>Agree test scope per project.</b> Some systems can be fully tested as skids before shipping; others can only be proven after installation. Settle FAT and SAT scope early.": "<b>Convenir de la portée des essais pour chaque projet.</b> Certains systèmes sur skid peuvent être entièrement testés avant l’expédition; d’autres ne peuvent être validés qu’après l’installation. Définissez tôt la portée des FAT et SAT.",
+  "<b>Plan the interfaces.</b> Utilities, drains, vents, power and network, and who owns each one at site.": "<b>Planifier les interfaces.</b> Utilités, drains, évents, alimentation électrique et réseau, ainsi que les responsables de chacun sur site.",
+  "<b>Make each stage a decision point.</b> A phased scope lets you stop, change direction or move on with evidence.": "<b>Faire de chaque étape un point de décision.</b> Une portée définie par phases permet de s’arrêter, de changer de direction ou de poursuivre en s’appuyant sur des données probantes.",
+  "In short": "En bref",
+  "Each stage answers a different question: does it work, does it run, does it pay.": "Chaque étape répond à une question différente : est-ce que ça fonctionne, est-ce exploitable, est-ce rentable?",
+  "Instrumentation and automation are what turn pilot runs into data you can scale from.": "L’instrumentation et l’automatisation transforment les essais pilotes en données utiles à la mise à l’échelle.",
+  "Settle the mass and energy balance early. It drives every piece of equipment after it.": "Établissez tôt le bilan de matière et d’énergie. Il détermine ensuite chaque équipement.",
+  "Design each stage so the next one can reuse its lessons, and sometimes its modules.": "Concevez chaque étape pour que la suivante puisse réutiliser ses enseignements, et parfois ses modules.",
+  "<a1>Three stages, three questions</a1>": "<a1>Trois étapes, trois questions</a1>",
+  "<a1>The balance comes first</a1>": "<a1>Le bilan d’abord</a1>",
+  "<a1>What changes as you scale</a1>": "<a1>Ce qui change lors de la mise à l’échelle</a1>",
+  "<a1>Data is the real output of a pilot</a1>": "<a1>Les données sont le véritable résultat d’une usine pilote</a1>",
+  "<a1>Design each stage for the next one</a1>": "<a1>Concevoir chaque étape en fonction de la suivante</a1>",
+  "Keep reading": "Poursuivre la lecture",
+  "More from Insights": "Autres articles de Perspectives",
+  "All articles": "Tous les articles",
+  "Planning a pilot or your next scale-up step?": "Vous planifiez une usine pilote ou votre prochaine étape de mise à l’échelle?",
+  "Comparison of scale-up stages": "Comparaison des étapes de mise à l’échelle",
+  "Each stage of scale-up answers a different question. What changes in instruments, automation, safety and documentation from pilot to industrial plant.": "Chaque étape de mise à l’échelle répond à une question différente. Ce qui change en matière d’instruments, d’automatisation, de sécurité et de documentation entre l’usine pilote et l’usine industrielle.",
+  "Lab to Pilot to Industrial Scale-Up | Instron Technologies": "Du laboratoire à l’échelle industrielle | Instron Technologies",
+  "From lab to pilot to industrial: what changes at each step, Instron Technologies": "Du laboratoire à l’usine pilote, puis à l’usine industrielle : ce qui change à chaque étape, Instron Technologies",
+  "Insights · Industrial Automation": "Perspectives · Automatisation industrielle",
+  "Modernize a running plant <span>without starting again.</span>": "Moderniser une usine en exploitation <span>sans repartir de zéro.</span>",
+  "Most automation projects happen in plants that are already producing. The hard part is not the new control system. It is changing it around production schedules, legacy equipment and the people who run the line.": "La plupart des projets d’automatisation se déroulent dans des usines qui produisent déjà. La difficulté ne réside pas dans le nouveau système de contrôle. Elle consiste à effectuer le changement en tenant compte des horaires de production, des équipements anciens et des personnes qui exploitent la ligne.",
+  "<span>Instron Technologies engineering team</span><span>November 2026</span><span>6 min read</span>": "<span>Équipe d’ingénierie d’Instron Technologies</span><span>Novembre 2026</span><span>6 min de lecture</span>",
+  "Why brownfield is harder than greenfield": "Pourquoi un site existant est plus complexe qu’un nouveau site",
+  "In a new plant, the control system is designed together with everything else. In a running plant it has to fit around what is already there: PLC generations that no longer talk to each other, OEM packages with closed controls, changes made over the years that were never documented, and a production schedule that leaves short windows for change.": "Dans une nouvelle usine, le système de contrôle est conçu avec le reste des installations. Dans une usine en exploitation, il doit s’adapter à ce qui existe déjà : des générations de PLC qui ne communiquent plus entre elles, des ensembles OEM à commandes fermées, des modifications jamais documentées au fil des ans et un horaire de production qui laisse peu de temps pour les changements.",
+  "The risk sits in the gaps: an interlock nobody wrote down, a network dependency that appears on start-up day, or an operator workaround that was quietly holding the process together.": "Le risque réside dans les lacunes : un verrouillage que personne n’a documenté, une dépendance réseau qui se manifeste le jour du démarrage ou une solution de contournement d’un opérateur qui maintenait discrètement le procédé en fonctionnement.",
+  "What waiting costs": "Le coût de l’attente",
+  "Separate control islands make batches harder to repeat and records harder to keep. Manual batching and fixed-speed equipment limit capacity, consistency and traceability. Reports are compiled by hand, spares for obsolete hardware get harder to find, and more of the plant’s know-how ends up in a few people’s heads.": "Les îlots de contrôle indépendants rendent les lots plus difficiles à reproduire et les registres plus difficiles à tenir. La préparation manuelle des lots et les équipements à vitesse fixe limitent la capacité, la constance et la traçabilité. Les rapports sont compilés à la main, les pièces de rechange pour le matériel obsolète deviennent plus difficiles à trouver et une part croissante du savoir-faire de l’usine repose sur quelques personnes.",
+  "A five-step approach": "Une démarche en cinq étapes",
+  "Audit the installed base": "Auditer les installations existantes",
+  "I/O lists, drawings, PLC and HMI versions, networks, panels, and how operators actually run the process. Mark what works, what is at end of life and what is undocumented.": "Listes d’E/S, plans, versions des PLC et HMI, réseaux, panneaux de commande et façon dont les opérateurs exploitent réellement le procédé. Indiquez ce qui fonctionne, ce qui est en fin de vie et ce qui n’est pas documenté.",
+  "Decide what to keep": "Décider quoi conserver",
+  "Reactors, vessels and drives in good condition can usually stay. Automate and connect them, and replace only where the risk or the gain justifies it.": "Les réacteurs, les cuves et les variateurs en bon état peuvent généralement être conservés. Automatisez-les et raccordez-les, et ne les remplacez que si le risque ou le gain le justifie.",
+  "Define the control structure": "Définir la structure de contrôle",
+  "For batch plants, an ISA-88 structure separates equipment from recipes, so products and procedures can change without rewriting code, and every batch leaves a record.": "Pour les usines fonctionnant par lots, une structure ISA-88 sépare les équipements des recettes, de sorte que les produits et les procédures peuvent changer sans réécriture du code, et que chaque lot laisse une trace.",
+  "Test before site": "Tester avant l’intervention sur site",
+  "Test the new logic against the agreed specification at factory acceptance, then confirm it on site. A URS, FDS, FAT and SAT give every stakeholder the same reference.": "Testez la nouvelle logique selon les spécifications convenues lors du FAT, puis confirmez-la sur site. Les URS, FDS, FAT et SAT donnent à toutes les parties prenantes la même référence.",
+  "Cut over in planned windows": "Basculer durant les fenêtres planifiées",
+  "Stage the change area by area around shutdowns, with fall-back plans, trained operators and support on site through start-up.": "Planifiez le changement zone par zone en fonction des arrêts, avec des plans de repli, des opérateurs formés et du soutien sur site pendant le démarrage.",
+  "From our projects": "Exemples de nos projets",
+  "0.5 to 20 L": "0,5 à 20 L",
+  "reactors kept and automated": "réacteurs conservés et automatisés",
+  "Research laboratory. Existing metal-extraction reactors retained and automated with pH control, dosing, temperature, agitation and PLC / SCADA, ready for future scale.": "Laboratoire de recherche. Réacteurs existants d’extraction de métaux conservés et automatisés avec commande du pH, dosage, température, agitation et PLC / SCADA, prêts pour une future mise à l’échelle.",
+  "See the project portfolio": "Voir le portefeuille de projets",
+  "production capacity": "capacité de production",
+  "Cleaning-product manufacturer, Canada. Automated compounding with 26 VFDs and 4 agitators, ISA-88 recipes and a paperless audit trail, with 15% energy and material saved.": "Fabricant de produits de nettoyage, Canada. Préparation automatisée des mélanges avec 26 VFD et 4 agitateurs, recettes ISA-88 et piste d’audit sans papier, avec 15&nbsp;% d’économies d’énergie et de matières.",
+  "I/O linked to an existing DCS": "E/S reliées à un DCS existant",
+  "Global healthcare company, Toronto. Adjuvant and CIP skid automation to 21 CFR Part 11, with ISA-88 sequencing and OPC UA links to the plant’s existing DCS, documented from URS to SAT.": "Entreprise mondiale du secteur de la santé, Toronto. Automatisation de skids d’adjuvants et de NEP (CIP) selon 21 CFR Part 11, avec séquençage ISA-88 et liaisons OPC UA au DCS existant de l’usine, documentée de l’URS au SAT.",
+  "control systems on one platform": "systèmes de contrôle sur une seule plateforme",
+  "Dairy, California. A centralized control system across all areas, with more than 2,000 I/O and {PlantON} for CIP validation and traceability.": "Laiterie, Californie. Système de commande centralisé dans toutes les zones, avec plus de 2&nbsp;000 E/S et {PlantON} pour la validation de la NEP (CIP) et la traçabilité.",
+  "When to replace instead": "Quand privilégier le remplacement",
+  "Retrofitting is not always the answer. Replace when hardware is past support and spares have become a production risk, when the process has changed enough that the old control philosophy no longer fits, or when safety or compliance requirements cannot be met on the existing platform. The audit in step one is what lets you make that call on evidence rather than habit.": "La modernisation des équipements existants n’est pas toujours la solution. Remplacez-les lorsque le matériel n’est plus pris en charge et que les pièces de rechange présentent un risque pour la production, lorsque le procédé a suffisamment changé pour que l’ancienne philosophie de contrôle ne convienne plus, ou lorsque les exigences de sécurité ou de conformité ne peuvent être satisfaites sur la plateforme existante. L’audit de la première étape permet de prendre cette décision sur la base de faits plutôt que par habitude.",
+  "Audit what you have before you decide what to replace.": "Auditez vos installations avant de décider quoi remplacer.",
+  "Keep equipment that still works; automate and connect it.": "Conservez les équipements qui fonctionnent encore; automatisez-les et raccordez-les.",
+  "Structure batch control so recipes and records are repeatable.": "Structurez la commande des lots pour que les recettes et les registres soient reproductibles.",
+  "Test before site, and cut over in planned windows.": "Testez avant l’intervention sur site et basculez durant les fenêtres planifiées.",
+  "<a1>Why brownfield is harder than greenfield</a1>": "<a1>Pourquoi un site existant est plus complexe qu’un nouveau site</a1>",
+  "<a1>What waiting costs</a1>": "<a1>Le coût de l’attente</a1>",
+  "<a1>A five-step approach</a1>": "<a1>Une démarche en cinq étapes</a1>",
+  "<a1>From our projects</a1>": "<a1>Exemples de nos projets</a1>",
+  "<a1>When to replace instead</a1>": "<a1>Quand privilégier le remplacement</a1>",
+  "Planning a modernization in a running plant?": "Vous planifiez une modernisation dans une usine en exploitation?",
+  "How to modernize controls in a plant that is already producing: audit first, keep what works, test before site and cut over in planned windows.": "Comment moderniser les commandes d’une usine qui produit déjà : auditer d’abord, conserver ce qui fonctionne, tester avant l’intervention sur site et basculer durant les fenêtres planifiées.",
+  "Modernize a Running Plant | Instron Technologies": "Moderniser une usine en exploitation | Instron Technologies",
+  "Modernize a running plant without starting again, Instron Technologies": "Moderniser une usine en exploitation sans repartir de zéro, Instron Technologies",
+  "Insights · {PlantON}": "Perspectives · {PlantON}",
+  "Start with one loss. <span>Plant data people actually use.</span>": "Commencer par une perte. <span>Des données d’usine réellement utilisées.</span>",
+  "Most plant-data projects do not fail on technology. They stall between a promising pilot and the second line. This is the rollout sequence we use with process plants to keep that from happening.": "La plupart des projets de données d’usine n’échouent pas à cause de la technologie. Ils stagnent entre un projet pilote prometteur et la deuxième ligne. Voici la démarche de déploiement que nous utilisons dans les usines de procédé pour éviter cette situation.",
+  "Why plant-data projects stall": "Pourquoi les projets de données d’usine stagnent",
+  "Most plants already collect plenty of data. PLCs, SCADA, utility meters, recipe systems and quality records each hold part of the picture. What is usually missing is operating context: which batch, which line, which shift and which loss a number belongs to.": "La plupart des usines recueillent déjà beaucoup de données. Les PLC, SCADA, compteurs d’utilités, systèmes de recettes et registres de qualité détiennent chacun une partie de l’information. Ce qui manque généralement, c’est le contexte d’exploitation : à quel lot, à quelle ligne, à quel quart et à quelle perte correspond une valeur.",
+  "In our experience, projects stall for four reasons:": "Selon notre expérience, les projets stagnent pour quatre raisons :",
+  "The goal is “visibility” rather than a specific loss, so nobody can say whether the pilot worked.": "L’objectif est la « visibilité » plutôt qu’une perte précise, de sorte que personne ne peut dire si le projet pilote a réussi.",
+  "Dashboards are built for managers, and the people who run the line never use them.": "Les tableaux de bord sont conçus pour les gestionnaires, et les personnes qui exploitent la ligne ne les utilisent jamais.",
+  "Machines and areas from different suppliers report in different ways, so their figures cannot be compared.": "Les machines et les zones provenant de différents fournisseurs transmettent leurs données de différentes façons, ce qui empêche de comparer leurs chiffres.",
+  "The plan tries to connect everything at once, and runs out of budget or patience halfway through.": "Le plan vise à tout raccorder en même temps, et le budget ou la patience s’épuise à mi-parcours.",
+  "What the gap costs": "Le coût de ces lacunes",
+  "The cost shows up in hours and in waste. At a California dairy we worked with, pasteurizer trends and utility figures were compiled by hand across more than 12 separate control systems. Compliance reporting took up to two hours a day, and there was little link between utility use and production.": "Le coût se manifeste en heures perdues et en gaspillage. Dans une laiterie de Californie avec laquelle nous avons travaillé, les tendances des pasteurisateurs et les données d’utilités étaient compilées à la main à partir de plus de 12 systèmes de contrôle distincts. Les rapports de conformité prenaient jusqu’à deux heures par jour, et la consommation des utilités était peu reliée à la production.",
+  "That pattern is common. When data has no context, people rebuild it in spreadsheets, and the effort goes into reporting instead of improving.": "Cette situation est fréquente. Lorsque les données manquent de contexte, les équipes les reconstituent dans des feuilles de calcul et consacrent leurs efforts aux rapports plutôt qu’à l’amélioration.",
+  "A six-step rollout": "Un déploiement en six étapes",
+  "Name one loss worth money": "Identifier une perte qui coûte de l’argent",
+  "Downtime on a critical cell, chemical use per batch, utility use per unit of output, or hours spent on reports. If you cannot put a number on it today, measuring it is the first win.": "Temps d’arrêt d’une cellule critique, consommation de produits chimiques par lot, consommation d’utilités par unité produite ou heures consacrées aux rapports. Si vous ne pouvez pas la chiffrer aujourd’hui, la mesurer constitue un premier gain.",
+  "Prove it on one line or area": "Démontrer le résultat sur une ligne ou une zone",
+  "Connect only what that loss needs. Record a baseline first, so the result is a before-and-after in your own figures rather than a vendor estimate.": "Raccordez uniquement ce qui est nécessaire pour cette perte. Établissez d’abord une référence, afin que le résultat soit une comparaison avant-après fondée sur vos propres chiffres plutôt que sur une estimation du fournisseur.",
+  "Bring operators in early": "Impliquer les opérateurs dès le début",
+  "The people on the line define the downtime reasons, check the numbers and choose the screens they will use. Their trust decides whether the system outlives the pilot.": "Les personnes qui travaillent sur la ligne définissent les causes d’arrêt, vérifient les chiffres et choisissent les écrans qu’elles utiliseront. Leur confiance détermine si le système restera en place après le projet pilote.",
+  "Write the benefit down": "Documenter le bénéfice",
+  "Turn the pilot result into a short business case: what changed, what it is worth per year and what it took. That is what funds the next phase.": "Transformez le résultat du projet pilote en une courte analyse de rentabilité : ce qui a changé, sa valeur annuelle et les moyens nécessaires. C’est ce qui permet de financer la prochaine phase.",
+  "Agree one model before you scale": "Convenir d’un modèle unique avant l’expansion",
+  "Machines and areas never designed to report the same way need a common performance model, rolled up by machine, line and shift. Decide it once, not line by line.": "Les machines et les zones qui n’ont jamais été conçues pour transmettre leurs données de la même façon ont besoin d’un modèle de performance commun, avec des résultats regroupés par machine, par ligne et par quart. Définissez-le une seule fois, et non ligne par ligne.",
+  "Roll out in phases": "Déployer par étapes",
+  "Add areas in order of value. Keep legacy equipment that still works and connect it, rather than replacing it just to make the data easier.": "Ajoutez les zones selon leur valeur. Conservez les anciens équipements qui fonctionnent encore et raccordez-les plutôt que de les remplacer uniquement pour faciliter l’accès aux données.",
+  "What it looks like in practice": "Ce que cela donne en pratique",
+  "faster compliance reporting": "rapports de conformité plus rapides",
+  "Dairy, California. More than 12 control systems on one platform, with traceability from raw-milk reception to dispatch. Reporting went from up to two hours to about seven minutes, with 12% less chemical and 11% less utility use.": "Laiterie, Californie. Plus de 12 systèmes de contrôle sur une seule plateforme, avec traçabilité de la réception du lait cru jusqu’à l’expédition. La production des rapports est passée d’un maximum de deux heures à environ sept minutes, avec 12&nbsp;% de moins de produits chimiques et 11&nbsp;% de moins d’utilités consommés.",
+  "productivity": "productivité",
+  "Die casting. Legacy machines and ERP data connected into one plant performance view without replacing equipment, with 37% fewer rejects.": "Moulage sous pression. Machines anciennes et données ERP regroupées dans une vue unique de la performance de l’usine sans remplacement des équipements, avec 37&nbsp;% de rebuts en moins.",
+  "machines on one OEE model": "machines sur un même modèle de TRG (OEE)",
+  "Manufacturing. A common performance model for machines never designed to report the same way, rolled up by machine, line and shift.": "Fabrication. Un modèle de performance commun pour des machines qui n’ont jamais été conçues pour transmettre leurs données de la même façon, avec des résultats regroupés par machine, par ligne et par quart.",
+  "Choosing a partner: three questions": "Choisir un partenaire : trois questions",
+  "The software matters less than how it is connected to your process. Before you choose a partner, ask:": "Le logiciel compte moins que la façon dont il est relié à votre procédé. Avant de choisir un partenaire, posez-vous les questions suivantes :",
+  "Can they work with what you have?": "Peut-il travailler avec vos installations existantes?",
+  "Most plants run a mix of PLC generations and OEM packages. A partner should be comfortable connecting them, not only replacing them.": "La plupart des usines exploitent plusieurs générations de PLC et différents ensembles OEM. Un partenaire doit être à l’aise pour les raccorder, et pas seulement pour les remplacer.",
+  "Do they understand the process?": "Comprend-il le procédé?",
+  "Batch phases, CIP, utilities and quality limits decide what a number means. Process and automation knowledge matter as much as the dashboard.": "Les phases des lots, la NEP (CIP), les utilités et les limites de qualité déterminent le sens d’une valeur. La connaissance des procédés et de l’automatisation compte autant que le tableau de bord.",
+  "Who owns the model when they leave?": "Qui est responsable du modèle après son départ?",
+  "Tags, downtime reasons and reports should be documented and handed over, so your team can extend them without starting again.": "Les variables, les causes d’arrêt et les rapports doivent être documentés et transférés pour que votre équipe puisse les enrichir sans repartir de zéro.",
+  "{PlantON} is our plant-data platform for batch and continuous process plants. We deliver it together with the automation and process work around it, so the data has context from the first day.": "{PlantON} est notre plateforme de données d’usine pour les usines de procédé par lots et en continu. Nous la livrons avec les travaux d’automatisation et de procédé connexes, afin que les données aient un contexte dès le premier jour.",
+  "Pick one loss that costs money, and measure it before you connect anything else.": "Choisissez une perte qui coûte de l’argent et mesurez-la avant de raccorder quoi que ce soit d’autre.",
+  "Prove the gain on one line or area, in the plant’s own numbers.": "Démontrez le gain sur une ligne ou une zone, à partir des propres chiffres de l’usine.",
+  "Agree one performance model before you scale, so every machine and area reports the same way.": "Convenez d’un modèle de performance unique avant l’expansion, pour que chaque machine et chaque zone transmette ses données de la même façon.",
+  "Expand in phases, and connect legacy equipment that still works instead of replacing it.": "Étendez le déploiement par étapes et raccordez les anciens équipements qui fonctionnent encore plutôt que de les remplacer.",
+  "<a1>Why plant-data projects stall</a1>": "<a1>Pourquoi les projets de données d’usine stagnent</a1>",
+  "<a1>What the gap costs</a1>": "<a1>Le coût de ces lacunes</a1>",
+  "<a1>A six-step rollout</a1>": "<a1>Un déploiement en six étapes</a1>",
+  "<a1>What it looks like in practice</a1>": "<a1>Ce que cela donne en pratique</a1>",
+  "<a1>Choosing a partner: three questions</a1>": "<a1>Choisir un partenaire : trois questions</a1>",
+  "Have one loss you would like to measure?": "Vous avez une perte que vous aimeriez mesurer?",
+  "Explore PlantON<sup1>™</sup1>": "Explorer PlantON<sup1>™</sup1>",
+  "Why plant-data projects stall after the pilot, and a six-step rollout that keeps them moving, with results from a dairy and a die-casting plant.": "Pourquoi les projets de données d’usine stagnent après l’essai pilote, et une démarche de déploiement en six étapes qui les fait progresser, avec des résultats d’une laiterie et d’une usine de moulage sous pression.",
+  "Plant Data People Actually Use | Instron Technologies": "Des données d’usine réellement utilisées | Instron Technologies",
+  "Start with one loss: plant data people actually use, Instron Technologies": "Commencer par une perte : des données d’usine réellement utilisées, Instron Technologies",
+  "<span1></span1>Industrial automation / Batch &amp; Process Automation": "<span1></span1>Automatisation industrielle / Automatisation des lots et des procédés",
+  "Build control logic around the real operating sequence.": "Construire la logique de commande autour de la séquence d’exploitation réelle.",
+  "Batch automation should bring manual steps, PLC sequences, recipes, material movements and records together without hiding what operators need.": "L’automatisation des lots doit réunir les étapes manuelles, les séquences PLC, les recettes, les mouvements de matières et les registres sans masquer ce dont les opérateurs ont besoin.",
+  "Start with one real cycle, not a software feature list.": "Commencer par un cycle réel, et non par une liste de fonctionnalités logicielles.",
+  "The essential inputs are the steps, permissives, interlocks, operating modes, measurements, exceptions and recovery paths. A useful sequence specification makes it possible to test normal and abnormal cases before the plant depends on the new controls.": "Les données essentielles sont les étapes, les permissifs, les verrouillages, les modes de fonctionnement, les mesures, les exceptions et les procédures de reprise. Une spécification de séquence utile permet de tester les cas normaux et anormaux avant que l’usine dépende des nouvelles commandes.",
+  "Control philosophy": "Philosophie de contrôle",
+  "Define equipment states, sequence transitions, manual/automatic actions, setpoints, permissives and hold/abort/restart behavior.": "Définir les états des équipements, les transitions de séquence, les actions manuelles et automatiques, les points de consigne, les permissifs et les comportements de mise en pause, d’abandon et de redémarrage.",
+  "Instruments and equipment": "Instruments et équipements",
+  "Connect temperature, pressure, flow, level, weight, analytical measurements, valves, drives, package systems and utilities as needed.": "Intégrer les mesures de température, de pression, de débit, de niveau, de poids et d’analyse, les vannes, les variateurs, les ensembles de systèmes et les utilités, selon les besoins.",
+  "Operator interface and records": "Interface opérateur et registres",
+  "Support understandable HMI states, alarms, trends and the required level of batch or cycle recording without overcomplicating operations.": "Prévoir des états HMI compréhensibles, des alarmes, des tendances et le niveau requis d’enregistrement des lots ou des cycles, sans compliquer inutilement l’exploitation.",
+  "FAT and commissioning": "FAT et mise en service",
+  "Test normal and abnormal paths, unavailable equipment, interlocks, simulated inputs, operator prompts and recovery before site sign-off.": "Tester les parcours normaux et anormaux, les équipements indisponibles, les verrouillages, les entrées simulées, les messages aux opérateurs et la reprise avant l’approbation sur site.",
+  "Process definition": "Définition du procédé",
+  "Document steps, boundaries and who takes each operating action.": "Documenter les étapes, les limites et les responsables de chaque action d’exploitation.",
+  "Automation implementation": "Mise en œuvre de l’automatisation",
+  "Engineer PLC/HMI/SCADA logic, interfaces, panels, and defined data records.": "Concevoir la logique PLC/HMI/SCADA, les interfaces, les panneaux de commande et les enregistrements de données définis.",
+  "Operational acceptance": "Acceptation opérationnelle",
+  "Test expected sequences and failure paths against agreed acceptance criteria.": "Tester les séquences prévues et les scénarios de défaillance selon les critères d’acceptation convenus.",
+  "<span1>01</span1><span>Walk through one actual operating sequence</span>": "<span1>01</span1><span>Passer en revue une séquence d’exploitation réelle</span>",
+  "<span1>02</span1><span>Write modes, signals, actions and exceptions</span>": "<span1>02</span1><span>Documenter les modes, les signaux, les actions et les exceptions</span>",
+  "<span1>03</span1><span>Implement and challenge logic during FAT</span>": "<span1>03</span1><span>Mettre en œuvre et mettre à l’épreuve la logique durant le FAT</span>",
+  "<span1>04</span1><span>Verify field instruments, behavior and records on site</span>": "<span1>04</span1><span>Vérifier sur site les instruments de terrain, le comportement et les registres</span>",
+  "P&amp;IDs, process descriptions or SOPs": "P&amp;ID, descriptions de procédé ou procédures d’exploitation normalisées (SOP)",
+  "Equipment list and available I/O schedule": "Liste des équipements et liste des E/S disponible",
+  "Manual tasks and current recipe/parameter handling": "Tâches manuelles et gestion actuelle des recettes et des paramètres",
+  "Frequent faults, operator workarounds and documentation": "Défaillances fréquentes, solutions de contournement des opérateurs et documentation",
+  "Does every batch process need a full recipe-management platform?": "Tout procédé par lots nécessite-t-il une plateforme complète de gestion des recettes?",
+  "No. Some need structured recipes or phase management; others are better suited to a PLC sequence with controlled parameters. The choice depends on complexity and reporting requirements.": "Non. Certains nécessitent des recettes structurées ou une gestion des phases; pour d’autres, une séquence PLC avec des paramètres contrôlés convient mieux. Le choix dépend de la complexité et des exigences de production de rapports.",
+  "Can useful manual steps stay in the process?": "Les étapes manuelles utiles peuvent-elles rester dans le procédé?",
+  "Yes. Manual sampling, verification or handling may remain appropriate when their roles, prompts, records and control boundaries are clearly defined.": "Oui. L’échantillonnage, la vérification ou la manipulation manuels peuvent rester appropriés lorsque leurs rôles, les messages aux opérateurs, les registres et les limites de contrôle sont clairement définis.",
+  "<span1>Explore</span1><strong>Pharma &amp; Life Sciences</strong>": "<span1>Explorer</span1><strong>Pharmaceutique et sciences de la vie</strong>",
+  "Industrial mixing vessels with equipment-to-control interfaces": "Cuves de mélange industrielles avec interfaces entre équipements et commandes",
+  "Batch automation that brings manual steps, PLC sequences, recipes, material movements and records together without hiding what operators need.": "Automatisation des lots qui réunit les étapes manuelles, les séquences PLC, les recettes, les mouvements de matières et les registres sans masquer ce dont les opérateurs ont besoin.",
+  "Batch &amp; Process Automation | Instron Technologies": "Automatisation des lots et des procédés | Instron Technologies",
+  "Batch &amp; Process Automation, Instron Technologies": "Automatisation des lots et des procédés, Instron Technologies",
+  "<span1></span1>{PlantON} / Production Visibility &amp; OEE": "<span1></span1>{PlantON} / Visibilité de la production et TRG (OEE)",
+  "Understand the loss before debating the OEE number.": "Comprendre les pertes avant de débattre de la valeur du TRG (OEE).",
+  "One OEE number can hide disagreement. How running time, planned stops, counts, scrap and downtime are defined decides whether it helps a decision.": "Une seule valeur de TRG (OEE) peut masquer des désaccords. La définition du temps de fonctionnement, des arrêts planifiés, des comptages, des rebuts et des temps d’arrêt détermine son utilité pour la prise de décision.",
+  "OEE, availability and downtime by machine": "TRG (OEE), disponibilité et temps d’arrêt par machine",
+  "A trusted OEE view begins with a trusted operating model.": "Une vision fiable du TRG (OEE) repose sur un modèle d’exploitation fiable.",
+  "Define the line or asset boundary, production calendar, planned time, machine states, rate basis and quality counts. Confirm data timestamps and ownership before committing to a KPI. Missing or inconsistent source signals should be treated as design work, not hidden by graphics.": "Définir le périmètre de la ligne ou de l’actif, le calendrier de production, le temps planifié, les états des machines, la cadence de référence et les comptages de qualité. Confirmer l’horodatage et la responsabilité des données avant de retenir un KPI. Les signaux sources manquants ou incohérents doivent être traités dans la conception, et non masqués par des graphiques.",
+  "Model the process states": "Modéliser les états du procédé",
+  "Agree the definitions for running, blocked, starved, changeover, cleaning, maintenance and planned downtime.": "Convenir des définitions du fonctionnement, du blocage, du manque d’alimentation, du changement de série, du nettoyage, de l’entretien et des arrêts planifiés.",
+  "Assess source quality": "Évaluer la qualité des sources",
+  "Check PLC signals, counts, histories, timestamps, quality inputs and links to product or work-order context.": "Vérifier les signaux PLC, les comptages, les historiques, les horodatages, les données de qualité et les liens avec le contexte du produit ou de l’ordre de fabrication.",
+  "Make downtime actionable": "Rendre les temps d’arrêt exploitables",
+  "Use a practical reason model with clear human and automatic inputs. Count planned and unplanned stops separately, treat short stops below an agreed threshold as performance loss, and calculate availability as run time divided by planned production time.": "Utiliser un modèle pratique de classification des causes, avec des données manuelles et automatiques clairement définies. Comptabiliser séparément les arrêts planifiés et non planifiés, traiter les arrêts courts sous un seuil convenu comme des pertes de performance et calculer la disponibilité en divisant le temps de fonctionnement par le temps de production planifié.",
+  "Support different users": "Répondre aux besoins des différents utilisateurs",
+  "Provide appropriate views for operators, supervisors, engineers and management without forcing one report to serve everyone.": "Fournir des vues adaptées aux opérateurs, aux superviseurs, aux ingénieurs et à la direction, sans imposer un rapport unique à tous.",
+  "Line or asset audit": "Audit d’une ligne ou d’un actif",
+  "What the equipment can actually report, and where the critical gaps are.": "Ce que les équipements peuvent réellement transmettre et où se trouvent les lacunes critiques.",
+  "KPI and event definitions": "Définition des KPI et des événements",
+  "Clear and agreed rules for availability, performance, quality and reasons.": "Règles claires et convenues pour la disponibilité, la performance, la qualité et les causes d’arrêt.",
+  "Phased visibility": "Visibilité par étapes",
+  "A limited operating view first, checked against real events before a broad deployment.": "Commencer par une vue d’exploitation limitée, vérifiée selon des événements réels avant un déploiement à grande échelle.",
+  "<span1>01</span1><span>Choose one line and the decision to support</span>": "<span1>01</span1><span>Choisir une ligne et la décision à appuyer</span>",
+  "<span1>02</span1><span>Audit available machine states, rates and counts</span>": "<span1>02</span1><span>Vérifier les états des machines, les cadences et les comptages disponibles</span>",
+  "<span1>03</span1><span>Agree data definitions and ownership</span>": "<span1>03</span1><span>Convenir des définitions et des responsabilités relatives aux données</span>",
+  "<span1>04</span1><span>Test reporting against real production records</span>": "<span1>04</span1><span>Vérifier les rapports à partir des registres de production réels</span>",
+  "Machines or lines to be included": "Machines ou lignes à inclure",
+  "Current shift and production reports": "Rapports actuels de quart et de production",
+  "Available PLC/SCADA or database signals": "Signaux PLC/SCADA ou données de bases de données disponibles",
+  "Known discrepancies in counts or downtime": "Écarts connus dans les comptages ou les temps d’arrêt",
+  "Can OEE be calculated from existing PLC data?": "Peut-on calculer le TRG (OEE) à partir des données PLC existantes?",
+  "Possibly. It depends on the availability and quality of states, production counts, schedule, rate basis and quality information.": "Possiblement. Cela dépend de la disponibilité et de la qualité des états, des comptages de production, du calendrier, de la cadence de référence et des données de qualité.",
+  "Does an OEE project have to start plant-wide?": "Un projet de TRG (OEE) doit-il commencer à l’échelle de toute l’usine?",
+  "No. A bounded line or asset group often allows the operating model and data quality to be validated before expansion.": "Non. Une ligne ou un groupe d’actifs bien délimité permet souvent de valider le modèle d’exploitation et la qualité des données avant l’expansion.",
+  "<span1>Explore</span1><strong>{PlantON} by Instron Technologies</strong>": "<span1>Explorer</span1><strong>{PlantON} par Instron Technologies</strong>",
+  "<span1>Explore</span1><strong>Utility &amp; Energy Monitoring</strong>": "<span1>Explorer</span1><strong>Suivi des utilités et de l’énergie</strong>",
+  "<span1>Explore</span1><strong>Food, Beverage &amp; Dairy</strong>": "<span1>Explorer</span1><strong>Aliments, boissons et produits laitiers</strong>",
+  "Production visibility and OEE built on agreed definitions of running time, planned stops, counts, scrap and downtime, so the number supports a decision.": "Visibilité de la production et TRG (OEE) fondés sur des définitions convenues du temps de fonctionnement, des arrêts planifiés, des comptages, des rebuts et des temps d’arrêt, afin que la valeur appuie une décision.",
+  "Production Visibility &amp; OEE | Instron Technologies": "Visibilité de la production et TRG (OEE) | Instron Technologies",
+  "Production Visibility &amp; OEE, Instron Technologies": "Visibilité de la production et TRG (OEE), Instron Technologies",
+  "<span1></span1>{PlantON} / Utility &amp; Energy Monitoring": "<span1></span1>{PlantON} / Suivi des utilités et de l’énergie",
+  "Find the operating context behind utility consumption.": "Cerner le contexte d’exploitation derrière la consommation des utilités.",
+  "A monthly total can show that a resource increased without identifying the line, batch, area, asset or condition that drove it.": "Un total mensuel peut montrer qu’une consommation de ressources a augmenté sans indiquer la ligne, le lot, la zone, l’actif ou la condition qui en est à l’origine.",
+  "Before the dashboard, define what the meter means.": "Avant le tableau de bord, définir ce que mesure le compteur.",
+  "A meter may cover more than one process or include ancillary loads. Steam, water, compressed air and electricity can cross physical and reporting boundaries. The first job is to map the source, units, sampling and intended attribution before comparing areas or product runs.": "Un compteur peut couvrir plusieurs procédés ou inclure des charges auxiliaires. La vapeur, l’eau, l’air comprimé et l’électricité peuvent franchir les limites physiques et celles des rapports. Il faut d’abord cartographier la source, les unités, l’échantillonnage et l’attribution prévue avant de comparer des zones ou des campagnes de production.",
+  "Meter and source audit": "Audit des compteurs et des sources",
+  "Record meter type, location, scaling, units, timestamp quality, ownership and areas served.": "Consigner le type de compteur, son emplacement, sa mise à l’échelle, les unités, la qualité de l’horodatage, les responsabilités et les zones desservies.",
+  "Production context": "Contexte de production",
+  "Connect consumption to batch, campaign, asset, shift, product, throughput or operating state where source data permits.": "Relier la consommation au lot, à la campagne, à l’actif, au quart de travail, au produit, au débit ou à l’état de fonctionnement lorsque les données sources le permettent.",
+  "Views for investigation": "Vues pour l’analyse",
+  "Explore demand and time trends, period summaries or resource-per-output views when the normalization basis is valid.": "Explorer la demande et les tendances dans le temps, les bilans par période ou la consommation de ressources par unité produite lorsque la base de normalisation est valide.",
+  "Engineering follow-through": "Suivi d’ingénierie",
+  "Use findings to identify where process review, maintenance, metering, setpoint or control changes warrant further evaluation.": "Utiliser les constats pour déterminer où une révision du procédé, de l’entretien, du comptage, des points de consigne ou des commandes mérite une évaluation plus poussée.",
+  "Measure": "Mesurer",
+  "Define the relevant boundary and check existing data quality.": "Définir le périmètre pertinent et vérifier la qualité des données existantes.",
+  "Contextualize": "Contextualiser",
+  "Join selected resource readings with operating and production information.": "Associer les mesures de ressources sélectionnées aux données d’exploitation et de production.",
+  "Investigate": "Analyser",
+  "Separate observed changes from proven root causes and prioritize engineering action.": "Distinguer les changements observés des causes fondamentales démontrées et prioriser les interventions d’ingénierie.",
+  "<span1>01</span1><span>Identify one resource and the business question</span>": "<span1>01</span1><span>Choisir une ressource et préciser la question d’affaires</span>",
+  "<span1>02</span1><span>Map meters, limits and source-quality gaps</span>": "<span1>02</span1><span>Cartographier les compteurs, les limites et les lacunes de qualité des sources</span>",
+  "<span1>03</span1><span>Connect only the necessary process context</span>": "<span1>03</span1><span>Relier uniquement les données de contexte de procédé nécessaires</span>",
+  "<span1>04</span1><span>Review trends and validate suspected drivers</span>": "<span1>04</span1><span>Examiner les tendances et valider les facteurs présumés</span>",
+  "Utility type and existing metering inventory": "Type d’utilité et inventaire des compteurs existants",
+  "Relevant process, area or equipment boundaries": "Limites pertinentes du procédé, de la zone ou des équipements",
+  "Production/batch reporting and shift data": "Rapports de production et de lots, et données de quart",
+  "Current bill, dashboard or known utility concern": "Facture actuelle, tableau de bord ou problème connu lié aux utilités",
+  "Must all meters be replaced before a monitoring project starts?": "Faut-il remplacer tous les compteurs avant de commencer un projet de surveillance?",
+  "No. First determine what is already available and whether the measurements answer the intended question.": "Non. Déterminez d’abord ce qui est déjà disponible et si les mesures répondent à la question visée.",
+  "Will a dashboard automatically deliver savings?": "Un tableau de bord générera-t-il automatiquement des économies?",
+  "No. Monitoring can reveal opportunities, but engineering assessment and implemented changes are needed to demonstrate a particular outcome.": "Non. La surveillance peut révéler des occasions d’amélioration, mais une évaluation d’ingénierie et des changements mis en œuvre sont nécessaires pour démontrer un résultat précis.",
+  "<span1>Explore</span1><strong>Production Visibility &amp; OEE</strong>": "<span1>Explorer</span1><strong>Visibilité de la production et TRG (OEE)</strong>",
+  "Skid-mounted steam quality analyser equipment": "Équipement d’analyse de la qualité de la vapeur monté sur skid",
+  "Utility and energy monitoring that links consumption to the line, batch, area or asset behind it, with clear measurement boundaries and reliable sources.": "Suivi des utilités et de l’énergie qui relie la consommation à la ligne, au lot, à la zone ou à l’actif concerné, avec des limites de mesure claires et des sources fiables.",
+  "Utility &amp; Energy Monitoring | Instron Technologies": "Suivi des utilités et de l’énergie | Instron Technologies",
+  "Utility &amp; Energy Monitoring, Instron Technologies": "Suivi des utilités et de l’énergie, Instron Technologies",
+  "Engineering notes <span>from real projects.</span>": "Notes d’ingénierie <span>tirées de projets réels.</span>",
+  "Practical notes from our engineers on Process Skid Plants and scale-up, Industrial Automation and {PlantON}, for research teams, technology developers and manufacturers. Each one draws on projects we have delivered.": "Notes pratiques de nos ingénieurs sur les Usines de procédé sur skid et la mise à l’échelle, l’Automatisation industrielle et {PlantON}, destinées aux équipes de recherche, aux développeurs de technologies et aux fabricants. Chacune s’appuie sur des projets que nous avons réalisés.",
+  "Latest articles": "Derniers articles",
+  "Explore our latest insights": "Explorer nos dernières perspectives",
+  "Written by the engineers who deliver our projects, for the people who plan, run and fund process plants.": "Rédigés par les ingénieurs qui réalisent nos projets, pour les personnes qui planifient, exploitent et financent les usines de procédé.",
+  "PlantON<sup1>™</sup1>": "PlantON<sup1>™</sup1>",
+  "Start with one loss: plant data people actually use": "Commencer par une perte : des données d’usine réellement utilisées",
+  "Why plant-data projects stall after the pilot, and a six-step rollout that keeps them moving, with results from a dairy, a die-casting plant and a 26-machine OEE program.": "Pourquoi les projets de données d’usine stagnent après l’essai pilote, et une démarche de déploiement en six étapes qui les fait progresser, avec des résultats d’une laiterie, d’une usine de moulage sous pression et d’un programme de TRG (OEE) sur 26 machines.",
+  "Read the article<i>6 min read</i>": "Lire l’article<i>6 min de lecture</i>",
+  "From lab to pilot to industrial: what changes at each step": "Du laboratoire à l’usine pilote, puis à l’usine industrielle : ce qui change à chaque étape",
+  "Each stage of scale-up answers a different question. What changes in instrumentation, automation, safety and documentation from pilot to demonstration to industrial plant.": "Chaque étape de mise à l’échelle répond à une question différente. Ce qui change en matière d’instrumentation, d’automatisation, de sécurité et de documentation entre l’usine pilote, l’usine de démonstration et l’usine industrielle.",
+  "Read the article<i>7 min read</i>": "Lire l’article<i>7 min de lecture</i>",
+  "Modernize a running plant without starting again": "Moderniser une usine en exploitation sans repartir de zéro",
+  "How to modernize controls in a plant that is already producing: audit first, keep what works, structure batch control, test before site and cut over in planned windows.": "Comment moderniser les commandes d’une usine qui produit déjà : auditer d’abord, conserver ce qui fonctionne, structurer la commande des lots, tester avant l’intervention sur site et basculer durant les fenêtres planifiées.",
+  "Working on something similar?": "Vous travaillez sur un projet similaire?",
+  "Read the case studies": "Lire les études de cas",
+  "Distillation tower": "Tour de distillation",
+  "Practical engineering articles from Instron Technologies on scale-up, automation modernization and plant data, drawn from projects we have delivered.": "Articles pratiques d’ingénierie d’Instron Technologies sur la mise à l’échelle, la modernisation de l’automatisation et les données d’usine, tirés de projets que nous avons réalisés.",
+  "Engineering Insights | Instron Technologies": "Perspectives d’ingénierie | Instron Technologies",
+  "Insights, Instron Technologies": "Perspectives, Instron Technologies",
+  "<span1></span1>Technology development / Technology Scale-Up &amp; Commercialization": "<span1></span1>Développement technologique / Mise à l’échelle et commercialisation des technologies",
+  "From pilot evidence to an engineered deployment.": "Des résultats d’essais pilotes à un déploiement conçu par ingénierie.",
+  "A working experiment does not settle the questions behind demonstration or commercial deployment.": "Une expérience concluante ne répond pas à toutes les questions liées à la démonstration ou au déploiement commercial.",
+  "Read the engineering context": "Lire le contexte d’ingénierie",
+  "Explore the application": "Explorer l’application",
+  "Industrial engineering context": "Contexte d’ingénierie industrielle",
+  "Define the actual problem": "Définir le problème réel",
+  "Scope the right engineering stage": "Délimiter l’étape d’ingénierie appropriée",
+  "Verify before deployment": "Vérifier avant le déploiement",
+  "Each scale-up stage has a different engineering decision.": "Chaque étape de mise à l’échelle implique une décision d’ingénierie différente.",
+  "What the application has to address.": "Les éléments que l’application doit prendre en compte.",
+  "From an engineering question to an operating system.": "D’une question d’ingénierie à un système opérationnel.",
+  "A practical path toward the next decision.": "Une démarche concrète vers la prochaine décision.",
+  "Start with the evidence already available.": "Partir des données probantes déjà disponibles.",
+  "Decisions worth clarifying.": "Les décisions à clarifier.",
+  "01 / Technical starting point": "01 / Point de départ technique",
+  "Early work may establish feasibility and operating windows. Later systems must define duties, controls, maintenance access and acceptance criteria for longer campaigns and new site interfaces. The useful next step depends on what remains uncertain, not on how large the equipment looks.": "Les premiers travaux peuvent établir la faisabilité et les plages de fonctionnement. Les systèmes ultérieurs doivent définir les fonctions des équipements, les commandes, les accès pour l’entretien et les critères d’acceptation pour des campagnes plus longues et de nouvelles interfaces sur site. La prochaine étape utile dépend des incertitudes restantes, et non de la taille apparente des équipements.",
+  "Explore our engineering phases": "Explorer nos phases d’ingénierie",
+  "02 / Technical considerations": "02 / Considérations techniques",
+  "Typical scoping questions. The answers shape the scope, deliverables and acceptance criteria for your project.": "Questions types pour définir la portée. Les réponses orientent la portée, les livrables et les critères d’acceptation de votre projet.",
+  "Define the next evidence gate": "Définir les prochaines preuves requises",
+  "Identify what process behavior, throughput, purity, stability, data quality or equipment duty must be demonstrated before advancing.": "Déterminer quels aspects du comportement du procédé, du débit, de la pureté, de la stabilité, de la qualité des données ou de la tenue en service des équipements doivent être démontrés avant de poursuivre.",
+  "Engineer the system boundaries": "Définir les limites du système",
+  "Translate process basis into equipment duties, materials, utility connections, instruments, controls, layout and site interfaces.": "Traduire les bases de conception du procédé en fonctions des équipements, matériaux, raccordements aux utilités, instruments, commandes, implantation et interfaces sur site.",
+  "Make operations representative": "Rendre l’exploitation représentative",
+  "Decide which features can stay flexible and which need to resemble future deployment: uptime, cleaning, startup, maintainability and automation.": "Déterminer quels éléments peuvent rester flexibles et lesquels doivent refléter le déploiement futur : disponibilité, nettoyage, démarrage, facilité d’entretien et automatisation.",
+  "Capture repeatable learning": "Capitaliser sur les acquis reproductibles",
+  "Turn pilot and first-deployment lessons into standards, test criteria, procurement definitions and documented operating procedures.": "Transformer les enseignements des essais pilotes et du premier déploiement en normes, critères d’essai, exigences d’approvisionnement et procédures d’exploitation documentées.",
+  "Every project requires a defined technical owner, acceptance basis and a scope proportionate to its operating context.": "Chaque projet exige un responsable technique désigné, une base d’acceptation et une portée proportionnée à son contexte d’exploitation.",
+  "03 / Scope logic": "03 / Logique de définition de la portée",
+  "The aim is to distinguish what is known, what must be engineered and what evidence is needed next.": "L’objectif est de distinguer ce qui est connu, ce qui doit être conçu et les prochaines preuves nécessaires.",
+  "01 / APPLICATION LAYER": "01 / VOLET D’APPLICATION",
+  "Concept and pilot": "Concept et unité pilote",
+  "Operating ranges, balances, instrumentation and a plan to reduce the most material uncertainty.": "Plages de fonctionnement, bilans, instrumentation et plan pour réduire les incertitudes les plus importantes.",
+  "02 / APPLICATION LAYER": "02 / VOLET D’APPLICATION",
+  "Demonstration and first deployment": "Démonstration et premier déploiement",
+  "Representative equipment, operability, site integration, acceptance evidence and clear technical ownership.": "Équipements représentatifs, exploitabilité, intégration sur site, preuves d’acceptation et responsabilités techniques claires.",
+  "03 / APPLICATION LAYER": "03 / VOLET D’APPLICATION",
+  "Repeat deployment": "Déploiements subséquents",
+  "Configuration control, standard interfaces, documented test plans and lessons transferred from the first installation.": "Maîtrise de la configuration, interfaces normalisées, plans d’essai documentés et transfert des enseignements de la première installation.",
+  "04 / Delivery sequence": "04 / Séquence de réalisation",
+  "<span1>01</span1><span>State the current scale and operating evidence</span>": "<span1>01</span1><span>Préciser l’échelle actuelle et les données d’exploitation disponibles</span>",
+  "<span1>02</span1><span>Name the next milestone and decisions it requires</span>": "<span1>02</span1><span>Préciser le prochain jalon et les décisions qu’il exige</span>",
+  "<span1>03</span1><span>Define process, equipment, controls and data work packages</span>": "<span1>03</span1><span>Définir les lots de travaux de procédé, d’équipement, de commande et de données</span>",
+  "<span1>04</span1><span>Agree testing, acceptance and learning responsibilities</span>": "<span1>04</span1><span>Convenir des responsabilités liées aux essais, à l’acceptation et aux apprentissages</span>",
+  "Contract stages remain separate. Progression from Basic Engineering &amp; Feasibility to Detailed Engineering or Integrated Design &amp; Build is not automatic.": "Les étapes contractuelles restent distinctes. Le passage de l’Ingénierie de base et faisabilité à l’Ingénierie détaillée ou à la Conception et construction intégrées n’est pas automatique.",
+  "05 / First conversation": "05 / Première discussion",
+  "A useful first discussion is about the existing basis, the technical uncertainty and the milestone it affects. A complete specification is not required to start clarifying the scope.": "Une première discussion utile porte sur les bases existantes, l’incertitude technique et le jalon qu’elle touche. Un devis technique complet n’est pas nécessaire pour commencer à clarifier la portée.",
+  "Useful inputs to bring": "Renseignements utiles à fournir",
+  "Current process basis and available operating/test data": "Bases actuelles du procédé et données d’exploitation ou d’essai disponibles",
+  "Next desired scale or campaign and its intended purpose": "Prochaine échelle ou campagne souhaitée et objectif visé",
+  "Known material, energy, safety and utility constraints": "Contraintes connues liées aux matériaux, à l’énergie, à la sécurité et aux utilités",
+  "Outstanding uncertainties and desired acceptance evidence": "Incertitudes restantes et preuves d’acceptation souhaitées",
+  "06 / Common questions": "06 / Questions fréquentes",
+  "Is a pilot plant automatically First-of-a-Kind (FOAK)?": "Une usine pilote est-elle automatiquement une première du genre (FOAK)?",
+  "No. A pilot is generally a system for learning and validating behavior. FOAK describes the first significant deployment of a technology or configuration in its intended context; the designation depends on the actual project.": "Non. Une usine pilote sert généralement à apprendre et à valider le comportement du procédé. FOAK désigne le premier déploiement significatif d’une technologie ou d’une configuration dans son contexte prévu; cette désignation dépend du projet réel.",
+  "Must the entire project be contracted at once?": "Faut-il confier l’ensemble du projet en une seule fois?",
+  "No. Basic Engineering &amp; Feasibility, Detailed Engineering and Integrated Design &amp; Build can be scoped as separate paid engagements, with a decision after each stage.": "Non. L’Ingénierie de base et faisabilité, l’Ingénierie détaillée et la Conception et construction intégrées peuvent faire l’objet de mandats rémunérés distincts, avec une décision après chaque étape.",
+  "Related expertise": "Expertises connexes",
+  "Continue in the direction that fits your project.": "Poursuivez dans la direction qui convient à votre projet.",
+  "<span1>Explore</span1><strong>Pilot &amp; Demonstration Plants</strong>": "<span1>Explorer</span1><strong>Usines pilotes et de démonstration</strong>",
+  "<span1>Explore</span1><strong>Research &amp; Technology Development</strong>": "<span1>Explorer</span1><strong>Recherche et développement technologique</strong>",
+  "Discuss the scope before deciding the next engineering step.": "Discutez de la portée avant de décider de la prochaine étape d’ingénierie.",
+  "Tall instrumented process column in a technical pilot installation": "Colonne de procédé haute et instrumentée dans une installation pilote technique",
+  "Engineering the step from pilot evidence to demonstration or commercial deployment: equipment, utilities, instruments, operating ranges and safety.": "Concevoir le passage des résultats d’essais pilotes à la démonstration ou au déploiement commercial : équipements, utilités, instruments, plages de fonctionnement et sécurité.",
+  "Technology Scale-Up &amp; Commercialization | Instron Technologies": "Mise à l’échelle et commercialisation | Instron Technologies",
+  "Technology Scale-Up &amp; Commercialization, Instron Technologies": "Mise à l’échelle et commercialisation des technologies, Instron Technologies",
+  "<span1></span1>Process applications / Separation &amp; Solvent Recovery": "<span1></span1>Applications de procédé / Séparation et récupération de solvants",
+  "Engineer the full separation and recovery loop.": "Concevoir la boucle complète de séparation et de récupération.",
+  "Recovery and purity matter, but so do feed variation, utilities, solvent management, fouling, operator actions and safe operation.": "La récupération et la pureté comptent, tout comme la variabilité de l’alimentation, les utilités, la gestion des solvants, l’encrassement, les interventions des opérateurs et la sécurité d’exploitation.",
+  "Start with feed data and the acceptance target.": "Partir des données d’alimentation et de l’objectif d’acceptation.",
+  "Define composition, expected variability, target purity and recovery, batch or continuous throughput, and the constraints that shape the route. A laboratory result may support a separation hypothesis without yet defining a reliable recycle or production system.": "Définir la composition, la variabilité prévue, la pureté et la récupération visées, le débit en mode par lots ou continu, et les contraintes qui orientent le choix du procédé. Un résultat de laboratoire peut appuyer une hypothèse de séparation sans encore définir un système fiable de recyclage ou de production.",
+  "Distillation and evaporation": "Distillation et évaporation",
+  "Review heat and material balance, volatility or boiling behavior, reflux, duty, pressure, turndown, fouling, cleaning and utility requirements.": "Examiner le bilan de matière et d’énergie, la volatilité ou le comportement à l’ébullition, le reflux, la charge thermique, la pression, la plage de modulation, l’encrassement, le nettoyage et les besoins en utilités.",
+  "Extraction and phase handling": "Extraction et gestion des phases",
+  "Assess partition behavior, selectivity, solvent ratio, contact time, settling, emulsions, interface detection and solvent recovery.": "Évaluer le comportement de partage, la sélectivité, le ratio de solvant, le temps de contact, la décantation, les émulsions, la détection d’interface et la récupération de solvants.",
+  "Recycle-loop definition": "Définition de la boucle de recyclage",
+  "Specify recovered-solvent quality, buildup of impurities, make-up, purge, acceptable losses and compatibility with upstream production.": "Préciser la qualité du solvant récupéré, l’accumulation d’impuretés, l’appoint, la purge, les pertes acceptables et la compatibilité avec la production en amont.",
+  "Instrumentation and safety": "Instrumentation et sécurité",
+  "Define monitoring, interlocks, control of heaters/pumps/valves, materials compatibility and the responsible safety/regulatory review scope.": "Définir la surveillance, les verrouillages, la commande des appareils de chauffage, des pompes et des vannes, la compatibilité des matériaux et la portée de l’examen de sécurité et de conformité réglementaire, avec les responsabilités associées.",
+  "Process basis": "Bases de conception du procédé",
+  "Feed, balances, separation objectives and viable operating envelope.": "Alimentation, bilans, objectifs de séparation et plage de fonctionnement viable.",
+  "Skid and controls integration": "Intégration du skid et des commandes",
+  "Equipment layout, P&amp;IDs, instrumentation, control philosophy and package boundaries.": "Implantation des équipements, P&amp;ID, instrumentation, philosophie de contrôle et limites des ensembles.",
+  "Acceptance evidence": "Preuves d’acceptation",
+  "FAT and commissioning plans tied to actual recovery, quality and operating behavior where test conditions permit.": "Plans de FAT et de mise en service liés à la récupération réelle, à la qualité et au comportement en exploitation, lorsque les conditions d’essai le permettent.",
+  "<span1>01</span1><span>Clarify feed, purity, recovery and throughput</span>": "<span1>01</span1><span>Clarifier l’alimentation, la pureté, la récupération et le débit</span>",
+  "<span1>02</span1><span>Select or test the process route and operating envelope</span>": "<span1>02</span1><span>Choisir ou tester le procédé et sa plage de fonctionnement</span>",
+  "<span1>03</span1><span>Develop equipment, utility and control interfaces</span>": "<span1>03</span1><span>Développer les interfaces des équipements, des utilités et des commandes</span>",
+  "<span1>04</span1><span>Plan acceptance, commissioning and solvent handling</span>": "<span1>04</span1><span>Planifier l’acceptation, la mise en service et la manipulation des solvants</span>",
+  "Feed composition and variability": "Composition et variabilité de l’alimentation",
+  "Target product or recovered stream specifications": "Spécifications visées du produit ou du flux récupéré",
+  "Lab or pilot operating results": "Résultats d’exploitation en laboratoire ou sur unité pilote",
+  "Pressure, temperature, hazard and utility constraints": "Contraintes de pression, de température, de risques et d’utilités",
+  "Is every solvent recovery project a distillation project?": "Tout projet de récupération de solvants est-il un projet de distillation?",
+  "No. Depending on the feed and objective, separation may involve distillation, extraction, evaporation, membranes, filtration or a combination.": "Non. Selon l’alimentation et l’objectif, la séparation peut faire appel à la distillation, à l’extraction, à l’évaporation, aux membranes, à la filtration ou à une combinaison de ces méthodes.",
+  "Can Instron Technologies help before a final technology route is chosen?": "Instron Technologies peut-elle intervenir avant le choix définitif du procédé?",
+  "A scoped feasibility or basic engineering engagement can clarify requirements and open decisions; the separation technology itself may require specialist or technology-owner input.": "Un mandat de faisabilité ou d’ingénierie de base à portée définie peut clarifier les exigences et les décisions en suspens; la technologie de séparation elle-même peut nécessiter l’apport d’un spécialiste ou de son propriétaire.",
+  "<span1>Explore</span1><strong>Process Skid Plants</strong>": "<span1>Explorer</span1><strong>Usines de procédé sur skid</strong>",
+  "<span1>Explore</span1><strong>Chemicals, Refining &amp; Consumer Products</strong>": "<span1>Explorer</span1><strong>Chimie, raffinage et produits de consommation</strong>",
+  "Industrial separation assembly with vessels and connected process equipment": "Ensemble industriel de séparation avec cuves et équipements de procédé raccordés",
+  "Separation and solvent recovery systems engineered as a full loop: feed variation, utilities, solvent management, fouling and safe operation.": "Systèmes de séparation et de récupération de solvants conçus comme une boucle complète : variabilité de l’alimentation, utilités, gestion des solvants, encrassement et sécurité d’exploitation.",
+  "Separation &amp; Solvent Recovery | Instron Technologies": "Séparation et récupération de solvants | Instron Technologies",
+  "Separation &amp; Solvent Recovery, Instron Technologies": "Séparation et récupération de solvants, Instron Technologies",
+  "<span1></span1>Industrial automation / Brownfield Automation Modernization": "<span1></span1>Automatisation industrielle / Modernisation de l’automatisation des sites existants",
+  "Modernize controls around the plant that must keep running.": "Moderniser les commandes en tenant compte de l’usine qui doit rester en exploitation.",
+  "Replacing an old PLC or SCADA platform is only one part of modernization.": "Le remplacement d’une ancienne plateforme PLC ou SCADA n’est qu’une partie de la modernisation.",
+  "Understand the installed condition before selecting the replacement.": "Comprendre l’état des installations avant de choisir leur remplacement.",
+  "A controls survey should establish what is actually connected, supported and available for a change. Drawings, software backups, network maps and field surveys may disagree. The migration basis needs to account for those differences and any production consequences.": "Un relevé des systèmes de contrôle doit établir ce qui est réellement raccordé, pris en charge et disponible pour une modification. Les plans, les sauvegardes logicielles, les cartes réseau et les relevés sur le terrain peuvent diverger. Les bases de migration doivent tenir compte de ces écarts et de leurs conséquences éventuelles sur la production.",
+  "Existing architecture": "Architecture existante",
+  "Review installed controllers, HMI/SCADA, networks, I/O, drives, package equipment and software or hardware obsolescence.": "Examiner les contrôleurs installés, les systèmes HMI/SCADA, les réseaux, les E/S, les variateurs, les ensembles d’équipements et l’obsolescence logicielle ou matérielle.",
+  "Migration boundaries": "Limites de la migration",
+  "Decide what remains, what is replaced, whether transition is phased and what temporary operation is permitted.": "Déterminer ce qui reste, ce qui est remplacé, si la transition se fait par étapes et quel fonctionnement temporaire est permis.",
+  "Operator and maintenance needs": "Besoins des opérateurs et de l’entretien",
+  "Include alarms, manual/automatic modes, restart paths, diagnostics, naming standards, backups and supportability.": "Inclure les alarmes, les modes manuel et automatique, les procédures de redémarrage, les diagnostics, les conventions de nommage, les sauvegardes et la facilité de soutien technique.",
+  "Cutover and recovery": "Basculement et rétablissement",
+  "Document FAT, field checks, shutdown sequencing, rollback options, commissioning responsibility and as-built handover.": "Documenter le FAT, les vérifications sur le terrain, la séquence d’arrêt, les options de retour arrière, les responsabilités de mise en service et la remise des plans tels que construits.",
+  "Assessment": "Évaluation",
+  "Site survey, source files, control system state and known operational bottlenecks.": "Relevé sur site, fichiers sources, état du système de contrôle et goulots d’étranglement opérationnels connus.",
+  "Engineering and FAT": "Ingénierie et FAT",
+  "Defined interfaces, revised logic/display behavior and test records before plant cutover.": "Interfaces définies, comportement révisé de la logique et des affichages, et registres d’essais avant le basculement de l’usine.",
+  "Commissioning and handover": "Mise en service et transfert",
+  "Transition plan, responsible sign-offs, recovery approach and documentation for operations.": "Plan de transition, approbations par les responsables, démarche de rétablissement et documentation pour l’exploitation.",
+  "<span1>01</span1><span>Survey installed controls and site constraints</span>": "<span1>01</span1><span>Relever les commandes installées et les contraintes du site</span>",
+  "<span1>02</span1><span>Confirm target architecture and migration boundaries</span>": "<span1>02</span1><span>Confirmer l’architecture cible et les limites de migration</span>",
+  "<span1>03</span1><span>Develop and test the revised system offline where possible</span>": "<span1>03</span1><span>Développer et tester le système révisé hors ligne lorsque possible</span>",
+  "<span1>04</span1><span>Execute the cutover and confirm operating acceptance</span>": "<span1>04</span1><span>Effectuer le basculement et confirmer l’acceptation opérationnelle</span>",
+  "PLC/HMI/SCADA make, model and versions": "Marques, modèles et versions des PLC/HMI/SCADA",
+  "Backups, drawings, I/O and network details": "Sauvegardes, plans, détails des E/S et des réseaux",
+  "Known downtime/reliability problems and operator concerns": "Problèmes connus d’arrêts et de fiabilité, et préoccupations des opérateurs",
+  "Shutdown windows, site standards and IT/OT constraints": "Fenêtres d’arrêt, normes du site et contraintes TI/TO",
+  "Can an upgrade be completed without a plant shutdown?": "Une modernisation peut-elle être réalisée sans arrêt de l’usine?",
+  "That cannot be assumed. Some work can be prepared or tested offline, but the need for an outage depends on the physical interfaces, architecture and acceptance plan.": "Il ne faut pas le présumer. Certains travaux peuvent être préparés ou testés hors ligne, mais la nécessité d’un arrêt dépend des interfaces physiques, de l’architecture et du plan d’acceptation.",
+  "Should the new controller replicate existing logic exactly?": "Le nouveau contrôleur doit-il reproduire exactement la logique existante?",
+  "Not always. The operating requirements, safety boundaries and approved change scope should determine what is preserved, improved or retired.": "Pas toujours. Les exigences d’exploitation, les limites de sécurité et la portée approuvée des modifications doivent déterminer ce qui est conservé, amélioré ou retiré.",
+  "<span1>Explore</span1><strong>Industrial Automation</strong>": "<span1>Explorer</span1><strong>Automatisation industrielle</strong>",
+  "<span1>Explore</span1><strong>Batch &amp; Process Automation</strong>": "<span1>Explorer</span1><strong>Automatisation des lots et des procédés</strong>",
+  "Industrial terminal and commissioning cabinet with labeled field wiring": "Bornier industriel et armoire de mise en service avec câblage de terrain identifié",
+  "Modernize old PLC and SCADA systems in a plant that must keep running, starting from the installed logic, equipment and shutdown windows.": "Moderniser les anciens systèmes PLC et SCADA dans une usine qui doit rester en exploitation, en partant de la logique installée, des équipements et des fenêtres d’arrêt.",
+  "Brownfield PLC &amp; SCADA Modernization | Instron Technologies": "Modernisation PLC et SCADA | Instron Technologies",
+  "Brownfield Automation Modernization, Instron Technologies": "Modernisation de l’automatisation des sites existants, Instron Technologies",
+  "Process skid plants are our core solution. Industrial automation and {PlantON} are delivered with them, or on their own in operating plants.": "Les usines de procédé sur skid constituent notre solution principale. L’automatisation industrielle et {PlantON} sont livrés avec ces usines ou séparément dans des installations en exploitation.",
+  "Three solutions, one engineering team": "Trois solutions, une seule équipe d’ingénierie",
+  "Core solution": "Solution principale",
+  "From pilot and demonstration plants to industrial implementation, engineered and built as one integrated process system.": "Des usines pilotes et de démonstration à la mise en œuvre industrielle, le tout conçu et construit comme un système de procédé intégré.",
+  "<a1>Pilot &amp; Demonstration Plants</a1>": "<a1>Usines pilotes et de démonstration</a1>",
+  "<a1>Industrial Process Skids</a1>": "<a1>Skids de procédé industriels</a1>",
+  "With our skids or on its own": "Avec nos skids ou séparément",
+  "PLC, HMI and SCADA engineering, electrical and instrumentation design, control-system integration and modernization. Built into our Process Skid Plant projects, and delivered on its own for operating plants, OEMs and industrial facilities.": "Ingénierie PLC, HMI et SCADA, conception électrique et instrumentation, intégration et modernisation des systèmes de contrôle. Ces services sont intégrés à nos projets d’usines de procédé sur skid ou offerts séparément aux usines en exploitation, aux OEM et aux installations industrielles.",
+  "{PlantON} connects plant data for production monitoring, OEE, utility and energy monitoring, trends, KPIs, dashboards, alarms and reporting. It comes with new Process Skid Plants or runs on its own across existing operations.": "{PlantON} relie les données de l’usine pour le suivi de la production, le TRG (OEE), le suivi des utilités et de l’énergie, les tendances, les KPI, les tableaux de bord, les alarmes et les rapports. Il est livré avec les nouvelles usines de procédé sur skid ou fonctionne de façon autonome dans les installations existantes.",
+  "Let's Discuss Your Engineering Requirements": "Parlons de vos besoins en ingénierie",
+  "Whether your project involves a pilot plant, an industrial process skid, an automation system or {PlantON}, talk to our team about the application and the right engineering scope.": "Que votre projet concerne une usine pilote, un skid de procédé industriel, un système d’automatisation ou {PlantON}, discutez de votre application et de la portée d’ingénierie appropriée avec notre équipe.",
+  "Process pipework, instruments and a control enclosure": "Tuyauterie de procédé, instruments et boîtier de commande",
+  "Three solutions from one engineering team: process skid plants, industrial automation and controls, and PlantON™ by Instron Technologies for plant data.": "Trois solutions offertes par une seule équipe d’ingénierie : usines de procédé sur skid, automatisation et commande industrielles, et PlantON™ par Instron Technologies pour les données d’usine.",
+  "Process Skids, Automation &amp; Plant Data | Instron Technologies": "Skids, automatisation et données d’usine | Instron Technologies",
+  "Solutions, Instron Technologies": "Solutions, Instron Technologies",
+  "From laboratory development to engineered process validation": "Du développement en laboratoire à la validation du procédé par l’ingénierie",
+  "Pilot Plants &amp; Demonstration Plants": "Usines pilotes et de démonstration",
+  "Instron Technologies engineers integrated pilot and demonstration systems for research organizations, technology developers and industrial R&amp;D teams, combining process systems, instrumentation, automation and data collection for controlled trials, technology evaluation and informed scale-up decisions.": "Instron Technologies conçoit des systèmes pilotes et de démonstration intégrés pour les organismes de recherche, les développeurs de technologies et les équipes de R-D industrielle, en combinant systèmes de procédé, instrumentation, automatisation et collecte de données pour réaliser des essais contrôlés, évaluer les technologies et éclairer les décisions de mise à l’échelle.",
+  "Discuss Your Pilot Project": "Parlons de votre projet pilote",
+  "Explore Engineering Scope": "Explorer la portée d’ingénierie",
+  "From science to operable equipment": "De la science aux équipements exploitables",
+  "Research and pilot systems": "Systèmes de recherche et unités pilotes",
+  "A pilot system is engineered around what the test program needs to show.": "Un système pilote est conçu en fonction de ce que le programme d’essais doit démontrer.",
+  "Process validation": "Validation du procédé",
+  "Evaluate process behaviour under defined operating conditions.": "Évaluer le comportement du procédé dans des conditions d’exploitation définies.",
+  "Experimental flexibility": "Souplesse expérimentale",
+  "Accommodate planned changes in operating parameters, sequences and test conditions.": "Permettre les changements prévus des paramètres d’exploitation, des séquences et des conditions d’essai.",
+  "Instrumentation and measurement": "Instrumentation et mesure",
+  "Collect the process information needed to evaluate system performance.": "Recueillir les données de procédé nécessaires pour évaluer la performance du système.",
+  "Operating data collection": "Collecte de données d’exploitation",
+  "Record experimental observations, process trends and operating results.": "Consigner les observations expérimentales, les tendances du procédé et les résultats d’exploitation.",
+  "Engineering for future scale-up": "Ingénierie en vue de la mise à l’échelle",
+  "Use findings from pilot trials to inform the next engineering and demonstration stage.": "Utiliser les résultats des essais en unité pilote pour orienter la prochaine étape d’ingénierie et de démonstration.",
+  "Proven in refinery research": "Une expérience éprouvée en recherche sur le raffinage",
+  "Pilot systems for oil and gas refinery research centres: gas purification, amine CO₂ capture and membrane hydrogen separation up to 50 barg, and a milli-channel reactor setup.<br><a1>Read the case study</a1>": "Unités pilotes pour des centres de recherche en raffinage du pétrole et du gaz : purification des gaz, captage du CO₂ par amines et séparation de l’hydrogène par membrane jusqu’à 50 barg, ainsi qu’un montage de réacteur à millicanaux.<br><a1>Lire l’étude de cas</a1>",
+  "Scale-up readiness": "Préparation à la mise à l’échelle",
+  "Demonstration systems": "Systèmes de démonstration",
+  "For technologies that need to operate beyond bench scale under more representative process, utility, control or site conditions before a larger investment or transfer decision. A demonstration system tests:": "Pour les technologies qui doivent fonctionner au-delà de l’échelle du laboratoire, dans des conditions de procédé, d’utilités, de commande ou de site plus représentatives, avant un investissement plus important ou une décision de transfert. Un système de démonstration permet de vérifier :",
+  "Extended operating performance": "Performance en exploitation prolongée",
+  "Process behaviour across longer or repeated operating campaigns.": "Comportement du procédé lors de campagnes d’exploitation plus longues ou répétées.",
+  "System integration": "Intégration des systèmes",
+  "Interaction between process equipment, controls, utilities and supporting systems.": "Interaction entre les équipements de procédé, les commandes, les utilités et les systèmes auxiliaires.",
+  "Operational requirements": "Exigences d’exploitation",
+  "Startup, shutdown, monitoring, maintenance and operating procedures.": "Démarrage, arrêt, suivi, entretien et procédures d’exploitation.",
+  "Industrial readiness": "Préparation à l’industrialisation",
+  "Technical information needed to evaluate the next stage of scale-up or implementation.": "Information technique nécessaire pour évaluer la prochaine étape de mise à l’échelle ou de mise en œuvre.",
+  "One connected engineering basis": "Une base d’ingénierie commune",
+  "Engineering layers for experimental systems": "Volets d’ingénierie des systèmes expérimentaux",
+  "Each layer is engineered for the test program, not for a fixed production duty.": "Chaque volet est conçu pour le programme d’essais, et non pour une fonction de production fixe.",
+  "Process and equipment design": "Conception du procédé et des équipements",
+  "Develop the experimental process configuration, equipment duties, operating limits and system interfaces.": "Définir la configuration du procédé expérimental, les fonctions des équipements, les limites d’exploitation et les interfaces du système.",
+  "Select and integrate the measurements needed for experimental evaluation, process control and operating data.": "Sélectionner et intégrer les mesures nécessaires à l’évaluation expérimentale, à la commande du procédé et à la collecte de données d’exploitation.",
+  "Automation and experimental control": "Automatisation et commande des essais",
+  "Configure operating sequences, control loops, setpoints, alarms and operator interfaces for the test program.": "Configurer les séquences d’exploitation, les boucles de régulation, les points de consigne, les alarmes et les interfaces opérateur en fonction du programme d’essais.",
+  "Data collection and reporting": "Collecte de données et production de rapports",
+  "Capture selected experimental parameters, operating trends and reports for technical evaluation.": "Recueillir les paramètres expérimentaux, les tendances d’exploitation et les rapports retenus pour l’évaluation technique.",
+  "Decision-useful deliverables": "Livrables utiles à la prise de décision",
+  "What the engineering package may include": "Contenu possible du dossier d’ingénierie",
+  "The engineering package is shaped around the test program and may include:": "Le dossier d’ingénierie est adapté au programme d’essais et peut comprendre :",
+  "Experimental and operating requirements": "Exigences expérimentales et d’exploitation",
+  "Process design basis, PFDs and P&amp;IDs": "Bases de conception du procédé, schémas PFD et P&amp;ID",
+  "Equipment and instrument specifications": "Spécifications des équipements et des instruments",
+  "Measurement and control architecture": "Architecture de mesure et de commande",
+  "Equipment arrangements and utility interfaces": "Implantation des équipements et interfaces avec les utilités",
+  "Test procedures and acceptance criteria": "Procédures d’essai et critères d’acceptation",
+  "Data collection and reporting requirements": "Exigences de collecte de données et de production de rapports",
+  "Testing, commissioning and handover documentation": "Documentation des essais, de la mise en service et de la remise au client",
+  "Acceptance and commissioning": "Acceptation et mise en service",
+  "FAT should test the interfaces that will matter at startup": "Le FAT devrait vérifier les interfaces déterminantes au démarrage",
+  "Factory acceptance testing is most useful when it is tied to the agreed operating and control basis rather than treated as a generic inspection.": "Les essais d’acceptation en usine sont plus utiles lorsqu’ils reposent sur les bases d’exploitation et de commande convenues, plutôt que sur une inspection générique.",
+  "Site acceptance and commissioning then address the interfaces that cannot be proven fully before installation: utilities, tie-ins, site equipment, real process behaviour, tuning, operator interaction and final handover requirements.": "L’acceptation sur site et la mise en service portent ensuite sur les interfaces et les éléments qui ne peuvent être entièrement validés avant l’installation : utilités, raccordements, équipements sur site, comportement réel du procédé, réglages, interaction avec les opérateurs et exigences de remise finale au client.",
+  "Further reading": "Pour aller plus loin",
+  "Related process-systems routes": "Approches connexes en systèmes de procédé",
+  "See How We Work": "Voir notre façon de travailler",
+  "From lab to pilot to industrial": "Du laboratoire à l’unité pilote, puis à l’échelle industrielle",
+  "Technology Scale-Up &amp; Commercialization": "Mise à l’échelle et commercialisation des technologies",
+  "<a1><b>Carbon capture and hydrogen pilots for refinery research, India</b><span>5 LPH, 50 barg, 500 I/O</span><em>Read the case study</em></a1>": "<a1><b>Unités pilotes de captage du carbone et d’hydrogène pour la recherche en raffinage, Inde</b><span>5 LPH, 50 barg, 500 E/S</span><em>Lire l’étude de cas</em></a1>",
+  "Planning a Pilot or Demonstration Project?": "Vous planifiez un projet pilote ou de démonstration?",
+  "Share your technology application, current development stage, experimental objectives and available process information, and our team will discuss the engineering requirements and scope for your pilot or demonstration system.": "Présentez-nous votre application technologique, son stade de développement actuel, vos objectifs expérimentaux et les données de procédé disponibles. Notre équipe discutera avec vous des exigences et de la portée d’ingénierie de votre système pilote ou de démonstration.",
+  "Pilot systems we have built": "Unités pilotes que nous avons construites",
+  "Pilot-scale test equipment": "Équipements d’essai à l’échelle pilote",
+  "Pilot plants and demonstration plants for research centres, refinery R&amp;D and technology developers, built for controlled trials and scale-up decisions.": "Usines pilotes et de démonstration pour les centres de recherche, la R-D en raffinage et les développeurs de technologies, construites pour les essais contrôlés et les décisions de mise à l’échelle.",
+  "Pilot Plants &amp; Demonstration Plants | Instron Technologies": "Usines pilotes et de démonstration | Instron Technologies",
+  "Pilot Plants &amp; Demonstration Plants, Instron Technologies": "Usines pilotes et de démonstration, Instron Technologies",
+  "Modular production | Integration": "Production modulaire | Intégration",
+  "Instron Technologies engineers and integrates modular process skids for defined production and processing duties, combining process engineering, equipment integration, mechanical systems, instrumentation and automation for reliable operation on your site.": "Instron Technologies conçoit et intègre des skids de procédé modulaires pour des fonctions de production et de transformation définies, en combinant ingénierie de procédé, intégration des équipements, systèmes mécaniques, instrumentation et automatisation pour une exploitation fiable sur votre site.",
+  "Discuss Your Process Requirements": "Parlons de vos besoins en procédé",
+  "Typical applications": "Applications types",
+  "Modular process systems for industrial applications": "Systèmes de procédé modulaires pour applications industrielles",
+  "Industrial Process Skids bring related process equipment and supporting systems together in an engineered modular arrangement.": "Les skids de procédé industriels réunissent les équipements de procédé connexes et les systèmes auxiliaires dans un ensemble modulaire conçu par ingénierie.",
+  "Reaction and mixing": "Réaction et mélange",
+  "Integrated systems for reaction, blending and mixing duties.": "Systèmes intégrés pour les opérations de réaction, d’homogénéisation et de mélange.",
+  "Dosing and formulation": "Dosage et formulation",
+  "Controlled material addition and formulation processes.": "Procédés contrôlés d’ajout de matières et de formulation.",
+  "Distillation and solvent recovery": "Distillation et récupération de solvants",
+  "Separation and recovery systems for chemical and industrial applications.": "Systèmes de séparation et de récupération pour les applications chimiques et industrielles.",
+  "Filtration and separation": "Filtration et séparation",
+  "Engineered equipment arrangements for fluid treatment and separation duties.": "Implantation des équipements conçue pour les opérations de traitement et de séparation des fluides.",
+  "Heating and cooling": "Chauffage et refroidissement",
+  "Thermal-process systems integrating equipment, utilities and controls.": "Systèmes de procédé thermique intégrant les équipements, les utilités et les commandes.",
+  "Gas and fluid handling": "Manipulation des gaz et transfert des fluides",
+  "Process systems for fluid transfer, pressure management and gas-handling duties.": "Systèmes de procédé pour le transfert des fluides, la gestion de la pression et les opérations de manipulation des gaz.",
+  "Integrated system architecture": "Architecture de système intégrée",
+  "Five engineering areas, one system": "Cinq domaines d’ingénierie, un seul système",
+  "Each area is defined together with the others, so the skid works as one system on site.": "Chaque domaine est défini en coordination avec les autres, afin que le skid fonctionne comme un seul système sur le site.",
+  "Process and equipment engineering": "Ingénierie de procédé et des équipements",
+  "Define operating conditions, equipment functions, process flow and required utilities.": "Définir les conditions d’exploitation, les fonctions des équipements, les flux de procédé et les utilités nécessaires.",
+  "Mechanical and modular design": "Conception mécanique et modulaire",
+  "Develop equipment arrangement, skid layout, piping, access and maintenance requirements.": "Définir l’implantation des équipements, l’aménagement du skid, la tuyauterie, les accès et les exigences d’entretien.",
+  "Integrate process measurements, control devices, PLC/HMI systems and operating sequences.": "Intégrer les mesures de procédé, les dispositifs de commande, les systèmes PLC/HMI et les séquences d’exploitation.",
+  "Facility and system integration": "Intégration à l’installation et aux systèmes",
+  "Define utility connections, equipment interfaces, installation requirements and project responsibilities.": "Définir les raccordements aux utilités, les interfaces des équipements, les exigences d’installation et les responsabilités du projet.",
+  "Testing and handover": "Essais et remise au client",
+  "Set inspection, acceptance, commissioning and documentation requirements.": "Établir les exigences d’inspection, d’acceptation, de mise en service et de documentation.",
+  "Equipment classes": "Catégories d’équipements",
+  "Depending on the process, modular skids may integrate:": "Selon le procédé, les skids modulaires peuvent intégrer :",
+  "Reactors and process vessels": "Réacteurs et cuves de procédé",
+  "Filtration and separation equipment": "Équipements de filtration et de séparation",
+  "Heat-transfer systems": "Systèmes de transfert thermique",
+  "Pumps, piping and valves": "Pompes, tuyauterie et vannes",
+  "Process instrumentation": "Instrumentation de procédé",
+  "Electrical and automation systems": "Systèmes électriques et d’automatisation",
+  "Equipment selection depends on the application, operating requirements and agreed engineering scope.": "Le choix des équipements dépend de l’application, des exigences d’exploitation et de la portée d’ingénierie convenue.",
+  "Engineering and acceptance": "Ingénierie et acceptation",
+  "Buildable and testable deliverables": "Livrables permettant la fabrication et les essais",
+  "Our engineering supports coordinated procurement, fabrication, integration and testing through defined technical documentation, grouped in four packages: process; mechanical and skid; electrical, instrumentation and controls; and testing and handover.": "Notre ingénierie facilite la coordination de l’approvisionnement, de la fabrication, de l’intégration et des essais grâce à une documentation technique définie, regroupée en quatre dossiers : procédé; mécanique et skid; électricité, instrumentation et commande; essais et remise au client.",
+  "<a1>See the four packages</a1>": "<a1>Voir les quatre dossiers</a1>",
+  "Controls and operating interfaces": "Commandes et interfaces d’exploitation",
+  "Controls and data should not be late additions": "Les commandes et les données doivent être prévues dès le départ",
+  "Automation and monitoring requirements are best set alongside the process-system design. Early coordination defines instrument selection, operating sequences, alarms, interlocks, control-system interfaces and data requirements.": "Il est préférable de définir les exigences d’automatisation et de suivi en parallèle avec la conception du système de procédé. Une coordination précoce permet de définir le choix des instruments, les séquences d’exploitation, les alarmes, les verrouillages, les interfaces des systèmes de contrôle et les besoins en données.",
+  "Our <a1>Industrial Automation</a1> team handles control-system engineering, and <a2>{PlantON} by Instron Technologies</a2> adds monitoring, trending and reporting where needed.": "Notre équipe d’<a1>automatisation industrielle</a1> assure l’ingénierie des systèmes de contrôle, et <a2>{PlantON} par Instron Technologies</a2> ajoute le suivi, les tendances et les rapports au besoin.",
+  "Scope-specific qualification": "Qualification selon la portée du projet",
+  "Safety and responsibility boundaries": "Sécurité et limites de responsabilité",
+  "Industrial process skids are engineered around the process hazards, operating conditions, equipment limits and installation requirements. Safety requirements, applicable standards, testing obligations and site responsibilities are set for each application and contract.": "Les skids de procédé industriels sont conçus en fonction des dangers du procédé, des conditions d’exploitation, des limites des équipements et des exigences d’installation. Les exigences de sécurité, les normes applicables, les obligations d’essai et les responsabilités sur site sont définies pour chaque application et chaque contrat.",
+  "<a1><b>Steam quality analyzer skids, USA and Kuwait</b><span>512 kg/h, 15% energy saved</span><em>Read the case study</em></a1>": "<a1><b>Skids d’analyse de la qualité de la vapeur, États-Unis et Koweït</b><span>512 kg/h, 15&nbsp;% d’économie d’énergie</span><em>Lire l’étude de cas</em></a1>",
+  "<a1><b>API extraction and CSTR units, India and Australia</b><span>+12% batch output, 99.9% purity</span><em>Read the case study</em></a1>": "<a1><b>Unités d’extraction d’IPA et unités CSTR, Inde et Australie</b><span>+12&nbsp;% de production par lot, pureté de 99,9&nbsp;%</span><em>Lire l’étude de cas</em></a1>",
+  "<a1><b>Automated API process skid, India</b><span>+24% batches, 96% solvent recovery</span><em>Read the case study</em></a1>": "<a1><b>Skid de procédé automatisé pour IPA, Inde</b><span>+24&nbsp;% de lots, récupération de 96&nbsp;% des solvants</span><em>Lire l’étude de cas</em></a1>",
+  "Discuss Your Industrial Process Skid Requirements": "Parlons de vos besoins en skids de procédé industriels",
+  "Planning a modular processing system for an industrial facility? Share your application, required capacity, available utilities and integration requirements, and our team will help define the right engineering scope.": "Vous planifiez un système de transformation modulaire pour une installation industrielle? Présentez-nous votre application, la capacité requise, les utilités disponibles et les exigences d’intégration. Notre équipe vous aidera à définir la portée d’ingénierie appropriée.",
+  "Discuss Your Industrial Skid Project": "Parlons de votre projet de skid industriel",
+  "Industrial skids we have built": "Skids industriels que nous avons construits",
+  "Modular process skids for defined production duties: process engineering, equipment, instrumentation and automation for reliable operation on your site.": "Skids de procédé modulaires pour des fonctions de production définies : ingénierie de procédé, équipements, instrumentation et automatisation pour une exploitation fiable sur votre site.",
+  "Industrial Process Skids | Instron Technologies": "Skids de procédé industriels | Instron Technologies",
+  "Industrial Process Skids, Instron Technologies": "Skids de procédé industriels, Instron Technologies",
+  "Applications we engineer": "Nos applications d’ingénierie",
+  "Read overview": "Lire l’aperçu",
+  "A working experiment does not settle the questions behind demonstration or commercial deployment. The next system must account for equipment, utilities, instrumentation, operating ranges, maintainability, safety and the evidence needed to make the next investment decision.": "Une expérience concluante ne règle pas toutes les questions liées à la démonstration ou au déploiement commercial. Le système suivant doit tenir compte des équipements, des utilités, de l’instrumentation, des plages d’exploitation, de la facilité d’entretien, de la sécurité et des données probantes nécessaires à la prochaine décision d’investissement.",
+  "Separation &amp; Solvent Recovery": "Séparation et récupération de solvants",
+  "Recovery and product purity matter, but so do feed variation, utilities, solvent management, fouling, operator actions and safe operation. An effective separation system is more than a column, vessel or membrane package.": "La récupération et la pureté du produit sont importantes, tout comme les variations de l’alimentation, les utilités, la gestion des solvants, l’encrassement, les interventions des opérateurs et la sécurité d’exploitation. Un système de séparation efficace ne se limite pas à une colonne, à une cuve ou à un ensemble de membranes.",
+  "Brownfield Automation Modernization": "Modernisation de l’automatisation des sites existants",
+  "Replacing an old PLC or SCADA platform is only one part of modernization. The installed plant may contain undocumented logic, operator workarounds, mixed equipment, aging instruments and tight shutdown windows. A responsible upgrade starts with that operating reality.": "Le remplacement d’un ancien PLC ou d’une ancienne plateforme SCADA ne constitue qu’une partie de la modernisation. L’usine existante peut comporter une logique non documentée, des solutions de contournement utilisées par les opérateurs, des équipements variés, des instruments vieillissants et des périodes d’arrêt très limitées. Une modernisation responsable commence par cette réalité d’exploitation.",
+  "Batch &amp; Process Automation": "Automatisation des lots et des procédés",
+  "A batch may involve manual decisions, equipment-local controls, PLC sequences, recipes, material movements and data records. The automation scope should bring those steps together without hiding what the operators actually need to see and do.": "Un lot peut nécessiter des décisions manuelles, des commandes locales aux équipements, des séquences PLC, des recettes, des transferts de matières et des enregistrements de données. La portée de l’automatisation devrait réunir ces étapes sans masquer ce que les opérateurs doivent réellement voir et faire.",
+  "Production teams can disagree on performance even when a dashboard reports a single percentage. The definitions of running time, planned stops, counts, scrap, speed and downtime reasons determine whether the result supports a useful decision.": "Les équipes de production peuvent être en désaccord sur la performance même si un tableau de bord affiche un seul pourcentage. Les définitions du temps de fonctionnement, des arrêts planifiés, des quantités comptabilisées, des rebuts, de la vitesse et des motifs d’arrêt déterminent si le résultat permet de prendre une décision utile.",
+  "A monthly total can show that a resource increased without identifying the line, batch, area, asset or condition that drove it. Useful utility monitoring begins with measurement boundaries, reliable sources and the production context needed to investigate change.": "Un total mensuel peut révéler une hausse de la consommation d’une ressource sans indiquer la ligne, le lot, la zone, l’équipement ou la condition qui en est à l’origine. Un suivi utile des utilités commence par des périmètres de mesure, des sources fiables et le contexte de production nécessaire pour analyser les variations.",
+  "Wired industrial control cabinet": "Armoire de commande industrielle câblée",
+  "PlantON production visibility dashboard": "Tableau de bord PlantON de visibilité de la production",
+  "PlantON utility monitoring dashboard": "Tableau de bord PlantON de suivi des utilités",
+  "Applications we engineer: technology scale-up, separation and solvent recovery, brownfield modernization, batch automation, OEE and utility monitoring.": "Nos applications d’ingénierie : mise à l’échelle des technologies, séparation et récupération de solvants, modernisation sur site existant, automatisation des lots, TRG (OEE) et suivi des utilités.",
+  "Process &amp; Automation Applications | Instron Technologies": "Applications procédé et automatisation | Instron Technologies",
+  "Applications, Instron Technologies": "Applications, Instron Technologies",
+  "<a1><b>Cryogenic carbon capture pilot, Saudi Arabia</b><span>Two-stage capture, 225 I/O</span><em>Read the case study</em></a1>": "<a1><b>Unité pilote de captage cryogénique du carbone, Arabie saoudite</b><span>Captage en deux étapes, 225 E/S</span><em>Lire l’étude de cas</em></a1>",
+  "<a1><b>Propulsion-fuel pilot plant, India</b><span>≥99% purity at 1 LPH</span><em>Read the case study</em></a1>": "<a1><b>Usine pilote de carburant de propulsion, Inde</b><span>Pureté ≥99&nbsp;% à 1 LPH</span><em>Lire l’étude de cas</em></a1>"
  },
  "pages": {
   "Skip to content": [
@@ -4909,6 +5520,1839 @@
   ],
   "Privacy, Terms &amp; Accessibility": [
    "privacy-terms-accessibility"
+  ],
+  "Insights · Process Skid Plants": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "From lab to pilot to industrial. <span>What changes at each step.</span>": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "A process that works at bench scale still has to prove that it runs, can be controlled and produces data you can scale from. What a skid has to do changes at each stage, and so does what it should cost.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<span>Instron Technologies engineering team</span><span>November 2026</span><span>7 min read</span>": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Three stages, three questions": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Around TRL 4 to 6": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Pilot": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Does the process work outside the lab?": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Wide operating ranges, flexible configuration and dense instrumentation, so every run produces data you can compare.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Around TRL 6 to 7": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Demonstration": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Does it run reliably at a representative scale?": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Long runs, recycle streams, maintainability, utilities and operating procedures start to matter as much as the chemistry.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "TRL 7 and beyond": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Industrial": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Does it pay?": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Throughput, yield, energy and solvent use, uptime and compliance decide the design, and cost per unit becomes the test.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "The balance comes first": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Every stage starts from the same document: the mass and energy balance. It fixes flows, compositions, heat duties and utility loads. From those come line sizes, vessel volumes, heat-exchanger areas and pump and chiller duties. Change a feed ratio late and the equipment list changes with it.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "For a pilot, the balance also defines the operating window you want to explore. Design for that range rather than a single point, or the pilot cannot answer the questions it was built for.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "What changes as you scale": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Main question": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Does it work?": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Does it run?": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Operating range": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Wide, to explore": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Near the design point": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Optimized design point": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Dense, for data": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "For control and diagnosis": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "For control, quality and utilities": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Automation": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Data capture, batch records, interlocks": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Sequencing, alarms, longer unattended runs": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Full plant control and compliance records": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Safety": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Small inventories, lab-to-plant hazards": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Hazardous-area classification and codes": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Full site requirements": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Documentation": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Run records and data": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Operating procedures, agreed FAT / SAT": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Complete handover package": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Data is the real output of a pilot": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "A pilot exists to produce evidence. Without precise control and data capture, results cannot be compared between runs or used to plan the next scale. That is why instrumentation and automation deserve the same attention as the process equipment.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "I/O on a battery-recycling pilot": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Research institute, Saudi Arabia. Real-time control of ultrasonic energy, temperature and flow, batch records for every run, and a modular design ready to replicate.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "I/O on a membrane H₂ unit": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Refinery R&amp;D, India. Three instrumented pilots, including CO₂ / H₂ purification at 5 LPH, up to 100 °C and 50 barg, with real-time mass balance and batch reports.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "batch production at industrial scale": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "API manufacturer, India. A fully automated, unmanned skid in a classified hazardous area, with 17% shorter cycles, 96% solvent recovery and ROI in four months.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Design each stage for the next one": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<b>Build in modules.</b> A methanol-water recovery system in Mexico was delivered in two parts, a process skid and a distillation tower, and led to a second project with the same customer.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<b>Keep one data model.</b> Tag names, units and batch records that carry from pilot to demonstration make results directly comparable.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<b>Agree test scope per project.</b> Some systems can be fully tested as skids before shipping; others can only be proven after installation. Settle FAT and SAT scope early.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<b>Plan the interfaces.</b> Utilities, drains, vents, power and network, and who owns each one at site.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<b>Make each stage a decision point.</b> A phased scope lets you stop, change direction or move on with evidence.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "In short": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Each stage answers a different question: does it work, does it run, does it pay.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Instrumentation and automation are what turn pilot runs into data you can scale from.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Settle the mass and energy balance early. It drives every piece of equipment after it.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Design each stage so the next one can reuse its lessons, and sometimes its modules.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<a1>Three stages, three questions</a1>": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<a1>The balance comes first</a1>": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<a1>What changes as you scale</a1>": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<a1>Data is the real output of a pilot</a1>": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "<a1>Design each stage for the next one</a1>": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Keep reading": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "More from Insights": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "All articles": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Planning a pilot or your next scale-up step?": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Comparison of scale-up stages": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Each stage of scale-up answers a different question. What changes in instruments, automation, safety and documentation from pilot to industrial plant.": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Lab to Pilot to Industrial Scale-Up | Instron Technologies": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "From lab to pilot to industrial: what changes at each step, Instron Technologies": [
+   "insights-lab-to-pilot-to-industrial"
+  ],
+  "Insights · Industrial Automation": [
+   "insights-brownfield-modernization"
+  ],
+  "Modernize a running plant <span>without starting again.</span>": [
+   "insights-brownfield-modernization"
+  ],
+  "Most automation projects happen in plants that are already producing. The hard part is not the new control system. It is changing it around production schedules, legacy equipment and the people who run the line.": [
+   "insights-brownfield-modernization"
+  ],
+  "<span>Instron Technologies engineering team</span><span>November 2026</span><span>6 min read</span>": [
+   "insights-brownfield-modernization"
+  ],
+  "Why brownfield is harder than greenfield": [
+   "insights-brownfield-modernization"
+  ],
+  "In a new plant, the control system is designed together with everything else. In a running plant it has to fit around what is already there: PLC generations that no longer talk to each other, OEM packages with closed controls, changes made over the years that were never documented, and a production schedule that leaves short windows for change.": [
+   "insights-brownfield-modernization"
+  ],
+  "The risk sits in the gaps: an interlock nobody wrote down, a network dependency that appears on start-up day, or an operator workaround that was quietly holding the process together.": [
+   "insights-brownfield-modernization"
+  ],
+  "What waiting costs": [
+   "insights-brownfield-modernization"
+  ],
+  "Separate control islands make batches harder to repeat and records harder to keep. Manual batching and fixed-speed equipment limit capacity, consistency and traceability. Reports are compiled by hand, spares for obsolete hardware get harder to find, and more of the plant’s know-how ends up in a few people’s heads.": [
+   "insights-brownfield-modernization"
+  ],
+  "A five-step approach": [
+   "insights-brownfield-modernization"
+  ],
+  "Audit the installed base": [
+   "insights-brownfield-modernization"
+  ],
+  "I/O lists, drawings, PLC and HMI versions, networks, panels, and how operators actually run the process. Mark what works, what is at end of life and what is undocumented.": [
+   "insights-brownfield-modernization"
+  ],
+  "Decide what to keep": [
+   "insights-brownfield-modernization"
+  ],
+  "Reactors, vessels and drives in good condition can usually stay. Automate and connect them, and replace only where the risk or the gain justifies it.": [
+   "insights-brownfield-modernization"
+  ],
+  "Define the control structure": [
+   "insights-brownfield-modernization"
+  ],
+  "For batch plants, an ISA-88 structure separates equipment from recipes, so products and procedures can change without rewriting code, and every batch leaves a record.": [
+   "insights-brownfield-modernization"
+  ],
+  "Test before site": [
+   "insights-brownfield-modernization"
+  ],
+  "Test the new logic against the agreed specification at factory acceptance, then confirm it on site. A URS, FDS, FAT and SAT give every stakeholder the same reference.": [
+   "insights-brownfield-modernization"
+  ],
+  "Cut over in planned windows": [
+   "insights-brownfield-modernization"
+  ],
+  "Stage the change area by area around shutdowns, with fall-back plans, trained operators and support on site through start-up.": [
+   "insights-brownfield-modernization"
+  ],
+  "From our projects": [
+   "insights-brownfield-modernization"
+  ],
+  "0.5 to 20 L": [
+   "insights-brownfield-modernization"
+  ],
+  "reactors kept and automated": [
+   "insights-brownfield-modernization"
+  ],
+  "Research laboratory. Existing metal-extraction reactors retained and automated with pH control, dosing, temperature, agitation and PLC / SCADA, ready for future scale.": [
+   "insights-brownfield-modernization"
+  ],
+  "See the project portfolio": [
+   "insights-brownfield-modernization"
+  ],
+  "production capacity": [
+   "insights-brownfield-modernization"
+  ],
+  "Cleaning-product manufacturer, Canada. Automated compounding with 26 VFDs and 4 agitators, ISA-88 recipes and a paperless audit trail, with 15% energy and material saved.": [
+   "insights-brownfield-modernization"
+  ],
+  "I/O linked to an existing DCS": [
+   "insights-brownfield-modernization"
+  ],
+  "Global healthcare company, Toronto. Adjuvant and CIP skid automation to 21 CFR Part 11, with ISA-88 sequencing and OPC UA links to the plant’s existing DCS, documented from URS to SAT.": [
+   "insights-brownfield-modernization"
+  ],
+  "control systems on one platform": [
+   "insights-brownfield-modernization"
+  ],
+  "Dairy, California. A centralized control system across all areas, with more than 2,000 I/O and {PlantON} for CIP validation and traceability.": [
+   "insights-brownfield-modernization"
+  ],
+  "When to replace instead": [
+   "insights-brownfield-modernization"
+  ],
+  "Retrofitting is not always the answer. Replace when hardware is past support and spares have become a production risk, when the process has changed enough that the old control philosophy no longer fits, or when safety or compliance requirements cannot be met on the existing platform. The audit in step one is what lets you make that call on evidence rather than habit.": [
+   "insights-brownfield-modernization"
+  ],
+  "Audit what you have before you decide what to replace.": [
+   "insights-brownfield-modernization"
+  ],
+  "Keep equipment that still works; automate and connect it.": [
+   "insights-brownfield-modernization"
+  ],
+  "Structure batch control so recipes and records are repeatable.": [
+   "insights-brownfield-modernization"
+  ],
+  "Test before site, and cut over in planned windows.": [
+   "insights-brownfield-modernization"
+  ],
+  "<a1>Why brownfield is harder than greenfield</a1>": [
+   "insights-brownfield-modernization"
+  ],
+  "<a1>What waiting costs</a1>": [
+   "insights-brownfield-modernization"
+  ],
+  "<a1>A five-step approach</a1>": [
+   "insights-brownfield-modernization"
+  ],
+  "<a1>From our projects</a1>": [
+   "insights-brownfield-modernization"
+  ],
+  "<a1>When to replace instead</a1>": [
+   "insights-brownfield-modernization"
+  ],
+  "Planning a modernization in a running plant?": [
+   "insights-brownfield-modernization"
+  ],
+  "How to modernize controls in a plant that is already producing: audit first, keep what works, test before site and cut over in planned windows.": [
+   "insights-brownfield-modernization"
+  ],
+  "Modernize a Running Plant | Instron Technologies": [
+   "insights-brownfield-modernization"
+  ],
+  "Modernize a running plant without starting again, Instron Technologies": [
+   "insights-brownfield-modernization"
+  ],
+  "Insights · {PlantON}": [
+   "insights-plant-data-rollout"
+  ],
+  "Start with one loss. <span>Plant data people actually use.</span>": [
+   "insights-plant-data-rollout"
+  ],
+  "Most plant-data projects do not fail on technology. They stall between a promising pilot and the second line. This is the rollout sequence we use with process plants to keep that from happening.": [
+   "insights-plant-data-rollout"
+  ],
+  "Why plant-data projects stall": [
+   "insights-plant-data-rollout"
+  ],
+  "Most plants already collect plenty of data. PLCs, SCADA, utility meters, recipe systems and quality records each hold part of the picture. What is usually missing is operating context: which batch, which line, which shift and which loss a number belongs to.": [
+   "insights-plant-data-rollout"
+  ],
+  "In our experience, projects stall for four reasons:": [
+   "insights-plant-data-rollout"
+  ],
+  "The goal is “visibility” rather than a specific loss, so nobody can say whether the pilot worked.": [
+   "insights-plant-data-rollout"
+  ],
+  "Dashboards are built for managers, and the people who run the line never use them.": [
+   "insights-plant-data-rollout"
+  ],
+  "Machines and areas from different suppliers report in different ways, so their figures cannot be compared.": [
+   "insights-plant-data-rollout"
+  ],
+  "The plan tries to connect everything at once, and runs out of budget or patience halfway through.": [
+   "insights-plant-data-rollout"
+  ],
+  "What the gap costs": [
+   "insights-plant-data-rollout"
+  ],
+  "The cost shows up in hours and in waste. At a California dairy we worked with, pasteurizer trends and utility figures were compiled by hand across more than 12 separate control systems. Compliance reporting took up to two hours a day, and there was little link between utility use and production.": [
+   "insights-plant-data-rollout"
+  ],
+  "That pattern is common. When data has no context, people rebuild it in spreadsheets, and the effort goes into reporting instead of improving.": [
+   "insights-plant-data-rollout"
+  ],
+  "A six-step rollout": [
+   "insights-plant-data-rollout"
+  ],
+  "Name one loss worth money": [
+   "insights-plant-data-rollout"
+  ],
+  "Downtime on a critical cell, chemical use per batch, utility use per unit of output, or hours spent on reports. If you cannot put a number on it today, measuring it is the first win.": [
+   "insights-plant-data-rollout"
+  ],
+  "Prove it on one line or area": [
+   "insights-plant-data-rollout"
+  ],
+  "Connect only what that loss needs. Record a baseline first, so the result is a before-and-after in your own figures rather than a vendor estimate.": [
+   "insights-plant-data-rollout"
+  ],
+  "Bring operators in early": [
+   "insights-plant-data-rollout"
+  ],
+  "The people on the line define the downtime reasons, check the numbers and choose the screens they will use. Their trust decides whether the system outlives the pilot.": [
+   "insights-plant-data-rollout"
+  ],
+  "Write the benefit down": [
+   "insights-plant-data-rollout"
+  ],
+  "Turn the pilot result into a short business case: what changed, what it is worth per year and what it took. That is what funds the next phase.": [
+   "insights-plant-data-rollout"
+  ],
+  "Agree one model before you scale": [
+   "insights-plant-data-rollout"
+  ],
+  "Machines and areas never designed to report the same way need a common performance model, rolled up by machine, line and shift. Decide it once, not line by line.": [
+   "insights-plant-data-rollout"
+  ],
+  "Roll out in phases": [
+   "insights-plant-data-rollout"
+  ],
+  "Add areas in order of value. Keep legacy equipment that still works and connect it, rather than replacing it just to make the data easier.": [
+   "insights-plant-data-rollout"
+  ],
+  "What it looks like in practice": [
+   "insights-plant-data-rollout"
+  ],
+  "faster compliance reporting": [
+   "insights-plant-data-rollout"
+  ],
+  "Dairy, California. More than 12 control systems on one platform, with traceability from raw-milk reception to dispatch. Reporting went from up to two hours to about seven minutes, with 12% less chemical and 11% less utility use.": [
+   "insights-plant-data-rollout"
+  ],
+  "productivity": [
+   "insights-plant-data-rollout"
+  ],
+  "Die casting. Legacy machines and ERP data connected into one plant performance view without replacing equipment, with 37% fewer rejects.": [
+   "insights-plant-data-rollout"
+  ],
+  "machines on one OEE model": [
+   "insights-plant-data-rollout"
+  ],
+  "Manufacturing. A common performance model for machines never designed to report the same way, rolled up by machine, line and shift.": [
+   "insights-plant-data-rollout"
+  ],
+  "Choosing a partner: three questions": [
+   "insights-plant-data-rollout"
+  ],
+  "The software matters less than how it is connected to your process. Before you choose a partner, ask:": [
+   "insights-plant-data-rollout"
+  ],
+  "Can they work with what you have?": [
+   "insights-plant-data-rollout"
+  ],
+  "Most plants run a mix of PLC generations and OEM packages. A partner should be comfortable connecting them, not only replacing them.": [
+   "insights-plant-data-rollout"
+  ],
+  "Do they understand the process?": [
+   "insights-plant-data-rollout"
+  ],
+  "Batch phases, CIP, utilities and quality limits decide what a number means. Process and automation knowledge matter as much as the dashboard.": [
+   "insights-plant-data-rollout"
+  ],
+  "Who owns the model when they leave?": [
+   "insights-plant-data-rollout"
+  ],
+  "Tags, downtime reasons and reports should be documented and handed over, so your team can extend them without starting again.": [
+   "insights-plant-data-rollout"
+  ],
+  "{PlantON} is our plant-data platform for batch and continuous process plants. We deliver it together with the automation and process work around it, so the data has context from the first day.": [
+   "insights-plant-data-rollout"
+  ],
+  "Pick one loss that costs money, and measure it before you connect anything else.": [
+   "insights-plant-data-rollout"
+  ],
+  "Prove the gain on one line or area, in the plant’s own numbers.": [
+   "insights-plant-data-rollout"
+  ],
+  "Agree one performance model before you scale, so every machine and area reports the same way.": [
+   "insights-plant-data-rollout"
+  ],
+  "Expand in phases, and connect legacy equipment that still works instead of replacing it.": [
+   "insights-plant-data-rollout"
+  ],
+  "<a1>Why plant-data projects stall</a1>": [
+   "insights-plant-data-rollout"
+  ],
+  "<a1>What the gap costs</a1>": [
+   "insights-plant-data-rollout"
+  ],
+  "<a1>A six-step rollout</a1>": [
+   "insights-plant-data-rollout"
+  ],
+  "<a1>What it looks like in practice</a1>": [
+   "insights-plant-data-rollout"
+  ],
+  "<a1>Choosing a partner: three questions</a1>": [
+   "insights-plant-data-rollout"
+  ],
+  "Have one loss you would like to measure?": [
+   "insights-plant-data-rollout"
+  ],
+  "Explore PlantON<sup1>™</sup1>": [
+   "insights-plant-data-rollout"
+  ],
+  "Why plant-data projects stall after the pilot, and a six-step rollout that keeps them moving, with results from a dairy and a die-casting plant.": [
+   "insights-plant-data-rollout"
+  ],
+  "Plant Data People Actually Use | Instron Technologies": [
+   "insights-plant-data-rollout"
+  ],
+  "Start with one loss: plant data people actually use, Instron Technologies": [
+   "insights-plant-data-rollout"
+  ],
+  "<span1></span1>Industrial automation / Batch &amp; Process Automation": [
+   "batch-process-automation"
+  ],
+  "Build control logic around the real operating sequence.": [
+   "batch-process-automation"
+  ],
+  "Batch automation should bring manual steps, PLC sequences, recipes, material movements and records together without hiding what operators need.": [
+   "batch-process-automation"
+  ],
+  "Start with one real cycle, not a software feature list.": [
+   "batch-process-automation"
+  ],
+  "The essential inputs are the steps, permissives, interlocks, operating modes, measurements, exceptions and recovery paths. A useful sequence specification makes it possible to test normal and abnormal cases before the plant depends on the new controls.": [
+   "batch-process-automation"
+  ],
+  "Control philosophy": [
+   "batch-process-automation"
+  ],
+  "Define equipment states, sequence transitions, manual/automatic actions, setpoints, permissives and hold/abort/restart behavior.": [
+   "batch-process-automation"
+  ],
+  "Instruments and equipment": [
+   "batch-process-automation"
+  ],
+  "Connect temperature, pressure, flow, level, weight, analytical measurements, valves, drives, package systems and utilities as needed.": [
+   "batch-process-automation"
+  ],
+  "Operator interface and records": [
+   "batch-process-automation"
+  ],
+  "Support understandable HMI states, alarms, trends and the required level of batch or cycle recording without overcomplicating operations.": [
+   "batch-process-automation"
+  ],
+  "FAT and commissioning": [
+   "batch-process-automation"
+  ],
+  "Test normal and abnormal paths, unavailable equipment, interlocks, simulated inputs, operator prompts and recovery before site sign-off.": [
+   "batch-process-automation"
+  ],
+  "Process definition": [
+   "batch-process-automation"
+  ],
+  "Document steps, boundaries and who takes each operating action.": [
+   "batch-process-automation"
+  ],
+  "Automation implementation": [
+   "batch-process-automation"
+  ],
+  "Engineer PLC/HMI/SCADA logic, interfaces, panels, and defined data records.": [
+   "batch-process-automation"
+  ],
+  "Operational acceptance": [
+   "batch-process-automation"
+  ],
+  "Test expected sequences and failure paths against agreed acceptance criteria.": [
+   "batch-process-automation"
+  ],
+  "<span1>01</span1><span>Walk through one actual operating sequence</span>": [
+   "batch-process-automation"
+  ],
+  "<span1>02</span1><span>Write modes, signals, actions and exceptions</span>": [
+   "batch-process-automation"
+  ],
+  "<span1>03</span1><span>Implement and challenge logic during FAT</span>": [
+   "batch-process-automation"
+  ],
+  "<span1>04</span1><span>Verify field instruments, behavior and records on site</span>": [
+   "batch-process-automation"
+  ],
+  "P&amp;IDs, process descriptions or SOPs": [
+   "batch-process-automation"
+  ],
+  "Equipment list and available I/O schedule": [
+   "batch-process-automation"
+  ],
+  "Manual tasks and current recipe/parameter handling": [
+   "batch-process-automation"
+  ],
+  "Frequent faults, operator workarounds and documentation": [
+   "batch-process-automation"
+  ],
+  "Does every batch process need a full recipe-management platform?": [
+   "batch-process-automation"
+  ],
+  "No. Some need structured recipes or phase management; others are better suited to a PLC sequence with controlled parameters. The choice depends on complexity and reporting requirements.": [
+   "batch-process-automation"
+  ],
+  "Can useful manual steps stay in the process?": [
+   "batch-process-automation"
+  ],
+  "Yes. Manual sampling, verification or handling may remain appropriate when their roles, prompts, records and control boundaries are clearly defined.": [
+   "batch-process-automation"
+  ],
+  "<span1>Explore</span1><strong>Pharma &amp; Life Sciences</strong>": [
+   "batch-process-automation"
+  ],
+  "Industrial mixing vessels with equipment-to-control interfaces": [
+   "batch-process-automation"
+  ],
+  "Batch automation that brings manual steps, PLC sequences, recipes, material movements and records together without hiding what operators need.": [
+   "batch-process-automation"
+  ],
+  "Batch &amp; Process Automation | Instron Technologies": [
+   "batch-process-automation"
+  ],
+  "Batch &amp; Process Automation, Instron Technologies": [
+   "batch-process-automation"
+  ],
+  "<span1></span1>{PlantON} / Production Visibility &amp; OEE": [
+   "production-visibility-oee"
+  ],
+  "Understand the loss before debating the OEE number.": [
+   "production-visibility-oee"
+  ],
+  "One OEE number can hide disagreement. How running time, planned stops, counts, scrap and downtime are defined decides whether it helps a decision.": [
+   "production-visibility-oee"
+  ],
+  "OEE, availability and downtime by machine": [
+   "production-visibility-oee"
+  ],
+  "A trusted OEE view begins with a trusted operating model.": [
+   "production-visibility-oee"
+  ],
+  "Define the line or asset boundary, production calendar, planned time, machine states, rate basis and quality counts. Confirm data timestamps and ownership before committing to a KPI. Missing or inconsistent source signals should be treated as design work, not hidden by graphics.": [
+   "production-visibility-oee"
+  ],
+  "Model the process states": [
+   "production-visibility-oee"
+  ],
+  "Agree the definitions for running, blocked, starved, changeover, cleaning, maintenance and planned downtime.": [
+   "production-visibility-oee"
+  ],
+  "Assess source quality": [
+   "production-visibility-oee"
+  ],
+  "Check PLC signals, counts, histories, timestamps, quality inputs and links to product or work-order context.": [
+   "production-visibility-oee"
+  ],
+  "Make downtime actionable": [
+   "production-visibility-oee"
+  ],
+  "Use a practical reason model with clear human and automatic inputs. Count planned and unplanned stops separately, treat short stops below an agreed threshold as performance loss, and calculate availability as run time divided by planned production time.": [
+   "production-visibility-oee"
+  ],
+  "Support different users": [
+   "production-visibility-oee"
+  ],
+  "Provide appropriate views for operators, supervisors, engineers and management without forcing one report to serve everyone.": [
+   "production-visibility-oee"
+  ],
+  "Line or asset audit": [
+   "production-visibility-oee"
+  ],
+  "What the equipment can actually report, and where the critical gaps are.": [
+   "production-visibility-oee"
+  ],
+  "KPI and event definitions": [
+   "production-visibility-oee"
+  ],
+  "Clear and agreed rules for availability, performance, quality and reasons.": [
+   "production-visibility-oee"
+  ],
+  "Phased visibility": [
+   "production-visibility-oee"
+  ],
+  "A limited operating view first, checked against real events before a broad deployment.": [
+   "production-visibility-oee"
+  ],
+  "<span1>01</span1><span>Choose one line and the decision to support</span>": [
+   "production-visibility-oee"
+  ],
+  "<span1>02</span1><span>Audit available machine states, rates and counts</span>": [
+   "production-visibility-oee"
+  ],
+  "<span1>03</span1><span>Agree data definitions and ownership</span>": [
+   "production-visibility-oee"
+  ],
+  "<span1>04</span1><span>Test reporting against real production records</span>": [
+   "production-visibility-oee"
+  ],
+  "Machines or lines to be included": [
+   "production-visibility-oee"
+  ],
+  "Current shift and production reports": [
+   "production-visibility-oee"
+  ],
+  "Available PLC/SCADA or database signals": [
+   "production-visibility-oee"
+  ],
+  "Known discrepancies in counts or downtime": [
+   "production-visibility-oee"
+  ],
+  "Can OEE be calculated from existing PLC data?": [
+   "production-visibility-oee"
+  ],
+  "Possibly. It depends on the availability and quality of states, production counts, schedule, rate basis and quality information.": [
+   "production-visibility-oee"
+  ],
+  "Does an OEE project have to start plant-wide?": [
+   "production-visibility-oee"
+  ],
+  "No. A bounded line or asset group often allows the operating model and data quality to be validated before expansion.": [
+   "production-visibility-oee"
+  ],
+  "<span1>Explore</span1><strong>{PlantON} by Instron Technologies</strong>": [
+   "production-visibility-oee"
+  ],
+  "<span1>Explore</span1><strong>Utility &amp; Energy Monitoring</strong>": [
+   "production-visibility-oee"
+  ],
+  "<span1>Explore</span1><strong>Food, Beverage &amp; Dairy</strong>": [
+   "production-visibility-oee"
+  ],
+  "Production visibility and OEE built on agreed definitions of running time, planned stops, counts, scrap and downtime, so the number supports a decision.": [
+   "production-visibility-oee"
+  ],
+  "Production Visibility &amp; OEE | Instron Technologies": [
+   "production-visibility-oee"
+  ],
+  "Production Visibility &amp; OEE, Instron Technologies": [
+   "production-visibility-oee"
+  ],
+  "<span1></span1>{PlantON} / Utility &amp; Energy Monitoring": [
+   "utility-energy-monitoring"
+  ],
+  "Find the operating context behind utility consumption.": [
+   "utility-energy-monitoring"
+  ],
+  "A monthly total can show that a resource increased without identifying the line, batch, area, asset or condition that drove it.": [
+   "utility-energy-monitoring"
+  ],
+  "Before the dashboard, define what the meter means.": [
+   "utility-energy-monitoring"
+  ],
+  "A meter may cover more than one process or include ancillary loads. Steam, water, compressed air and electricity can cross physical and reporting boundaries. The first job is to map the source, units, sampling and intended attribution before comparing areas or product runs.": [
+   "utility-energy-monitoring"
+  ],
+  "Meter and source audit": [
+   "utility-energy-monitoring"
+  ],
+  "Record meter type, location, scaling, units, timestamp quality, ownership and areas served.": [
+   "utility-energy-monitoring"
+  ],
+  "Production context": [
+   "utility-energy-monitoring"
+  ],
+  "Connect consumption to batch, campaign, asset, shift, product, throughput or operating state where source data permits.": [
+   "utility-energy-monitoring"
+  ],
+  "Views for investigation": [
+   "utility-energy-monitoring"
+  ],
+  "Explore demand and time trends, period summaries or resource-per-output views when the normalization basis is valid.": [
+   "utility-energy-monitoring"
+  ],
+  "Engineering follow-through": [
+   "utility-energy-monitoring"
+  ],
+  "Use findings to identify where process review, maintenance, metering, setpoint or control changes warrant further evaluation.": [
+   "utility-energy-monitoring"
+  ],
+  "Measure": [
+   "utility-energy-monitoring"
+  ],
+  "Define the relevant boundary and check existing data quality.": [
+   "utility-energy-monitoring"
+  ],
+  "Contextualize": [
+   "utility-energy-monitoring"
+  ],
+  "Join selected resource readings with operating and production information.": [
+   "utility-energy-monitoring"
+  ],
+  "Investigate": [
+   "utility-energy-monitoring"
+  ],
+  "Separate observed changes from proven root causes and prioritize engineering action.": [
+   "utility-energy-monitoring"
+  ],
+  "<span1>01</span1><span>Identify one resource and the business question</span>": [
+   "utility-energy-monitoring"
+  ],
+  "<span1>02</span1><span>Map meters, limits and source-quality gaps</span>": [
+   "utility-energy-monitoring"
+  ],
+  "<span1>03</span1><span>Connect only the necessary process context</span>": [
+   "utility-energy-monitoring"
+  ],
+  "<span1>04</span1><span>Review trends and validate suspected drivers</span>": [
+   "utility-energy-monitoring"
+  ],
+  "Utility type and existing metering inventory": [
+   "utility-energy-monitoring"
+  ],
+  "Relevant process, area or equipment boundaries": [
+   "utility-energy-monitoring"
+  ],
+  "Production/batch reporting and shift data": [
+   "utility-energy-monitoring"
+  ],
+  "Current bill, dashboard or known utility concern": [
+   "utility-energy-monitoring"
+  ],
+  "Must all meters be replaced before a monitoring project starts?": [
+   "utility-energy-monitoring"
+  ],
+  "No. First determine what is already available and whether the measurements answer the intended question.": [
+   "utility-energy-monitoring"
+  ],
+  "Will a dashboard automatically deliver savings?": [
+   "utility-energy-monitoring"
+  ],
+  "No. Monitoring can reveal opportunities, but engineering assessment and implemented changes are needed to demonstrate a particular outcome.": [
+   "utility-energy-monitoring"
+  ],
+  "<span1>Explore</span1><strong>Production Visibility &amp; OEE</strong>": [
+   "utility-energy-monitoring"
+  ],
+  "Skid-mounted steam quality analyser equipment": [
+   "utility-energy-monitoring"
+  ],
+  "Utility and energy monitoring that links consumption to the line, batch, area or asset behind it, with clear measurement boundaries and reliable sources.": [
+   "utility-energy-monitoring"
+  ],
+  "Utility &amp; Energy Monitoring | Instron Technologies": [
+   "utility-energy-monitoring"
+  ],
+  "Utility &amp; Energy Monitoring, Instron Technologies": [
+   "utility-energy-monitoring"
+  ],
+  "Engineering notes <span>from real projects.</span>": [
+   "insights"
+  ],
+  "Practical notes from our engineers on Process Skid Plants and scale-up, Industrial Automation and {PlantON}, for research teams, technology developers and manufacturers. Each one draws on projects we have delivered.": [
+   "insights"
+  ],
+  "Latest articles": [
+   "insights"
+  ],
+  "Explore our latest insights": [
+   "insights"
+  ],
+  "Written by the engineers who deliver our projects, for the people who plan, run and fund process plants.": [
+   "insights"
+  ],
+  "PlantON<sup1>™</sup1>": [
+   "insights"
+  ],
+  "Start with one loss: plant data people actually use": [
+   "insights"
+  ],
+  "Why plant-data projects stall after the pilot, and a six-step rollout that keeps them moving, with results from a dairy, a die-casting plant and a 26-machine OEE program.": [
+   "insights"
+  ],
+  "Read the article<i>6 min read</i>": [
+   "insights"
+  ],
+  "From lab to pilot to industrial: what changes at each step": [
+   "insights"
+  ],
+  "Each stage of scale-up answers a different question. What changes in instrumentation, automation, safety and documentation from pilot to demonstration to industrial plant.": [
+   "insights"
+  ],
+  "Read the article<i>7 min read</i>": [
+   "insights"
+  ],
+  "Modernize a running plant without starting again": [
+   "insights"
+  ],
+  "How to modernize controls in a plant that is already producing: audit first, keep what works, structure batch control, test before site and cut over in planned windows.": [
+   "insights"
+  ],
+  "Working on something similar?": [
+   "insights"
+  ],
+  "Read the case studies": [
+   "insights"
+  ],
+  "Distillation tower": [
+   "insights"
+  ],
+  "Practical engineering articles from Instron Technologies on scale-up, automation modernization and plant data, drawn from projects we have delivered.": [
+   "insights"
+  ],
+  "Engineering Insights | Instron Technologies": [
+   "insights"
+  ],
+  "Insights, Instron Technologies": [
+   "insights"
+  ],
+  "<span1></span1>Technology development / Technology Scale-Up &amp; Commercialization": [
+   "technology-scale-up"
+  ],
+  "From pilot evidence to an engineered deployment.": [
+   "technology-scale-up"
+  ],
+  "A working experiment does not settle the questions behind demonstration or commercial deployment.": [
+   "technology-scale-up"
+  ],
+  "Read the engineering context": [
+   "technology-scale-up"
+  ],
+  "Explore the application": [
+   "technology-scale-up"
+  ],
+  "Industrial engineering context": [
+   "technology-scale-up"
+  ],
+  "Define the actual problem": [
+   "technology-scale-up"
+  ],
+  "Scope the right engineering stage": [
+   "technology-scale-up"
+  ],
+  "Verify before deployment": [
+   "technology-scale-up"
+  ],
+  "Each scale-up stage has a different engineering decision.": [
+   "technology-scale-up"
+  ],
+  "What the application has to address.": [
+   "technology-scale-up"
+  ],
+  "From an engineering question to an operating system.": [
+   "technology-scale-up"
+  ],
+  "A practical path toward the next decision.": [
+   "technology-scale-up"
+  ],
+  "Start with the evidence already available.": [
+   "technology-scale-up"
+  ],
+  "Decisions worth clarifying.": [
+   "technology-scale-up"
+  ],
+  "01 / Technical starting point": [
+   "technology-scale-up"
+  ],
+  "Early work may establish feasibility and operating windows. Later systems must define duties, controls, maintenance access and acceptance criteria for longer campaigns and new site interfaces. The useful next step depends on what remains uncertain, not on how large the equipment looks.": [
+   "technology-scale-up"
+  ],
+  "Explore our engineering phases": [
+   "technology-scale-up"
+  ],
+  "02 / Technical considerations": [
+   "technology-scale-up"
+  ],
+  "Typical scoping questions. The answers shape the scope, deliverables and acceptance criteria for your project.": [
+   "technology-scale-up"
+  ],
+  "Define the next evidence gate": [
+   "technology-scale-up"
+  ],
+  "Identify what process behavior, throughput, purity, stability, data quality or equipment duty must be demonstrated before advancing.": [
+   "technology-scale-up"
+  ],
+  "Engineer the system boundaries": [
+   "technology-scale-up"
+  ],
+  "Translate process basis into equipment duties, materials, utility connections, instruments, controls, layout and site interfaces.": [
+   "technology-scale-up"
+  ],
+  "Make operations representative": [
+   "technology-scale-up"
+  ],
+  "Decide which features can stay flexible and which need to resemble future deployment: uptime, cleaning, startup, maintainability and automation.": [
+   "technology-scale-up"
+  ],
+  "Capture repeatable learning": [
+   "technology-scale-up"
+  ],
+  "Turn pilot and first-deployment lessons into standards, test criteria, procurement definitions and documented operating procedures.": [
+   "technology-scale-up"
+  ],
+  "Every project requires a defined technical owner, acceptance basis and a scope proportionate to its operating context.": [
+   "technology-scale-up"
+  ],
+  "03 / Scope logic": [
+   "technology-scale-up"
+  ],
+  "The aim is to distinguish what is known, what must be engineered and what evidence is needed next.": [
+   "technology-scale-up"
+  ],
+  "01 / APPLICATION LAYER": [
+   "technology-scale-up"
+  ],
+  "Concept and pilot": [
+   "technology-scale-up"
+  ],
+  "Operating ranges, balances, instrumentation and a plan to reduce the most material uncertainty.": [
+   "technology-scale-up"
+  ],
+  "02 / APPLICATION LAYER": [
+   "technology-scale-up"
+  ],
+  "Demonstration and first deployment": [
+   "technology-scale-up"
+  ],
+  "Representative equipment, operability, site integration, acceptance evidence and clear technical ownership.": [
+   "technology-scale-up"
+  ],
+  "03 / APPLICATION LAYER": [
+   "technology-scale-up"
+  ],
+  "Repeat deployment": [
+   "technology-scale-up"
+  ],
+  "Configuration control, standard interfaces, documented test plans and lessons transferred from the first installation.": [
+   "technology-scale-up"
+  ],
+  "04 / Delivery sequence": [
+   "technology-scale-up"
+  ],
+  "<span1>01</span1><span>State the current scale and operating evidence</span>": [
+   "technology-scale-up"
+  ],
+  "<span1>02</span1><span>Name the next milestone and decisions it requires</span>": [
+   "technology-scale-up"
+  ],
+  "<span1>03</span1><span>Define process, equipment, controls and data work packages</span>": [
+   "technology-scale-up"
+  ],
+  "<span1>04</span1><span>Agree testing, acceptance and learning responsibilities</span>": [
+   "technology-scale-up"
+  ],
+  "Contract stages remain separate. Progression from Basic Engineering &amp; Feasibility to Detailed Engineering or Integrated Design &amp; Build is not automatic.": [
+   "technology-scale-up"
+  ],
+  "05 / First conversation": [
+   "technology-scale-up"
+  ],
+  "A useful first discussion is about the existing basis, the technical uncertainty and the milestone it affects. A complete specification is not required to start clarifying the scope.": [
+   "technology-scale-up"
+  ],
+  "Useful inputs to bring": [
+   "technology-scale-up"
+  ],
+  "Current process basis and available operating/test data": [
+   "technology-scale-up"
+  ],
+  "Next desired scale or campaign and its intended purpose": [
+   "technology-scale-up"
+  ],
+  "Known material, energy, safety and utility constraints": [
+   "technology-scale-up"
+  ],
+  "Outstanding uncertainties and desired acceptance evidence": [
+   "technology-scale-up"
+  ],
+  "06 / Common questions": [
+   "technology-scale-up"
+  ],
+  "Is a pilot plant automatically First-of-a-Kind (FOAK)?": [
+   "technology-scale-up"
+  ],
+  "No. A pilot is generally a system for learning and validating behavior. FOAK describes the first significant deployment of a technology or configuration in its intended context; the designation depends on the actual project.": [
+   "technology-scale-up"
+  ],
+  "Must the entire project be contracted at once?": [
+   "technology-scale-up"
+  ],
+  "No. Basic Engineering &amp; Feasibility, Detailed Engineering and Integrated Design &amp; Build can be scoped as separate paid engagements, with a decision after each stage.": [
+   "technology-scale-up"
+  ],
+  "Related expertise": [
+   "technology-scale-up"
+  ],
+  "Continue in the direction that fits your project.": [
+   "technology-scale-up"
+  ],
+  "<span1>Explore</span1><strong>Pilot &amp; Demonstration Plants</strong>": [
+   "technology-scale-up"
+  ],
+  "<span1>Explore</span1><strong>Research &amp; Technology Development</strong>": [
+   "technology-scale-up"
+  ],
+  "Discuss the scope before deciding the next engineering step.": [
+   "technology-scale-up"
+  ],
+  "Tall instrumented process column in a technical pilot installation": [
+   "technology-scale-up"
+  ],
+  "Engineering the step from pilot evidence to demonstration or commercial deployment: equipment, utilities, instruments, operating ranges and safety.": [
+   "technology-scale-up"
+  ],
+  "Technology Scale-Up &amp; Commercialization | Instron Technologies": [
+   "technology-scale-up"
+  ],
+  "Technology Scale-Up &amp; Commercialization, Instron Technologies": [
+   "technology-scale-up"
+  ],
+  "<span1></span1>Process applications / Separation &amp; Solvent Recovery": [
+   "separation-solvent-recovery"
+  ],
+  "Engineer the full separation and recovery loop.": [
+   "separation-solvent-recovery"
+  ],
+  "Recovery and purity matter, but so do feed variation, utilities, solvent management, fouling, operator actions and safe operation.": [
+   "separation-solvent-recovery"
+  ],
+  "Start with feed data and the acceptance target.": [
+   "separation-solvent-recovery"
+  ],
+  "Define composition, expected variability, target purity and recovery, batch or continuous throughput, and the constraints that shape the route. A laboratory result may support a separation hypothesis without yet defining a reliable recycle or production system.": [
+   "separation-solvent-recovery"
+  ],
+  "Distillation and evaporation": [
+   "separation-solvent-recovery"
+  ],
+  "Review heat and material balance, volatility or boiling behavior, reflux, duty, pressure, turndown, fouling, cleaning and utility requirements.": [
+   "separation-solvent-recovery"
+  ],
+  "Extraction and phase handling": [
+   "separation-solvent-recovery"
+  ],
+  "Assess partition behavior, selectivity, solvent ratio, contact time, settling, emulsions, interface detection and solvent recovery.": [
+   "separation-solvent-recovery"
+  ],
+  "Recycle-loop definition": [
+   "separation-solvent-recovery"
+  ],
+  "Specify recovered-solvent quality, buildup of impurities, make-up, purge, acceptable losses and compatibility with upstream production.": [
+   "separation-solvent-recovery"
+  ],
+  "Instrumentation and safety": [
+   "separation-solvent-recovery"
+  ],
+  "Define monitoring, interlocks, control of heaters/pumps/valves, materials compatibility and the responsible safety/regulatory review scope.": [
+   "separation-solvent-recovery"
+  ],
+  "Process basis": [
+   "separation-solvent-recovery"
+  ],
+  "Feed, balances, separation objectives and viable operating envelope.": [
+   "separation-solvent-recovery"
+  ],
+  "Skid and controls integration": [
+   "separation-solvent-recovery"
+  ],
+  "Equipment layout, P&amp;IDs, instrumentation, control philosophy and package boundaries.": [
+   "separation-solvent-recovery"
+  ],
+  "Acceptance evidence": [
+   "separation-solvent-recovery"
+  ],
+  "FAT and commissioning plans tied to actual recovery, quality and operating behavior where test conditions permit.": [
+   "separation-solvent-recovery"
+  ],
+  "<span1>01</span1><span>Clarify feed, purity, recovery and throughput</span>": [
+   "separation-solvent-recovery"
+  ],
+  "<span1>02</span1><span>Select or test the process route and operating envelope</span>": [
+   "separation-solvent-recovery"
+  ],
+  "<span1>03</span1><span>Develop equipment, utility and control interfaces</span>": [
+   "separation-solvent-recovery"
+  ],
+  "<span1>04</span1><span>Plan acceptance, commissioning and solvent handling</span>": [
+   "separation-solvent-recovery"
+  ],
+  "Feed composition and variability": [
+   "separation-solvent-recovery"
+  ],
+  "Target product or recovered stream specifications": [
+   "separation-solvent-recovery"
+  ],
+  "Lab or pilot operating results": [
+   "separation-solvent-recovery"
+  ],
+  "Pressure, temperature, hazard and utility constraints": [
+   "separation-solvent-recovery"
+  ],
+  "Is every solvent recovery project a distillation project?": [
+   "separation-solvent-recovery"
+  ],
+  "No. Depending on the feed and objective, separation may involve distillation, extraction, evaporation, membranes, filtration or a combination.": [
+   "separation-solvent-recovery"
+  ],
+  "Can Instron Technologies help before a final technology route is chosen?": [
+   "separation-solvent-recovery"
+  ],
+  "A scoped feasibility or basic engineering engagement can clarify requirements and open decisions; the separation technology itself may require specialist or technology-owner input.": [
+   "separation-solvent-recovery"
+  ],
+  "<span1>Explore</span1><strong>Process Skid Plants</strong>": [
+   "separation-solvent-recovery"
+  ],
+  "<span1>Explore</span1><strong>Chemicals, Refining &amp; Consumer Products</strong>": [
+   "separation-solvent-recovery"
+  ],
+  "Industrial separation assembly with vessels and connected process equipment": [
+   "separation-solvent-recovery"
+  ],
+  "Separation and solvent recovery systems engineered as a full loop: feed variation, utilities, solvent management, fouling and safe operation.": [
+   "separation-solvent-recovery"
+  ],
+  "Separation &amp; Solvent Recovery | Instron Technologies": [
+   "separation-solvent-recovery"
+  ],
+  "Separation &amp; Solvent Recovery, Instron Technologies": [
+   "separation-solvent-recovery"
+  ],
+  "<span1></span1>Industrial automation / Brownfield Automation Modernization": [
+   "brownfield-automation-modernization"
+  ],
+  "Modernize controls around the plant that must keep running.": [
+   "brownfield-automation-modernization"
+  ],
+  "Replacing an old PLC or SCADA platform is only one part of modernization.": [
+   "brownfield-automation-modernization"
+  ],
+  "Understand the installed condition before selecting the replacement.": [
+   "brownfield-automation-modernization"
+  ],
+  "A controls survey should establish what is actually connected, supported and available for a change. Drawings, software backups, network maps and field surveys may disagree. The migration basis needs to account for those differences and any production consequences.": [
+   "brownfield-automation-modernization"
+  ],
+  "Existing architecture": [
+   "brownfield-automation-modernization"
+  ],
+  "Review installed controllers, HMI/SCADA, networks, I/O, drives, package equipment and software or hardware obsolescence.": [
+   "brownfield-automation-modernization"
+  ],
+  "Migration boundaries": [
+   "brownfield-automation-modernization"
+  ],
+  "Decide what remains, what is replaced, whether transition is phased and what temporary operation is permitted.": [
+   "brownfield-automation-modernization"
+  ],
+  "Operator and maintenance needs": [
+   "brownfield-automation-modernization"
+  ],
+  "Include alarms, manual/automatic modes, restart paths, diagnostics, naming standards, backups and supportability.": [
+   "brownfield-automation-modernization"
+  ],
+  "Cutover and recovery": [
+   "brownfield-automation-modernization"
+  ],
+  "Document FAT, field checks, shutdown sequencing, rollback options, commissioning responsibility and as-built handover.": [
+   "brownfield-automation-modernization"
+  ],
+  "Assessment": [
+   "brownfield-automation-modernization"
+  ],
+  "Site survey, source files, control system state and known operational bottlenecks.": [
+   "brownfield-automation-modernization"
+  ],
+  "Engineering and FAT": [
+   "brownfield-automation-modernization"
+  ],
+  "Defined interfaces, revised logic/display behavior and test records before plant cutover.": [
+   "brownfield-automation-modernization"
+  ],
+  "Commissioning and handover": [
+   "brownfield-automation-modernization"
+  ],
+  "Transition plan, responsible sign-offs, recovery approach and documentation for operations.": [
+   "brownfield-automation-modernization"
+  ],
+  "<span1>01</span1><span>Survey installed controls and site constraints</span>": [
+   "brownfield-automation-modernization"
+  ],
+  "<span1>02</span1><span>Confirm target architecture and migration boundaries</span>": [
+   "brownfield-automation-modernization"
+  ],
+  "<span1>03</span1><span>Develop and test the revised system offline where possible</span>": [
+   "brownfield-automation-modernization"
+  ],
+  "<span1>04</span1><span>Execute the cutover and confirm operating acceptance</span>": [
+   "brownfield-automation-modernization"
+  ],
+  "PLC/HMI/SCADA make, model and versions": [
+   "brownfield-automation-modernization"
+  ],
+  "Backups, drawings, I/O and network details": [
+   "brownfield-automation-modernization"
+  ],
+  "Known downtime/reliability problems and operator concerns": [
+   "brownfield-automation-modernization"
+  ],
+  "Shutdown windows, site standards and IT/OT constraints": [
+   "brownfield-automation-modernization"
+  ],
+  "Can an upgrade be completed without a plant shutdown?": [
+   "brownfield-automation-modernization"
+  ],
+  "That cannot be assumed. Some work can be prepared or tested offline, but the need for an outage depends on the physical interfaces, architecture and acceptance plan.": [
+   "brownfield-automation-modernization"
+  ],
+  "Should the new controller replicate existing logic exactly?": [
+   "brownfield-automation-modernization"
+  ],
+  "Not always. The operating requirements, safety boundaries and approved change scope should determine what is preserved, improved or retired.": [
+   "brownfield-automation-modernization"
+  ],
+  "<span1>Explore</span1><strong>Industrial Automation</strong>": [
+   "brownfield-automation-modernization"
+  ],
+  "<span1>Explore</span1><strong>Batch &amp; Process Automation</strong>": [
+   "brownfield-automation-modernization"
+  ],
+  "Industrial terminal and commissioning cabinet with labeled field wiring": [
+   "brownfield-automation-modernization"
+  ],
+  "Modernize old PLC and SCADA systems in a plant that must keep running, starting from the installed logic, equipment and shutdown windows.": [
+   "brownfield-automation-modernization"
+  ],
+  "Brownfield PLC &amp; SCADA Modernization | Instron Technologies": [
+   "brownfield-automation-modernization"
+  ],
+  "Brownfield Automation Modernization, Instron Technologies": [
+   "brownfield-automation-modernization"
+  ],
+  "Process skid plants are our core solution. Industrial automation and {PlantON} are delivered with them, or on their own in operating plants.": [
+   "solutions"
+  ],
+  "Three solutions, one engineering team": [
+   "solutions"
+  ],
+  "Core solution": [
+   "solutions"
+  ],
+  "From pilot and demonstration plants to industrial implementation, engineered and built as one integrated process system.": [
+   "solutions"
+  ],
+  "<a1>Pilot &amp; Demonstration Plants</a1>": [
+   "solutions"
+  ],
+  "<a1>Industrial Process Skids</a1>": [
+   "solutions"
+  ],
+  "With our skids or on its own": [
+   "solutions"
+  ],
+  "PLC, HMI and SCADA engineering, electrical and instrumentation design, control-system integration and modernization. Built into our Process Skid Plant projects, and delivered on its own for operating plants, OEMs and industrial facilities.": [
+   "solutions"
+  ],
+  "{PlantON} connects plant data for production monitoring, OEE, utility and energy monitoring, trends, KPIs, dashboards, alarms and reporting. It comes with new Process Skid Plants or runs on its own across existing operations.": [
+   "solutions"
+  ],
+  "Let's Discuss Your Engineering Requirements": [
+   "solutions"
+  ],
+  "Whether your project involves a pilot plant, an industrial process skid, an automation system or {PlantON}, talk to our team about the application and the right engineering scope.": [
+   "solutions"
+  ],
+  "Process pipework, instruments and a control enclosure": [
+   "solutions"
+  ],
+  "Three solutions from one engineering team: process skid plants, industrial automation and controls, and PlantON™ by Instron Technologies for plant data.": [
+   "solutions"
+  ],
+  "Process Skids, Automation &amp; Plant Data | Instron Technologies": [
+   "solutions"
+  ],
+  "Solutions, Instron Technologies": [
+   "solutions"
+  ],
+  "From laboratory development to engineered process validation": [
+   "pilot-demonstration-plants"
+  ],
+  "Pilot Plants &amp; Demonstration Plants": [
+   "pilot-demonstration-plants"
+  ],
+  "Instron Technologies engineers integrated pilot and demonstration systems for research organizations, technology developers and industrial R&amp;D teams, combining process systems, instrumentation, automation and data collection for controlled trials, technology evaluation and informed scale-up decisions.": [
+   "pilot-demonstration-plants"
+  ],
+  "Discuss Your Pilot Project": [
+   "pilot-demonstration-plants"
+  ],
+  "Explore Engineering Scope": [
+   "pilot-demonstration-plants"
+  ],
+  "From science to operable equipment": [
+   "pilot-demonstration-plants"
+  ],
+  "Research and pilot systems": [
+   "pilot-demonstration-plants"
+  ],
+  "A pilot system is engineered around what the test program needs to show.": [
+   "pilot-demonstration-plants"
+  ],
+  "Process validation": [
+   "pilot-demonstration-plants"
+  ],
+  "Evaluate process behaviour under defined operating conditions.": [
+   "pilot-demonstration-plants"
+  ],
+  "Experimental flexibility": [
+   "pilot-demonstration-plants"
+  ],
+  "Accommodate planned changes in operating parameters, sequences and test conditions.": [
+   "pilot-demonstration-plants"
+  ],
+  "Instrumentation and measurement": [
+   "pilot-demonstration-plants"
+  ],
+  "Collect the process information needed to evaluate system performance.": [
+   "pilot-demonstration-plants"
+  ],
+  "Operating data collection": [
+   "pilot-demonstration-plants"
+  ],
+  "Record experimental observations, process trends and operating results.": [
+   "pilot-demonstration-plants"
+  ],
+  "Engineering for future scale-up": [
+   "pilot-demonstration-plants"
+  ],
+  "Use findings from pilot trials to inform the next engineering and demonstration stage.": [
+   "pilot-demonstration-plants"
+  ],
+  "Proven in refinery research": [
+   "pilot-demonstration-plants"
+  ],
+  "Pilot systems for oil and gas refinery research centres: gas purification, amine CO₂ capture and membrane hydrogen separation up to 50 barg, and a milli-channel reactor setup.<br><a1>Read the case study</a1>": [
+   "pilot-demonstration-plants"
+  ],
+  "Scale-up readiness": [
+   "pilot-demonstration-plants"
+  ],
+  "Demonstration systems": [
+   "pilot-demonstration-plants"
+  ],
+  "For technologies that need to operate beyond bench scale under more representative process, utility, control or site conditions before a larger investment or transfer decision. A demonstration system tests:": [
+   "pilot-demonstration-plants"
+  ],
+  "Extended operating performance": [
+   "pilot-demonstration-plants"
+  ],
+  "Process behaviour across longer or repeated operating campaigns.": [
+   "pilot-demonstration-plants"
+  ],
+  "System integration": [
+   "pilot-demonstration-plants"
+  ],
+  "Interaction between process equipment, controls, utilities and supporting systems.": [
+   "pilot-demonstration-plants"
+  ],
+  "Operational requirements": [
+   "pilot-demonstration-plants"
+  ],
+  "Startup, shutdown, monitoring, maintenance and operating procedures.": [
+   "pilot-demonstration-plants"
+  ],
+  "Industrial readiness": [
+   "pilot-demonstration-plants"
+  ],
+  "Technical information needed to evaluate the next stage of scale-up or implementation.": [
+   "pilot-demonstration-plants"
+  ],
+  "One connected engineering basis": [
+   "pilot-demonstration-plants"
+  ],
+  "Engineering layers for experimental systems": [
+   "pilot-demonstration-plants"
+  ],
+  "Each layer is engineered for the test program, not for a fixed production duty.": [
+   "pilot-demonstration-plants"
+  ],
+  "Process and equipment design": [
+   "pilot-demonstration-plants"
+  ],
+  "Develop the experimental process configuration, equipment duties, operating limits and system interfaces.": [
+   "pilot-demonstration-plants"
+  ],
+  "Select and integrate the measurements needed for experimental evaluation, process control and operating data.": [
+   "pilot-demonstration-plants"
+  ],
+  "Automation and experimental control": [
+   "pilot-demonstration-plants"
+  ],
+  "Configure operating sequences, control loops, setpoints, alarms and operator interfaces for the test program.": [
+   "pilot-demonstration-plants"
+  ],
+  "Data collection and reporting": [
+   "pilot-demonstration-plants"
+  ],
+  "Capture selected experimental parameters, operating trends and reports for technical evaluation.": [
+   "pilot-demonstration-plants"
+  ],
+  "Decision-useful deliverables": [
+   "pilot-demonstration-plants"
+  ],
+  "What the engineering package may include": [
+   "pilot-demonstration-plants"
+  ],
+  "The engineering package is shaped around the test program and may include:": [
+   "pilot-demonstration-plants"
+  ],
+  "Experimental and operating requirements": [
+   "pilot-demonstration-plants"
+  ],
+  "Process design basis, PFDs and P&amp;IDs": [
+   "pilot-demonstration-plants"
+  ],
+  "Equipment and instrument specifications": [
+   "pilot-demonstration-plants"
+  ],
+  "Measurement and control architecture": [
+   "pilot-demonstration-plants"
+  ],
+  "Equipment arrangements and utility interfaces": [
+   "pilot-demonstration-plants"
+  ],
+  "Test procedures and acceptance criteria": [
+   "pilot-demonstration-plants"
+  ],
+  "Data collection and reporting requirements": [
+   "pilot-demonstration-plants"
+  ],
+  "Testing, commissioning and handover documentation": [
+   "pilot-demonstration-plants"
+  ],
+  "Acceptance and commissioning": [
+   "pilot-demonstration-plants"
+  ],
+  "FAT should test the interfaces that will matter at startup": [
+   "pilot-demonstration-plants"
+  ],
+  "Factory acceptance testing is most useful when it is tied to the agreed operating and control basis rather than treated as a generic inspection.": [
+   "pilot-demonstration-plants"
+  ],
+  "Site acceptance and commissioning then address the interfaces that cannot be proven fully before installation: utilities, tie-ins, site equipment, real process behaviour, tuning, operator interaction and final handover requirements.": [
+   "pilot-demonstration-plants"
+  ],
+  "Further reading": [
+   "pilot-demonstration-plants"
+  ],
+  "Related process-systems routes": [
+   "pilot-demonstration-plants"
+  ],
+  "See How We Work": [
+   "pilot-demonstration-plants"
+  ],
+  "From lab to pilot to industrial": [
+   "pilot-demonstration-plants"
+  ],
+  "Technology Scale-Up &amp; Commercialization": [
+   "pilot-demonstration-plants"
+  ],
+  "<a1><b>Carbon capture and hydrogen pilots for refinery research, India</b><span>5 LPH, 50 barg, 500 I/O</span><em>Read the case study</em></a1>": [
+   "pilot-demonstration-plants"
+  ],
+  "Planning a Pilot or Demonstration Project?": [
+   "pilot-demonstration-plants"
+  ],
+  "Share your technology application, current development stage, experimental objectives and available process information, and our team will discuss the engineering requirements and scope for your pilot or demonstration system.": [
+   "pilot-demonstration-plants"
+  ],
+  "Pilot systems we have built": [
+   "pilot-demonstration-plants"
+  ],
+  "Pilot-scale test equipment": [
+   "pilot-demonstration-plants"
+  ],
+  "Pilot plants and demonstration plants for research centres, refinery R&amp;D and technology developers, built for controlled trials and scale-up decisions.": [
+   "pilot-demonstration-plants"
+  ],
+  "Pilot Plants &amp; Demonstration Plants | Instron Technologies": [
+   "pilot-demonstration-plants"
+  ],
+  "Pilot Plants &amp; Demonstration Plants, Instron Technologies": [
+   "pilot-demonstration-plants"
+  ],
+  "Modular production | Integration": [
+   "industrial-process-skids"
+  ],
+  "Instron Technologies engineers and integrates modular process skids for defined production and processing duties, combining process engineering, equipment integration, mechanical systems, instrumentation and automation for reliable operation on your site.": [
+   "industrial-process-skids"
+  ],
+  "Discuss Your Process Requirements": [
+   "industrial-process-skids"
+  ],
+  "Typical applications": [
+   "industrial-process-skids"
+  ],
+  "Modular process systems for industrial applications": [
+   "industrial-process-skids"
+  ],
+  "Industrial Process Skids bring related process equipment and supporting systems together in an engineered modular arrangement.": [
+   "industrial-process-skids"
+  ],
+  "Reaction and mixing": [
+   "industrial-process-skids"
+  ],
+  "Integrated systems for reaction, blending and mixing duties.": [
+   "industrial-process-skids"
+  ],
+  "Dosing and formulation": [
+   "industrial-process-skids"
+  ],
+  "Controlled material addition and formulation processes.": [
+   "industrial-process-skids"
+  ],
+  "Distillation and solvent recovery": [
+   "industrial-process-skids"
+  ],
+  "Separation and recovery systems for chemical and industrial applications.": [
+   "industrial-process-skids"
+  ],
+  "Filtration and separation": [
+   "industrial-process-skids"
+  ],
+  "Engineered equipment arrangements for fluid treatment and separation duties.": [
+   "industrial-process-skids"
+  ],
+  "Heating and cooling": [
+   "industrial-process-skids"
+  ],
+  "Thermal-process systems integrating equipment, utilities and controls.": [
+   "industrial-process-skids"
+  ],
+  "Gas and fluid handling": [
+   "industrial-process-skids"
+  ],
+  "Process systems for fluid transfer, pressure management and gas-handling duties.": [
+   "industrial-process-skids"
+  ],
+  "Integrated system architecture": [
+   "industrial-process-skids"
+  ],
+  "Five engineering areas, one system": [
+   "industrial-process-skids"
+  ],
+  "Each area is defined together with the others, so the skid works as one system on site.": [
+   "industrial-process-skids"
+  ],
+  "Process and equipment engineering": [
+   "industrial-process-skids"
+  ],
+  "Define operating conditions, equipment functions, process flow and required utilities.": [
+   "industrial-process-skids"
+  ],
+  "Mechanical and modular design": [
+   "industrial-process-skids"
+  ],
+  "Develop equipment arrangement, skid layout, piping, access and maintenance requirements.": [
+   "industrial-process-skids"
+  ],
+  "Integrate process measurements, control devices, PLC/HMI systems and operating sequences.": [
+   "industrial-process-skids"
+  ],
+  "Facility and system integration": [
+   "industrial-process-skids"
+  ],
+  "Define utility connections, equipment interfaces, installation requirements and project responsibilities.": [
+   "industrial-process-skids"
+  ],
+  "Testing and handover": [
+   "industrial-process-skids"
+  ],
+  "Set inspection, acceptance, commissioning and documentation requirements.": [
+   "industrial-process-skids"
+  ],
+  "Equipment classes": [
+   "industrial-process-skids"
+  ],
+  "Depending on the process, modular skids may integrate:": [
+   "industrial-process-skids"
+  ],
+  "Reactors and process vessels": [
+   "industrial-process-skids"
+  ],
+  "Filtration and separation equipment": [
+   "industrial-process-skids"
+  ],
+  "Heat-transfer systems": [
+   "industrial-process-skids"
+  ],
+  "Pumps, piping and valves": [
+   "industrial-process-skids"
+  ],
+  "Process instrumentation": [
+   "industrial-process-skids"
+  ],
+  "Electrical and automation systems": [
+   "industrial-process-skids"
+  ],
+  "Equipment selection depends on the application, operating requirements and agreed engineering scope.": [
+   "industrial-process-skids"
+  ],
+  "Engineering and acceptance": [
+   "industrial-process-skids"
+  ],
+  "Buildable and testable deliverables": [
+   "industrial-process-skids"
+  ],
+  "Our engineering supports coordinated procurement, fabrication, integration and testing through defined technical documentation, grouped in four packages: process; mechanical and skid; electrical, instrumentation and controls; and testing and handover.": [
+   "industrial-process-skids"
+  ],
+  "<a1>See the four packages</a1>": [
+   "industrial-process-skids"
+  ],
+  "Controls and operating interfaces": [
+   "industrial-process-skids"
+  ],
+  "Controls and data should not be late additions": [
+   "industrial-process-skids"
+  ],
+  "Automation and monitoring requirements are best set alongside the process-system design. Early coordination defines instrument selection, operating sequences, alarms, interlocks, control-system interfaces and data requirements.": [
+   "industrial-process-skids"
+  ],
+  "Our <a1>Industrial Automation</a1> team handles control-system engineering, and <a2>{PlantON} by Instron Technologies</a2> adds monitoring, trending and reporting where needed.": [
+   "industrial-process-skids"
+  ],
+  "Scope-specific qualification": [
+   "industrial-process-skids"
+  ],
+  "Safety and responsibility boundaries": [
+   "industrial-process-skids"
+  ],
+  "Industrial process skids are engineered around the process hazards, operating conditions, equipment limits and installation requirements. Safety requirements, applicable standards, testing obligations and site responsibilities are set for each application and contract.": [
+   "industrial-process-skids"
+  ],
+  "<a1><b>Steam quality analyzer skids, USA and Kuwait</b><span>512 kg/h, 15% energy saved</span><em>Read the case study</em></a1>": [
+   "industrial-process-skids"
+  ],
+  "<a1><b>API extraction and CSTR units, India and Australia</b><span>+12% batch output, 99.9% purity</span><em>Read the case study</em></a1>": [
+   "industrial-process-skids"
+  ],
+  "<a1><b>Automated API process skid, India</b><span>+24% batches, 96% solvent recovery</span><em>Read the case study</em></a1>": [
+   "industrial-process-skids"
+  ],
+  "Discuss Your Industrial Process Skid Requirements": [
+   "industrial-process-skids"
+  ],
+  "Planning a modular processing system for an industrial facility? Share your application, required capacity, available utilities and integration requirements, and our team will help define the right engineering scope.": [
+   "industrial-process-skids"
+  ],
+  "Discuss Your Industrial Skid Project": [
+   "industrial-process-skids"
+  ],
+  "Industrial skids we have built": [
+   "industrial-process-skids"
+  ],
+  "Modular process skids for defined production duties: process engineering, equipment, instrumentation and automation for reliable operation on your site.": [
+   "industrial-process-skids"
+  ],
+  "Industrial Process Skids | Instron Technologies": [
+   "industrial-process-skids"
+  ],
+  "Industrial Process Skids, Instron Technologies": [
+   "industrial-process-skids"
+  ],
+  "Applications we engineer": [
+   "applications"
+  ],
+  "Read overview": [
+   "applications"
+  ],
+  "A working experiment does not settle the questions behind demonstration or commercial deployment. The next system must account for equipment, utilities, instrumentation, operating ranges, maintainability, safety and the evidence needed to make the next investment decision.": [
+   "applications"
+  ],
+  "Separation &amp; Solvent Recovery": [
+   "applications"
+  ],
+  "Recovery and product purity matter, but so do feed variation, utilities, solvent management, fouling, operator actions and safe operation. An effective separation system is more than a column, vessel or membrane package.": [
+   "applications"
+  ],
+  "Brownfield Automation Modernization": [
+   "applications"
+  ],
+  "Replacing an old PLC or SCADA platform is only one part of modernization. The installed plant may contain undocumented logic, operator workarounds, mixed equipment, aging instruments and tight shutdown windows. A responsible upgrade starts with that operating reality.": [
+   "applications"
+  ],
+  "Batch &amp; Process Automation": [
+   "applications"
+  ],
+  "A batch may involve manual decisions, equipment-local controls, PLC sequences, recipes, material movements and data records. The automation scope should bring those steps together without hiding what the operators actually need to see and do.": [
+   "applications"
+  ],
+  "Production teams can disagree on performance even when a dashboard reports a single percentage. The definitions of running time, planned stops, counts, scrap, speed and downtime reasons determine whether the result supports a useful decision.": [
+   "applications"
+  ],
+  "A monthly total can show that a resource increased without identifying the line, batch, area, asset or condition that drove it. Useful utility monitoring begins with measurement boundaries, reliable sources and the production context needed to investigate change.": [
+   "applications"
+  ],
+  "Wired industrial control cabinet": [
+   "applications"
+  ],
+  "PlantON production visibility dashboard": [
+   "applications"
+  ],
+  "PlantON utility monitoring dashboard": [
+   "applications"
+  ],
+  "Applications we engineer: technology scale-up, separation and solvent recovery, brownfield modernization, batch automation, OEE and utility monitoring.": [
+   "applications"
+  ],
+  "Process &amp; Automation Applications | Instron Technologies": [
+   "applications"
+  ],
+  "Applications, Instron Technologies": [
+   "applications"
+  ],
+  "<a1><b>Cryogenic carbon capture pilot, Saudi Arabia</b><span>Two-stage capture, 225 I/O</span><em>Read the case study</em></a1>": [
+   "pilot-demonstration-plants"
+  ],
+  "<a1><b>Propulsion-fuel pilot plant, India</b><span>≥99% purity at 1 LPH</span><em>Read the case study</em></a1>": [
+   "pilot-demonstration-plants"
   ]
  }
 }
