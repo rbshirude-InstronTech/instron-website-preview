@@ -1,14 +1,16 @@
 # Instron Technologies — Live-Theme Preview
 
-This repo shows the new website content from the review build (v2.6, `instron-website-review`) in the look of the current live site, instrontechnologies.com. Use it to judge look and feel, and how all content and navigation would appear if the existing theme were kept.
+This repo is the new Instron Technologies website in the look of the current live site, instrontechnologies.com. It is the only build: content, look and the review tracker all live here.
 
 - It has 32 static pages, one `.html` file per page with its own web address, and real links between pages and sections. JavaScript is only needed for the dropdown menus and the contact email draft.
 - The live-site look comes from `assets/css/live-theme.css`. It covers Roboto, the navy/green top bar, white header with the green CTA, green pill buttons, `#0979AE` blue bands, curved grey sections, dark photo banners on inner pages, and the blue contact band with the photo footer.
-- Content is unchanged from review build v2.6. Only colours, fonts and the header and footer layout were changed.
 - Pages are set to `noindex,nofollow`.
 - The contact page builds an email draft locally. Nothing is sent or stored.
 
-Master content stays in `rbshirude-instrontech/instron-website-review`. This repo is a preview only.
+## Only build from 27 Nov 2026
+- This repo is the content master. The navy review site (`instron-website-review`) is retired and archived; its tracker now lives here as `review-tracker.html` (with `tracker-data.json`), linked from the About Us menu and the Website Index.
+- Edit the pages in this repo directly. `tools/sync.py` and the `tools/v2xx_*.py <review repo>` scripts below rebuilt this site from the review build and are kept for history only; do not run them.
+- Tracker "Open on preview site" links go to the real page address (`page.html#section`); "Raise a point on GitHub" opens an issue in this repo.
 
 ## IRA project map (v2.31, 26 Nov 2026, test only)
 IRA, Instron's Resource Assistant, is switched off for normal visitors. Add `?ira=1` to any page address to try it (for example `index.html?ira=1`); a plain address turns it off. While it is on, links between pages keep it on.
