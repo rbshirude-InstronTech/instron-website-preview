@@ -44,10 +44,18 @@ Courriel (not e-mail), "Nous joindre", Quebec spacing for numbers (1 000, 15 %),
 | FAT / SAT | FAT / SAT (essais en usine / essais sur site) |
 | control panel | panneau de commande |
 | utilities | utilités |
-| EHS | SST et environnement |
+| EHS | santé, sécurité et environnement (SSE) |
+| API (active pharmaceutical ingredient) | IPA (ingrédient pharmaceutique actif); in French "API" means a PLC |
+| pilot (the plant) | usine pilote / unité pilote, never "pilote" alone |
+| QA/QC | AQ/CQ |
 | Let's grow together | Grandissons ensemble |
 | Independent company, not affiliated with Instron® (ITW) | Société indépendante, non affiliée à Instron® (ITW) |
 | Engineer \| Embrace \| Elevate | kept in English (see decisions) |
+
+## QA pass (27 Nov 2026)
+Reviewer role: bilingual process and automation engineer. Checked all 1,056 strings for numbers, units and standards (EN vs FR), protected names (PlantON™, platforms, standards, entities), terminology, Quebec usage and typography, then all 8 pages at 1024, 1180, 1280, 1366 and 390 px.
+Fixed: "API" (pharma) changed to IPA, because API means a PLC in French; "pilote" alone changed to "usine pilote" / "unité pilote"; EHS changed to SSE; "Les résultats de laboratoire ne prouvent pas l’échelle" reworded; "01 / Sujet" changed to "01 / Politique"; four page titles shortened to 65 characters or less; privacy sub-menu labels shortened (they wrapped and the last one was cut off on desktop); spacing before % made non-breaking; "site torontois" changed to "site de Toronto".
+Clean: no number, unit or standard changed meaning; no English left (except legal names of foreign laws, kept on purpose); no long dashes; no overflow on any page; menus, language switch and email draft work in French; no console errors.
 
 ## Open decisions before French goes live
 1. **Tagline** kept in English everywhere. Ask the legal reviewer whether it needs a French version on French pages under Quebec's Charter of the French Language.
