@@ -81,12 +81,12 @@ index,,<small>05</small>Utilities & site,<small>05</small>Utilités et site
 index,,<small>06</small>FAT / SAT acceptance,<small>06</small>Acceptation FAT / SAT
 index,,<span>Engineered together as one engineering basis</span>,<span>Conçus ensemble sur une même base d’ingénierie</span>
 index,,Lab results don’t prove scale,Un résultat de laboratoire ne garantit pas la mise à l’échelle
-index,,"Throughput, purity, stability and equipment duty still have to be demonstrated before the next investment decision.","Le débit, la pureté, la stabilité et la fonction des équipements doivent encore être démontrés avant la prochaine décision d’investissement."
+index,,"Throughput, purity, stability and equipment duty still have to be demonstrated before the next investment decision.","Le débit, la pureté, la stabilité et la tenue en service des équipements doivent encore être démontrés avant la prochaine décision d’investissement."
 index,,Interfaces are left undefined,Les interfaces restent mal définies
 index,,"Equipment, instruments, controls, utilities and site connections are specified separately, not as one system.","Équipements, instruments, contrôle, utilités et raccordements au site sont spécifiés séparément, et non comme un seul système."
 index,,Acceptance is agreed too late,L’acceptation est convenue trop tard
 index,,"What must be demonstrated at FAT, SAT or commissioning is not settled before hardware is bought.","Ce qui doit être démontré lors des essais FAT, SAT ou de la mise en service n’est pas fixé avant l’achat du matériel."
-index,,Pilot learning is lost,Les acquis du pilote se perdent
+index,,Pilot learning is lost,Les acquis de l’usine pilote se perdent
 index,,"Lessons from trials never become the standards, test criteria and procedures the next stage needs.","Les leçons des essais ne deviennent jamais les normes, critères d’essai et procédures dont l’étape suivante a besoin."
 index,,Define the process basis first. Then make every major system element support it.,Définissez d’abord la base de procédé. Faites ensuite en sorte que chaque élément majeur du système la soutienne.
 index,,Our core solution,Notre solution principale
@@ -265,10 +265,10 @@ process-skid-plants,,"Modular process systems for defined production duties, wit
 process-skid-plants,,Explore Industrial Process Skids,Découvrir les skids de procédé industriels
 process-skid-plants,,Applications and system functions,Applications et fonctions des systèmes
 process-skid-plants,,Relevant process applications,Applications de procédé pertinentes
-process-skid-plants,,"Process systems for gas handling, separation and treatment, at experimental or industrial scale.","Systèmes de procédé pour la manutention, la séparation et le traitement des gaz, à l’échelle expérimentale ou industrielle."
+process-skid-plants,,"Process systems for gas handling, separation and treatment, at experimental or industrial scale.","Systèmes de procédé pour la manipulation, la séparation et le traitement des gaz, à l’échelle expérimentale ou industrielle."
 process-skid-plants,,"Engineered systems for material treatment, extraction, recovery and process development.","Systèmes conçus pour le traitement des matières, l’extraction, la récupération et le développement de procédés."
 process-skid-plants,,"Integrated systems for solvent separation, purification and recovery.","Systèmes intégrés de séparation, de purification et de récupération des solvants."
-process-skid-plants,,"Process systems for hydrogen processing, gas handling and electrochemical applications.","Systèmes de procédé pour la transformation de l’hydrogène, la manutention des gaz et les applications électrochimiques."
+process-skid-plants,,"Process systems for hydrogen processing, gas handling and electrochemical applications.","Systèmes de procédé pour le traitement de l’hydrogène, la manipulation des gaz et les applications électrochimiques."
 process-skid-plants,,Systems for membrane-based and other specialized separation processes.,Systèmes de séparation par membranes et autres procédés de séparation spécialisés.
 process-skid-plants,,"Modular systems for extraction, chemical processing and application-specific treatment.","Systèmes modulaires d’extraction, de transformation chimique et de traitement propre à chaque application."
 process-skid-plants,,Boundary: Application examples describe areas where the engineering model can apply. They are not universal process-range or performance claims.,Limite : les exemples d’application décrivent des domaines où le modèle d’ingénierie peut s’appliquer. Ils ne constituent pas des affirmations universelles sur les plages de procédé ou la performance.
@@ -280,9 +280,9 @@ process-skid-plants,,Process · equipment · instrumentation · controls · data
 process-skid-plants,,Process engineering,Ingénierie de procédé
 process-skid-plants,,"Define process requirements, material flows, operating conditions, equipment duties and major utilities.","Définir les exigences du procédé, les flux de matières, les conditions d’exploitation, les fonctions des équipements et les principales utilités."
 process-skid-plants,,Mechanical and skid engineering,Ingénierie mécanique et de skid
-process-skid-plants,,"Develop equipment arrangements, piping layouts, modular structures and maintenance access.","Élaborer les dispositions des équipements, les tracés de tuyauterie, les structures modulaires et l’accès pour l’entretien."
+process-skid-plants,,"Develop equipment arrangements, piping layouts, modular structures and maintenance access.","Élaborer l’implantation des équipements, le tracé de la tuyauterie, les structures modulaires et l’accès pour l’entretien."
 process-skid-plants,,Instrumentation engineering,Ingénierie d’instrumentation
-process-skid-plants,,"Specify measurement and control devices for the process conditions, accuracy and operating requirements.","Spécifier les appareils de mesure et de contrôle selon les conditions du procédé, la précision et les exigences d’exploitation."
+process-skid-plants,,"Specify measurement and control devices for the process conditions, accuracy and operating requirements.","Spécifier les appareils de mesure et de régulation selon les conditions du procédé, la précision et les exigences d’exploitation."
 process-skid-plants,,Automation and controls,Automatisation et contrôle
 process-skid-plants,,"Develop control philosophies, operating sequences, alarms, interlocks, HMI and PLC/SCADA integration.","Élaborer les philosophies de contrôle, les séquences d’exploitation, les alarmes, les verrouillages, l’HMI et l’intégration PLC/SCADA."
 process-skid-plants,,Process data and monitoring,Données de procédé et suivi
@@ -293,9 +293,9 @@ process-skid-plants,,Typical engineered scope,Portée d’ingénierie type
 process-skid-plants,,Engineering deliverables,Livrables d’ingénierie
 process-skid-plants,,The exact deliverable set depends on project stage and scope. Typical engineering outputs are grouped in four packages.,L’ensemble exact des livrables dépend de l’étape et de la portée du projet. Les livrables d’ingénierie types sont regroupés en quatre dossiers.
 process-skid-plants,,Process engineering package,Dossier d’ingénierie de procédé
-process-skid-plants,,"Process description, design basis, process flow diagrams, P&IDs, major calculations and equipment specifications.","Description du procédé, base de conception, schémas de procédé, P&ID, principaux calculs et spécifications des équipements."
+process-skid-plants,,"Process description, design basis, process flow diagrams, P&IDs, major calculations and equipment specifications.","Description du procédé, base de conception, schémas de procédé (PFD), P&ID, principaux calculs et spécifications des équipements."
 process-skid-plants,,Mechanical and skid engineering package,Dossier d’ingénierie mécanique et de skid
-process-skid-plants,,"Equipment arrangements, piping and mechanical layouts, skid design documentation and integration requirements.","Dispositions des équipements, plans de tuyauterie et mécaniques, documentation de conception du skid et exigences d’intégration."
+process-skid-plants,,"Equipment arrangements, piping and mechanical layouts, skid design documentation and integration requirements.","Implantation des équipements, plans de tuyauterie et mécaniques, documentation de conception du skid et exigences d’intégration."
 process-skid-plants,,"Electrical, instrumentation and controls package","Dossier électrique, instrumentation et contrôle"
 process-skid-plants,,"Instrument specifications, I/O lists, electrical drawings, control philosophy and automation documentation.","Spécifications des instruments, listes d’E/S, schémas électriques, philosophie de contrôle et documentation d’automatisation."
 process-skid-plants,,Testing and handover package,Dossier d’essais et de remise
@@ -308,8 +308,8 @@ process-skid-plants,,Instron Technologies does not present one standard skid as 
 process-skid-plants,,Reactors & Process Vessels,Réacteurs et cuves de procédé
 process-skid-plants,,Separation & Filtration Systems,Systèmes de séparation et de filtration
 process-skid-plants,,Heat Transfer & Thermal Systems,Transfert de chaleur et systèmes thermiques
-process-skid-plants,,"Piping, Valves & Fluid Handling","Tuyauterie, robinetterie et manutention des fluides"
-process-skid-plants,,Instrumentation & Sensing,Instrumentation et détection
+process-skid-plants,,"Piping, Valves & Fluid Handling","Tuyauterie, robinetterie et transfert des fluides"
+process-skid-plants,,Instrumentation & Sensing,Instrumentation et capteurs
 process-skid-plants,,Electrical & Automation Controls,Commandes électriques et d’automatisation
 process-skid-plants,,Questions and scope boundaries,Questions et limites de portée
 process-skid-plants,industrial-automation planton-digital-factory,Frequently asked questions,Foire aux questions
@@ -320,11 +320,11 @@ process-skid-plants,,"Yes, when there is enough scientific or process ownership 
 process-skid-plants,,Does every project include fabrication and equipment supply?,Chaque projet comprend-il la fabrication et la fourniture des équipements?
 process-skid-plants,,"No. Scope is project-specific. Instron Technologies’ role may be engineering only, engineering plus procurement/integration, controls and data integration, or a broader system package. The fabrication, procurement, inspection and site responsibilities must be defined explicitly rather than assumed.","Non. La portée est propre à chaque projet. Le rôle d’Instron Technologies peut se limiter à l’ingénierie, comprendre l’ingénierie avec l’approvisionnement et l’intégration, l’intégration du contrôle et des données, ou un ensemble de système plus large. Les responsabilités de fabrication, d’approvisionnement, d’inspection et de site doivent être définies explicitement plutôt que présumées."
 process-skid-plants,,Can existing equipment or specialist OEM packages be integrated?,Peut-on intégrer des équipements existants ou des ensembles d’OEM spécialisés?
-process-skid-plants,,"Often, yes. The project should define battery limits, mechanical/process interfaces, controls, communications, safety responsibilities, utilities, documentation and acceptance requirements for each package.","Souvent, oui. Le projet doit définir, pour chaque ensemble, les limites de fourniture, les interfaces mécaniques et de procédé, le contrôle, les communications, les responsabilités en matière de sécurité, les utilités, la documentation et les exigences d’acceptation."
+process-skid-plants,,"Often, yes. The project should define battery limits, mechanical/process interfaces, controls, communications, safety responsibilities, utilities, documentation and acceptance requirements for each package.","Souvent, oui. Le projet doit définir, pour chaque ensemble, les limites de batterie, les interfaces mécaniques et de procédé, le contrôle, les communications, les responsabilités en matière de sécurité, les utilités, la documentation et les exigences d’acceptation."
 process-skid-plants,,<span1>Can automation and {PlantON} be included?</span1>,<span1>Peut-on inclure l’automatisation et {PlantON}?</span1>
 process-skid-plants,,"Yes, where relevant. Controls can be engineered as part of the process-system scope, and {PlantON} can be considered for selected operating, experiment, traceability or reporting requirements. Neither should be added simply because the technology is available; they should serve the process and operating objective.","Oui, lorsque c’est pertinent. Le contrôle peut être conçu dans la portée du système de procédé, et {PlantON} peut être envisagé pour certains besoins d’exploitation, d’expérimentation, de traçabilité ou de rapports. Ni l’un ni l’autre ne devrait être ajouté simplement parce que la technologie existe; ils doivent servir le procédé et l’objectif d’exploitation."
 process-skid-plants,,Does pilot testing guarantee scale-up?,Les essais pilotes garantissent-ils la mise à l’échelle?
-process-skid-plants,,No. A pilot can improve the engineering basis by generating operating evidence and exposing scale-dependent behaviour. Scale-up still requires engineering judgement and project-specific analysis.,Non. Un pilote peut améliorer la base d’ingénierie en produisant des données d’exploitation et en révélant les comportements qui dépendent de l’échelle. La mise à l’échelle exige tout de même un jugement d’ingénierie et une analyse propre au projet.
+process-skid-plants,,No. A pilot can improve the engineering basis by generating operating evidence and exposing scale-dependent behaviour. Scale-up still requires engineering judgement and project-specific analysis.,Non. Une usine pilote peut améliorer la base d’ingénierie en produisant des données d’exploitation et en révélant les comportements qui dépendent de l’échelle. La mise à l’échelle exige tout de même un jugement d’ingénierie et une analyse propre au projet.
 process-skid-plants,,Selected work,Travaux choisis
 process-skid-plants,,Case studies from this work,Études de cas tirées de ces travaux
 process-skid-plants,industrial-automation planton-digital-factory,Client names are withheld. References are available on request.,Les noms des clients ne sont pas divulgués. Des références sont disponibles sur demande.
@@ -404,7 +404,7 @@ industrial-automation,,Electrical & instrumentation,Électricité et instrumenta
 industrial-automation,,"E&I design and selection, from the process up","Conception et sélection É-I, à partir du procédé"
 industrial-automation,,"The control system is only as reliable as the measurement and wiring behind it, so instruments and electrical design start from the process, not a vendor catalogue.","Un système de contrôle n’est fiable que si la mesure et le câblage qui le soutiennent le sont aussi. C’est pourquoi l’instrumentation et la conception électrique partent du procédé, et non du catalogue d’un fournisseur."
 industrial-automation,,"Labelled field wiring, ready for loop checks.","Câblage de terrain identifié, prêt pour la vérification des boucles."
-industrial-automation,,"<strong>Instrument selection</strong>Measuring principle, range, accuracy, response and wetted materials, matched to process conditions, hygienic or hazardous-area needs and the decision each signal supports.","<strong>Sélection des instruments</strong>Principe de mesure, plage, précision, temps de réponse et matériaux en contact, adaptés aux conditions du procédé, aux exigences sanitaires ou de zones dangereuses et à la décision que chaque signal appuie."
+industrial-automation,,"<strong>Instrument selection</strong>Measuring principle, range, accuracy, response and wetted materials, matched to process conditions, hygienic or hazardous-area needs and the decision each signal supports.","<strong>Sélection des instruments</strong>Principe de mesure, plage, précision, temps de réponse et matériaux en contact, adaptés aux conditions du procédé, aux exigences de conception hygiénique ou de zones dangereuses et à la décision que chaque signal appuie."
 industrial-automation,,"<strong>Instrument documentation</strong>Specifications and data sheets, instrument and I/O lists, and the signal, power and communication details for every device.","<strong>Documentation des instruments</strong>Spécifications et fiches techniques, listes d’instruments et d’E/S, et détails de signal, d’alimentation et de communication pour chaque appareil."
 industrial-automation,,"<strong>Electrical design</strong>I/O and load definition, motor and VFD interfaces, cable schedules, termination details, grounding, shielding and segregation.","<strong>Conception électrique</strong>Définition des E/S et des charges, interfaces des moteurs et des variateurs de fréquence (VFD), listes de câbles, détails de raccordement, mise à la terre, blindage et ségrégation."
 industrial-automation,,"<strong>Control panels</strong>Component selection, layout and wire identification; UL 508A, CSA or CE approval for your market; power-up, I/O checks and functional simulation before shipment.","<strong>Panneaux de commande</strong>Sélection des composants, disposition et identification des fils; homologation UL 508A, CSA ou CE selon votre marché; mise sous tension, vérification des E/S et simulation fonctionnelle avant l’expédition."
@@ -418,7 +418,7 @@ industrial-automation,,21 CFR Part 11,21 CFR Part 11
 industrial-automation,,GAMP 5,GAMP 5
 industrial-automation,,IQ / OQ,IQ / OQ
 industrial-automation,,S88 batch architecture,Architecture de lots S88
-industrial-automation,,"The physical model (units, equipment and control modules) kept separate from the procedural model (procedures, operations, phases).","Le modèle physique (unités, modules d’équipement et de contrôle) est séparé du modèle procédural (procédures, opérations, phases)."
+industrial-automation,,"The physical model (units, equipment and control modules) kept separate from the procedural model (procedures, operations, phases).","Le modèle physique (unités, modules d’équipement et modules de commande) est séparé du modèle procédural (procédures, opérations, phases)."
 industrial-automation,,Recipes and phases,Recettes et phases
 industrial-automation,,"Parameterized recipes; reusable phases for dosing, heating, cooling, agitation, transfer and CIP; consistent hold, resume, abort and restart. Interlocks stay protected while recipe parameters stay configurable within limits.","Recettes paramétrées; phases réutilisables pour le dosage, le chauffage, le refroidissement, l’agitation, le transfert et le NEP (CIP); mise en attente, reprise, abandon et redémarrage uniformes. Les verrouillages restent protégés tandis que les paramètres de recette restent configurables dans des limites."
 industrial-automation,,Audit trail and electronic records,Piste d’audit et registres électroniques
@@ -442,7 +442,7 @@ industrial-automation,,"Reports, edge connectivity and MES/ERP interfaces. <a1>{
 industrial-automation,,Supervisory,Supervision
 industrial-automation,,"HMI/SCADA: process overviews, alarms, trends, recipes, historian and operator workflows.","HMI/SCADA : vues d’ensemble du procédé, alarmes, tendances, recettes, historien et flux de travail des opérateurs."
 industrial-automation,,Control,Contrôle
-industrial-automation,,"PLC/PAC logic: loops, sequences, permissives, interlocks and defined fail-safe states.","Logique PLC/PAC : boucles, séquences, permissifs, verrouillages et états de sécurité définis."
+industrial-automation,,"PLC/PAC logic: loops, sequences, permissives, interlocks and defined fail-safe states.","Logique PLC/PAC : boucles, séquences, permissifs, verrouillages et états de repli sûrs définis."
 industrial-automation,,Field,Terrain
 industrial-automation,,"Sensors, transmitters, analyzers, valves, drives and motors, selected for the process and the installation.","Capteurs, transmetteurs, analyseurs, vannes, variateurs et moteurs, choisis pour le procédé et l’installation."
 industrial-automation,,"The architecture is defined around your installed infrastructure, operating requirements and security policies.","L’architecture est définie en fonction de votre infrastructure en place, de vos exigences d’exploitation et de vos politiques de sécurité."
@@ -742,11 +742,11 @@ how-we-work,,Preliminary instrumentation and automation requirements,Exigences p
 how-we-work,,Process and equipment option assessment,Évaluation des options de procédé et d’équipements
 how-we-work,,Preliminary layout and footprint,Implantation et encombrement préliminaires
 how-we-work,,"Interface, risk and safety-issue review","Revue des interfaces, des risques et des enjeux de sécurité"
-how-we-work,,Long-lead items and preliminary schedule,Articles à long délai et calendrier préliminaire
+how-we-work,,Long-lead items and preliminary schedule,Équipements à long délai de livraison et calendrier préliminaire
 how-we-work,,Class 4 budgetary estimate (AACE),Estimation budgétaire de classe 4 (AACE)
 how-we-work,,Recommendation for the next decision,Recommandation pour la prochaine décision
 how-we-work,,"Develops the agreed basis into a coordinated, procurement-ready engineering package, priced to a Class 2 estimate.","Développe la base convenue en un dossier d’ingénierie coordonné, prêt pour l’approvisionnement, chiffré selon une estimation de classe 2."
-how-we-work,,"The process basis is settled and you need a buildable package: for your own fabrication, for a tender, or for a build phase with us.","La base de procédé est arrêtée et vous avez besoin d’un dossier constructible : pour votre propre fabrication, pour un appel d’offres ou pour une phase de construction avec nous."
+how-we-work,,"The process basis is settled and you need a buildable package: for your own fabrication, for a tender, or for a build phase with us.","La base de procédé est arrêtée et vous avez besoin d’un dossier prêt pour la construction : pour votre propre fabrication, pour un appel d’offres ou pour une phase de construction avec nous."
 how-we-work,,Outcome,Résultat
 how-we-work,,"A package ready to tender or build. Then: proceed to Integrated Design & Build with us, engage another execution partner, or revise the package.","Un dossier prêt pour l’appel d’offres ou la construction. Ensuite : passer à la conception et construction intégrées avec nous, retenir un autre partenaire d’exécution, ou réviser le dossier."
 how-we-work,,Process & mechanical design,Conception de procédé et mécanique
@@ -806,11 +806,11 @@ how-we-work,,04 / Safety by design,04 / Sécurité dès la conception
 how-we-work,,"Safety is a design input, not a commissioning fix.","La sécurité est une donnée de conception, pas une correction à la mise en service."
 how-we-work,,"Pilot and process systems often combine unfamiliar chemistry, new operating windows and a scope that keeps changing. We manage that risk across process, mechanical, electrical and controls disciplines from the first phase.","Les systèmes pilotes et de procédé combinent souvent une chimie peu connue, de nouvelles plages d’exploitation et une portée qui évolue sans cesse. Nous gérons ce risque dans les disciplines de procédé, de mécanique, d’électricité et de contrôle dès la première phase."
 how-we-work,,01 · Identify hazards early,01 · Cerner les dangers tôt
-how-we-work,,"Identify process hazards and credible deviations early, through the risk-review method agreed for the project.","Cerner tôt les dangers du procédé et les écarts plausibles, au moyen de la méthode d’analyse des risques convenue pour le projet."
+how-we-work,,"Identify process hazards and credible deviations early, through the risk-review method agreed for the project.","Cerner tôt les dangers du procédé et les dérives plausibles, au moyen de la méthode d’analyse des risques convenue pour le projet."
 how-we-work,,02 · HAZID and HAZOP,02 · HAZID et HAZOP
 how-we-work,,"Support and take part in HAZID and HAZOP reviews, or other formal reviews, where they suit the scope and stage.","Soutenir les revues HAZID et HAZOP, ou d’autres revues formelles, et y participer lorsqu’elles conviennent à la portée et à l’étape."
 how-we-work,,03 · Safeguards into the design,03 · Des mesures de protection intégrées à la conception
-how-we-work,,"Turn each agreed safeguard into equipment, relief and venting, isolation, alarm, permissive and interlock requirements.","Traduire chaque mesure de protection convenue en exigences d’équipements, de décharge et d’évent, d’isolement, d’alarmes, de permissifs et de verrouillages."
+how-we-work,,"Turn each agreed safeguard into equipment, relief and venting, isolation, alarm, permissive and interlock requirements.","Traduire chaque mesure de protection convenue en exigences relatives aux équipements, à la protection contre les surpressions et aux évents, à l’isolement, aux alarmes, aux permissifs et aux verrouillages."
 how-we-work,,04 · Safe operating states,04 · États d’exploitation sûrs
 how-we-work,,"Define safe start-up, shutdown, purge and preparation, and behavior on loss of utilities, as the process requires.","Définir le démarrage, l’arrêt, la purge et la préparation en toute sécurité, ainsi que le comportement en cas de perte d’utilités, selon les besoins du procédé."
 how-we-work,,05 · Verify before handover,05 · Vérifier avant la remise
