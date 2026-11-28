@@ -834,16 +834,16 @@
   {
    "id": "case-battery",
    "type": "case",
-   "title": "Ultrasonic battery-recycling pilot for critical-mineral recovery",
+   "title": "Novel intensified battery-recycling pilot for critical-mineral recovery",
    "url": "case-studies.html#case-battery",
-   "summary": "A research institute needed to move an ultrasonically intensified battery-recycling process from the lab to an operable, instrumented pilot.",
+   "summary": "A research institute needed to move a novel intensified battery-recycling process from the lab to an operable, instrumented pilot.",
    "tags": {
     "battery": 3,
     "pilot": 2,
     "research": 1
    },
    "keywords": [
-    "ultrasonic"
+    "intensified"
    ],
    "image": [
     "assets/img/67e4f390e2.webp",
@@ -867,7 +867,7 @@
     "flue gas"
    ],
    "image": [
-    "assets/img/b4ac85c345.webp",
+    "assets/img/a3883659a4.webp",
     "HMI process overview of the cryogenic carbon capture pilot"
    ]
   },

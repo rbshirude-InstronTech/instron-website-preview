@@ -51,7 +51,7 @@ CASES = {
     'case-mexico': ({'separation': 3, 'skid': 1, 'chemical': 1}, ['methanol', 'distillation tower']),
     'case-steam': ({'skid': 1, 'automation': 1, 'chemical': 1}, ['steam quality', 'analyzer', 'oil recovery']),
     'case-extraction': ({'pharma': 2, 'separation': 2, 'batch': 1, 'extraction': 3, 'reaction': 2}, ['botanical', 'cstr']),
-    'case-battery': ({'battery': 3, 'pilot': 2, 'research': 1}, ['ultrasonic']),
+    'case-battery': ({'battery': 3, 'pilot': 2, 'research': 1}, ['intensified']),
     'case-cryogenic': ({'carbon': 3, 'pilot': 2, 'separation': 1, 'research': 1}, ['cryogenic', 'flue gas']),
     'case-co2': ({'carbon': 3, 'hydrogen': 3, 'pilot': 2}, ['amine', 'membrane']),
     'case-api': ({'pharma': 3, 'skid': 2, 'automation': 1, 'separation': 1}, ['hazardous area']),

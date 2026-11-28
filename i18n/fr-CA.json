@@ -120,7 +120,7 @@
   "Mexico": "Mexique",
   "Read the case study": "Lire l’étude de cas",
   "SUPPORTING PROJECT 01": "PROJET COMPLÉMENTAIRE 01",
-  "Ultrasonic Battery Recycling Pilot": "Usine pilote de recyclage de batteries par ultrasons",
+  "Novel Intensified Battery Recycling Pilot": "Usine pilote de recyclage de batteries par procédé intensifié novateur",
   "Saudi Arabia": "Arabie saoudite",
   "SUPPORTING PROJECT 02": "PROJET COMPLÉMENTAIRE 02",
   "CO₂ / H₂ Purification Pilot": "Unité pilote de purification CO₂ / H₂",
@@ -1100,7 +1100,7 @@
   "Data is the real output of a pilot": "Les données sont le véritable résultat d’une usine pilote",
   "A pilot exists to produce evidence. Without precise control and data capture, results cannot be compared between runs or used to plan the next scale. That is why instrumentation and automation deserve the same attention as the process equipment.": "Une usine pilote sert à produire des données probantes. Sans commande précise ni collecte de données, les résultats ne peuvent être comparés entre les essais ni servir à planifier la prochaine échelle. C’est pourquoi l’instrumentation et l’automatisation méritent autant d’attention que les équipements de procédé.",
   "I/O on a battery-recycling pilot": "E/S d’une unité pilote de recyclage de batteries",
-  "Research institute, Saudi Arabia. Real-time control of ultrasonic energy, temperature and flow, batch records for every run, and a modular design ready to replicate.": "Institut de recherche, Arabie saoudite. Commande en temps réel de l’énergie ultrasonore, de la température et du débit, registres de lots pour chaque essai et conception modulaire prête à être reproduite.",
+  "Research institute, Saudi Arabia. Real-time control of energy input, temperature and flow, batch records for every run, and a modular design ready to replicate.": "Institut de recherche, Arabie saoudite. Commande en temps réel de l’apport d’énergie, de la température et du débit, registres de lots pour chaque essai et conception modulaire prête à être reproduite.",
   "I/O on a membrane H₂ unit": "E/S d’une unité H₂ à membranes",
   "Refinery R&amp;D, India. Three instrumented pilots, including CO₂ / H₂ purification at 5 LPH, up to 100 °C and 50 barg, with real-time mass balance and batch reports.": "R-D en raffinage, Inde. Trois unités pilotes instrumentées, dont la purification du CO₂ / H₂ à 5 LPH, jusqu’à 100 °C et 50 barg, avec bilan de matière en temps réel et rapports de lots.",
   "batch production at industrial scale": "production par lots à l’échelle industrielle",
@@ -1729,7 +1729,7 @@
   "120 I/O": "120 E/S",
   "turnkey automated pilot": "Unité pilote automatisée clé en main",
   "Saudi Arabia · Research institute": "Arabie saoudite · Institut de recherche",
-  "Ultrasonic battery-recycling pilot": "Unité pilote de recyclage de batteries par ultrasons",
+  "Novel intensified battery-recycling pilot": "Unité pilote de recyclage de batteries par procédé intensifié novateur",
   "Black-mass leaching, centrifugation, crystallization and recovery, with Siemens S7-1500 control and IoT batch reporting.": "Lixiviation de la masse noire, centrifugation, cristallisation et récupération, avec contrôle Siemens S7-1500 et rapports de lots IoT.",
   "500 I/O": "500 E/S",
   "CO₂ / H₂ purification at 5 LPH, 50 barg": "Purification du CO₂ / H₂ à 5 LPH, 50 barg",
@@ -2533,11 +2533,11 @@
   "Multiproduct": "Multiproduit",
   "Industry: <a1>Pharma &amp; Life Sciences</a1>": "Secteur : <a1>Pharmaceutique et sciences de la vie</a1>",
   "Process Skid Plants · Completed · Saudi Arabia · Research institute": "Usines de procédé sur skid · Terminé · Arabie saoudite · Institut de recherche",
-  "Ultrasonic battery-recycling pilot for critical-mineral recovery": "Usine pilote de recyclage de batteries par ultrasons pour la récupération de minéraux critiques",
-  "A research institute needed to move an ultrasonically intensified battery-recycling process from the lab to an operable, instrumented pilot.": "Un institut de recherche devait faire passer un procédé de recyclage de batteries intensifié par ultrasons du laboratoire à une unité pilote exploitable et instrumentée.",
+  "Novel intensified battery-recycling pilot for critical-mineral recovery": "Usine pilote de recyclage de batteries par un procédé intensifié novateur pour la récupération de minéraux critiques",
+  "A research institute needed to move a novel intensified battery-recycling process from the lab to an operable, instrumented pilot.": "Un institut de recherche devait faire passer un procédé intensifié novateur de recyclage de batteries du laboratoire à une unité pilote exploitable et instrumentée.",
   "Without precise control and data capture, recovery results cannot be compared between runs or used to plan the next scale.": "Sans contrôle précis ni collecte de données, les résultats de récupération ne peuvent pas être comparés entre les essais ni utilisés pour planifier la prochaine échelle.",
   "Process skid design and supply covering black-mass leaching, centrifugation, crystallization and recovery; Siemens S7-1500 control with 120 I/O; control panel and field instrumentation; IoT platform for batch analysis, reporting and remote diagnostics.": "Conception et fourniture d’un skid de procédé couvrant la lixiviation de la masse noire, la centrifugation, la cristallisation et la récupération; contrôle Siemens S7-1500 avec 120 E/S; panneau de commande et instrumentation de terrain; plateforme IoT pour l’analyse des lots, les rapports et les diagnostics à distance.",
-  "A turnkey, automated pilot with real-time control of ultrasonic energy, temperature and flow, batch records for every run, and a modular design ready to replicate.": "Une unité pilote automatisée clé en main, avec contrôle en temps réel de l’énergie ultrasonore, de la température et du débit, dossiers de lots pour chaque essai et conception modulaire prête à être reproduite.",
+  "A turnkey, automated pilot with real-time control of energy input, temperature and flow, batch records for every run, and a modular design ready to replicate.": "Une unité pilote automatisée clé en main, avec contrôle en temps réel de l’apport d’énergie, de la température et du débit, dossiers de lots pour chaque essai et conception modulaire prête à être reproduite.",
   "Battery recycling": "Recyclage de batteries",
   "Critical minerals": "Minéraux critiques",
   "IoT": "IoT",
@@ -3538,7 +3538,7 @@
   "SUPPORTING PROJECT 01": [
    "index"
   ],
-  "Ultrasonic Battery Recycling Pilot": [
+  "Novel Intensified Battery Recycling Pilot": [
    "index"
   ],
   "Saudi Arabia": [
@@ -6921,7 +6921,7 @@
   "I/O on a battery-recycling pilot": [
    "insights-lab-to-pilot-to-industrial"
   ],
-  "Research institute, Saudi Arabia. Real-time control of ultrasonic energy, temperature and flow, batch records for every run, and a modular design ready to replicate.": [
+  "Research institute, Saudi Arabia. Real-time control of energy input, temperature and flow, batch records for every run, and a modular design ready to replicate.": [
    "insights-lab-to-pilot-to-industrial"
   ],
   "I/O on a membrane H₂ unit": [
@@ -8808,7 +8808,7 @@
   "Saudi Arabia · Research institute": [
    "energy-transition-critical-minerals"
   ],
-  "Ultrasonic battery-recycling pilot": [
+  "Novel intensified battery-recycling pilot": [
    "energy-transition-critical-minerals"
   ],
   "Black-mass leaching, centrifugation, crystallization and recovery, with Siemens S7-1500 control and IoT batch reporting.": [
@@ -11220,10 +11220,10 @@
   "Process Skid Plants · Completed · Saudi Arabia · Research institute": [
    "case-studies"
   ],
-  "Ultrasonic battery-recycling pilot for critical-mineral recovery": [
+  "Novel intensified battery-recycling pilot for critical-mineral recovery": [
    "case-studies"
   ],
-  "A research institute needed to move an ultrasonically intensified battery-recycling process from the lab to an operable, instrumented pilot.": [
+  "A research institute needed to move a novel intensified battery-recycling process from the lab to an operable, instrumented pilot.": [
    "case-studies"
   ],
   "Without precise control and data capture, recovery results cannot be compared between runs or used to plan the next scale.": [
@@ -11232,7 +11232,7 @@
   "Process skid design and supply covering black-mass leaching, centrifugation, crystallization and recovery; Siemens S7-1500 control with 120 I/O; control panel and field instrumentation; IoT platform for batch analysis, reporting and remote diagnostics.": [
    "case-studies"
   ],
-  "A turnkey, automated pilot with real-time control of ultrasonic energy, temperature and flow, batch records for every run, and a modular design ready to replicate.": [
+  "A turnkey, automated pilot with real-time control of energy input, temperature and flow, batch records for every run, and a modular design ready to replicate.": [
    "case-studies"
   ],
   "Battery recycling": [
