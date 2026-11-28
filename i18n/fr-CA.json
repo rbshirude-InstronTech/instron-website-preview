@@ -1028,7 +1028,6 @@
   "The same protections apply to every visitor. Where local law adds something, it is listed below.": "Les mêmes protections s’appliquent à tous les visiteurs. Lorsque la loi locale ajoute quelque chose, c’est indiqué ci-dessous.",
   "PIPEDA and Quebec Law 25": "LPRPDE et Loi 25 du Québec",
   "Canada": "Canada",
-  "Ask us for access to or correction of your information at any time. Privacy officer: Rahul Shirude, President, <a1>privacy@instrontechnologies.com</a1>. In Quebec, any tracking technology stays off unless you switch it on. A French version of this notice is available on request. Complaints: Office of the Privacy Commissioner of Canada, or the Commission d'accès à l'information in Quebec.": "Demandez-nous en tout temps l’accès à vos renseignements ou leur rectification. Responsable de la protection des renseignements personnels : Rahul Shirude, président, <a1>privacy@instrontechnologies.com</a1>. Au Québec, toute technologie de suivi reste désactivée à moins que vous ne l’activiez. Vous consultez la version française du présent avis. Plaintes : Commissariat à la protection de la vie privée du Canada, ou Commission d’accès à l’information du Québec.",
   "GDPR": "RGPD",
   "European Union and Netherlands": "Union européenne et Pays-Bas",
   "Rights of access, correction, erasure, restriction, portability and objection, answered within one month. Complaints: your local data protection authority; in the Netherlands, the Autoriteit Persoonsgegevens.": "Droits d’accès, de rectification, d’effacement, de limitation, de portabilité et d’opposition, traités dans un délai d’un mois. Plaintes : votre autorité locale de protection des données; aux Pays-Bas, l’Autoriteit Persoonsgegevens.",
@@ -1038,7 +1037,6 @@
   "Personal Data Protection Law": "Loi sur la protection des données personnelles (Personal Data Protection Law)",
   "Rights to be informed, to access, correct and destroy your data, and to withdraw consent. Regulator: the Saudi Data and AI Authority (SDAIA).": "Droits d’être informé, de consulter, de corriger et de détruire vos données, et de retirer votre consentement. Autorité de contrôle : la Saudi Data and AI Authority (SDAIA).",
   "Federal Law on the Protection of Personal Data Held by Private Parties (2025)": "Loi fédérale sur la protection des données personnelles détenues par des particuliers (2025)",
-  "ARCO rights: access, rectification, cancellation and opposition. A Spanish privacy notice (aviso de privacidad) is available on request.": "Droits ARCO : accès, rectification, annulation et opposition. Un avis de confidentialité en espagnol (aviso de privacidad) est disponible sur demande.",
   "Privacy Act 1988; US state privacy laws": "Privacy Act 1988; lois des États américains sur la protection de la vie privée",
   "Australia and United States": "Australie et États-Unis",
   "Where these laws apply to us, you can ask to access or correct your information. We do not sell or share personal information for advertising. Complaints in Australia: the Office of the Australian Information Commissioner.": "Lorsque ces lois s’appliquent à nous, vous pouvez demander à consulter ou à corriger vos renseignements. Nous ne vendons ni ne communiquons de renseignements personnels à des fins publicitaires. Plaintes en Australie : l’Office of the Australian Information Commissioner.",
@@ -2926,7 +2924,9 @@
   "Search page names and descriptions": "Rechercher dans les noms et descriptions des pages",
   "Every page on the Instron Technologies website: solutions, industries, applications, projects, insights and company information.": "Toutes les pages du site d’Instron Technologies : solutions, secteurs, applications, projets, perspectives et information sur l’entreprise.",
   "Website Index | Instron Technologies": "Index du site | Instron Technologies",
-  "Website Index, Instron Technologies": "Index du site, Instron Technologies"
+  "Website Index, Instron Technologies": "Index du site, Instron Technologies",
+  "Ask us for access to or correction of your information at any time. Privacy officer: Rahul Shirude, President, <a1>privacy@instrontechnologies.com</a1>. In Quebec, any tracking technology stays off unless you switch it on. This notice is also available in French: select Français at the top of the page. Complaints: Office of the Privacy Commissioner of Canada, or the Commission d'accès à l'information in Quebec.": "Demandez-nous en tout temps l’accès à vos renseignements ou leur rectification. Responsable de la protection des renseignements personnels : Rahul Shirude, président, <a1>privacy@instrontechnologies.com</a1>. Au Québec, toute technologie de suivi reste désactivée à moins que vous ne l’activiez. Vous consultez la version française du présent avis. Plaintes : Commissariat à la protection de la vie privée du Canada, ou Commission d’accès à l’information du Québec.",
+  "ARCO rights: access, rectification, cancellation and opposition. This notice is also available in Spanish (aviso de privacidad): select Español at the top of the page.": "Droits ARCO : accès, rectification, annulation et opposition. Le présent avis est aussi offert en espagnol (aviso de privacidad) : choisissez Español en haut de la page."
  },
  "pages": {
   "Skip to content": [
@@ -6697,9 +6697,6 @@
   "Canada": [
    "privacy-terms-accessibility"
   ],
-  "Ask us for access to or correction of your information at any time. Privacy officer: Rahul Shirude, President, <a1>privacy@instrontechnologies.com</a1>. In Quebec, any tracking technology stays off unless you switch it on. A French version of this notice is available on request. Complaints: Office of the Privacy Commissioner of Canada, or the Commission d'accès à l'information in Quebec.": [
-   "privacy-terms-accessibility"
-  ],
   "GDPR": [
    "privacy-terms-accessibility"
   ],
@@ -6725,9 +6722,6 @@
    "privacy-terms-accessibility"
   ],
   "Federal Law on the Protection of Personal Data Held by Private Parties (2025)": [
-   "privacy-terms-accessibility"
-  ],
-  "ARCO rights: access, rectification, cancellation and opposition. A Spanish privacy notice (aviso de privacidad) is available on request.": [
    "privacy-terms-accessibility"
   ],
   "Privacy Act 1988; US state privacy laws": [
@@ -12306,6 +12300,12 @@
   ],
   "Project Portfolio, Instron Technologies": [
    "project-portfolio"
+  ],
+  "Ask us for access to or correction of your information at any time. Privacy officer: Rahul Shirude, President, <a1>privacy@instrontechnologies.com</a1>. In Quebec, any tracking technology stays off unless you switch it on. This notice is also available in French: select Français at the top of the page. Complaints: Office of the Privacy Commissioner of Canada, or the Commission d'accès à l'information in Quebec.": [
+   "privacy-terms-accessibility"
+  ],
+  "ARCO rights: access, rectification, cancellation and opposition. This notice is also available in Spanish (aviso de privacidad): select Español at the top of the page.": [
+   "privacy-terms-accessibility"
   ]
  }
 }
