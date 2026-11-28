@@ -352,3 +352,47 @@ html body main>section#discuss-your-project-home h2{font-size:clamp(32px,3.4vw,4
 .lv-f-badge-cap{display:block;font-size:12.5px;color:#e9f3f8;margin:8px 0 0;max-width:190px;text-align:inherit}
 .lv-f-badge-link:hover .lv-f-badge-cap{text-decoration:underline;text-underline-offset:3px}
 .lv-f-badge-link:focus-visible{outline:2px solid #ffffff;outline-offset:4px}
+/* 14 v2.51 look-and-feel fixes (live-site QA, 28 Nov 2026) */
+/* T1 one closing call-to-action design on every page: the Home white card, photo right, green diagonal */
+html body#top main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home){background:#fff!important;border:1px solid #e3e3e3!important;border-radius:10px!important;box-shadow:0 14px 36px rgba(10,40,60,.08)!important;color:#212121!important}
+html body#top main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home) h2{color:#212121!important}
+html body#top main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home) :is(p,li){color:#5f5f5f!important}
+html body#top main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home) :is(.eyebrow,.k){color:#0979ae!important;text-transform:uppercase!important;letter-spacing:.08em!important;font-size:13px!important;font-weight:700!important}
+html body#top main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home) .pon-p{color:#212121!important}
+/* page-relevant photo: control panels on automation pages, the OEE dashboard on PlantON pages */
+html body#top:is([data-page="automation"],[data-page="batch"],[data-page="modernization"],[data-page="insight-brownfield"]) main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)::after{background-image:url(../img/aac961337e.webp)!important;background-position:center!important}
+html body#top:is([data-page="planton"],[data-page="oee"],[data-page="utilities"],[data-page="insight-plant-data"]) main>section:is(.closing-band,.closing-section,.ab-close):not(#discuss-your-project-home)::after{background-image:url(../img/318bb83539.webp)!important;background-position:left top!important;background-color:#fff!important}
+/* T3 one heading scale: section headings 40 px, card titles 20 px, feature cards 24 px */
+html body#top main#main h2{font-size:clamp(30px,2.9vw,40px)!important;line-height:1.18!important}
+html body#top main#main .in-article .in-body h2{font-size:clamp(24px,2.2vw,30px)!important}
+html body#top main#main h3{font-size:20px!important;line-height:1.3!important}
+html body#top main#main :is(.detail-card,.app-pillar,.cs-head,.presence-card,.ph-side,.it-page-card,.beyond-tile,.ab-ppcard,.mk-who-card,.project-slot-info,.sol3-body,.work-card,.flagship-mini-heading,.tile) h3{font-size:24px!important;line-height:1.25!important}
+html body#top main#main .ab-coreperson h3{font-size:18px!important}
+@media(max-width:600px){
+ html body#top main#main h3{font-size:18px!important}
+ html body#top main#main :is(.detail-card,.app-pillar,.cs-head,.presence-card,.ph-side,.it-page-card,.beyond-tile,.ab-ppcard,.mk-who-card,.project-slot-info,.sol3-body,.work-card,.flagship-mini-heading,.tile) h3{font-size:20px!important}
+}
+/* V1 testimonials on the page grid; a last card alone on its row spans the row; a single quote uses the full width */
+html body#top .ts-wrap{max-width:none;width:min(1240px,calc(100% - 2*max(4vw,20px)));padding:0;margin:0 auto;box-sizing:border-box}
+@media(min-width:1001px){html body#top .ts-grid>.ts-card:last-child:nth-child(3n+1){grid-column:1/-1}}
+@media(min-width:641px) and (max-width:1000px){html body#top .ts-grid>.ts-card:last-child:nth-child(2n+1){grid-column:1/-1}}
+html body#top .ts-single .ts-card{max-width:none}
+/* V2 founders across the full width */
+@media(min-width:701px){html body#top .ab-founders.v246-founders{max-width:none}}
+/* V3 Insights cards: space before the read time */
+html body .in-card span i{margin-left:.45em}
+/* V9 small meta text no smaller than 13 px */
+html body#top main :is(.sx-meta,.cs-meta,.pf-meta,.pf-ind,.pf-sol,.ph-label,.pv-law,.ms-range,.work-label,.v22-tag,.cs-tags li,.pf-tags li,.ab-coreperson small,.ab-box small,.pt-body small,.in-short .k,.in-toc .k){font-size:13px!important}
+html body#top main small{font-size:max(13px,.8em)}
+/* M1 phones: the IRA launcher shrinks to its badge (the label stays for screen readers) */
+@media(max-width:600px){
+ html body .ira-launcher{padding:8px!important;gap:0!important;right:12px!important;bottom:12px!important}
+ html body .ira-launcher .ira-launch-t{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important}
+}
+/* M2 phones: the "Not sure this fits your process?" card stacks */
+@media(max-width:640px){
+ html body#top .ira-band .ira-band-wrap{flex-direction:column!important;align-items:flex-start!important}
+ html body#top .ira-band .ira-band-wrap>div{width:100%!important;flex:none!important}
+}
+/* M3 Spanish phone header button */
+@media(max-width:600px){html[lang="es-MX"] body .lv-header .it-cta::after{content:"Contacto"}}
