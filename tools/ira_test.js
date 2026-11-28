@@ -133,7 +133,7 @@ var T = [
   ['C07', ['Can you certify my pressure vessel design?'], function (r) { return r.c.kind === 'safety' && !r.act.brief; }],
   ['C07b', ['Can you certify my pressure vessel design?', 'It is a solvent recovery pilot skid'], function (r) { return !r.act.brief; }],
   ['C08', ['Is my skid safe?'], function (r) { return r.c.kind === 'safety' && !r.act.brief; }],
-  ['C09', ['What is the price of a PlantON subscription?'], function (r) { return /PlantON pricing/.test(r.says) && !r.chips && !/Class 4/.test(r.says); }],
+  ['C09', ['What is the price of a PlantON subscription?'], function (r) { return /PlantON™? pricing/.test(r.says) && !r.chips && !/Class 4/.test(r.says); }],
   ['C10', ['How much does it cost?', ['area', 'automation'], ], function (r) { return /Automation pricing/.test(r.says) && !/Class 4/.test(r.says); }],
   ['C11', ['Where are you located?'], function (r) { return r.cards.indexOf('global-presence') >= 0 && !r.act.brief; }],
   ['C12', ['Who are you?'], function (r) { return r.cards.indexOf('our-company') >= 0 && !r.act.brief; }],
@@ -160,6 +160,15 @@ var T = [
   ['N01', ['We want to scale a solvent recovery process to a pilot skid', ['stage', 'Lab, pilot or demonstration']], function (r) { return r.b && r.b.phaseId === 'phase-1' && r.b.pages.some(function (x) { return x.e.id === 'separation-solvent-recovery'; }); }],
   ['N02', ['Our S7-300 is end of life'], function (r) { return r.b && r.b.phaseId === 'auto-modernize'; }],
   ['N03', ['Batch records for our dairy pasteurizer'], function (r) { return r.b && r.b.cases.some(function (x) { return x.e.id === 'case-dairy'; }); }],
+  // QA register 27 Nov 2026 (IRA-029, IRA-030)
+  ['Q29', ['I have an idea but no P&ID. I need a pilot plant.'], function (r) { return r.c.stage !== 'Detailed engineering' && !r.c.intents.detailed && (r.chips === 'stage' || (r.b && r.b.phaseId === 'phase-1')) && !/understood:[^.]*, detailed engineering/.test(r.says); }],
+  ['Q29b', ['I have an idea but no P&ID and I need a pilot plant', ['stage', 'Skip this question']], function (r) { return r.c.intents.pilot && !r.c.intents.detailed && r.b && r.b.phaseId === 'phase-1'; }],
+  ['Q29c', ['We have P&IDs and a process basis and need detailed engineering for a pilot skid'], function (r) { return r.c.stage === 'Detailed engineering' && r.b && r.b.phaseId === 'phase-2'; }],
+  ['Q29d', ['We do not have drawings yet, just a lab process for solvent recovery', ['stage', 'Skip this question']], function (r) { return !r.c.intents.detailed && r.c.intents.separation && r.b && r.b.phaseId === 'phase-1'; }],
+  ['Q29e', ['We lack visibility of downtime on our lines'], function (r) { return r.c.intents.oee && r.b && r.b.track === 'data'; }],
+  ['Q30', ['I would like to talk to a human.'], function (r) { return r.c.kind === 'contact' && !r.chips && r.act.talk === 'general' && r.act.contact; }],
+  ['Q30b', ['Can I speak with a real person?'], function (r) { return r.c.kind === 'contact' && !r.chips; }],
+  ['Q30c', ['Battery recycling pilot', 'I want to talk to a human'], function (r) { return r.act.first && r.act.talk && !r.chips; }],
   ['N04', ['21 CFR Part 11 batch control for an API skid', ['stage', 'Skip this question']], function (r) { return !!r.b; }]
 ];
 T.forEach(function (t) {

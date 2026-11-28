@@ -52,7 +52,7 @@
     company: ['about the company', [/\bwho are you|\babout (you|instron|the company|your company)/, /\bcompany (profile|overview)/, /\bleadership|\bfounders?\b/]],
     location: ['offices and regional presence', [/\boffices?\b/, /\bwhere are you( based| located)?/, /\blocations?\b/, /\b(street|postal|mailing) address/]],
     careers: ['careers', [/\bjobs?\b|\bcareers?\b|\bhiring|\bintern(ship)?s?\b|\bvacanc|\bresume|\bcv\b|\bapply for|\bjob openings?/]],
-    contact: ['talking to an engineer', [/\b(talk|speak|meet|call|connect|chat) (to|with) (an? |your )?(engineer|expert|specialist|someone|person|sales|team)/, /\bcontact (you|sales|an engineer|me|someone)/, /\bcall me|\bemail me|\breach out/, /\bquot(e|ation)s?\b|\brfq\b|\bproposal|\btender|\bbids?\b/]],
+    contact: ['talking to an engineer', [/\b(talk|speak|meet|call|connect|chat) (to|with) (an? |your |a real |an actual |real )?(engineer|expert|specialist|someone|somebody|anyone|person|people|human|humans|representative|rep|agent|sales|team)/, /\b(real|actual) (person|human|people)\b|\bhuman (being|agent|support)\b/, /\bcontact (you|sales|an engineer|me|someone)/, /\bcall me|\bemail me|\breach out/, /\bquot(e|ation)s?\b|\brfq\b|\bproposal|\btender|\bbids?\b/]],
     email: ['contact details', [/\b(your |an? )?e-?mail( address)?\b/, /\bphone (number)?|\btelephone/, /\bcontact (details|information|info)/]],
     price: ['pricing', [/\bprices?\b|\bpricing|\bcosts?\b|\bhow much|\bbudget\b|\bsubscription/]],
     partner: ['engineering partnerships', [/\bpartner(ship|ing)?s?\b/, /\boems?\b|\bepcs?\b|\bskid builders?/, /\bsub[- ]?contract/, /\boverflow\b/, /\bwhite[- ]label/, /\b(engineering|extra|additional) (capacity|resources)/, /\boutsourc/]],
@@ -88,7 +88,7 @@
   var OLD_WORK = /\b(upgrad|legacy|old (plc|scada|hmi|dcs|system|control)|retrofit|replac\w* (the |our |an? )?(old )?(plc|scada|hmi|dcs|panel|control)|migrat|obsole)/;
   var NEW_WORK = /\bnew (plant|line|skid|facility|factory|controls?)\b|\bgreenfield/;
   var READY = /\bready to build|\b(design|drawings) (is |are )?(complete|ready|approved|finished)|\bdetailed (drawings|design) (is |are )?(ready|complete)|\bissued for construction|\bifc drawings|\bready for (fabrication|procurement)|\bdetailed drawings ready/;
-  var NEGATOR = /\b(?:(?:do|does|did) not|dont|doesnt|didnt|no longer|not|never) (?:need|want|require|looking for|interested in|planning|asking (?:about|for))\b|\bno need for\b|\bnot (?:a|an|any)\b|\binstead of\b|\brather than\b|\bother than\b|\bexcept\b|\bwithout (?:a|an|any)\b/g;
+  var NEGATOR = /\b(?:(?:do|does|did) not|dont|doesnt|didnt|no longer|not|never) (?:need|want|require|looking for|interested in|planning|asking (?:about|for))\b|\bno need for\b|\bnot (?:a|an|any)\b|\binstead of\b|\brather than\b|\bother than\b|\bexcept\b|\bwithout (?:a|an|any)\b|\b(?:no|without|(?:do|does|did) not have|dont have|doesnt have|havent got|have not got|lack|lacking|missing)\b(?= (?:any |a |an |the )?(?:formal |detailed |proper |existing |final |complete )?(?:p ?& ?ids?|p and ids?|pfds?|process flow diagrams?|drawings?|detailed design|engineering (?:package|drawings|documents)|documentation|datasheets?|design basis|process basis)\b)/g;
   var PAST = /\b(after|following|beyond|post)( the| a| our| successful| a successful)? (pilot|demo|demonstration)( (plant|phase|stage|unit|campaign|trials?))?/g;
   var CORRECTION = /\b(actually|instead|correction|i meant|scratch that|change of plan|on second thought|not anymore|only interested in|just interested in|forget (that|the))\b/;
 
@@ -114,7 +114,7 @@
     NEGATOR.lastIndex = 0;
     while ((m = NEGATOR.exec(t))) {
       var end = m.index + m[0].length, rest = t.slice(end);
-      var stop = rest.search(/[.;!?,]| but | only | just | however | we need | we want /);
+      var stop = rest.search(/[.;!?,]| but | only | just | however | we need | we want | i need | i want | and i | and we /);
       var spanEnd = stop < 0 ? t.length : end + stop;
       neg += ' ' + t.slice(end, spanEnd) + ' ';
       t = t.slice(0, m.index) + new Array(spanEnd - m.index + 1).join(' ') + t.slice(spanEnd);
@@ -478,6 +478,8 @@
     itw: 'Instron Technologies is an independent engineering company, not affiliated with Instron® (ITW), which makes materials testing equipment such as tensile testers. For testing machines, please contact Instron® (ITW) directly. If you need a process system, controls or plant data, I can help with that.',
     careers: 'It sounds like you are interested in working with us. Applications go to careers@instrontechnologies.com, and this page lists current openings. If you also have a project in mind, describe it and I’ll help with that too.',
     email: 'You can email us at sales@instrontechnologies.com, or use the form on the Contact page.',
+    contact: 'Of course. The button below opens the Contact form so an engineer can reply to you directly, or you can email sales@instrontechnologies.com. If you add a few words about the project, I can also point you to the right pages first.',
+    empty: 'Please type a few words about your project, for example what you want to build or improve. You can also use the guided map.',
     partner: 'We work as a dependable engineering and controls partner under OEM, skid-builder and EPC projects, with scope boundaries agreed up front. This page explains who we work with; an engineer can discuss your scope.',
     support: 'IRA can’t diagnose faults. For an existing system, our engineers can help: share the make, model and what you see, and leave out anything confidential. If the fault creates a safety risk, stop the equipment under your site procedures first.',
     info: 'Here are the main company pages. For support on an existing system, describe the issue or contact our engineers.',
@@ -564,6 +566,7 @@
       ops.push({ actions: { contact: true, map: true } });
       return ops;
     }
+    if (F.contact && !sig) { c.kind = 'contact'; return [{ say: MSG.contact }, { actions: { talk: 'general', contact: true, map: true } }]; }
     if (F.proof && !sig) return [{ say: MSG.proofNone }, cards([card1('case-studies', 'proof'), card1('project-portfolio', 'proof')]), { actions: { map: true } }];
     if (F.price) c.pendingPrice = true;
     if (!sig) {
@@ -1292,7 +1295,12 @@
 
   function handle(text) {
     text = String(text || '').trim().slice(0, 1200);
-    if (text.length < 2) return;
+    if (text.length < 2) {
+      var last = log && log.lastElementChild;
+      if (!(last && last.getAttribute('data-ira-empty'))) { var hint = say(MSG.empty); if (hint) hint.setAttribute('data-ira-empty', '1'); }
+      if (input) input.focus();
+      return;
+    }
     staleChips();
     say(text, 'you');
     busy = true; if (sendBtn) sendBtn.disabled = true;

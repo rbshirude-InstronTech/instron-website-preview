@@ -334,3 +334,21 @@ html body main>section#discuss-your-project-home h2{font-size:clamp(32px,3.4vw,4
 .lv-footer .lv-chips.lv-up li{border-style:dashed}
 .lv-footer>.lv-cb-grid{border:1px solid rgba(255,255,255,.32);border-radius:14px;padding:20px 26px!important;margin-top:36px!important;background:rgba(255,255,255,.04)}
 @media(max-width:760px){.lv-footer>.lv-cb-grid{padding:18px!important}}
+
+/* QA IRA-032 (27 Nov 2026): one-column article grid must not grow to the comparison table's min-width;
+   the table scrolls inside its own box instead */
+.in-grid>*{min-width:0}
+@media(max-width:1100px){.in-grid{grid-template-columns:minmax(0,1fr)}}
+/* Our Company "who we are" cards fit a 320 px phone (found in the same QA scan) */
+.ab-pp>*{min-width:0}
+@media(max-width:900px){.ab-pp{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:400px){.ab-ppcard{padding:22px}.ab-faces{gap:8px}.ab-faces .ab-face{width:68px;height:68px;flex:0 0 auto}}
+/* Leadership core-team cards: long French and Spanish job titles fit a 320 px phone */
+.ab-core>*{min-width:0}
+.ab-coreperson small,.ab-coreperson h3{overflow-wrap:break-word;hyphens:auto}
+@media(max-width:400px){.ab-coreperson{padding:20px 12px}.ab-coreperson small{letter-spacing:.02em}}
+/* Ontario Made badge links to the Instron Technologies Inc. profile on supportontariomade.ca (queue Q1, 27 Nov 2026) */
+.lv-f-badge-link{display:flex;flex-direction:column;align-items:inherit;text-decoration:none;color:inherit;border-radius:12px}
+.lv-f-badge-cap{display:block;font-size:12.5px;color:#e9f3f8;margin:8px 0 0;max-width:190px;text-align:inherit}
+.lv-f-badge-link:hover .lv-f-badge-cap{text-decoration:underline;text-underline-offset:3px}
+.lv-f-badge-link:focus-visible{outline:2px solid #ffffff;outline-offset:4px}
