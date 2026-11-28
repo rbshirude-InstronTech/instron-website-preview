@@ -396,3 +396,23 @@ html body#top main small{font-size:max(13px,.8em)}
 }
 /* M3 Spanish phone header button */
 @media(max-width:600px){html[lang="es-MX"] body .lv-header .it-cta::after{content:"Contacto"}}
+/* 15 v2.52 one banner style per page type */
+/* Process Skid Plants family: the navy split banner of Industrial Automation, PlantON and the industry pages */
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero .review-hero-grid{display:grid!important;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr)!important;gap:48px!important;align-items:center!important;max-width:1240px!important;width:calc(100% - 48px)!important;margin:0 auto!important;padding:0 0 40px!important}
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero .hero-copy{text-align:left!important;margin:0!important;max-width:none!important}
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero :is(p,li,.intro,h1,.minibreadcrumb,.eyeline){margin-left:0!important;margin-right:0!important;text-align:left!important}
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero .eyeline{font-size:18px!important}
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero .intro{font-size:17px!important}
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero .cta-row{justify-content:flex-start!important}
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero .review-hero-photo{position:relative!important;inset:auto!important;z-index:auto!important;border-radius:8px!important;overflow:hidden!important}
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero .review-hero-photo img{position:static!important;width:100%!important;height:auto!important;max-height:340px!important;object-fit:cover!important;border-radius:8px!important}
+html body#top .lv-topbar~main>.solution-hero.sx-split-hero .review-hero-photo::after{display:none!important}
+@media(max-width:900px){
+ html body#top .lv-topbar~main>.solution-hero.sx-split-hero .review-hero-grid{grid-template-columns:1fr!important;gap:28px!important;padding-bottom:48px!important}
+ html body#top .lv-topbar~main>.solution-hero.sx-split-hero .eyeline{font-size:15px!important}
+ html body#top .lv-topbar~main>.solution-hero.sx-split-hero .cta-row .hero-textlink{align-self:flex-start!important;justify-content:flex-start!important;margin-left:0!important}
+}
+/* Solutions, Applications and Industries: the same banner height, text centred in it */
+@media(min-width:701px){
+ html body#top .lv-topbar~main>.it-index-hero .review-hero-grid.review-hero-grid{display:flex!important;flex-direction:column!important;justify-content:center!important;min-height:262px!important}
+}
