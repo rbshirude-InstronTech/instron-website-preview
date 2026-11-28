@@ -18,7 +18,7 @@ CLARIFIER = 'Independent company, not affiliated with Instron® (ITW).'
 EMAIL = 'sales@instrontechnologies.com'
 LOGO = 'assets/img/afd2b6d3f3.png'
 SOCIAL = ['https://www.linkedin.com/company/instrontechnologies/', 'https://www.youtube.com/@instrontechnologiesllp6630',
-          'https://www.instagram.com/instrontechnologies0510/', 'https://www.facebook.com/InstronTech', 'https://x.com/InstronTech']
+          'https://www.instagram.com/instrontechnologies/', 'https://www.facebook.com/InstronTech', 'https://x.com/InstronTech']
 
 # key: (slug, search title, description, breadcrumb parent key or None, short label for breadcrumb/share card, kind)
 P = {
